@@ -1,0 +1,441 @@
+---
+description: Ресурс Record — запись с данными в каталоге.
+---
+
+# Записи (Records)
+
+## Получить записи
+
+{% tabs %}
+{% tab title="Запрос" %}
+```
+URL: /{api url}/catalogs/{catalogId}/records
+      {?viewId}
+      {?filters}
+      {?fields}
+      {?searchText}
+      {?sortField}{?sortType}
+      {?limit}{?offset}
+```
+
+Метод: **GET**
+
+Параметры:
+
+* `viewId` (number) — идентификатор вида каталога для фильтра записей
+* `catalogId` (number) — идентификатор каталога
+* `fields` (json array, опционально) — набор возвращаемых полей записей, формат: \["2", "3"]
+* `searchText` (string, опционально) — быстрый поиск по вхождению
+* `sortField` (number, опционально) — идентификатор поля для сортировки
+* `sortType` (number, опционально) — тип сортировки
+  * `1` — по возрастанию (по умолчанию)
+  * `-1` — по убыванию
+* `limit` (number, опционально) - количество возвращаемых записей (по умолчанию: 100)
+* `offset` (number, опционально) — смещение от начала списка (по умолчанию: 0)
+* `filters` (array | json-обънкт, опционально) — набор фильтров по полям, формат описан ниже
+{% endtab %}
+
+{% tab title="Ответ" %}
+Ответ: 200 OK (application/json)
+
+```javascript
+[{
+    "id": "30991",
+    "title": "Record title X",
+    "values": {
+        "2": "Record title X",
+        "3": 333,
+        "4": ["1"],
+        "8": "2015-11-06T21:00:00.000Z",
+        "9": ["1"],
+        "10": null,
+        "14": [{
+            "id": "1",
+            "title": "Victor Nikitin"
+        }],
+        "15": [{
+            "sectionId": "2",
+            "catalogId": "5",
+            "catalogTitle": "Clients",
+            "catalogIcon": "users-10",
+            "recordId": "33",
+            "recordTitle": "Companyname 33"
+        }]
+    }
+}, {
+    "id": "30990",
+    "title": "Record title Y",
+    "values": {
+        "2": "Record title Y",
+        "3": 333,
+        "4": ["1"],
+        "8": "2015-11-06T21:00:00.000Z",
+        "9": ["1"],
+        "10": null,
+        "14": [{
+            "id": "1",
+            "title": "Victor Nikitin"
+        }],
+        "15": [{
+            "sectionId": "2",
+            "catalogId": "5",
+            "catalogTitle": "Clients",
+            "catalogIcon": "users-10",
+            "recordId": "34",
+            "recordTitle": "Companyname 34"
+        }]
+    }
+}]
+```
+{% endtab %}
+{% endtabs %}
+
+### Параметр filters — фильтр записей по полям
+
+#### Filters в формате массива (array)
+
+Пример:
+
+```
+http://company.bpium.ru/api/v1/catalogs/21/records
+           ?limit=50
+           &filters[0][fieldId]=4
+           &filters[0][value][at]=2015-10-27T00:00:00+03:00
+           &filters[0][value][to]=2015-11-19T23:59:59+03:00
+           &filters[1][fieldId]=15
+           &filters[1][value][0][catalogId]=18
+           &filters[1][value][0][recordId]=9
+           &filters[1][value][1][catalogId]=18
+           &filters[1][value][1][recordId]=10
+```
+
+`filters` — массив фильтров. Поэтому в GET-параметрах каждый добавленный к поисковому запросу фильтр имеет свой последовательный идентификатор: `filters[№]`. Каждый фильтр это объект, состоящий из параметра `fieldId` (указывает на ID поля для фильтрации данных) и объекта `value` (параметры поискового запроса). Value для разных типов полей имеет разную структуру.
+
+```
+  filters = [
+    {
+      fieldId : X,
+      value : String, или {}, или [], или [ {}, ... ]
+    },
+    ...
+  ]
+```
+
+#### Формат параметра value для разных типов полей
+
+* Для текстовых полей — поиск по вхождению: `[value] = текст`
+* Для чисел, прогресса — поиск по диапазону: `[value][at] = Число1, [value][to] = Число2`
+* Для дат — поиск по диапазону: `[value][at] = Дата1, [value][to] = Дата2`
+* Для категории, набора галочек, вопроса, звёзд — поиск по вхождению: `[value][0] = 1,  [value][1] = 2`.\
+  Для категории и вопроса доступен также формат: `[value]=[1,2,3,5]`
+* Для контактов — поиск по вхождению: `[value] = текст`
+* Для связанных объектов: `[value][0][catalogId]=18, [value][0][recordId]=9`
+* Для сотрудников: `[value][0]=21, [value][1]=22, [value][2]=CURRENT_USER`&#x20;
+
+#### Filters в формате JSON-объекта
+
+Это расширенный способ указания фильтров для поиска записей по полям. Он позволяет использовать конструкции _И_ и _ИЛИ_ и их комбинации. `Filters` в таком формате необходимо передавать GET-параметром со значением в формате сериализованного JSON-объекта.
+
+В примерах ниже значения `filters` передано без сериализации и в многострочном формате (для наглядности).
+
+1. Пример указания фильтров по полям:
+
+```
+http://company.bpium.ru/api/v1/catalogs/21/records?filters=
+{
+  filedId1: value1,
+  filedId2: value2,
+  filedIdX: valueX
+}
+```
+
+Где `fieldIdX` — идентификатор поля, а `valueX` — значения фильтра по полю (формат для разных полей описан выше).
+
+
+
+2\. Пример с вариантами значения поля:
+
+```
+http://company.bpium.ru/api/v1/catalogs/21/records?filters=
+{
+  filedId1: { "$or": [ value1_1, value1_2, value1_3 ] },
+  filedId2: { "$and": [ value2_1, value2_2, value2_3 ] }
+}
+```
+
+Где `$or` — задает условие, что значение поля у найденных записей должно иметь хотя бы одно из перечисленных значений, `$and` — задает условие, что значение поля у найденных записей должно содержать (то есть иметь как минимум их) все перечисленные значения.
+
+
+
+3\. Пример с вариантами условий фильтра по полям:
+
+```
+http://company.bpium.ru/api/v1/catalogs/21/records?filters=
+{
+  "$or" : [
+    { fieldId1: value1 },
+    { fieldId2: value2 }
+  ],
+  "$and" : [
+    { fieldId3: value3 },
+    { fieldId4: value4 }
+  ],
+}
+```
+
+Где `$or` — одно из условий фильтра по полям должно быть выполнено, `$and` — все условия фильтров должны быть выполнены. Условия `$or` и `$and` могут быть входить друг в друга.
+
+
+
+4\. Пример с комбинацией вариантов условий по полям и вариантами значений поля:
+
+```
+http://company.bpium.ru/api/v1/catalogs/21/records?filters=
+{
+  "$or" : [
+    {
+       "$and": [
+          {filedId1: {"$or": [value1_2, value1_1]}},
+          {filedId2: value2},
+       ]
+    },
+    {
+       "$and": [
+          {filedId3: value3},
+          {filedId4: value4},
+       ]
+    }
+  ]
+}
+```
+
+## Получить запись
+
+{% tabs %}
+{% tab title="Запрос" %}
+```
+URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}
+    {?fields}
+```
+
+Метод: **GET**
+
+Параметры:
+
+* `catalogId` (number) — идентификатор каталога
+* `recordId` (number) — идентификатор записи
+* `fields` (json array, опционально) — набор возвращаемых полей записей, формат: \["2", "3"]
+{% endtab %}
+
+{% tab title="Ответ" %}
+Ответ: 200 OK (application/json)
+
+```javascript
+{
+    "id": "31007",
+    "title": "Record Title",
+    "privilegeCode": "access", // право на запись
+    "values": {
+        "2": "Record Title", // текстовое поле
+        "3": 333, // число
+        "4": ["1"], // категория, набор галочек, вопрос
+        "8": "2015-11-06T21:00:00.000Z", // дата в 0-м часовом поясе
+        "11": [{ // контакт
+                "contact": "8-901-234-56-78",
+                "comment":"основной"
+            },{
+                "contact":"8-987-654-32-10",
+                "comment":""
+        }]
+        "14": [{ // сотрудник
+            "id": "1",
+            "title": "Victor Nikitin"
+        }],
+        "15": [{ // связанный объект
+            "sectionId": "2",
+            "catalogId": "5",
+            "catalogTitle": "Clients",
+            "catalogIcon": "users-10",
+            "recordId": "33",
+            "recordTitle": "Companyname"
+        }],
+        "16": [{ // файл
+            "id": "5",
+            "title": "bpium_logo.png",
+            "url": "https://..."
+            "size": "8513",
+            "mimeType": "image/png",
+            "metadata": { // уменьшенные копии для изображений
+                 "preview" : "https://...",
+                 "thumbnail" : "https://..."
+            } 
+        }]
+    }
+}
+```
+
+Для получения записи со значениями расширенных полей ["Связанный каталог"](https://docs.bpium.ru/ecm/structure/catalogs/edit#svyazannyi-obekt) используется опция **?withFieldsAdditional=true.** В ответ добавляется свойство recordValues, где перечислены каталоги выведенные в расширенной форме и их значения
+
+```javascript
+"recordValues": {
+    "2": [
+        {
+            "sectionId": "2",
+            "catalogId": "14",
+            "catalogTitle": "Связанный каталог",
+            "catalogIcon": "leisure-15",
+            "recordId": "32",
+            "recordTitle": "Наименование записи",
+            "isRemoved": false
+        }
+    ],
+    "4": 100
+}
+```
+{% endtab %}
+{% endtabs %}
+
+## Создать запись
+
+{% tabs %}
+{% tab title="Запрос" %}
+```
+URL: {domain}/api/v1/catalogs/{catalogId}/records
+```
+
+Метод: **POST**
+
+Параметры:
+
+* `catalogId` (number) — идентификатор каталога
+
+Запрос: (application/json)
+
+```javascript
+{
+    "values": {
+        "2": "Text", // текстовое поле
+        "3": 333, // число
+        "4": ["1","2"], // категория, набор галочек, вопрос
+        "8": "2015-11-06T21:00:00.000Z", // дата в 0-м часовом поясе
+        "11": [{ // контакт
+                "contact": "8-901-234-56-78",
+                "comment":"основной"
+            },{
+                "contact":"8-987-654-32-10",
+                "comment":""
+        }]
+        "14": [{ // сотрудник
+            "id": "1"
+        }],
+        "15": [{ // связанный объект
+            "catalogId": "5",
+            "recordId": "35"
+        }],
+        "16": [{ // файл
+            "src": "https://link.com/voice.mp3",
+            "title": "Awesome voice",
+            "mimeType": "audio/mp3" // необязательный параметр
+        }]
+    }
+}
+```
+{% endtab %}
+
+{% tab title="Ответ" %}
+Ответ: 200 OK (application/json)
+
+```javascript
+{
+    "id": "31015" // идентификатор созданной записи
+}
+```
+{% endtab %}
+{% endtabs %}
+
+## Изменить запись
+
+{% tabs %}
+{% tab title="Запрос" %}
+```
+URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}
+```
+
+Метод: **PATCH**
+
+Параметры:
+
+* `catalogId` (number) — идентификатор каталога
+* `recordId` (number) — идентификатор записи
+
+Запрос: (application/json)
+
+```javascript
+{
+    "values": {
+        "2": "text field value",
+        "4": ["2", "4"],
+        "11": [{ // контакт
+                "contact": "8-901-234-56-78",
+                "comment":"основной"
+            },{
+                "contact":"8-987-654-32-10",
+                "comment":""
+        }]
+        "14": [{ // сотрудник
+                "id": "2"
+            },{
+                "id": "3"
+            }],
+        "15": [{ // связанный объект
+                "catalogId": "5",
+                "recordId": "33"
+            },{
+                "catalogId": "5",
+                "recordId": "34"
+            }],
+
+        "16": [ // файл
+            // 96, 97 файлы уже существовали и не были изменены
+            {
+                "id": "96"
+            }, {
+                "id": "97"
+            }, 
+            // прикрепить новый файл, хранящийся на стороннем сервере
+            {
+                "src": "https://link.com/image.jpg", 
+                "title": "Логотип",
+                "mimeType": "image/jpeg" // необязательный параметр
+            }
+        ]
+    }
+}
+```
+{% endtab %}
+
+{% tab title="Ответ" %}
+Ответ: 200 OK
+{% endtab %}
+{% endtabs %}
+
+## Удалить запись
+
+{% tabs %}
+{% tab title="Запрос" %}
+```
+URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}
+```
+
+Метод: **DELETE**
+
+Параметры:
+
+* `catalogId` (number) — идентификатор каталога
+* `recordId` (number) — идентификатор записи
+{% endtab %}
+
+{% tab title="Ответ" %}
+Ответ: 200 OK
+{% endtab %}
+{% endtabs %}
