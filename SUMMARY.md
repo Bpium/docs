@@ -73,6 +73,7 @@
 
 * [🔑 Права доступ к данным](cases/rights.md)
 * [🤖 Автоматизации](cases/automations/README.md)
+  * [Очередь сценариев](cases/automations/ochered-scenariev.md)
   * [Отслеживание заявок с сайта помощью UTM-меток](cases/automations/otslezhivanie-zayavok-s-saita-pomoshyu-utm-metok.md)
   * [Контроль сроков исполнения по планировщику](cases/automations/kontrol-srokov-ispolneniya-po-planirovshiku.md)
   * [Реализация механизма согласования записей](cases/automations/realizaciya-mekhanizma-soglasovaniya-zapisei.md)
