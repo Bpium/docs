@@ -36,7 +36,7 @@
 
 {% hint style="info" %}
 **Скачать дистрибутив** архивом для [Windows](https://download.bpium.ru/builds/1.9.13/bpium-win-v1.9.13.zip) или [Linux](https://download.bpium.ru/builds/1.9.13/bpium-linux-v1.9.13.zip).\
-**Докер-образы** bpiumdocker/bpium:1.9.13, bpiumdocker/bpm:1.9.13, bpiumdocker/s3:1.9.13
+**Докер-образы** bpiumdocker/bpium:v1.9.13, bpiumdocker/bpm:v1.9.13, bpiumdocker/s3:v1.9.13
 {% endhint %}
 
 ## v1.8.42 от 11 апреля 2022
