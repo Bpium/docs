@@ -17,7 +17,7 @@ URL: {domain}/api/v1/histories?catalogId={catalogId}&recordId={recordId}
 Параметры:
 
 * `catalogId` (number) — идентификатор каталога
-* `recordId` (number, опционально) — если не указать - вернет историю по каталогу - [Активность](../../../manual/structure/catalogs/activity.md)
+* `recordId` (number, опционально) — если не указать - вернет историю по каталогу - [Активность](../../../activity.md)
 
 Параметры для коллекции записей:
 
@@ -26,7 +26,7 @@ URL: {domain}/api/v1/histories?catalogId={catalogId}&recordId={recordId}
 * `sortType` (string, опционально) - порядок по: возрастанию(`asc`), убыванию(`desc`, по-умолчанию)
 * `userId` (number, опционально) - фильтр по пользователю
 
-Если не указан `recordId` - можно применить фильтры из ["Получить записи"](records.md#poluchit-zapisi).
+Если не указан `recordId` - можно применить фильтры из ["Получить записи"](../../../api-records.md#poluchit-zapisi).
 {% endtab %}
 
 {% tab title="Ответ" %}
