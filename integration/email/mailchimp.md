@@ -2,7 +2,7 @@
 
 Почтовый сервис позволяющий делать автоматическую рассылку.
 
-Сайт: [https://mailchimp.co](https://mailchimp.com/).
+Сайт: [https://mailchimp.com](https://mailchimp.com/).
 
 ## Возможности
 

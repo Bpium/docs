@@ -2,4 +2,4 @@
 
 ## Сервисы
 
-* [Telegram ](https://docs.bpium.ru/protsessi/integratsii/messendzheri/telegram.html)— бесплатный кроссплатформенный мессенджер
+* [Telegram ](messengers/telegram.md)— бесплатный кроссплатформенный мессенджер

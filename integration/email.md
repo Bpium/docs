@@ -7,4 +7,4 @@
 ## Интеграция с сервисами
 
 * [UniSender](email/unisender.md) — российский сервис для отправки email и SMS рассылок и индивидуальных писем
-* [MailChimp](https://docs.bpium.ru/protsessi/integratsii/messendzheri/mailchimp.html) — платформа для автоматизации email-маркетинга
+* [MailChimp](email/mailchimp.md) — платформа для автоматизации email-маркетинга
