@@ -39,6 +39,7 @@
     * [Внешние запросы](processes/events/web-requests.md)
   * [Сценарии](processes/scripts.md)
     * [Компоненты](processes/components.md)
+      * [Получение почты](manual/processes/scripts/components/poluchenie-pochty.md)
       * [Начало процесса](processes/components/start.md)
       * [Конец процесса](processes/components/end.md)
       * [Таймер](processes/components/timer.md)
