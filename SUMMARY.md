@@ -39,7 +39,6 @@
     * [Внешние запросы](processes/events/web-requests.md)
   * [Сценарии](processes/scripts.md)
     * [Компоненты](processes/components.md)
-      * [Получение почты](manual/processes/scripts/components/poluchenie-pochty.md)
       * [Начало процесса](processes/components/start.md)
       * [Конец процесса](processes/components/end.md)
       * [Таймер](processes/components/timer.md)
@@ -61,6 +60,7 @@
       * [Конвертер](manual/processes/scripts/components/konverter.md)
       * [Парсер](processes/components/parser.md)
       * [Запуск процесса](manual/processes/scripts/components/zapusk-processa.md)
+      * [Получение почты](manual/processes/scripts/components/poluchenie-pochty.md)
       * [Отправка почты](processes/components/email-send.md)
       * [Соединяющая линия](processes/components/connection.md)
     * [Переменные](processes/variables.md)
@@ -75,6 +75,7 @@
 
 * [🔑 Права доступ к данным](cases/rights.md)
 * [🤖 Автоматизации](cases/automations/README.md)
+  * [Переброс данных между связанными каталогами](cases/automations/perebros-dannykh-mezhdu-svyazannymi-katalogami.md)
   * [Очередь сценариев](cases/automations/ochered-scenariev.md)
   * [Отслеживание заявок с сайта помощью UTM-меток](cases/automations/otslezhivanie-zayavok-s-saita-pomoshyu-utm-metok.md)
   * [Контроль сроков исполнения по планировщику](cases/automations/kontrol-srokov-ispolneniya-po-planirovshiku.md)

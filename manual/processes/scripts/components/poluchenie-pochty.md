@@ -181,11 +181,11 @@ moment( ‘08.20.2012’ ).toISOString() //Преобразование даты
 * Войдите на сервис [https://mail.yandex.ru](https://mail.yandex.ru) и авторизуйтесь своей учетной записью
 * Откройте страницу всех настроек вашей учетной записи:
 
-<figure><img src="../../../../.gitbook/assets/1 (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
 * Перейдите на страницу «Почтовые программы»:
 
-<figure><img src="../../../../.gitbook/assets/2 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 * Отметьте выделенные чек-боксы:
 
@@ -200,35 +200,35 @@ moment( ‘08.20.2012’ ).toISOString() //Преобразование даты
 * Войдите на сервис [https://gmail.com](https://gmail.com) и авторизуйтесь своей учетной записью.
 * Кликните на иконку своего аккаунта и перейдите по ссылке «Управление аккаунтом Google»:
 
-<figure><img src="../../../../.gitbook/assets/4 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
 
 * Перейдите на вкладку «Безопасность»:
 
-<figure><img src="../../../../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/5 (1).png" alt=""><figcaption></figcaption></figure>
 
 * В отделе «Вход в аккаунт Google» нажмите на пункт «Двухэтапная аутентификация». Завершите процесс настройки двухэтапной аутентификации, следуя подсказкам:
 
-<figure><img src="../../../../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/6 (1).png" alt=""><figcaption></figcaption></figure>
 
 * После завершения процесса настройки двухэтапной аутентификации вновь перейдите на вкладку «Безопасность» (п. 3 выше).
 * В отделе «Вход в аккаунт Google» нажмите на появившийся пункт «Пароли приложений»:
 
-<figure><img src="../../../../.gitbook/assets/7 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/7.png" alt=""><figcaption></figcaption></figure>
 
 * В окне создания пароля укажите приложение «Бипиум» и нажмите «Создать»:
 
-<figure><img src="../../../../.gitbook/assets/8 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/8 (1).png" alt=""><figcaption></figcaption></figure>
 
 * Сохраните созданный пароль приложения и используйте его в качестве пароля в компоненте «Получение почты»:
 
-<figure><img src="../../../../.gitbook/assets/9 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/9 (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Разрешение на получение почты через IMAP**
 
 * Войдите на сервис [https://gmail.com](https://gmail.com) и авторизуйтесь своей учетной записью.
 * Нажмите на иконку шестеренки возле иконки учетной записи и перейдите по ссылке «Все настройки»:
 
-<figure><img src="../../../../.gitbook/assets/10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/10 (1).png" alt=""><figcaption></figcaption></figure>
 
 * Перейдите в отдел «Пересылка и POP/IMAP»:
 
