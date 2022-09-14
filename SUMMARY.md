@@ -75,6 +75,7 @@
 
 * [🔑 Права доступ к данным](cases/rights.md)
 * [🤖 Автоматизации](cases/automations/README.md)
+  * [Автозаполнение данных по ИНН](cases/automations/avtozapolnenie-dannykh-po-inn.md)
   * [Переброс данных между связанными каталогами](cases/automations/perebros-dannykh-mezhdu-svyazannymi-katalogami.md)
   * [Очередь сценариев](cases/automations/ochered-scenariev.md)
   * [Отслеживание заявок с сайта помощью UTM-меток](cases/automations/otslezhivanie-zayavok-s-saita-pomoshyu-utm-metok.md)

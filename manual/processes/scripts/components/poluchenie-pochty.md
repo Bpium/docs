@@ -189,7 +189,7 @@ moment( ‘08.20.2012’ ).toISOString() //Преобразование даты
 
 * Отметьте выделенные чек-боксы:
 
-<figure><img src="../../../../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/3 (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Gmail
 
