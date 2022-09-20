@@ -79,7 +79,7 @@
   * [Переброс данных между связанными каталогами](cases/automations/perebros-dannykh-mezhdu-svyazannymi-katalogami.md)
   * [Очередь сценариев](cases/automations/ochered-scenariev.md)
   * [Отслеживание заявок с сайта помощью UTM-меток](cases/automations/otslezhivanie-zayavok-s-saita-pomoshyu-utm-metok.md)
-  * [Контроль сроков исполнения по планировщику](cases/automations/kontrol-srokov-ispolneniya-po-planirovshiku.md)
+  * [Просрочка задач по дедлайну](cases/automations/kontrol-srokov-ispolneniya-po-planirovshiku.md)
   * [Реализация механизма согласования записей](cases/automations/realizaciya-mekhanizma-soglasovaniya-zapisei.md)
   * [Интеграция с Telegram-ботом](cases/automations/integraciya-s-telegram-botom.md)
   * [Массовое изменение записей](cases/automations/massovoe-izmenenie-zapisei.md)

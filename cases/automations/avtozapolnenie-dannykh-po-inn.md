@@ -54,7 +54,7 @@
 
 Сценарий для автозаполнения записи данными по организации выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (2).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
