@@ -75,6 +75,7 @@
 
 * [🔑 Права доступ к данным](cases/rights.md)
 * [🤖 Автоматизации](cases/automations/README.md)
+  * [Расчет скидок для клиентов](cases/automations/raschet-skidok-dlya-klientov.md)
   * [Запрет на создание дубликатов в каталоге](cases/automations/zapret-na-sozdanie-dublikatov-v-kataloge.md)
   * [Автозаполнение данных по ИНН](cases/automations/avtozapolnenie-dannykh-po-inn.md)
   * [Переброс данных между связанными каталогами](cases/automations/perebros-dannykh-mezhdu-svyazannymi-katalogami.md)
