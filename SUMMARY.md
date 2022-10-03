@@ -75,6 +75,7 @@
 
 * [🔑 Права доступ к данным](cases/rights.md)
 * [🤖 Автоматизации](cases/automations/README.md)
+  * [Создание наименований записей](cases/automations/sozdanie-naimenovanii-zapisei.md)
   * [Расчет скидок для клиентов](cases/automations/raschet-skidok-dlya-klientov.md)
   * [Запрет на создание дубликатов в каталоге](cases/automations/zapret-na-sozdanie-dublikatov-v-kataloge.md)
   * [Автозаполнение данных по ИНН](cases/automations/avtozapolnenie-dannykh-po-inn.md)
@@ -93,7 +94,6 @@
   * [Генерация excel-отчетов](cases/automations/generate-reports.md)
   * [Планировщик задач](cases/automations/planirovshik-zadach.md)
   * [Импорт банковских выписок](cases/automations/import-bank-reports.md)
-  * [Генерация полных наименований в каталогах](cases/automations/generaciya-polnykh-naimenovanii-v-katalogakh.md)
 
 ## Интеграции <a href="#integrations" id="integrations"></a>
 
