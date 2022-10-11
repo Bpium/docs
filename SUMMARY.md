@@ -73,6 +73,8 @@
 
 ## Примеры <a href="#cases" id="cases"></a>
 
+* [⚙ Готовые системы](cases/gotovye-sistemy.md)
+* [Складской учет](cases/skladskoi-uchet.md)
 * [🔑 Права доступ к данным](cases/rights.md)
 * [🤖 Автоматизации](cases/automations/README.md)
   * [Создание наименований записей](cases/automations/sozdanie-naimenovanii-zapisei.md)

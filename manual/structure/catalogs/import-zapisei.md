@@ -30,7 +30,7 @@ description: Заполнение каталога Бипиума записям
 
 Можно самостоятельно выбрать правильное значение:
 
-<figure><img src="../../../.gitbook/assets/11 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/11 (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Пример импорта записей
 
@@ -44,7 +44,7 @@ description: Заполнение каталога Бипиума записям
 
 Записи в каталоге «Сотрудники»:
 
-<figure><img src="../../../.gitbook/assets/8 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/8 (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Excel-файл для импорта в каталог «Лица»:
 

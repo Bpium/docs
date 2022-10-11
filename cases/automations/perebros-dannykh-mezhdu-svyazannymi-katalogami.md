@@ -19,7 +19,7 @@
 * При необходимости можно обновить все ранее созданные записи согласно новому правилу переброса, выбрав соответствующий пункт в записи каталога правил.
 * При изменении записи в выбранном каталоге сценарий переброса автоматически обновит запись в связанном каталоге.
 
-## &#x20;**3. Реализация**
+## **3. Реализация**
 
 ### **3.1. Открытие каталога каталогов**
 
@@ -47,7 +47,7 @@
 
 Создайте каталог «Правила». В этом каталоге будут собраны правила переброса значений полей между каталогами. Поля каталога нужно создавать в том же порядке, не нарушая последовательность id полей:
 
-<figure><img src="../../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 * **Правило** (секция)
 * **Каталог** (Связанный каталог)\
@@ -76,7 +76,7 @@
 
 * Событие: Создание/обновление событий по правилу
 
-<figure><img src="../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Событие отслеживает создание/изменение записей (уведомление) в каталоге правил и запускает сценарий создания или обновления события для целевого каталога.
 
@@ -84,13 +84,13 @@
 
 * Событие: Проверка типов связанных полей
 
-<figure><img src="../../.gitbook/assets/3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 Событие отслеживает создание/изменение записей (запрос) в каталоге правил и запускает сценарий проверки типов синхронизируемых полей. Сценарий проверяет типы полей в целевом и связанном каталогах из поля «Правила сопоставления полей» на соответствие друг другу. Если поля идентичны по типу, то сценарий завершается. Если тип полей не идентичен – выбивает ошибку и не дает сохранить запись в каталоге правил. В качестве сценария прикрепите [сценарий проверки типов связанных полей](https://drive.google.com/file/d/1XwCVxV7OTuQGKQ8\_0cRtB-6YAnc850NI/view?usp=sharing).
 
 * Событие: Проверка типа поля связанного каталога
 
-<figure><img src="../../.gitbook/assets/4 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 Событие отслеживает создание/изменение записей (запрос) в каталоге правил и запускает сценарий проверки типа поля связанного каталога. Сценарий проверяет на заполненность поля «Каталог» и «ID связанного каталога» и не дает сохранить запись, если они заполнены некорректно. В качестве сценария прикрепите [сценарий проверки типа поля связанного каталога](https://drive.google.com/file/d/17Mg7noEV6a-gPrbelKTzjeVVQwgX4kNO/view?usp=sharing).
 
@@ -109,7 +109,7 @@
 
 Сценарий выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
@@ -124,7 +124,7 @@
 
 Сценарий выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
@@ -163,7 +163,7 @@
 
 Сценарий обновления предыдущих записей выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8 (2).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
@@ -174,7 +174,7 @@
 
 Сценарий выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/9 (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
@@ -186,7 +186,7 @@
 
 Сценарий выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10 (7).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
@@ -212,11 +212,11 @@
 
 В каталоге «Правила» измените направление на «В связанную запись». При необходимости, отметьте доп. параметр «Обновить предыдущие записи». Пример заполнения записи в каталоге «Правила»:
 
-<figure><img src="../../.gitbook/assets/13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/13 (4).png" alt=""><figcaption></figcaption></figure>
 
 Если правила сопоставления каталогов верны, то сценарий изменит созданную ранее запись в каталоге «‎События»:
 
-<figure><img src="../../.gitbook/assets/14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/14 (1).png" alt=""><figcaption></figcaption></figure>
 
 При изменении записи в целевом каталоге, значения полей будут переброшены в связанный каталог:
 
