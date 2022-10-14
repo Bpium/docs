@@ -75,7 +75,7 @@
 
 * [⚙ Готовые системы](cases/gotovye-sistemy/README.md)
   * [Складской учет](cases/gotovye-sistemy/skladskoi-uchet.md)
-* [🔑 Права доступ к данным](cases/rights.md)
+* [🔑 Права доступа к данным](cases/rights.md)
 * [🤖 Автоматизации](cases/automations/README.md)
   * [Создание наименований записей](cases/automations/sozdanie-naimenovanii-zapisei.md)
   * [Расчет скидок для клиентов](cases/automations/raschet-skidok-dlya-klientov.md)
