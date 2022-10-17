@@ -136,7 +136,7 @@ services:
       S3_KEY: ''
       S3_SECRET: ''
     volumes:
-      - storagebpium:/opt/storage
+      - storagebpium:/bpiumpac/storage
     logging:
       driver: "json-file"
       options:
