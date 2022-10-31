@@ -128,7 +128,7 @@
 
 В системном каталоге «События» создайте новую запись и заполните ее следующим образом:
 
-КАРТИНКА
+<figure><img src="../../.gitbook/assets/missed1 (1).png" alt=""><figcaption></figcaption></figure>
 
 При изменении поля с вариантами в заявках будет запущен сценарий. В качестве сценария загрузите [сценарий переноса варианта в запись каталога «Согласования»](https://drive.google.com/file/d/18GDbdqN2VRQVxvBRfMHn9Yr8HKTFiLJg/view?usp=sharing).
 
