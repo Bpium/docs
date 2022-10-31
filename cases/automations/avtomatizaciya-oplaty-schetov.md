@@ -10,7 +10,7 @@
 * Автоматизировать процесс согласования оплат с руководителем
 * Уведомлять ответственных сотрудников о создании оплат в системе**.**
 
-## **2. Зачем вам функция**
+## **2. Как это будет работать у вас**
 
 Заявки на оплату фиксируются в каталоге «Заявки на оплату». При создании записи указываются параметры заявки (счет, сумма) и ответственный, который должен ее согласовать. После создания заявки согласовывать может только сотрудник, указанный в поле «Ответственный»:
 
@@ -52,7 +52,7 @@
 
 Создайте каталог «Заявки на оплаты». Этот каталог хранит все заявки на оплаты, которые должны быть согласованы. Настройте структуру каталога следующим образом:
 
-<figure><img src="../../.gitbook/assets/2 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 * **Дата и время создания** (дата)\
   ****Описание: Дата и время создания заявки.\
@@ -89,7 +89,7 @@
 
 Создайте каталог «Оплаты». Этот каталог содержит согласованные оплаты, которые можно учитывать в расходах вашей компании.
 
-<figure><img src="../../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (10).png" alt=""><figcaption></figcaption></figure>
 
 * **Дата и время создания** (дата)\
   ****Описание: Время создания оплаты.\
@@ -127,11 +127,11 @@
 
 Создайте событие для запуска сценария «[Проверка необходимости согласования оплаты](https://drive.google.com/file/d/1YKeADBq-OThJaxapTalZfxWjL7mDcCN6/view?usp=sharing)».
 
-<figure><img src="../../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (4).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий проверки необходимости согласования выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (2).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий проверяет сумму оплаты, и, если она свыше 100000, то проставляет статус согласования оплаты.
 
@@ -226,7 +226,7 @@
 
 Создайте событие для запуска сценария «[Запрет на понижение статуса оплаты](https://drive.google.com/file/d/13D07XNAwmy74NjuRZk\_62Fsv9JyV693-/view?usp=sharing)».
 
-<figure><img src="../../.gitbook/assets/10 (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10.png" alt=""><figcaption></figcaption></figure>
 
 Сценарий запрета на понижение статуса оплаты выглядит следующим образом:
 
@@ -272,13 +272,13 @@
 
 Сотрудникам (группе сотрудников) выдайте право видеть все записи и настройте поле «Согласование оплаты» **—** изменять.
 
-<figure><img src="../../.gitbook/assets/15 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/15 (5).png" alt=""><figcaption></figcaption></figure>
 
 #### **Права каталога «Оплаты»**
 
 Сотрудникам (группе сотрудников) выдайте право видеть все записи
 
-<figure><img src="../../.gitbook/assets/16 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/16 (3).png" alt=""><figcaption></figcaption></figure>
 
 #### **Настройка доступа к виду «Ответственный может менять статус оплаты»**
 
@@ -291,7 +291,7 @@
 
 Сотрудникам (группе сотрудников) выдайте право видеть все записи и настройте поле «Статус» - изменять.
 
-<figure><img src="../../.gitbook/assets/17 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/17 (6).png" alt=""><figcaption></figcaption></figure>
 
 #### **Настройка доступа к виду «Создатель может редактировать свои новые записи»**
 
@@ -305,13 +305,13 @@
 
 Сотрудникам (группе сотрудников) выдайте право изменять все записи.
 
-<figure><img src="../../.gitbook/assets/18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/18 (3).png" alt=""><figcaption></figcaption></figure>
 
 ## **5. Тестирование**
 
 Создайте запись в каталоге «Заявки на оплаты». Укажите сумму более 100 000 руб. для тестирования сценария по проверке необходимости согласования оплаты.
 
-<figure><img src="../../.gitbook/assets/19 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/19 (4).png" alt=""><figcaption></figcaption></figure>
 
 Статус поля «Согласование оплаты» должен измениться на «Требуется согласование оплаты», а статус заявки на «На согласовании».
 
