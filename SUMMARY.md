@@ -70,6 +70,7 @@
       * [Условие](processes/samples/if.md)
       * [Цикл](processes/samples/for.md)
   * [Ограничения](processes/limits.md)
+* [📗 Импорт из Excel](manual/import-iz-excel.md)
 
 ## Примеры <a href="#cases" id="cases"></a>
 
