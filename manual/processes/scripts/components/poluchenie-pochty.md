@@ -183,15 +183,15 @@ attachments: [
 * Войдите на сервис [https://mail.yandex.ru](https://mail.yandex.ru) и авторизуйтесь своей учетной записью
 * Откройте страницу всех настроек вашей учетной записи:
 
-<figure><img src="../../../../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Перейдите на страницу «Почтовые программы»:
 
-<figure><img src="../../../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/2 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Отметьте выделенные чек-боксы:
 
-<figure><img src="../../../../.gitbook/assets/3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/3 (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Gmail
 
@@ -202,7 +202,7 @@ attachments: [
 * Войдите на сервис [https://gmail.com](https://gmail.com) и авторизуйтесь своей учетной записью.
 * Кликните на иконку своего аккаунта и перейдите по ссылке «Управление аккаунтом Google»:
 
-<figure><img src="../../../../.gitbook/assets/4 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/4 (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 * Перейдите на вкладку «Безопасность»:
 
@@ -219,18 +219,18 @@ attachments: [
 
 * В окне создания пароля укажите приложение «Бипиум» и нажмите «Создать»:
 
-<figure><img src="../../../../.gitbook/assets/8 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/8 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Сохраните созданный пароль приложения и используйте его в качестве пароля в компоненте «Получение почты»:
 
-<figure><img src="../../../../.gitbook/assets/9 (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/9 (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Разрешение на получение почты через IMAP**
 
 * Войдите на сервис [https://gmail.com](https://gmail.com) и авторизуйтесь своей учетной записью.
 * Нажмите на иконку шестеренки возле иконки учетной записи и перейдите по ссылке «Все настройки»:
 
-<figure><img src="../../../../.gitbook/assets/10 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/10 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Перейдите в отдел «Пересылка и POP/IMAP»:
 

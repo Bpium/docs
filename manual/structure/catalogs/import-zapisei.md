@@ -52,7 +52,7 @@ Excel-файл для импорта в каталог «Лица»:
 
 Результат импортирования:
 
-<figure><img src="../../../.gitbook/assets/7 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/7 (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Право импортировать записи
 

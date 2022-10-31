@@ -76,7 +76,7 @@
 
 * Событие: Создание/обновление событий по правилу
 
-<figure><img src="../../.gitbook/assets/2 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Событие отслеживает создание/изменение записей (уведомление) в каталоге правил и запускает сценарий создания или обновления события для целевого каталога.
 
@@ -109,7 +109,7 @@
 
 Сценарий выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/5 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
@@ -124,7 +124,7 @@
 
 Сценарий выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/6 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
@@ -174,7 +174,7 @@
 
 Сценарий выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/9 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/9 (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 

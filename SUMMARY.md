@@ -77,6 +77,7 @@
   * [Складской учет](cases/gotovye-sistemy/skladskoi-uchet.md)
 * [🔑 Права доступа к данным](cases/rights.md)
 * [🤖 Автоматизации](cases/automations/README.md)
+  * [Выгрузка файлов на Яндекс Диск](cases/automations/vygruzka-failov-na-yandeks-disk.md)
   * [Отправка на больничный](cases/automations/otpravka-na-bolnichnyi.md)
   * [Автоматизация оплаты счетов](cases/automations/avtomatizaciya-oplaty-schetov.md)
   * [Создание наименований записей](cases/automations/sozdanie-naimenovanii-zapisei.md)

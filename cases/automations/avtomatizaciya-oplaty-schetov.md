@@ -127,7 +127,7 @@
 
 Создайте событие для запуска сценария «[Проверка необходимости согласования оплаты](https://drive.google.com/file/d/1YKeADBq-OThJaxapTalZfxWjL7mDcCN6/view?usp=sharing)».
 
-<figure><img src="../../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий проверки необходимости согласования выглядит следующим образом:
 
@@ -230,7 +230,7 @@
 
 Сценарий запрета на понижение статуса оплаты выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/11 (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий проверяет понизили ли статус, в случае понижения возвращает предыдущий статус.
 
