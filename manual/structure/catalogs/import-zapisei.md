@@ -8,15 +8,15 @@ description: Заполнение каталога Бипиума записям
 
 В каталоги Бипиума можно импортировать записи из файла Microsoft Excel (.xlsx).
 
-<figure><img src="../../../../.gitbook/assets/1 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (5).png" alt=""><figcaption></figcaption></figure>
 
 Бипиум создает новые записи в каталоге соотнося наименование столбца в Excel-таблице (первую заполненную ячейку в столбце) с наименованием поля каталога. Если наименования совпадают, то Бипиум автоматически заполнит значения полей создаваемых записей значениями ячеек столбца Excel.
 
-<figure><img src="../../../../.gitbook/assets/2 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2 (4).png" alt=""><figcaption></figcaption></figure>
 
 Если вы хотите изменить правило соотношения полей каталога со столбцами из Excel, вы можете вручную соотнести поле со столбцом:
 
-<figure><img src="../../../../.gitbook/assets/3 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/3 (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Типы импортируемых значений
 
@@ -26,33 +26,33 @@ description: Заполнение каталога Бипиума записям
 
 Например, в должности «Директор» в Excel-таблице произошла опечатка:
 
-<figure><img src="../../../../.gitbook/assets/10 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/10 (2).png" alt=""><figcaption></figcaption></figure>
 
 Можно самостоятельно выбрать правильное значение:
 
-<figure><img src="../../../../.gitbook/assets/11 (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/11 (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Пример импорта записей
 
 В каталоге «Лица» есть следующий набор полей:
 
-<figure><img src="../../../../.gitbook/assets/4 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/4 (3).png" alt=""><figcaption></figcaption></figure>
 
 Записи в связанном каталоге «Предприятия (1)»:
 
-<figure><img src="../../../../.gitbook/assets/5 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/5 (4).png" alt=""><figcaption></figcaption></figure>
 
 Записи в каталоге «Сотрудники»:
 
-<figure><img src="../../../../.gitbook/assets/8 (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/8 (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Excel-файл для импорта в каталог «Лица»:
 
-<figure><img src="../../../../.gitbook/assets/6 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/6 (3).png" alt=""><figcaption></figcaption></figure>
 
 Результат импортирования:
 
-<figure><img src="../../../../.gitbook/assets/7 (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/7 (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Право импортировать записи
 
@@ -60,4 +60,4 @@ Excel-файл для импорта в каталог «Лица»:
 
 ## Другие методы импорта записей
 
-В случаях, когда функционала стандартного импорта недостаточно, например, когда нужно импортировать только определенные записи по критерию или актуализировать существующие в Бипиуме записи, используйте сценарий автоматизации. Пример импорта записей из Excel-файла  с использованием сценария приведен в статье «[Импорт данных из Excel](https://docs.bpium.ru/cases/automations/import-dannykh-iz-excel)». Также, есть пошаговая инструкция [импорта данных из Excel](https://docs.bpium.ru/manual/import-iz-excel).
+В случаях, когда функционала стандартного импорта недостаточно, например, когда нужно импортировать только определенные записи по критерию или актуализировать существующие в Бипиуме записи, используйте сценарий автоматизации. Пример импорта записей из Excel-файла  с использованием сценария приведен в статье «[Импорт данных из Excel](https://docs.bpium.ru/cases/automations/import-dannykh-iz-excel)». Также, есть пошаговая инструкция [импорта данных из Excel.](https://docs.bpium.ru/manual/structure/catalogs/import-zapisei/import-iz-excel)
