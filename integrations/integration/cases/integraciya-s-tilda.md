@@ -115,6 +115,7 @@
 <strong>"Location": `https://ваш_домен.bpium.ru/`,
 </strong>    	"Set-Cookie": `${headersForCookies['set-cookie']}; SameSite=None; Secure`
 }
+
 </code></pre>
 
 Вставьте в Tilda блок «HTML-код». Объявите в нем iframe с адресом внешнего запроса в Бипиуме. Пример заполнения блока:
