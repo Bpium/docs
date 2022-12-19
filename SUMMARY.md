@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Бипиум](README.md)
-* [😎 Отвечаем на ваши вопросы](otvechaem-na-vashi-voprosy.md)
+* [😎 Отвечаем на ваши вопросы](README.md)
 * [🎂 Версии и обновления](changelog.md)
+* [Бипиум](<README (1).md>)
 
 ## Документация <a href="#manual" id="manual"></a>
 
