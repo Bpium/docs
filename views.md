@@ -6,15 +6,15 @@
 
 Список видов расположен над фильтрами в левой панели окна каталога:
 
-![](.gitbook/assets/views-list.jpg)
-
 Виды отсортированы по алфавиту.
+
+<figure><img src=".gitbook/assets/7, Список видов.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Создание нового вида
 
 Когда вы задаете условия фильтра, Бипиум предлагает сохранить их как новый вид:
 
-![](.gitbook/assets/views-new-button.jpg)
+<figure><img src=".gitbook/assets/7, Создание нового вида.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Типы видов
 
@@ -26,7 +26,7 @@
 
 Форма создания/редактирования личного вида:
 
-![](.gitbook/assets/views-new-personal-form-only.jpg)
+<figure><img src=".gitbook/assets/7. Личный вид.png" alt=""><figcaption></figcaption></figure>
 
 ### Правовые виды
 
@@ -36,7 +36,7 @@
 
 ## Изменение вида
 
-![](.gitbook/assets/views-edit.jpg)
+<figure><img src=".gitbook/assets/7. Изменение вида.jpg" alt=""><figcaption></figcaption></figure>
 
 Для правовых видов можно настроить доступ. Изменять и удалять правовые виды могут только сотрудники с правом «Администрировать» каталог.
 

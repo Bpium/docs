@@ -2,7 +2,7 @@
 
 Отчеты — модуль платформы, который позволяет создавать экраны (дашборды) с графиками на основе данных в каталогах системы.
 
-![](.gitbook/assets/dashboards\_sample.png)
+<figure><img src=".gitbook/assets/Отчеты.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Типы дашбордов
 

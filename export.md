@@ -4,7 +4,7 @@
 
 Список записей каталога можно экспортировать в файл Microsoft Excel.
 
-![](.gitbook/assets/catalog-export.jpg)
+<figure><img src=".gitbook/assets/4. Excel (1).jpg" alt=""><figcaption></figcaption></figure>
 
 Бипиум сохраняет в файл все записи каталога, а не только те, что на экране. Если заданы условия поиска, то будут экспортированы только записи, удовлетворяющие фильтру.
 
