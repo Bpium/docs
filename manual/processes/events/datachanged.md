@@ -14,7 +14,7 @@ description: >-
 * Выберите тип события для запуска сценария. Подробнее в статье «[События](../../../ecm/catalogs/events.md)».
 * В поле «Выполнить» выберите или создайте новый сценарий.
 
-![](../../../.gitbook/assets/042\_Реактивные\_процессы.png)
+<figure><img src="../../../.gitbook/assets/event.png" alt=""><figcaption></figcaption></figure>
 
 ## События
 

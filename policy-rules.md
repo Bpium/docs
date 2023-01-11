@@ -4,7 +4,7 @@
 
 Форма назначения прав на запись:
 
-![](.gitbook/assets/rights-form-record.jpg)
+<figure><img src=".gitbook/assets/recordRights (1).png" alt=""><figcaption></figcaption></figure>
 
 Доступ к объекту состоит из правил. Каждое правило состоит из субъекта (сотрудника или [правовой группы](https://docs.bpium.ru/rights/groups)) и уровня доступа субъекта к данным ([привилегия](https://docs.bpium.ru/rights/priviliges)).
 

@@ -2,7 +2,7 @@
 
 Bpium для описания сценариев использует нотацию BPMN 2.0. Сценарии состоят из связанных между собой компонентов: событий, шлюзов и действий. Компоненты обмениваются данными между собой через переменные.
 
-![](../.gitbook/assets/process.png)
+<figure><img src="../.gitbook/assets/firstScript.png" alt=""><figcaption></figcaption></figure>
 
 ## Компоненты
 

@@ -13,13 +13,13 @@
 3. Откройте для редактирования каталог «Сотрудники»
 4.  Создайте поле типа связанный объект и привяжите его к каталогу «Отделы»
 
-    ![](.gitbook/assets/rigts-groups-create.jpg)
+    ![](.gitbook/assets/roleStructure.png)
 5.  Внесите информацию об отделах в карточки сотрудников
 
-    ![](.gitbook/assets/rigts-groups-set.jpg)
+    ![](.gitbook/assets/roleRecord.png)
 
 После этого Бипиум посчитает отделы правовыми группами и даст возможность назначать на них права в окне назначения прав:
 
-![](.gitbook/assets/rights-form-section.jpg)
+<figure><img src=".gitbook/assets/roleRights.png" alt=""><figcaption></figcaption></figure>
 
 В вашей системе может быть несколько каталогов связанных с каталогом сотрудников. Все они станут правовыми группами. Например, роли, филиалы, должности, подразделения.
