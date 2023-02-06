@@ -14,7 +14,7 @@
 
 Заявки на оплату фиксируются в каталоге «Заявки на оплату». При создании записи указываются параметры заявки (счет, сумма) и ответственный, который должен ее согласовать. После создания заявки согласовывать может только сотрудник, указанный в поле «Ответственный»:
 
-<figure><img src="../../.gitbook/assets/20 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/20 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Если ответственный сотрудник согласует оплату, то в каталоге «Оплаты» создается новая запись. Статус заявки переводится в значение «Оплата создана» и сотрудники больше не могут редактировать эту запись:
 
@@ -38,7 +38,7 @@
 
 ## **3. Принцип работы**
 
-<figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (6).png" alt=""><figcaption></figcaption></figure>
 
 Заявитель оставляет запись в каталоге «Заявки на оплаты». В данном примере стоит ограничение по сумме: если она менее 100 000 руб., то оплата создается автоматически, без согласования. Если сумма больше, то для создания оплаты требуется согласование ответственного лица.
 
@@ -52,7 +52,7 @@
 
 Создайте каталог «Заявки на оплаты». Этот каталог хранит все заявки на оплаты, которые должны быть согласованы. Настройте структуру каталога следующим образом:
 
-<figure><img src="../../.gitbook/assets/2 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Дата и время создания** (дата)\
   ****Описание: Дата и время создания заявки.\
@@ -89,7 +89,7 @@
 
 Создайте каталог «Оплаты». Этот каталог содержит согласованные оплаты, которые можно учитывать в расходах вашей компании.
 
-<figure><img src="../../.gitbook/assets/3 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Дата и время создания** (дата)\
   ****Описание: Время создания оплаты.\
@@ -127,11 +127,11 @@
 
 Создайте событие для запуска сценария «[Проверка необходимости согласования оплаты](https://drive.google.com/file/d/1YKeADBq-OThJaxapTalZfxWjL7mDcCN6/view?usp=sharing)».
 
-<figure><img src="../../.gitbook/assets/4 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий проверки необходимости согласования выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (6).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий проверяет сумму оплаты, и, если она свыше 100000, то проставляет статус согласования оплаты.
 
@@ -151,7 +151,7 @@
 
 Создайте событие для запуска сценария «[Создание оплаты по заявке](https://drive.google.com/file/d/12Crx8ZZTE4zj8S9HH4W9xyACU6R9ZxQR/view?usp=sharing)».
 
-<figure><img src="../../.gitbook/assets/6 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий создания оплаты по заявке выглядит следующим образом:
 
@@ -194,11 +194,11 @@
 
 Создайте событие для запуска сценария «[Письмо ответственному при создании оплаты](https://drive.google.com/file/d/1v5KpPAbC7IGcjIYa\_db9B8k8pcDgqwPj/view?usp=sharing)».
 
-<figure><img src="../../.gitbook/assets/8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8 (4).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий отправки письма ответственному при создании оплаты выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/9 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/9 (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий проверяет наличие ошибок при заполнении в записи. В случае правильного заполнения отправляется письмо ответственному по оплате на почту. По завершению выполнения проверок и отправки проставляется статус оплаты.
 
@@ -226,11 +226,11 @@
 
 Создайте событие для запуска сценария «[Запрет на понижение статуса оплаты](https://drive.google.com/file/d/13D07XNAwmy74NjuRZk\_62Fsv9JyV693-/view?usp=sharing)».
 
-<figure><img src="../../.gitbook/assets/10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10 (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий запрета на понижение статуса оплаты выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/11 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/11 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий проверяет понизили ли статус, в случае понижения возвращает предыдущий статус.
 
@@ -253,7 +253,7 @@
 
 &#x20;Сотрудникам (группе сотрудников) выдайте право видеть все записи:
 
-<figure><img src="../../.gitbook/assets/13 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/13 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Настройка доступа к виду «Запрет редактирования записей»**
 
@@ -278,7 +278,7 @@
 
 Сотрудникам (группе сотрудников) выдайте право видеть все записи
 
-<figure><img src="../../.gitbook/assets/16 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/16 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Настройка доступа к виду «Ответственный может менять статус оплаты»**
 
@@ -291,7 +291,7 @@
 
 Сотрудникам (группе сотрудников) выдайте право видеть все записи и настройте поле «Статус» - изменять.
 
-<figure><img src="../../.gitbook/assets/17 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/17 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Настройка доступа к виду «Создатель может редактировать свои новые записи»**
 
@@ -305,7 +305,7 @@
 
 Сотрудникам (группе сотрудников) выдайте право изменять все записи.
 
-<figure><img src="../../.gitbook/assets/18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/18 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **5. Тестирование**
 

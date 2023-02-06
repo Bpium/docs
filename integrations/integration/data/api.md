@@ -2,6 +2,6 @@
 
 Описание на странице:
 
-{% content-ref url="../../../api.md" %}
-[api.md](../../../api.md)
+{% content-ref url="../../api/" %}
+[api](../../api/)
 {% endcontent-ref %}

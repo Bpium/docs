@@ -67,7 +67,7 @@ description: >-
 
 Создайте каталог «Заказы». В этом каталоге будет собрана информация о всех заказах клиентов. Заполните каталог следующими полями:
 
-<figure><img src="../../.gitbook/assets/4 (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Клиент** (связанный каталог)\
   Описание: Клиент, оформляющий заказ.\
@@ -96,7 +96,7 @@ description: >-
 
 Сценарий расчета сумм для клиента выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/6 (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 

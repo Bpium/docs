@@ -6,5 +6,5 @@
 
 ## Интеграция с сервисами
 
-* [UniSender](email/unisender.md) — российский сервис для отправки email и SMS рассылок и индивидуальных писем
+* [UniSender](../integrations/integration/cases/email/unisender.md) — российский сервис для отправки email и SMS рассылок и индивидуальных писем
 * [MailChimp](email/mailchimp.md) — платформа для автоматизации email-маркетинга

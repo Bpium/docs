@@ -8,17 +8,17 @@
 
 В каталоге «‎Правила загрузки» создается запись с указанием каталога и ID поля типа «‎Файл» из которого нужно выгрузить файлы на Яндекс Диск:
 
-<figure><img src="../../.gitbook/assets/6 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 После сохранения записи Бипиум выгружает все файлы из указанного поля каталога. Состояние выгрузки можно отслеживать по полям из секции «‎Служебная информация» записи правила.
 
 Запись правила в момент выгрузки:
 
-<figure><img src="../../.gitbook/assets/7 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Запись правила после успешного завершения выгрузки:
 
-<figure><img src="../../.gitbook/assets/8 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8 (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 **Файлы будут размещены на Яндекс Диске по следующему пути:**
 
@@ -28,7 +28,7 @@
 
 **Так выглядит запись из выгружаемого каталога «‎Товары»:**
 
-<figure><img src="../../.gitbook/assets/12 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/12 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Так выглядят выгруженные из этой записи файлы на Яндекс Диске:
 
@@ -55,7 +55,7 @@
 
 Файл сценария выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/9 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/9 (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 Этот сценарий открывает отображение каталога «Каталоги» в вашей системе.
 
@@ -67,13 +67,13 @@
 
 Если все сделано правильно, в отделе «Управление» появится каталог «Каталоги» со списком всех каталогов в системе.
 
-<figure><img src="../../.gitbook/assets/10 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10 (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### **4.3.** Создание каталога правил загрузки
 
 Создайте каталог «Правила загрузки». В этом каталоге будут собраны правила загрузки файлов и статус их выполнения. Поля каталога нужно создавать в том же порядке, не нарушая последовательность id-полей:
 
-<figure><img src="../../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (7).png" alt=""><figcaption></figcaption></figure>
 
 * **Правило** (Секция)
 * **Наименование** (Текст).\
@@ -109,7 +109,7 @@
 
 Сценарий выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
@@ -127,7 +127,7 @@
 
 Сценарий выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/5 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
@@ -153,19 +153,19 @@
 
 Для тестирования создайте новую запись в каталоге «Правила загрузки»: задайте правилу любое наименование. Выберите каталог, в котором есть поле для файлов. Введите id-поля для файлов в выбранном каталоге.
 
-<figure><img src="../../.gitbook/assets/6 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 Если в выбранном каталоге указанное поле действительно является полем для файлов, то сценарий запустит процесс загрузки файлов, а статус перейдет на «Запущен»:
 
-<figure><img src="../../.gitbook/assets/7 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 После завершения процесса загрузки файлов во всех записях каталога, статус изменится на «Завершен»:
 
-<figure><img src="../../.gitbook/assets/8 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8 (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Пример записи с файлом в Бипиум:
 
-<figure><img src="../../.gitbook/assets/12 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/12 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Файлы на Яндекс Диске после загрузки:
 
