@@ -73,6 +73,10 @@
       * [Цикл](processes/samples/for.md)
   * [Ограничения](processes/limits.md)
 
+## Лицензии <a href="#license" id="license"></a>
+
+* [🌐 Пользовательские лицензии](license/polzovatelskie-licenzii.md)
+
 ## Примеры <a href="#cases" id="cases"></a>
 
 * [⚙ Готовые системы](cases/gotovye-sistemy/README.md)
