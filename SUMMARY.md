@@ -75,7 +75,7 @@
 
 ## Лицензии <a href="#license" id="license"></a>
 
-* [🌐 Пользовательские лицензии](license/polzovatelskie-licenzii.md)
+* [🌐 Тип лицензирования](license/tip-licenzirovaniya.md)
 
 ## Примеры <a href="#cases" id="cases"></a>
 
