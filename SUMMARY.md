@@ -72,6 +72,11 @@
       * [Условие](processes/samples/if.md)
       * [Цикл](processes/samples/for.md)
   * [Ограничения](processes/limits.md)
+* [🛠 Возможности](manual/vozmozhnosti/README.md)
+  * [Массовое изменение записей](manual/vozmozhnosti/massovoe-izmenenie-zapisei.md)
+  * [Раскрашивание записей](manual/vozmozhnosti/raskrashivanie-zapisei.md)
+  * [Список компаний](manual/vozmozhnosti/spisok-kompanii.md)
+  * [Мультимодальные окна](manual/vozmozhnosti/multimodalnye-okna.md)
 
 ## Лицензии <a href="#license" id="license"></a>
 
