@@ -24,7 +24,7 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/relations
 * `catalogId` (number) - связи с конкретным каталогом
 * `fieldId` (number) - связи по полю записи
 
-Можно так же применить фильтры из ["Получить записи"](records.md#poluchit-zapisi).
+Можно так же применить фильтры из ["Получить записи"](../../../api-records.md#poluchit-zapisi).
 {% endtab %}
 
 {% tab title="Ответ" %}

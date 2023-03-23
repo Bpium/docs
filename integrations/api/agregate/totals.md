@@ -6,7 +6,7 @@ description: "Свока —\_суммарное подсчитанное зна
 
 {% hint style="info" %}
 Ресурс Totals доступен начиная с версии Бипиума 1.7.1.\
-В предыдущих версиях Бипиума значения разложения можно получить через ресурс [Widget/Totals](../reports/widgets.md#obshie-dannye-grafika-totals).
+В предыдущих версиях Бипиума значения разложения можно получить через ресурс [Widget/Totals](../../../api-widget.md#obshie-dannye-grafika-totals).
 {% endhint %}
 
 ## Получить сводку

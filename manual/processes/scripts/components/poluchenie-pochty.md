@@ -184,11 +184,11 @@ attachments: [
 * Войдите на сервис [https://mail.yandex.ru](https://mail.yandex.ru) и авторизуйтесь своей учетной записью
 * Откройте страницу всех настроек вашей учетной записи:
 
-<figure><img src="../../../../.gitbook/assets/1 (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Перейдите на страницу «Почтовые программы»:
 
-<figure><img src="../../../../.gitbook/assets/2 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/2 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Отметьте выделенные чек-боксы:
 
@@ -239,4 +239,4 @@ attachments: [
 
 * Нажмите на «Включить IMAP»:
 
-<figure><img src="../../../../.gitbook/assets/12 (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/12 (6).png" alt=""><figcaption></figcaption></figure>

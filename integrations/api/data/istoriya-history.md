@@ -26,7 +26,7 @@ URL: {domain}/api/v1/histories?catalogId={catalogId}&recordId={recordId}
 * `sortType` (string, опционально) - порядок по: возрастанию(`asc`), убыванию(`desc`, по-умолчанию)
 * `userId` (number, опционально) - фильтр по пользователю
 
-Если не указан `recordId` - можно применить фильтры из ["Получить записи"](records.md#poluchit-zapisi).
+Если не указан `recordId` - можно применить фильтры из ["Получить записи"](../../../api-records.md#poluchit-zapisi).
 {% endtab %}
 
 {% tab title="Ответ" %}
