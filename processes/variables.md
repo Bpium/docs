@@ -13,7 +13,7 @@
 * Имя переменной не должно совпадать с [зарезервированным словом](https://msdn.microsoft.com/ru-ru/library/0779sbks\(v=vs.94\).aspx).
 * Имена переменных чувствительны к регистру. Name и name — разные переменные.
 
-Подробнее: **** [правила именования переменных в JavaScript](https://msdn.microsoft.com/ru-ru/library/67defydd\(v=vs.94\).aspx#Anchor\_1).
+Подробнее: [правила именования переменных в JavaScript](https://msdn.microsoft.com/ru-ru/library/67defydd\(v=vs.94\).aspx#Anchor\_1).
 
 ### **Примеры имен**
 

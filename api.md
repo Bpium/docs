@@ -8,8 +8,8 @@ API состоит из ресурсов.
 
 Работа с пользовательскими и системными данными:
 
-* ****[**Каталоги (Catalog)**](integrations/api/data/catalogs.md) — список каталогов с описанием структуры полей
-* ****[**Записи (Records)**](api-records.md) — список записей каталога с значением полей
+* [**Каталоги (Catalog)**](integrations/api/data/catalogs.md) — список каталогов с описанием структуры полей
+* [**Записи (Records)**](api-records.md) — список записей каталога с значением полей
 * [Связи (Relations)](integrations/api/data/relations-relations.md) — список записей, которые ссылаются на указанную запись
 * [История (Histories)](integrations/api/data/istoriya-history.md) — список операций по изменению записи
 * [Файл (Files)](api-files.md) — информация о файле в файловом хранилище

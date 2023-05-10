@@ -4,7 +4,7 @@
 
 ### Позволяет создавать корпоративные информационные системы управления деятельностью
 
-[bpium.ru](https://app.gitbook.com/u/TJGEgLu5OYYmYyyKG4RS5Lctvuy2)
+[bpium.ru](http://localhost:5000/u/TJGEgLu5OYYmYyyKG4RS5Lctvuy2)
 
 
 

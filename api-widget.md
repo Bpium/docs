@@ -354,7 +354,7 @@ URL: /{api url}/boards/{boardsId}/widgets/new/values
 
 Параметры фильтра (определяют выборку):
 
-* _параметры аналогичны параметрам получения значений графика_ [_Values_](api-widget.md#znacheniya-grafika-values)__
+* _параметры аналогичны параметрам получения значений графика_ [_Values_](api-widget.md#znacheniya-grafika-values)
 {% endtab %}
 
 {% tab title="Ответ" %}
@@ -452,7 +452,7 @@ URL: /{api url}/boards/{boardsId}/widgets/{widgetsId}/totals
 * _Параметры аналогичны параметрам получения значений разложения_ [_Values_](integrations/api/agregate/values.md)_._\
   _Игнорируются параметры: sort, sortType, limit, offset._
 
-__
+
 
 ### Получить общие данные без создания графика
 

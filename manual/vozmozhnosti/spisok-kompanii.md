@@ -2,7 +2,7 @@
 
 Когда профиль авторизован в двух и более компаниях, появляется возможность перехода между ними в более удобном ключе, а именно, выпадающий список который можно увидеть нажав иконку бургера слева от лого.
 
-<figure><img src="../../.gitbook/assets/unnamed (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unnamed (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Как пользоваться
 

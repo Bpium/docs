@@ -71,8 +71,8 @@ URL: {domain}/api/v1/sections
 ```
 
 Метод: **POST**\
-****\
-****Запрос: (application/json)
+\
+Запрос: (application/json)
 
 ```javascript
 {

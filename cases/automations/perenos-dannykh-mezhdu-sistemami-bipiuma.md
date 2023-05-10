@@ -17,7 +17,7 @@
 ![](<../../.gitbook/assets/2 (6).png>)
 
 * **Статус** (Статус)\
-  ****Описание: Конкретизирует перенесенную сущность.
+  Описание: Конкретизирует перенесенную сущность.
 * **ID секции (ориг)** (Число)\
   Описание: Хранит ID секции в экспортируемой системе.\
   Настройки: Задайте видимость при значениях статуса «Секция» и «Каталог».
@@ -189,15 +189,15 @@
 Сформированный POST-запрос с заполненным телом сообщения необходимо отправить на адреса внешних запросов с заданными ранее URL-идентификаторами. Адреса для отправки внешних запросов выглядят следующим образом:
 
 * **Перенос секций:**\
-  ****[**https://import.bpium.ru/api/webrequest/sections/?async=true**](https://import.bpium.ru/api/webrequest/sections/?async=true)
-* Перенос каталогов:[  ****  \
-  ****](https://import.bpium.ru/api/webrequest/sections/?async=true)****[**https://import.bpium.ru/api/webrequest/catalogs/?async=true**  ](https://import.bpium.ru/api/webrequest/catalogs/?async=true)****
+  [**https://import.bpium.ru/api/webrequest/sections/?async=true**](https://import.bpium.ru/api/webrequest/sections/?async=true)
+* Перенос каталогов:[  \
+  ](https://import.bpium.ru/api/webrequest/sections/?async=true)[**https://import.bpium.ru/api/webrequest/catalogs/?async=true**  ](https://import.bpium.ru/api/webrequest/catalogs/?async=true)
 * **Перенос полей каталогов:**\
-  ****[**https://import.bpium.ru/api/webrequest/fields/?async=true**](https://import.bpium.ru/api/webrequest/fields/?async=true)****
+  [**https://import.bpium.ru/api/webrequest/fields/?async=true**](https://import.bpium.ru/api/webrequest/fields/?async=true)
 * **Перенос записей без связанных полей:**\
-  ****[**https://import.bpium.ru/api/webrequest/records/?async=true**](https://import.bpium.ru/api/webrequest/records/?async=true)****
+  [**https://import.bpium.ru/api/webrequest/records/?async=true**](https://import.bpium.ru/api/webrequest/records/?async=true)
 * **Перенос связанных полей в записи:**\
-  ****[**https://import.bpium.ru/api/webrequest/records/obj/?async=true**](https://import.bpium.ru/api/webrequest/records/obj/?async=true)****
+  [**https://import.bpium.ru/api/webrequest/records/obj/?async=true**](https://import.bpium.ru/api/webrequest/records/obj/?async=true)
 
 Вместо «import» необходимо вписать домен системы на Бипиуме в которую предполагается импорт.&#x20;
 
