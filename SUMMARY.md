@@ -163,6 +163,7 @@
 * [🖥 Требования](deployment/requirments.md)
 * [📂 Установка как служба](deployment/service.md)
 * [🛳 Установка через Docker](deployment/docker.md)
+* [🎛 Мультидоменная среда](deployment/multidomennaya-sreda.md)
 * [🆘 Материалы](deployment/extra/README.md)
   * [TLS/SSL Сертификат](deployment/extra/tls-ssl-sertifikat.md)
   * [Параметры config.env](deployment/extra/parametry-config.env/README.md)
