@@ -80,7 +80,7 @@
 
 ## Лицензии <a href="#license" id="license"></a>
 
-* [🌐 Тип лицензирования](license/tip-licenzirovaniya.md)
+* [📜 Тип лицензирования](license/tip-licenzirovaniya.md)
 
 ## Примеры <a href="#cases" id="cases"></a>
 
