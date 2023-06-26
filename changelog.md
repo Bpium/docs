@@ -10,38 +10,8 @@
 
 * Добавлена возможность передачи ссылки другим пользователем с сохранением сортировки и фильтров записей
 * Внесено множество мелких интерфейсных улучшений и визуальных оптимизаций в табличный режим отображения
-
-{% hint style="info" %}
-**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/1.10.17/bpium-win-v1.10.17.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/1.10.17/bpium-linux-v1.10.17.zip)
-
-**Докер-образы** bpiumdocker/bpium:v1.10.17, bpiumdocker/bpm:v1.10.17, bpiumdocker/s3:v1.10.17
-{% endhint %}
-
-## v1.10.16 от 28 января 2023
-
-Версия API: 1.10.4\
-Версия веб-приложения: 1.13.30\
-Версия сервера процессов: 1.9.27
-
-**Ключевые изменения в веб-приложении:**
-
 * Добавлена возможность передачи ссылки другим пользователем с сохранением сортировки и фильтров записей
 * Внесено множество мелких интерфейсных улучшений и визуальных оптимизаций в табличный режим отображения
-
-{% hint style="info" %}
-**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/1.10.16/bpium-win-v1.10.16.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/1.10.16/bpium-linux-v1.10.16.zip)
-
-**Докер-образы** bpiumdocker/bpium:v1.10.16, bpiumdocker/bpm:v1.10.16, bpiumdocker/s3:v1.10.16
-{% endhint %}
-
-## v1.10.14 от 17 января 2023
-
-Версия API: 1.10.3\
-Версия веб-приложения: 1.13.24\
-Версия сервера процессов: 1.9.26
-
-**Ключевые изменения в веб-приложении:**
-
 * Добавлена функция массового изменения записей
 * Добавлена функция импорта данных из Excel
 * Добавлена английская версия
@@ -69,9 +39,9 @@
 * Исправлена ошибка с запуском компонента конвертации «HTML в PDF»
 
 {% hint style="info" %}
-**Скачать дистрибутив** архивом для [Windows](https://download.bpium.ru/builds/1.10.14/bpium-win-v1.10.14.zip) или [Linux](https://download.bpium.ru/builds/1.10.14/bpium-linux-v1.10.14.zip).
+**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/1.10.17/bpium-win-v1.10.17.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/1.10.17/bpium-linux-v1.10.17.zip)
 
-**Докер-образы** bpiumdocker/bpium:v1.10.14, bpiumdocker/bpm:v1.10.14, bpiumdocker/s3:v1.10.14
+**Докер-образы** bpiumdocker/bpium:v1.10.17, bpiumdocker/bpm:v1.10.17, bpiumdocker/s3:v1.10.17
 {% endhint %}
 
 ## v1.9.14 от 31 августа 2022
