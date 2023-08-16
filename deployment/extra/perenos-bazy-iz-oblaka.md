@@ -116,14 +116,14 @@ pg_restore -h ВАШ_СЕРВЕР -d "ИМЯ_БД" -U ЛОГИН -W -v "ИМЯ_�
 
 ```sql
 UPDATE files
-SET url = concat('https://bpium-userdata.s3-eu-west-1.amazonaws.com/',url),
+SET url = concat('https://storage.yandexcloud.net/bpium-userdata/',url),
 "typeStorage"=’url’;
 UPDATE files
 SET metadata = jsonb_build_object(
      'thumbnail', 
-concat('https://bpium-userdata.s3-eu-west-1.amazonaws.com/',metadata::json->>'thumbnail'),
+concat('https://storage.yandexcloud.net/bpium-userdata/',metadata::json->>'thumbnail'),
         'preview', 
-concat('https://bpium-userdata.s3-eu-west-1.amazonaws.com/',metadata::json->>'preview')
+concat('https://storage.yandexcloud.net/bpium-userdata/',metadata::json->>'preview')
     )
 WHERE metadata is not NULL;
 ```
