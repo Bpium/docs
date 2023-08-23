@@ -39,7 +39,7 @@
 * Исправлена ошибка компонента “Загрузка файла”: в редких случаях не загружался файл
 
 {% hint style="info" %}
-**Скачать дистрибутив** архивом для [Windows](https://download.bpium.ru/builds/1.9.14/bpium-win-v1.11.4.zip) или [Linux](https://download.bpium.ru/builds/1.9.14/bpium-linux-v1.11.4.zip)
+**Скачать дистрибутив** архивом для [Windows](https://download.bpium.ru/builds/1.11.4/bpium-win-v1.11.4.zip) или [Linux](https://download.bpium.ru/builds/1.11.4/bpium-linux-v1.11.4.zip)
 
 **Докер-образы** bpiumdocker/bpium:v1.11.4, bpiumdocker/bpm:v1.11.4, bpiumdocker/s3:v1.11.4
 {% endhint %}
@@ -81,7 +81,7 @@
 * Исправлена ошибка с запуском компонента конвертации «HTML в PDF»
 
 {% hint style="info" %}
-**Скачать дистрибутив** архивом для [Windows](https://download.bpium.ru/builds/1.9.14/bpium-win-v1.10.17.zip) или [Linux](https://download.bpium.ru/builds/1.9.14/bpium-linux-v1.10.17.zip)
+**Скачать дистрибутив** архивом для [Windows](https://download.bpium.ru/builds/1.10.17/bpium-win-v1.10.17.zip) или [Linux](https://download.bpium.ru/builds/1.10.17/bpium-linux-v1.10.17.zip)
 
 **Докер-образы** bpiumdocker/bpium:v1.10.17, bpiumdocker/bpm:v1.10.17, bpiumdocker/s3:v1.10.17
 {% endhint %}
