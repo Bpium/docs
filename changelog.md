@@ -41,7 +41,7 @@
 {% hint style="info" %}
 **Скачать дистрибутив** архивом для [Windows](https://download.bpium.ru/builds/1.11.5/bpium-win-v1.11.5.zip) или [Linux](https://download.bpium.ru/builds/1.11.5/bpium-linux-v1.11.5.zip)
 
-**Докер-образы** bpiumdocker/bpium:v1.11.5, bpiumdocker/bpm:v1.11.5, bpiumdocker/s3:v1.11.4
+**Докер-образы** bpiumdocker/bpium:v1.11.5, bpiumdocker/bpm:v1.11.5, bpiumdocker/s3:v1.11.5
 {% endhint %}
 
 ## v1.10.17 от 28 апреля 2023
