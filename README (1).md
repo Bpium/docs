@@ -4,7 +4,7 @@
 
 ### Позволяет создавать корпоративные информационные системы управления деятельностью
 
-[bpium.ru](http://localhost:5000/u/TJGEgLu5OYYmYyyKG4RS5Lctvuy2)
+[bpium.ru](http://127.0.0.1:5000/u/TJGEgLu5OYYmYyyKG4RS5Lctvuy2)
 
 
 
