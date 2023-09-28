@@ -159,7 +159,8 @@
 
 ## Установка на сервер <a href="#deployment" id="deployment"></a>
 
-* [🧱 Архитектура](deployment/architecture.md)
+* [🧱 Архитектура](deployment/architecture/README.md)
+  * [Варианты разворачивания](deployment/architecture/varianty-razvorachivaniya.md)
 * [🖥 Требования](deployment/requirments.md)
 * [📂 Установка как служба](deployment/service.md)
 * [🛳 Установка через Docker](deployment/docker.md)
