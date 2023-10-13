@@ -39,7 +39,7 @@
 * Исправлена ошибка компонента “Загрузка файла”: в редких случаях не загружался файл
 
 {% hint style="info" %}
-**Скачать дистрибутив** архивом для [Windows ](https://download.bpium.ru/builds/1.11.8/bpium-win-v1.11.8.zip)или [Linux](https://download.bpium.ru/builds/1.11.7/bpium-linux-v1.11.7.zip)
+**Скачать дистрибутив** архивом для [Windows ](https://download.bpium.ru/builds/1.11.8/bpium-win-v1.11.8.zip)или [Linux](https://download.bpium.ru/builds/1.11.8/bpium-linux-v1.11.8.zip)
 
 **Докер-образы** bpiumdocker/bpium:v1.11.8, bpiumdocker/bpm:v1.11.8, bpiumdocker/s3:v1.11.8
 {% endhint %}
