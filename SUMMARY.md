@@ -77,6 +77,7 @@
   * [Раскрашивание записей](manual/vozmozhnosti/raskrashivanie-zapisei.md)
   * [Список компаний](manual/vozmozhnosti/spisok-kompanii.md)
   * [Мультимодальные окна](manual/vozmozhnosti/multimodalnye-okna.md)
+  * [Фильтры на связанные каталоги](manual/vozmozhnosti/filtry-na-svyazannye-katalogi.md)
 
 ## Лицензии <a href="#license" id="license"></a>
 
