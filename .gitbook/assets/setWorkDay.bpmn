@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:process id="Process_1" isExecutable="false">
+    <bpmn:startEvent id="StartEvent_0fjrq1j" name="">
+      <bpmn:outgoing>SequenceFlow_1hi6yod</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:endEvent id="EndEvent_18hoylb" name="">
+      <bpmn:incoming>SequenceFlow_1lj6mam</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0dxn5zg</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_1hi6yod" sourceRef="StartEvent_0fjrq1j" targetRef="ServiceTask_1n3zu43" />
+    <bpmn:serviceTask id="ServiceTask_1n3zu43" name="Ищем ближайшую дату рабочую в производственном календаре">
+      <bpmn:documentation><![CDATA[тип == рабочий
+дата == от текущего дня]]></bpmn:documentation>
+      <bpmn:extensionElements>
+        <camunda:connector>
+          <camunda:connectorId>bpiumFindRecords</camunda:connectorId>
+        </camunda:connector>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="catalogFormat">
+            <camunda:list>
+              <camunda:value type="const">catalog</camunda:value>
+            </camunda:list>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="catalogId">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":"74"}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="catalogIdFromVar">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":""}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="viewId">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":"0"}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="filtersFormat">
+            <camunda:list>
+              <camunda:value type="const">keyvalue</camunda:value>
+            </camunda:list>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="filters">
+            <camunda:map>
+              <camunda:entry key="2">
+                <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":"[\"1\"]"}]]></camunda:script>
+              </camunda:entry>
+              <camunda:entry key="3">
+                <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":"{\n\t\"at\": moment().add(3, 'hours').toISOString(),\n}"}]]></camunda:script>
+              </camunda:entry>
+            </camunda:map>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="filtersJson">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":""}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="sortField">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"const","value":"id"}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="sortType">
+            <camunda:list>
+              <camunda:value type="const">1</camunda:value>
+            </camunda:list>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="fieldsFormat">
+            <camunda:list>
+              <camunda:value type="const">all</camunda:value>
+            </camunda:list>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="fieldsSpecified">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":""}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="limit">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":"1000"}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="offset">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":"0"}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:outputParameter name="foundedWorkTime" configName="output">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"outputResult","value":"output"}]]></camunda:script>
+          </camunda:outputParameter>
+          <camunda:outputParameter name="foundedCount" configName="outputCount">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"outputResult","value":"outputCount"}]]></camunda:script>
+          </camunda:outputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1hi6yod</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1snnjwl</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_1snnjwl" sourceRef="ServiceTask_1n3zu43" targetRef="ExclusiveGateway_1ye5k72" />
+    <bpmn:serviceTask id="ServiceTask_0ijz9a0" name="Подставляем дату рассмотрения в поле даты просмотра обращения">
+      <bpmn:documentation></bpmn:documentation>
+      <bpmn:extensionElements>
+        <camunda:connector>
+          <camunda:connectorId>bpiumEdit</camunda:connectorId>
+        </camunda:connector>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="catalogFormat">
+            <camunda:list>
+              <camunda:value type="const">var</camunda:value>
+            </camunda:list>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="catalogId">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":""}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="catalogIdFromVar">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":"catalogId"}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="recordId">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":"recordId"}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="format">
+            <camunda:list>
+              <camunda:value type="const">keyvalue</camunda:value>
+            </camunda:list>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="values1">
+            <camunda:map>
+              <camunda:entry key="5">
+                <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":"_.get(foundedWorkTime, \"0.values.5\", \"\")"}]]></camunda:script>
+              </camunda:entry>
+            </camunda:map>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="values2">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":""}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:outputParameter name="changedRecord" configName="output">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"outputResult","value":"output"}]]></camunda:script>
+          </camunda:outputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1gch2b2</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1lj6mam</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_1lj6mam" sourceRef="ServiceTask_0ijz9a0" targetRef="EndEvent_18hoylb" />
+    <bpmn:exclusiveGateway id="ExclusiveGateway_1ye5k72" name="Нашли?" default="SequenceFlow_1gch2b2">
+      <bpmn:documentation />
+      <bpmn:extensionElements>
+        <camunda:connector />
+        <camunda:inputOutput />
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1snnjwl</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1gch2b2</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_0dxn5zg</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:sequenceFlow id="SequenceFlow_1gch2b2" sourceRef="ExclusiveGateway_1ye5k72" targetRef="ServiceTask_0ijz9a0" />
+    <bpmn:sequenceFlow id="SequenceFlow_0dxn5zg" sourceRef="ExclusiveGateway_1ye5k72" targetRef="EndEvent_18hoylb">
+      <bpmn:documentation />
+      <bpmn:extensionElements>
+        <camunda:inputOutput />
+      </bpmn:extensionElements>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression" language="JavaScript"><![CDATA[{"type":"script","value":"_.isEmpty(foundedWorkTime)"}]]></bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1">
+      <bpmndi:BPMNShape id="StartEvent_0fjrq1j_di" bpmnElement="StartEvent_0fjrq1j">
+        <dc:Bounds x="98" y="243" width="64" height="64" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="85" y="310" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_18hoylb_di" bpmnElement="EndEvent_18hoylb">
+        <dc:Bounds x="722" y="243" width="64" height="64" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="713" y="310" width="83" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1hi6yod_di" bpmnElement="SequenceFlow_1hi6yod">
+        <di:waypoint xsi:type="dc:Point" x="162" y="275" />
+        <di:waypoint xsi:type="dc:Point" x="248" y="275" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="160" y="253.5" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1n3zu43_di" bpmnElement="ServiceTask_1n3zu43">
+        <dc:Bounds x="247.59254498714654" y="243" width="64" height="64" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="240" y="310" width="89" height="62" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1snnjwl_di" bpmnElement="SequenceFlow_1snnjwl">
+        <di:waypoint xsi:type="dc:Point" x="312" y="275" />
+        <di:waypoint xsi:type="dc:Point" x="403" y="275" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="357.5" y="253.5" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0ijz9a0_di" bpmnElement="ServiceTask_0ijz9a0">
+        <dc:Bounds x="571.7622107969152" y="243" width="64" height="64" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="566" y="310" width="82" height="74" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1lj6mam_di" bpmnElement="SequenceFlow_1lj6mam">
+        <di:waypoint xsi:type="dc:Point" x="636" y="275" />
+        <di:waypoint xsi:type="dc:Point" x="722" y="275" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="679" y="253.5" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ExclusiveGateway_1ye5k72_di" bpmnElement="ExclusiveGateway_1ye5k72" isMarkerVisible="true">
+        <dc:Bounds x="403.16580976863753" y="243" width="64" height="64" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="416" y="304" width="43" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1gch2b2_di" bpmnElement="SequenceFlow_1gch2b2">
+        <di:waypoint xsi:type="dc:Point" x="467" y="275" />
+        <di:waypoint xsi:type="dc:Point" x="572" y="275" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="519.5" y="253.5" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0dxn5zg_di" bpmnElement="SequenceFlow_0dxn5zg">
+        <di:waypoint xsi:type="dc:Point" x="435" y="243" />
+        <di:waypoint xsi:type="dc:Point" x="435" y="152" />
+        <di:waypoint xsi:type="dc:Point" x="754" y="152" />
+        <di:waypoint xsi:type="dc:Point" x="754" y="243" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="594.5" y="130.5" width="0" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

@@ -110,6 +110,7 @@
   * [Генерация excel-отчетов](cases/automations/generate-reports.md)
   * [Планировщик задач](cases/automations/planirovshik-zadach.md)
   * [Импорт банковских выписок](cases/automations/import-bank-reports.md)
+  * [Производственный календарь](cases/automations/proizvodstvennyi-kalendar.md)
 
 ## Интеграции <a href="#integrations" id="integrations"></a>
 
