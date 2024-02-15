@@ -65,6 +65,7 @@
       * [Получение почты](manual/processes/scripts/components/poluchenie-pochty.md)
       * [Отправка почты](processes/components/email-send.md)
       * [Соединяющая линия](processes/components/connection.md)
+      * [Отправить сообщение](manual/processes/scripts/components/otpravit-soobshenie.md)
     * [Переменные](processes/variables.md)
     * [Выражения](processes/expressions.md)
     * [Входные и выходные параметры компонентов](manual/processes/scripts/input-parameters.md)
