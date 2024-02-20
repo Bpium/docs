@@ -219,3 +219,12 @@
 ![](.gitbook/assets/18-screenshot.png)
 
 Вариант прогресса в виде звёзд от 0 до 5. Подходит для отображения оценок. Не имеет параметров.
+
+
+
+### Кнопка
+
+<figure><img src=".gitbook/assets/btn (2).jpg" alt=""><figcaption></figcaption></figure>
+
+Кнопка для инициации события. Кнопка становится активной при создании события типа [«Изменено поле во время редактирования»](https://docs.bpium.ru/manual/processes/events/datachanged#izmeneno-pole-vo-vremya-redaktirovaniya-updating), отслеживающее изменение в поле в котором находится кнопка .Не имеет параметров.
+
