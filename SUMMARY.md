@@ -6,7 +6,7 @@
 
 ## Документация <a href="#manual" id="manual"></a>
 
-* [🏗 Конструктор данных](structure.md)
+* [🏗️ Конструктор данных](structure.md)
   * [Отделы](sections.md)
   * [Каталоги](catalogs.md)
     * [Редактирование структуры](catalog-edit.md)
@@ -73,7 +73,7 @@
       * [Условие](processes/samples/if.md)
       * [Цикл](processes/samples/for.md)
   * [Ограничения](processes/limits.md)
-* [🛠 Возможности](manual/vozmozhnosti/README.md)
+* [🛠️ Возможности](manual/vozmozhnosti/README.md)
   * [Массовое изменение записей](manual/vozmozhnosti/massovoe-izmenenie-zapisei.md)
   * [Раскрашивание записей](manual/vozmozhnosti/raskrashivanie-zapisei.md)
   * [Список компаний](manual/vozmozhnosti/spisok-kompanii.md)
@@ -86,7 +86,7 @@
 
 ## Примеры <a href="#cases" id="cases"></a>
 
-* [⚙ Готовые системы](cases/gotovye-sistemy/README.md)
+* [⚙️ Готовые системы](cases/gotovye-sistemy/README.md)
   * [Складской учет](cases/gotovye-sistemy/skladskoi-uchet.md)
 * [🔑 Права доступа к данным](cases/rights.md)
 * [🤖 Автоматизации](cases/automations/README.md)
@@ -164,10 +164,10 @@
 
 * [🧱 Архитектура](deployment/architecture/README.md)
   * [Варианты разворачивания](deployment/architecture/varianty-razvorachivaniya.md)
-* [🖥 Требования](deployment/requirments.md)
+* [🖥️ Требования](deployment/requirments.md)
 * [📂 Установка как служба](deployment/service.md)
-* [🛳 Установка через Docker](deployment/docker.md)
-* [🎛 Мультидоменная среда](deployment/multidomennaya-sreda.md)
+* [🛳️ Установка через Docker](deployment/docker.md)
+* [🎛️ Мультидоменная среда](deployment/multidomennaya-sreda.md)
 * [🆘 Материалы](deployment/extra/README.md)
   * [TLS/SSL Сертификат](deployment/extra/tls-ssl-sertifikat.md)
   * [Параметры config.env](deployment/extra/parametry-config.env/README.md)
