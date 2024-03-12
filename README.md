@@ -18,11 +18,11 @@ description: >-
 
 На любой странице сайта есть виджет чата, в который можно написать вопрос. Нажмите на кнопку, показанную на скрине:
 
-<figure><img src=".gitbook/assets/чатра.jpg" alt=""><figcaption><p>виджет Чатры</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Чатра.png" alt=""><figcaption><p>Виджет чата на сайте</p></figcaption></figure>
 
 Перед вами откроется чат с нашим менеджером поддержки. Опишите суть вашей проблемы и вам ответят в течение 2-4 часов.
 
-<figure><img src=".gitbook/assets/Screenshot_3.jpg" alt=""><figcaption><p>окно чатры</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Чатра (1).png" alt="" width="284"><figcaption><p>Окно чата на сайте</p></figcaption></figure>
 
 ### Внутри Бипиума
 
@@ -30,12 +30,12 @@ description: >-
 
 Где находится кнопка показано на скриншоте:
 
-<figure><img src=".gitbook/assets/чатра внутри Бипиума.jpg" alt=""><figcaption><p>чатра внутри Бипиума</p></figcaption></figure>
+<figure><img src=".gitbook/assets/чатра внутри Бипиума.jpg" alt=""><figcaption><p>Кнопка чата внутри Бипиума</p></figcaption></figure>
 
 В открывшемся окне опишите суть проблемы и задайте конкретный вопрос.
 
-<figure><img src=".gitbook/assets/окно чатры.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/окно чатры.jpg" alt="" width="290"><figcaption><p>Окно чата внутри Бипиума</p></figcaption></figure>
 
 ### Почта техподдержки
 
-Напишите на [support@bpium.ru](mailto:support@bpium.ru) и опишите ваш запрос. Можете прикрепить скрины или видео, чтобы наш специалист быстрее разобрался в вопросе и решил вашу задачу. Время ответа 2-4 часа.
+Напишите на [support@bpium.ru](mailto:support@bpium.ru) и опишите ваш запрос. Можете прикрепить скрины или видео, чтобы наш специалист быстрее разобрался в вопросе и решил вашу задачу. Время ответа: 4 рабочих часа. Время работы: по будням с 10:00 до 18:00 по московскому времени.
