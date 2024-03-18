@@ -6,6 +6,10 @@
 
 ## Документация <a href="#manual" id="manual"></a>
 
+* [С чего начать](manual/s-chego-nachat/README.md)
+  * [Регистрация и вход](manual/s-chego-nachat/registraciya-i-vkhod.md)
+  * [Создаем каталоги и записи](manual/s-chego-nachat/sozdaem-katalogi-i-zapisi.md)
+  * [Формируем отчёты](manual/s-chego-nachat/formiruem-otchyoty.md)
 * [🏗️ Конструктор данных](structure.md)
   * [Отделы](sections.md)
   * [Каталоги](catalogs.md)
