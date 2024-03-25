@@ -10,6 +10,7 @@
   * [Создаем каталоги и записи](manual/s-chego-nachat/sozdaem-katalogi-i-zapisi.md)
   * [Формируем отчёты](manual/s-chego-nachat/formiruem-otchyoty.md)
   * [Настраиваем правовую политику](manual/s-chego-nachat/nastraivaem-pravovuyu-politiku.md)
+  * [Применяем автоматизации](manual/s-chego-nachat/primenyaem-avtomatizacii.md)
 * [🏗️ Конструктор данных](structure.md)
   * [Отделы](sections.md)
   * [Каталоги](catalogs.md)

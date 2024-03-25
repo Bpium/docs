@@ -66,7 +66,7 @@ layout:
 &#x20;   Ивану - привилегию "Видеть все записи"\
 Сохраняем заданные правила.
 
-<figure><img src="../../.gitbook/assets/7 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7 (1).png" alt="" width="548"><figcaption></figcaption></figure>
 
 На скриншотах ниже примеры того, что видит каждый сотрудник под своей учетной записью:
 
