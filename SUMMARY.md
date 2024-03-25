@@ -2,7 +2,6 @@
 
 * [😎 Отвечаем на ваши вопросы](README.md)
 * [🎂 Версии и обновления](changelog.md)
-* [Бипиум](<README (1).md>)
 
 ## Документация <a href="#manual" id="manual"></a>
 
@@ -78,12 +77,6 @@
       * [Условие](processes/samples/if.md)
       * [Цикл](processes/samples/for.md)
   * [Ограничения](processes/limits.md)
-* [🛠️ Возможности](manual/vozmozhnosti/README.md)
-  * [Массовое изменение записей](manual/vozmozhnosti/massovoe-izmenenie-zapisei.md)
-  * [Раскрашивание записей](manual/vozmozhnosti/raskrashivanie-zapisei.md)
-  * [Список компаний](manual/vozmozhnosti/spisok-kompanii.md)
-  * [Мультимодальные окна](manual/vozmozhnosti/multimodalnye-okna.md)
-  * [Фильтры на связанные каталоги](manual/vozmozhnosti/filtry-na-svyazannye-katalogi.md)
 
 ## Лицензии <a href="#license" id="license"></a>
 
