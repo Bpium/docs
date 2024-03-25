@@ -124,7 +124,7 @@
 
 Сценарий выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/6 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
@@ -142,7 +142,7 @@
 
 Сценарий выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/7 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7 (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
@@ -163,7 +163,7 @@
 
 Сценарий обновления предыдущих записей выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/8 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8 (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
@@ -216,7 +216,7 @@
 
 Если правила сопоставления каталогов верны, то сценарий изменит созданную ранее запись в каталоге «‎События»:
 
-<figure><img src="../../.gitbook/assets/14 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/14 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 При изменении записи в целевом каталоге, значения полей будут переброшены в связанный каталог:
 

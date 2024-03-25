@@ -10,6 +10,7 @@
   * [Регистрация и вход](manual/s-chego-nachat/registraciya-i-vkhod.md)
   * [Создаем каталоги и записи](manual/s-chego-nachat/sozdaem-katalogi-i-zapisi.md)
   * [Формируем отчёты](manual/s-chego-nachat/formiruem-otchyoty.md)
+  * [Настраиваем правовую политику](manual/s-chego-nachat/nastraivaem-pravovuyu-politiku.md)
 * [🏗️ Конструктор данных](structure.md)
   * [Отделы](sections.md)
   * [Каталоги](catalogs.md)
@@ -90,8 +91,6 @@
 
 ## Примеры <a href="#cases" id="cases"></a>
 
-* [⚙️ Готовые системы](cases/gotovye-sistemy/README.md)
-  * [Складской учет](cases/gotovye-sistemy/skladskoi-uchet.md)
 * [🔑 Права доступа к данным](cases/rights.md)
 * [🤖 Автоматизации](cases/automations/README.md)
   * [Выгрузка файлов на Яндекс Диск](cases/automations/vygruzka-failov-na-yandeks-disk.md)
@@ -115,6 +114,7 @@
   * [Планировщик задач](cases/automations/planirovshik-zadach.md)
   * [Импорт банковских выписок](cases/automations/import-bank-reports.md)
   * [Производственный календарь](cases/automations/proizvodstvennyi-kalendar.md)
+  * [Складской учет](cases/automations/skladskoi-uchet.md)
 
 ## Интеграции <a href="#integrations" id="integrations"></a>
 

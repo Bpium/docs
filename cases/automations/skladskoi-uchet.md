@@ -38,7 +38,7 @@
 
 Создайте каталог «Склад». В этом каталоге фиксируется остаток товаров на складе. Пример структуры каталога:
 
-<figure><img src="../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 * **Наименование** (текст)\
   Описание: Наименование товара в складе. Будет автоматически сгенерировано сценарием.\
@@ -56,7 +56,7 @@
 
 Создайте каталог «Товары и количество». Это служебный каталог, который содержит в своей записи товар и его количество. Записи в этом каталоге создаются через каталог «Операции с товарами». Заполните структуру каталога следующим образом:
 
-<figure><img src="../../.gitbook/assets/3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Наименование** (текст)\
   Описание:  Наименование записи. Будет автоматически сгенерировано сценарием.\
@@ -132,7 +132,7 @@
 
 Сценарий генерации наименования в каталоге «Склад» выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
@@ -171,7 +171,7 @@
 
 В «Событиях» создайте новую запись и заполните ее следующим образом:
 
-<figure><img src="../../.gitbook/assets/9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/9 (3).png" alt=""><figcaption></figcaption></figure>
 
 В качестве сценария загрузите [сценарий генерации наименования в каталоге «Операции с товарами»](https://drive.google.com/file/d/1rgyRvM8gcnjQwNiY-VYa1TH3OhyYvgIQ/view?usp=sharing).
 
@@ -198,7 +198,7 @@
 
 Сценарий списания/пополнения товара на складе выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/12.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/12 (2).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
@@ -218,7 +218,7 @@
 
 В каталоге «События» создайте новую запись и заполните ее следующим образом:
 
-<figure><img src="../../.gitbook/assets/13.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/13 (2).png" alt=""><figcaption></figcaption></figure>
 
 Это событие отслеживает сохранение записи в каталоге «Операции с товарами». Сценарий запускается при изменении поля с товарами. В качестве сценария загрузите [сценарий запрета на повторное проведение операции](https://drive.google.com/file/d/1TN87rA-tksCFLq3uLo8v\_7RT9Kvjx4Z9/view?usp=sharing).
 

@@ -32,7 +32,7 @@
 
 После указания статуса «Оплачено» оплата считается совершенной и никто, включая ответственного, не может редактировать запись. То же самое происходит при статусе оплаты «Отказ»:
 
-<figure><img src="../../.gitbook/assets/23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/23 (1).png" alt=""><figcaption></figcaption></figure>
 
 Если сумма заявки на оплату меньше 100 000, то этап согласования минуется и оплата создается сразу. Остальные этапы аналогичны этапам выше. При необходимости, вы можете убрать это ограничение и согласовывать каждую оплату (или изменить его величину).
 
@@ -127,11 +127,11 @@
 
 Создайте событие для запуска сценария «[Проверка необходимости согласования оплаты](https://drive.google.com/file/d/1YKeADBq-OThJaxapTalZfxWjL7mDcCN6/view?usp=sharing)».
 
-<figure><img src="../../.gitbook/assets/4 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий проверки необходимости согласования выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий проверяет сумму оплаты, и, если она свыше 100000, то проставляет статус согласования оплаты.
 
@@ -155,7 +155,7 @@
 
 Сценарий создания оплаты по заявке выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7 (2).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий создает оплаты, основанный на заявке, по условиям и проставляет соответствующий статус.
 
@@ -194,11 +194,11 @@
 
 Создайте событие для запуска сценария «[Письмо ответственному при создании оплаты](https://drive.google.com/file/d/1v5KpPAbC7IGcjIYa\_db9B8k8pcDgqwPj/view?usp=sharing)».
 
-<figure><img src="../../.gitbook/assets/8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8 (4).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий отправки письма ответственному при создании оплаты выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/9 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/9 (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий проверяет наличие ошибок при заполнении в записи. В случае правильного заполнения отправляется письмо ответственному по оплате на почту. По завершению выполнения проверок и отправки проставляется статус оплаты.
 
@@ -226,11 +226,11 @@
 
 Создайте событие для запуска сценария «[Запрет на понижение статуса оплаты](https://drive.google.com/file/d/13D07XNAwmy74NjuRZk\_62Fsv9JyV693-/view?usp=sharing)».
 
-<figure><img src="../../.gitbook/assets/10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10 (3).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий запрета на понижение статуса оплаты выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/11 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/11 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий проверяет понизили ли статус, в случае понижения возвращает предыдущий статус.
 
@@ -253,13 +253,13 @@
 
 &#x20;Сотрудникам (группе сотрудников) выдайте право видеть все записи:
 
-<figure><img src="../../.gitbook/assets/13 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/13 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Настройка доступа к виду «Запрет редактирования записей»**
 
 Данный вид запрещает редактировать заявки, по которым уже создана оплата. Сотрудникам (группе сотрудников) выдайте право видеть все записи:
 
-<figure><img src="../../.gitbook/assets/14.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/14 (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Настройка доступа к виду «Согласование оплат»**
 
@@ -278,7 +278,7 @@
 
 Сотрудникам (группе сотрудников) выдайте право видеть все записи
 
-<figure><img src="../../.gitbook/assets/16 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/16 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Настройка доступа к виду «Ответственный может менять статус оплаты»**
 
@@ -291,7 +291,7 @@
 
 Сотрудникам (группе сотрудников) выдайте право видеть все записи и настройте поле «Статус» - изменять.
 
-<figure><img src="../../.gitbook/assets/17 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/17 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Настройка доступа к виду «Создатель может редактировать свои новые записи»**
 
@@ -305,7 +305,7 @@
 
 Сотрудникам (группе сотрудников) выдайте право изменять все записи.
 
-<figure><img src="../../.gitbook/assets/18.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/18 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **5. Тестирование**
 
@@ -327,5 +327,5 @@
 
 У ответственного есть права на редактирование статуса оплаты. После оплаты ответственный указывает статус «Оплачено», после чего запись никто не может редактировать.
 
-<figure><img src="../../.gitbook/assets/23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/23 (1).png" alt=""><figcaption></figcaption></figure>
 

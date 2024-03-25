@@ -233,7 +233,7 @@ attachments: [
 
 * В окне создания пароля укажите приложение «Бипиум» и нажмите «Создать»:
 
-<figure><img src="../../../../.gitbook/assets/8 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/8 (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 * Сохраните созданный пароль приложения и используйте его в качестве пароля в компоненте «Получение почты»:
 
