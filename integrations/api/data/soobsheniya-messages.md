@@ -161,6 +161,14 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/chatOptions/{record
 
 * `catalogId` (number) — идентификатор каталога
 * `recordId` (number) - идентификатор записи
+
+Запрос: (application/json)
+
+```
+{
+  "subscribe": true
+}
+```
 {% endtab %}
 
 {% tab title="Ответ" %}
