@@ -144,6 +144,7 @@
     * [Файлы (Files)](api-files.md)
     * [Отделы (Sections)](api-sections.md)
     * [Виды (Views)](api-views.md)
+    * [Сообщения (Messages)](integrations/api/data/soobsheniya-messages.md)
   * [Агрегация](integrations/api/agregate/README.md)
     * [Разложения (Values)](integrations/api/agregate/values.md)
     * [Сводка (Totals)](integrations/api/agregate/totals.md)
