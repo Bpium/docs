@@ -182,3 +182,9 @@
     * [Удаление](deployment/extra/obsuzhivanie/udalenie.md)
   * [Перенос базы из облака](deployment/extra/perenos-bazy-iz-oblaka.md)
   * [Возможные проблемы в ходе установки и работы](deployment/extra/vozmozhnye-problemy-v-khode-ustanovki-i-raboty.md)
+
+## Обучение <a href="#learn" id="learn"></a>
+
+* [Базовый курс](learn/bazovyi-kurs.md)
+* [Технический курс](learn/tekhnicheskii-kurs.md)
+* [Подходы при проектировании ИС](learn/podkhody-pri-proektirovanii-is.md)
