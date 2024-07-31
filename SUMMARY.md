@@ -208,3 +208,4 @@
   * [Урок 9. Отправка данных на сторонние сервисы](learn/tekhnicheskii-kurs/urok-9.-otpravka-dannykh-na-storonnie-servisy.md)
 * [Паттерны проектирования ИС](learn/patterny-proektirovaniya-is/README.md)
   * [Унификация](learn/patterny-proektirovaniya-is/unifikaciya.md)
+  * [Упорядоченность](learn/patterny-proektirovaniya-is/uporyadochennost.md)

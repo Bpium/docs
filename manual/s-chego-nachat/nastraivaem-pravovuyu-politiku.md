@@ -31,7 +31,7 @@ layout:
 
 В первую очередь мы должны настроить права доступа к самому верхнему уровню - Отделу.
 
-<figure><img src="../../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Переходим в нужный отдел (Компания)
 2. В левом нижнем углу нажимаем "Свойства отдела"
