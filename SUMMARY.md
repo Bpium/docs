@@ -185,6 +185,16 @@
 
 ## Обучение <a href="#learn" id="learn"></a>
 
-* [Базовый курс](learn/bazovyi-kurs.md)
+* [Базовый курс](learn/bazovyi-kurs/README.md)
+  * [Урок 1. Отделы](learn/bazovyi-kurs/urok-1.-otdely.md)
+  * [Урок 2. Каталоги с данными](learn/bazovyi-kurs/urok-2.-katalogi-s-dannymi.md)
+  * [Урок 3. Карточки записей](learn/bazovyi-kurs/urok-3.-kartochki-zapisei.md)
+  * [Урок 4. Связи между данными](learn/bazovyi-kurs/urok-4.-svyazi-mezhdu-dannymi.md)
+  * [Урок 5. Фильтры и виды](learn/bazovyi-kurs/urok-5.-filtry-i-vidy.md)
+  * [Урок 6. Приглашение сотрудников](learn/bazovyi-kurs/urok-6.-priglashenie-sotrudnikov.md)
+  * [Урок 7. Права доступа к данным](learn/bazovyi-kurs/urok-7.-prava-dostupa-k-dannym.md)
+  * [Урок 8. Графические отчеты](learn/bazovyi-kurs/urok-8.-graficheskie-otchety.md)
+  * [Урок 9. Бизнес-процессы](learn/bazovyi-kurs/urok-9.-biznes-processy.md)
+  * [Урок 10. Интеграции](learn/bazovyi-kurs/urok-10.-integracii.md)
 * [Технический курс](learn/tekhnicheskii-kurs.md)
 * [Подходы при проектировании ИС](learn/podkhody-pri-proektirovanii-is.md)
