@@ -206,4 +206,5 @@
   * [Урок 7. Рассылка почтовых сообщений](learn/tekhnicheskii-kurs/urok-7.-rassylka-pochtovykh-soobshenii.md)
   * [Урок 8. Прием внешних данных](learn/tekhnicheskii-kurs/urok-8.-priem-vneshnikh-dannykh.md)
   * [Урок 9. Отправка данных на сторонние сервисы](learn/tekhnicheskii-kurs/urok-9.-otpravka-dannykh-na-storonnie-servisy.md)
-* [Подходы при проектировании ИС](learn/podkhody-pri-proektirovanii-is.md)
+* [Паттерны проектирования ИС](learn/patterny-proektirovaniya-is/README.md)
+  * [Унификация](learn/patterny-proektirovaniya-is/unifikaciya.md)
