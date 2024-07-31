@@ -31,12 +31,12 @@ layout:
 
 ### Оглавление
 
-* [**Урок 1.** Принцип работы автоматизаций](https://bpium.ru/learn-scripts/lesson-1)
-* [**Урок 2.** Первая автоматизация изнутри](https://bpium.ru/learn-scripts/lesson-2)
-* [**Урок 3.** Валидация данных](https://bpium.ru/learn-scripts/lesson-3)
-* [**Урок 4.** Простые вычисления](https://bpium.ru/learn-scripts/lesson-4)
-* [**Урок 5.** Расчет суммы заказа](https://bpium.ru/learn-scripts/lesson-5)
-* [**Урок 6.** Генерация документа](https://bpium.ru/learn-scripts/lesson-6)
-* [**Урок 7.** Рассылка email-сообщений](https://bpium.ru/learn-scripts/lesson-7)
-* [**Урок 8.** Прием данных из вне](https://bpium.ru/learn-scripts/lesson-8)
-* [**Урок 9.** Отправка данных в сторонние сервисы](https://bpium.ru/learn-scripts/lesson-9)
+* [**Урок 1.** Принцип работы автоматизаций](urok-1.-princip-raboty-avtomatizacii.md)
+* [**Урок 2.** Первая автоматизация изнутри](urok-2.-pervaya-avtomatizaciya-iznutri.md)
+* [**Урок 3.** Валидация данных](urok-3.-validaciya-dannykh.md)
+* [**Урок 4.** Простые вычисления](urok-4.-prostye-vychisleniya.md)
+* [**Урок 5.** Расчет суммы заказа](urok-5.-raschet-summy-zakaza.md)
+* [**Урок 6.** Генерация документа](urok-6.-generaciya-schetov-dokumentov.md)
+* [**Урок 7.** Рассылка email-сообщений](urok-7.-rassylka-pochtovykh-soobshenii.md)
+* [**Урок 8.** Прием данных из вне](urok-8.-priem-vneshnikh-dannykh.md)
+* [**Урок 9.** Отправка данных в сторонние сервисы](urok-9.-otpravka-dannykh-na-storonnie-servisy.md)
