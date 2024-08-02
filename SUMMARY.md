@@ -211,3 +211,4 @@
   * [Упорядоченность](learn/patterny-proektirovaniya-is/uporyadochennost.md)
   * [Разделение](learn/patterny-proektirovaniya-is/razdelenie.md)
   * [Актуализация](learn/patterny-proektirovaniya-is/aktualizaciya.md)
+  * [Вынос параметров](learn/patterny-proektirovaniya-is/vynos-parametrov.md)
