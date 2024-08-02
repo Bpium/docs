@@ -210,3 +210,4 @@
   * [Унификация](learn/patterny-proektirovaniya-is/unifikaciya.md)
   * [Упорядоченность](learn/patterny-proektirovaniya-is/uporyadochennost.md)
   * [Разделение](learn/patterny-proektirovaniya-is/razdelenie.md)
+  * [Актуализация](learn/patterny-proektirovaniya-is/aktualizaciya.md)
