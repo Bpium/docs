@@ -1,8 +1,8 @@
 # 🎂 Версии и обновления
 
-## v1.13.2 от 18 июля 2024
+## v1.13.3 от 18 июля 2024
 
-Версия API: 1.13.2\
+Версия API: 1.13.3\
 Версия веб-приложения: 1.16.0\
 Версия сервера процессов: 1.9.41\
 \
@@ -41,7 +41,7 @@
 {% hint style="info" %}
 **Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/1.13.2/bpium-win-v1.13.2.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/1.13.2/bpium-linux-v1.13.2.zip)
 
-**Докер-образы** bpiumdocker/bpium:v1.13.2, bpiumdocker/bpm:v1.13.2, bpiumdocker/s3:v1.13.2
+**Докер-образы** bpiumdocker/bpium:v1.13.3, bpiumdocker/bpm:v1.13.2, bpiumdocker/s3:v1.13.3
 {% endhint %}
 
 ## v1.12.7 от 2 апреля 2024
