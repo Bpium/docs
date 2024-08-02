@@ -209,3 +209,4 @@
 * [Паттерны проектирования ИС](learn/patterny-proektirovaniya-is/README.md)
   * [Унификация](learn/patterny-proektirovaniya-is/unifikaciya.md)
   * [Упорядоченность](learn/patterny-proektirovaniya-is/uporyadochennost.md)
+  * [Разделение](learn/patterny-proektirovaniya-is/razdelenie.md)
