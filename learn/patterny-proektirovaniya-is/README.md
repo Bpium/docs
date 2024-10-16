@@ -13,12 +13,12 @@
 * [Унификация](unifikaciya.md)
 * [Упорядоченность](uporyadochennost.md)
 * [Разделение](razdelenie.md)
-* Слияние
-* Дублирование
+* [Слияние](sliyanie.md)
+* [Дублирование](dublirovanie.md)
 * Типизация
 * Централизация
 * [Актуализация](aktualizaciya.md)
 * [Вынос параметров](vynos-parametrov.md)
 * Вынос логики
-* Выделение позиций
+* [Выделение позиций](vydelenie-pozicii.md)
 * Информирование

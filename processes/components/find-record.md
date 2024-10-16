@@ -154,6 +154,48 @@ data: {
 * **Прогресс** = `28`(допустимо от 0 до 100)
 * **Звезды** = `5` (допустимо от 0 до 5)
 * **Контакт** = массив объектов: `[ {"contact": "8-901-234-56-78", comment: "Секретарь"}, {...} ]`
+* **Адрес** = объект предоставляемый из DaData
+
+```json
+{
+            "value": "г Москва, Кремлевская наб",
+            "provider": "dadata",
+            "data": {
+                "flat_type": null,
+                "house": null,
+                "city_kladr_id": "7700000000000",
+                "postal_code": null,
+                "area_with_type": null,
+                "settlement_kladr_id": null,
+                "street": "Кремлевская",
+                "fias_id": "ede88e7f-8788-4851-a4d8-ff6d748f9bfe",
+                "house_fias_id": null,
+                "street_kladr_id": "77000000000160300",
+                "region_with_type": "г Москва",
+                "street_fias_id": "ede88e7f-8788-4851-a4d8-ff6d748f9bfe",
+                "city": "Москва",
+                "house_kladr_id": null,
+                "kladr_id": "77000000000160300",
+                "block_type": null,
+                "block": null,
+                "settlement_fias_id": null,
+                "city_fias_id": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+                "geo_lat": "55.748711",
+                "area_fias_id": null,
+                "country": "Россия",
+                "region_kladr_id": "7700000000000",
+                "street_with_type": "Кремлевская наб",
+                "house_type": null,
+                "flat": null,
+                "region_fias_id": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+                "geo_lon": "37.61697",
+                "settlement_with_type": null,
+                "area_kladr_id": null,
+                "city_with_type": "г Москва"
+            }
+        }
+```
+
 * **Связанная запись** = массив объектов:`[ {catalogId: '11',recordId: '91', catalogTitle: 'Название каталога', recordTitle: 'Название записи', isRemoved: false}, {...} ]`
 * **Сотрудник** = массив объектов:\
   `[{id: '21', title: 'Имя', isRemoved: false}, {...}]`

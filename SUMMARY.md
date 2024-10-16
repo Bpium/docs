@@ -212,3 +212,8 @@
   * [Разделение](learn/patterny-proektirovaniya-is/razdelenie.md)
   * [Актуализация](learn/patterny-proektirovaniya-is/aktualizaciya.md)
   * [Вынос параметров](learn/patterny-proektirovaniya-is/vynos-parametrov.md)
+  * [Выделение позиций](learn/patterny-proektirovaniya-is/vydelenie-pozicii.md)
+  * [Слияние](learn/patterny-proektirovaniya-is/sliyanie.md)
+  * [Дублирование](learn/patterny-proektirovaniya-is/dublirovanie.md)
+  * [Типизация](learn/patterny-proektirovaniya-is/tipizaciya.md)
+  * [Информирование](learn/patterny-proektirovaniya-is/informirovanie.md)
