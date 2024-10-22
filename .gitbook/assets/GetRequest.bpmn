@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:process id="Process_1" isExecutable="false">
+    <bpmn:startEvent id="StartEvent_0fjrq1j" name="">
+      <bpmn:documentation />
+      <bpmn:extensionElements>
+        <camunda:inputOutput />
+      </bpmn:extensionElements>
+      <bpmn:outgoing>SequenceFlow_1hi6yod</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:endEvent id="EndEvent_18hoylb" name="">
+      <bpmn:documentation />
+      <bpmn:extensionElements>
+        <camunda:inputOutput />
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_19r8yle</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_094hiqo</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_1yirjd6</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_1hi6yod" sourceRef="StartEvent_0fjrq1j" targetRef="ServiceTask_0hd9rp6" />
+    <bpmn:serviceTask id="ServiceTask_0hd9rp6" name="УКАЖИТЕ ID КАТАЛОГА">
+      <bpmn:documentation />
+      <bpmn:extensionElements>
+        <camunda:connector>
+          <camunda:connectorId>setvar</camunda:connectorId>
+        </camunda:connector>
+        <camunda:inputOutput>
+          <camunda:outputParameter name="catalogId" configName="vars">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":"'286'"}]]></camunda:script>
+          </camunda:outputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1hi6yod</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_10yvdo9</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_10yvdo9" sourceRef="ServiceTask_0hd9rp6" targetRef="ServiceTask_056t521" />
+    <bpmn:serviceTask id="ServiceTask_056t521" name="Структура каталога">
+      <bpmn:documentation />
+      <bpmn:extensionElements>
+        <camunda:connector>
+          <camunda:connectorId>bpiumGetCatalog</camunda:connectorId>
+        </camunda:connector>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="catalogFormat">
+            <camunda:list>
+              <camunda:value type="const">var</camunda:value>
+            </camunda:list>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="catalogId">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":""}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="catalogIdFromVar">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":"catalogId"}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:outputParameter name="catalogStruct" configName="output">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"outputResult","value":"output"}]]></camunda:script>
+          </camunda:outputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_10yvdo9</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0t3bzj5</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0t3bzj5" sourceRef="ServiceTask_056t521" targetRef="ServiceTask_0eeguyf" />
+    <bpmn:serviceTask id="ServiceTask_0eeguyf" name="Парсим данные">
+      <bpmn:documentation />
+      <bpmn:extensionElements>
+        <camunda:connector>
+          <camunda:connectorId>code</camunda:connectorId>
+        </camunda:connector>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="variables">
+            <camunda:map>
+              <camunda:entry key="body">
+                <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":"body"}]]></camunda:script>
+              </camunda:entry>
+              <camunda:entry key="catalogStruct">
+                <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":"catalogStruct"}]]></camunda:script>
+              </camunda:entry>
+            </camunda:map>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="source">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"const","value":"\r\nfunction formatValue( field, value ){\r\n    switch ( field.type ){\r\n        case 'text': \r\n            return value\r\n        case 'contact':\r\n            return [ { contact: value, comment: '' } ]\r\n        case 'number': \r\n            return Number( value )\r\n        case 'radiobutton':\r\n            let rbValue = _.find( field.config.items, r => r.name == value )\r\n            if( rbValue != null ){\r\n                return rbValue.id\r\n            } else {\r\n                return null\r\n            }\r\n        case 'checkboxes':\r\n        case 'dropdown':\r\n            let chbValue = []\r\n            let values = value.split( '; ' )\r\n            for( let value of values ){\r\n                let temp = _.find( field.config.items, r => r.name == value )\r\n                if( temp != null ){\r\n                    chbValue.push( temp.id )\r\n                }\r\n            }\r\n            return chbValue\r\n        case 'switch':\r\n            if( value == 'yes' ){\r\n                return true \r\n            } else {\r\n                return false\r\n            }\r\n        case 'date':\r\n            if( value.split( '-' ).length == 3 ){\r\n                if( value[ 2 ] == '-' ){\r\n                    return moment( value, 'DD-MM-YYYY' ).set( 'hour', 11 ).toISOString()\r\n                } else {\r\n                    return moment( value, 'YYYY-MM-DD' ).set( 'hour', 11 ).toISOString()\r\n                }\r\n            }\r\n            if( value.split( '/' ).length == 3 ){\r\n                if( value[ 2 ] == '/' ){\r\n                    return moment( value, 'DD-MM-YYYY' ).set( 'hour', 11 ).toISOString()\r\n                } else {\r\n                    return moment( value, 'YYYY-MM-DD' ).set( 'hour', 11 ).toISOString()\r\n                }\r\n            }\r\n            if( value.split( '.' ).length == 3 ){\r\n                if( value[ 2 ] == '.' ){\r\n                    return moment( value, 'DD-MM-YYYY' ).set( 'hour', 11 ).toISOString()\r\n                } else {\r\n                    return moment( value, 'YYYY-MM-DD' ).set( 'hour', 11 ).toISOString()\r\n                }\r\n            }\r\n            return null\r\n        default :\r\n            return null\r\n    }\r\n}\r\n\r\nlet values = {}\r\n\r\nfor( let key in body ){\r\n    // служебная информация, не обрабатываем\r\n    if( key == 'tranid' || key == 'formid' ){\r\n        continue\r\n    }\r\n    // ищем нужное поле\r\n    let field = _.find( catalogStruct.fields, r => r.comment == key )\r\n    // если нашли, форматируем значение и записываем\r\n    if( field != null ){\r\n        values[ field.id ] = formatValue( field, body[ key ] )\r\n    }\r\n}\r\n\r\nreturn values"}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:outputParameter name="result" configName="output">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"outputResult","value":"output"}]]></camunda:script>
+          </camunda:outputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0t3bzj5</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1mtv2xq</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_1mtv2xq" sourceRef="ServiceTask_0eeguyf" targetRef="ServiceTask_17xhb61" />
+    <bpmn:serviceTask id="ServiceTask_17xhb61" name="Создать запись">
+      <bpmn:documentation />
+      <bpmn:extensionElements>
+        <camunda:connector>
+          <camunda:connectorId>bpiumAdd</camunda:connectorId>
+        </camunda:connector>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="catalogFormat">
+            <camunda:list>
+              <camunda:value type="const">var</camunda:value>
+            </camunda:list>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="catalogId">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":""}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="catalogIdFromVar">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":"catalogId"}]]></camunda:script>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="format">
+            <camunda:list>
+              <camunda:value type="const">json</camunda:value>
+            </camunda:list>
+          </camunda:inputParameter>
+          <camunda:inputParameter name="values1">
+            <camunda:list />
+          </camunda:inputParameter>
+          <camunda:inputParameter name="values2">
+            <camunda:script scriptFormat="JavaScript"><![CDATA[{"type":"script","value":"result"}]]></camunda:script>
+          </camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1mtv2xq</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_19r8yle</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_19r8yle" sourceRef="ServiceTask_17xhb61" targetRef="EndEvent_18hoylb" />
+    <bpmn:boundaryEvent id="BoundaryEvent_0m6atvd" attachedToRef="ServiceTask_17xhb61">
+      <bpmn:outgoing>SequenceFlow_1yirjd6</bpmn:outgoing>
+      <bpmn:errorEventDefinition />
+    </bpmn:boundaryEvent>
+    <bpmn:boundaryEvent id="BoundaryEvent_06if319" attachedToRef="ServiceTask_056t521">
+      <bpmn:outgoing>SequenceFlow_094hiqo</bpmn:outgoing>
+      <bpmn:errorEventDefinition />
+    </bpmn:boundaryEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_094hiqo" sourceRef="BoundaryEvent_06if319" targetRef="EndEvent_18hoylb" />
+    <bpmn:sequenceFlow id="SequenceFlow_1yirjd6" sourceRef="BoundaryEvent_0m6atvd" targetRef="EndEvent_18hoylb" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1">
+      <bpmndi:BPMNShape id="StartEvent_0fjrq1j_di" bpmnElement="StartEvent_0fjrq1j">
+        <dc:Bounds x="64" y="243" width="64" height="64" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="52" y="310" width="89" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_18hoylb_di" bpmnElement="EndEvent_18hoylb">
+        <dc:Bounds x="943" y="243" width="64" height="64" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="930" y="310" width="90" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1hi6yod_di" bpmnElement="SequenceFlow_1hi6yod">
+        <di:waypoint xsi:type="dc:Point" x="128" y="275" />
+        <di:waypoint xsi:type="dc:Point" x="228" y="275" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="133" y="253.5" width="90" height="13" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0hd9rp6_di" bpmnElement="ServiceTask_0hd9rp6">
+        <dc:Bounds x="228" y="243" width="64" height="64" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="226" y="305" width="68" height="24" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_10yvdo9_di" bpmnElement="SequenceFlow_10yvdo9">
+        <di:waypoint xsi:type="dc:Point" x="292" y="275" />
+        <di:waypoint xsi:type="dc:Point" x="416" y="275" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="354" y="254" width="0" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_056t521_di" bpmnElement="ServiceTask_056t521">
+        <dc:Bounds x="416" y="243" width="64" height="64" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="421" y="305" width="53" height="24" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0t3bzj5_di" bpmnElement="SequenceFlow_0t3bzj5">
+        <di:waypoint xsi:type="dc:Point" x="480" y="275" />
+        <di:waypoint xsi:type="dc:Point" x="596" y="275" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="538" y="254" width="0" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0eeguyf_di" bpmnElement="ServiceTask_0eeguyf">
+        <dc:Bounds x="596" y="243" width="64" height="64" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="588" y="311" width="82" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1mtv2xq_di" bpmnElement="SequenceFlow_1mtv2xq">
+        <di:waypoint xsi:type="dc:Point" x="660" y="275" />
+        <di:waypoint xsi:type="dc:Point" x="766" y="275" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="668" y="254" width="90" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_17xhb61_di" bpmnElement="ServiceTask_17xhb61">
+        <dc:Bounds x="766" y="243" width="64" height="64" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="758" y="311" width="80" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_19r8yle_di" bpmnElement="SequenceFlow_19r8yle">
+        <di:waypoint xsi:type="dc:Point" x="830" y="275" />
+        <di:waypoint xsi:type="dc:Point" x="943" y="275" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="886.5" y="254" width="0" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="BoundaryEvent_0m6atvd_di" bpmnElement="BoundaryEvent_0m6atvd">
+        <dc:Bounds x="818" y="231" width="24" height="24" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="830" y="259" width="0" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BoundaryEvent_06if319_di" bpmnElement="BoundaryEvent_06if319">
+        <dc:Bounds x="468" y="231" width="24" height="24" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="480" y="259" width="0" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_094hiqo_di" bpmnElement="SequenceFlow_094hiqo">
+        <di:waypoint xsi:type="dc:Point" x="480" y="231" />
+        <di:waypoint xsi:type="dc:Point" x="480" y="182" />
+        <di:waypoint xsi:type="dc:Point" x="975" y="182" />
+        <di:waypoint xsi:type="dc:Point" x="975" y="243" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="727.5" y="161" width="0" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1yirjd6_di" bpmnElement="SequenceFlow_1yirjd6">
+        <di:waypoint xsi:type="dc:Point" x="830" y="231" />
+        <di:waypoint xsi:type="dc:Point" x="830" y="182" />
+        <di:waypoint xsi:type="dc:Point" x="975" y="182" />
+        <di:waypoint xsi:type="dc:Point" x="975" y="243" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="902.5" y="161" width="0" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
