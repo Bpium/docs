@@ -16,7 +16,7 @@ layout:
 
 Можно сэкономить время сотрудников на рутинном заполнении документов. Разберем как настроить автоматическую генерацию документов.
 
-{% embed url="https://www.youtube.com/watch?ab_channel=Bpium&v=rJAC0LtZpZ8" %}
+{% embed url="https://vimeo.com/1024366991" %}
 
 ## Кейс
 

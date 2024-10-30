@@ -16,7 +16,7 @@ layout:
 
 Bpium может не только получать данные, но и отправлять их в другие системы. Разберем на примере как это можно реализовать.
 
-{% embed url="https://www.youtube.com/watch?ab_channel=Bpium&v=eMqb6MYHx0w" %}
+{% embed url="https://vimeo.com/1024647489" %}
 
 ## Кейс
 

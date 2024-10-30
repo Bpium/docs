@@ -16,7 +16,7 @@ layout:
 
 Bpium для общения с внешними системами использует внешние запросы. Разберем на примере как можно получить данные и сразу же их обработать.
 
-{% embed url="https://www.youtube.com/watch?ab_channel=Bpium&v=m2e2XFGh7uI" %}
+{% embed url="https://vimeo.com/1024647446" %}
 
 ## Кейс
 

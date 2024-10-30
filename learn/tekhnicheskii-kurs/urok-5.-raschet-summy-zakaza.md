@@ -16,7 +16,7 @@ layout:
 
 Переходим на новый уровень: тот же самый расчет, но уже сложнее. Разберем как настроить вычисление общей суммы для всей корзины.
 
-{% embed url="https://www.youtube.com/watch?ab_channel=Bpium&v=b3pnyWnE64M" %}
+{% embed url="https://vimeo.com/1024646812" %}
 
 ## Кейс
 

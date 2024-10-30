@@ -16,7 +16,7 @@ layout:
 
 Самой простой функцией в системе является автоматический подсчет каких-либо сумм. Расскажем как настроить несложные вычисления.
 
-{% embed url="https://www.youtube.com/watch?ab_channel=Bpium&v=aSTvraaIl6o" %}
+{% embed url="https://vimeo.com/1024366991" %}
 
 ## Кейс
 
