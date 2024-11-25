@@ -60,15 +60,7 @@ layout:
 
 Например, по одному и тому же клиенту заведено 2 заказа. В одном из них допущена орфографическая ошибка в наименовании клиента:
 
-<div>
-
-<figure><img src="../../.gitbook/assets/correct.jpg" alt=""><figcaption><p><mark style="color:green;">Здесь наименование заполнено корректно</mark></p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/incorrect (1).jpg" alt=""><figcaption><p><mark style="color:red;">А здесь в наименовании допущена ошибка:</mark></p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/correct.jpg" alt=""><figcaption><p><mark style="color:green;">Здесь наименование заполнено корректно</mark></p></figcaption></figure> <figure><img src="../../.gitbook/assets/incorrect (1).jpg" alt=""><figcaption><p><mark style="color:red;">А здесь в наименовании допущена ошибка:</mark></p></figcaption></figure></div>
 
 При попытке отфильтровать все заказы по клиенту система выдаст только один заказ, хотя фактически по клиенту сформировано два заказа:
 
@@ -76,15 +68,7 @@ layout:
 
 Также будет затруднена фильтрация всех заказов по определенному товару. Предположим, что во втором заказе клиент хочет заказать те же товары, но названия товаров теперь расположены в других полях:
 
-<div>
-
-<figure><img src="../../.gitbook/assets/filterExmp1.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/filterExmp2.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/filterExmp1.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/filterExmp2.png" alt=""><figcaption></figcaption></figure></div>
 
 При попытке получить все заказы с монитором получаем только один заказ вместо двух:
 
@@ -105,7 +89,7 @@ layout:
 
 ### Невозможность добавления одного товара в заказы в разных количествах
 
-Мы часто сталкиваемся с тем, что пользователи применяют паттерн [Р_азделение_](razdelenie.md)_:_ для бизнес-объекта "Товар" создается отдельный каталог, но при этом "Количество" определяют как атрибут товара.
+Мы часто сталкиваемся с тем, что пользователи применяют паттерн [&#x420;_&#x430;зделение_](razdelenie.md)_:_ для бизнес-объекта "Товар" создается отдельный каталог, но при этом "Количество" определяют как атрибут товара.
 
 Рассмотрим реализацию того же функционала формирования заказов в примере, когда "Количество" является атрибутом "Товара":
 
@@ -137,27 +121,11 @@ layout:
 
 * Товары: каталог с базой товаров, доступных к заказу
 
-<div>
-
-<figure><img src="../../.gitbook/assets/chair.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/monitor.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/chair.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/monitor.png" alt=""><figcaption></figcaption></figure></div>
 
 * Позиции заказа: каталог-прослойка с указанием товара и его количества. Это как раз таки та самая отдельная сущность, которая была выведена из бизнес-объекта "Заказ" как отдельная сущность. "Позиция заказа" не является отдельным бизнес-объектом - это параметр заказа, выделенный в отдельный каталог.
 
-<div>
-
-<figure><img src="../../.gitbook/assets/position1.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/position2.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/position1.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/position2.png" alt=""><figcaption></figcaption></figure></div>
 
 В данной реализации можно добавлять одни и те же товары в различных количествах к разным заказам. При этом мы избегаем проблемы перезаписи количества товара в одном заказе, когда добавляется этот же товар в другой заказ.
 

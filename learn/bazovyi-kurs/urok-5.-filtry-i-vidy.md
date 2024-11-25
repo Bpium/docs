@@ -38,5 +38,5 @@ layout:
 Сегодня мы изучили, как искать информацию, настраивать фильтры и сохранять их в Виды. Создайте свои Виды по аналогии.
 
 _Более подробную информацию о фильтрах и видах здесь:_\
-_Поиск и фильтрация —_ [_docs.bpium.ru/structure/catalogs/filter_](http://docs.bpium.ru/structure/catalogs/filter)\
-_Виды —_ [_docs.bpium.ru/structure/views_](http://docs.bpium.ru/structure/views)
+&#xNAN;_&#x41F;оиск и фильтрация —_ [_docs.bpium.ru/structure/catalogs/filter_](http://docs.bpium.ru/structure/catalogs/filter)\
+&#xNAN;_&#x412;иды —_ [_docs.bpium.ru/structure/views_](http://docs.bpium.ru/structure/views)

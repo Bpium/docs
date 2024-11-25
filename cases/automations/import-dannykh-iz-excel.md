@@ -8,7 +8,7 @@ description: Автоматический импорт данных из Excel-�
 
 ![](<../../.gitbook/assets/Untitled - Frame 1.jpg>)
 
-При нажатии на кнопку «Конвертировать» в каталоге «Импорт клиентов» запускается сценарий «Конвертировать документ». Сценарий конвертирует Excel таблицу и полученные данные записывает в каталог «Клиенты**».**
+При нажатии на кнопку «Конвертировать» в каталоге «Импорт клиентов» запускается сценарий «Конвертировать документ». Сценарий конвертирует Excel таблицу и полученные данные записывает в каталог «Клиент&#x44B;**».**
 
 ## **2. Реализация**
 
@@ -56,40 +56,40 @@ description: Автоматический импорт данных из Excel-�
 
 #### 2.2.2. **Создание записи сценария**
 
-Создайте сценарий в каталоге «Сценарии». Данный сценарий предназначен для импорта данных из Excel файла в каталог **«**Клиенты». При создании записи сценария прикрепите к нему файл ниже, нажав на кнопку «Загрузить…»:
+Создайте сценарий в каталоге «Сценарии». Данный сценарий предназначен для импорта данных из Excel файла в каталог **«**&#x41A;лиенты». При создании записи сценария прикрепите к нему файл ниже, нажав на кнопку «Загрузить…»:
 
 {% file src="../../.gitbook/assets/excel.bpmn" %}
 
-![](https://lh4.googleusercontent.com/-1xX1YaxpKuqgma8Sz2Na89VP7wpQ5vGZ90XQySjiCmixv8laVDE9-aou7PVJwB4TZcFfjGKLFjZ2d258Uh5Jw\_oqs\_oWNVx1HAOQsAvFbKp7scK4ZhjavvkXHciyIeNLU\_o\_AxTe74biKVYLg)
+![](https://lh4.googleusercontent.com/-1xX1YaxpKuqgma8Sz2Na89VP7wpQ5vGZ90XQySjiCmixv8laVDE9-aou7PVJwB4TZcFfjGKLFjZ2d258Uh5Jw_oqs_oWNVx1HAOQsAvFbKp7scK4ZhjavvkXHciyIeNLU_o_AxTe74biKVYLg)
 
 #### 2.2.3. **Настройка файла сценария**
 
 Откройте файл сценария в поле «Сценарий» и отредактируйте следующие компоненты, согласно комментариям внутри них:
 
-![Компонент «Создать запись».](https://lh6.googleusercontent.com/kKi3dwpV3ceanII6jtOdwPYMrSPNjxVoNy766-6WnY1Ogv999q1G-uLfh3-Q1BDfjnv6kqX\_yKoMQMF72TYHqxsSCI3nOZeW3pll6EAA2wH1p1Ms\_FymQiyqXG3Cm6jmJiO9yX\_Bzk586wx9SQ)
+![Компонент «Создать запись».](https://lh6.googleusercontent.com/kKi3dwpV3ceanII6jtOdwPYMrSPNjxVoNy766-6WnY1Ogv999q1G-uLfh3-Q1BDfjnv6kqX_yKoMQMF72TYHqxsSCI3nOZeW3pll6EAA2wH1p1Ms_FymQiyqXG3Cm6jmJiO9yX_Bzk586wx9SQ)
 
 Компоненты сценария, в которые нужно внести изменения:
 
-* **Каталог**: Укажите название каталога в который должны импортироваться данные**.**
+* **Каталог**: Укажите название каталога в который должны импортироваться данны&#x435;**.**
 * **Значения полей**: Замените API из каталога в который должны импортироваться данные.
 * **Значения полей**: Замените название листа и столбец из Excel файла.
 
-![](https://lh5.googleusercontent.com/uNS-rnOw0cWgvpEqulr\_z0SMREtNsGj7H14Wnqq0uuYQoVvzZhxzX1HABBXd0gPMnVQ6kb9LOlLxLSSvkKzYVsiTPeiLqWtWggm0HmhTu-5o6BrKTb1xlpKonwMinuvs6MGfcVD33\_XHx6X6Sw)
+![](https://lh5.googleusercontent.com/uNS-rnOw0cWgvpEqulr_z0SMREtNsGj7H14Wnqq0uuYQoVvzZhxzX1HABBXd0gPMnVQ6kb9LOlLxLSSvkKzYVsiTPeiLqWtWggm0HmhTu-5o6BrKTb1xlpKonwMinuvs6MGfcVD33_XHx6X6Sw)
 
 ## 3. **Тестирование**
 
 ### **3.1. Каталог «Импорт данных»**
 
-Загрузите Excel файл в каталог «Импорт клиентов», сохраните и выберите статус «конвертировать**»**.
+Загрузите Excel файл в каталог «Импорт клиентов», сохраните и выберите статус «конвертироват&#x44C;**»**.
 
-![](https://lh4.googleusercontent.com/qck8MBNCGwgdvsr\_MJ2dR8XmTbI9WghHxDiVNwAdOvrW00LRQtQriXvI9k3AoQ3HPBG3muz459UICSKGA8zkv4TSOWgpo7X6KSvyBYUd\_KeM76GGoBPSxDyZ7t5jCDO-VA5ZGAw9RKoW-HoxFw)
+![](https://lh4.googleusercontent.com/qck8MBNCGwgdvsr_MJ2dR8XmTbI9WghHxDiVNwAdOvrW00LRQtQriXvI9k3AoQ3HPBG3muz459UICSKGA8zkv4TSOWgpo7X6KSvyBYUd_KeM76GGoBPSxDyZ7t5jCDO-VA5ZGAw9RKoW-HoxFw)
 
 Пример заполнения Excel файла представлен ниже:
 
-![](https://lh4.googleusercontent.com/s7Lw8URcNsaf2RU1HbIq585FpZQU-sGl1MwlwltS5\_fvcxBi4HTYer8OS7RaBGSKG--fbFlnNTz4rorm189ZJTx7te8hAjya7R7Oz5YUTTHLtkL\_Wt-\_BI\_FsgICZ\_2Zg5lofXw9ntKruNqoLw)
+![](https://lh4.googleusercontent.com/s7Lw8URcNsaf2RU1HbIq585FpZQU-sGl1MwlwltS5_fvcxBi4HTYer8OS7RaBGSKG--fbFlnNTz4rorm189ZJTx7te8hAjya7R7Oz5YUTTHLtkL_Wt-_BI_FsgICZ_2Zg5lofXw9ntKruNqoLw)
 
 ### 3.2. **Каталог «Клиенты»**
 
 Результат импорта:
 
-![](https://lh5.googleusercontent.com/vO-q\_og7p1wrcDStAyFof7DqutQkM9BBNN3Rs0nsrS4QIedaCeBXxqExNhkWIosAvYK5txEAczkb5erB53OqKHZUxV6xdY-NWJoe7Upxvtt6GatNcOSfA2XEhVcUOQqdHyPx-txa8W4F\_LQFYA)
+![](https://lh5.googleusercontent.com/vO-q_og7p1wrcDStAyFof7DqutQkM9BBNN3Rs0nsrS4QIedaCeBXxqExNhkWIosAvYK5txEAczkb5erB53OqKHZUxV6xdY-NWJoe7Upxvtt6GatNcOSfA2XEhVcUOQqdHyPx-txa8W4F_LQFYA)

@@ -34,7 +34,7 @@ layout:
 
 2. **Настроим Внешний запрос**. Он будет получать данные с сайта и запускать сценарий на создание записи. Перейдем в отдел «Управление», каталог ВНЕШНИЕ ЗАПРОСЫ и кликаем «Добавить». Заполняем название — «Заявка с сайта», придумываем URL-идентификатор латиницей, у меня это будет «zayavka» и создаем сценарий который будем выполнен при этом запросе. В выпадающем списке поля «Выбрать» выберем «добавить в Сценарии». Присваиваем название сценарию, например «Регистрация заявки» и сохраним. Настроим сценарий чуть позже. Сохраняем сценарий и внешний запрос.\
    \
-   ‍_Подробности о Внешнем запросе здесь:_ [_docs.bpium.ru/processes/events/webrequests_](https://docs.bpium.ru/processes/events/webrequests)
+   &#x200D;_&#x41F;одробности о Внешнем запросе здесь:_ [_docs.bpium.ru/processes/events/webrequests_](https://docs.bpium.ru/processes/events/webrequests)
 
 {% embed url="https://vimeo.com/1024668785" %}
 
@@ -54,7 +54,7 @@ layout:
    3 = body.company\
    4 = \[ {contact: body.tel} ]\
    \
-   ‍_Почему именно такие значения, смотрите в описании компонента:_ [_docs.bpium.ru/processes/scripts/components/createrecord_](http://docs.bpium.ru/processes/scripts/components/createrecord)
+   &#x200D;_&#x41F;очему именно такие значения, смотрите в описании компонента:_ [_docs.bpium.ru/processes/scripts/components/createrecord_](http://docs.bpium.ru/processes/scripts/components/createrecord)
 
 {% embed url="https://vimeo.com/1024668828" %}
 
@@ -63,4 +63,4 @@ layout:
 
     Сегодня мы настроили BPM-сценарий, который создает заявку с сайта.\
     ‍\
-    _Подробнее о возможностях интеграции описано здесь:_ [_docs.bpium.ru/integration_](http://docs.bpium.ru/integration)
+    &#xNAN;_&#x41F;одробнее о возможностях интеграции описано здесь:_ [_docs.bpium.ru/integration_](http://docs.bpium.ru/integration)

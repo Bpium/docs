@@ -191,25 +191,9 @@ Bpium для хранения использует базу данных Postgre
 
 Скриншоты процесса стандартной установки PostgreSQL версии 15.2 представлены ниже:&#x20;
 
-<div>
+<div><figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 143624.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 143700.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 143624.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 143700.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div>
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 143718.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 143734.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 143718.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 143734.png" alt=""><figcaption></figcaption></figure></div>
 
 В следующем шаге  установки необходимо задать пароль для суперюзера (postgres).\
 **Важно!** Запомните данный пароль, он понадобится в будущем для работы с базами данных.
@@ -219,31 +203,11 @@ Bpium для хранения использует базу данных Postgre
 В следующих шагах нужно указать порт (по умолчанию: 5432) и выбрать локаль.\
 **Важно!** Необходимо выбрать локаль "Russian, Russia" (`--locale=ru_RU)`, иначе не будет поддержки кириллицы.
 
-<div>
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 144003.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 144029.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 144003.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 144029.png" alt=""><figcaption></figcaption></figure></div>
 
 В следующих шагах нужно просто нажимать Next и дождаться окончания установки.
 
-<div>
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 144100.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 144118.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 144148.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 144100.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 144118.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 144148.png" alt=""><figcaption></figcaption></figure></div>
 
 Когда установка завершится нажмите кнопку "Finish"
 
@@ -262,15 +226,7 @@ Bpium для хранения использует базу данных Postgre
 
 Далее создаем пустую базу данных:
 
-<div>
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145620.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145651.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145620.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145651.png" alt=""><figcaption></figcaption></figure></div>
 
 Готово! Пустая база создана. Вместо пустой базы данных может использоваться скопированная из облака база данных компании.
 
@@ -294,33 +250,9 @@ Bpium BPM для хранения данных и распределения н�
 
 Для стандартной установки Redis скачайте msi-пакет по ссылке выше и запустите его. Шаги установки указаны ниже:
 
-<div>
+<div><figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145049.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145105.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145124.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145049.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145105.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145124.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div>
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145136.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145151.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145208.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145136.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145151.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145208.png" alt=""><figcaption></figcaption></figure></div>
 
 <figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 145226.png" alt=""><figcaption></figcaption></figure>
 
@@ -356,7 +288,7 @@ Bpium BPM для хранения данных и распределения н�
 
 {% tabs %}
 {% tab title="Windows" %}
-1. Запустите файл `bpium-server-install-service.bat`, он зарегистрирует Bpium как службу Windows и запустит её. Имя службы: Bpium Server.&#x20;
+1) Запустите файл `bpium-server-install-service.bat`, он зарегистрирует Bpium как службу Windows и запустит её. Имя службы: Bpium Server.&#x20;
 
 {% hint style="danger" %}
 Файл **bpium-server-install-service.bat** запустить от имени администратора (правой кнопкой мыши по имени файла и выбрать «Запустить от имени администратора»).
@@ -474,7 +406,7 @@ Bpium BPM для хранения данных и распределения н�
 {% tab title="Linux" %}
 `ln - s назначение цель`\
 `-s` - указывает, что создаем символическую ссылку\
-_`назначение`_– место, где будет размещена ссылка, пример: `/opt/bpium/storage`\
+&#xNAN;_`назначение`_– место, где будет размещена ссылка, пример: `/opt/bpium/storage`\
 `цель` – директория на которую ссылается ссылка, пример: `/mnt/volume1/s3/`
 {% endtab %}
 {% endtabs %}
@@ -488,7 +420,7 @@ _`назначение`_– место, где будет размещена с�
 
 {% tabs %}
 {% tab title="Windows" %}
-1. Запустите файл `bpium-s3-install-service.bat`, он зарегистрирует Bpium S3 как службу Windows и запустит её. Имя службы: bpium-s3.
+1) Запустите файл `bpium-s3-install-service.bat`, он зарегистрирует Bpium S3 как службу Windows и запустит её. Имя службы: bpium-s3.
 
 {% hint style="danger" %}
 Файл **bpium-s3-install-service.bat** запустить от имени администратора (правой кнопкой мыши по имени файла и выбрать «Запустить от имени администратора»).
@@ -582,15 +514,7 @@ _`назначение`_– место, где будет размещена с�
 {% endtab %}
 {% endtabs %}
 
-<div>
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 151859.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 151927.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 151859.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 151927.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Установка Bpium BPM
 
@@ -604,7 +528,7 @@ _`назначение`_– место, где будет размещена с�
 
 {% tabs %}
 {% tab title="Windows" %}
-1. Запустите файл `bpium-bpm-install-service.bat,` он зарегистрирует Bpium BPM как службу Windows и запустит её. Имя службы: bpium-bpm.
+1) Запустите файл `bpium-bpm-install-service.bat,` он зарегистрирует Bpium BPM как службу Windows и запустит её. Имя службы: bpium-bpm.
 
 {% hint style="danger" %}
 Файл **bpium-bpm-install-service.bat** запустить от имени администратора (правой кнопкой мыши по имени файла и выбрать «Запустить от имени администратора»).
@@ -698,15 +622,7 @@ _`назначение`_– место, где будет размещена с�
 {% endtab %}
 {% endtabs %}
 
-<div>
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 152000.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 152059.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 152000.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Снимок экрана 2023-03-23 152059.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Проверка системы
 

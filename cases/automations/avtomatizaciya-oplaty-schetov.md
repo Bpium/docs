@@ -8,7 +8,7 @@
 
 * Хранить оплаты в одном месте
 * Автоматизировать процесс согласования оплат с руководителем
-* Уведомлять ответственных сотрудников о создании оплат в системе**.**
+* Уведомлять ответственных сотрудников о создании оплат в систем&#x435;**.**
 
 ## **2. Как это будет работать у вас**
 
@@ -192,7 +192,7 @@
 
 #### **Письмо ответственному при создании оплаты**
 
-Создайте событие для запуска сценария «[Письмо ответственному при создании оплаты](https://drive.google.com/file/d/1v5KpPAbC7IGcjIYa\_db9B8k8pcDgqwPj/view?usp=sharing)».
+Создайте событие для запуска сценария «[Письмо ответственному при создании оплаты](https://drive.google.com/file/d/1v5KpPAbC7IGcjIYa_db9B8k8pcDgqwPj/view?usp=sharing)».
 
 <figure><img src="../../.gitbook/assets/8 (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -224,7 +224,7 @@
 
 #### **Запрет на понижение статуса оплаты**
 
-Создайте событие для запуска сценария «[Запрет на понижение статуса оплаты](https://drive.google.com/file/d/13D07XNAwmy74NjuRZk\_62Fsv9JyV693-/view?usp=sharing)».
+Создайте событие для запуска сценария «[Запрет на понижение статуса оплаты](https://drive.google.com/file/d/13D07XNAwmy74NjuRZk_62Fsv9JyV693-/view?usp=sharing)».
 
 <figure><img src="../../.gitbook/assets/10 (3).png" alt=""><figcaption></figcaption></figure>
 

@@ -39,5 +39,5 @@ layout:
 Сегодня мы логически связали каталоги между собой. Попробуйте по аналогии связать остальные каталоги в вашем Бипиуме, где это нужно. Если сейчас не знаете где потребуется такая функция, то вы сможете отредактировать карточку в любой момент времени.
 
 _Более подробная информация о Связанном объекте найдете здесь:_\
-_Связанный объект —_ [_docs.bpium.ru/structure/catalogs/edit#svyazannyi-obekt_](http://docs.bpium.ru/structure/catalogs/edit#svyazannyi-obekt)\
-_Связанные данные —_ [_docs.bpium.ru/structure/records#svyazannye-dannye_](http://docs.bpium.ru/structure/records#svyazannye-dannye)
+&#xNAN;_&#x421;вязанный объект —_ [_docs.bpium.ru/structure/catalogs/edit#svyazannyi-obekt_](http://docs.bpium.ru/structure/catalogs/edit#svyazannyi-obekt)\
+&#xNAN;_&#x421;вязанные данные —_ [_docs.bpium.ru/structure/records#svyazannye-dannye_](http://docs.bpium.ru/structure/records#svyazannye-dannye)
