@@ -2511,6 +2511,10 @@ WHERE dbId = 1;
 >
 > **Сценарий**: [Сценарий для поиска опасных сценариев](https://drive.google.com/file/d/1CMM4L3zdvi2zPiEuhHKs72ko8PuvAycA/view?usp=drive_link)
 
+Откройте созданный сценарий и в компоненте «credentions» в переменных _login_ и _password_ укажите ваш логин и пароль для входа в систему:
+
+<figure><img src=".gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+
 Перейдите в каталог «Внешние запросы» и создайте новую запись:
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfdkQ5A24183ZesRIS-mBqSHHe6Gs5SB0V7h7fM6ougonNeILHniktswzCNBjrEybrXI1yPQorkCe3wZsLnIu9o4nf1ePv3b8yEeAUBq6_oRJIsj2ifXvXpgH8GDY4DqO30NAqA-tmINJCNtT_vMam5Fa-y?key=MQq_fGFpbyw0rA606aAiDze1" alt=""><figcaption></figcaption></figure>
