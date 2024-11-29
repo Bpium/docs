@@ -12,8 +12,8 @@
 [bekap-i-vosstanovlenie-bazy.md](bekap-i-vosstanovlenie-bazy.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../whitelabel.md" %}
-[whitelabel.md](../../../whitelabel.md)
+{% content-ref url="whitelabel.md" %}
+[whitelabel.md](whitelabel.md)
 {% endcontent-ref %}
 
 {% content-ref url="udalenie.md" %}

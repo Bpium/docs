@@ -12,15 +12,7 @@
 Бизнес-объекты — это представления реальных объектов деятельности. Они могут отображать как физические объекты: помещения, активы, контракты, так и абстрактные понятия: сорта яблок, обращения клиентов.
 {% endhint %}
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/1 (15).png" alt="" width="495"><figcaption><p><mark style="color:red;">В одном каталоге информация по двум бизнес-объектам</mark></p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/2 (15).png" alt="" width="495"><figcaption><p><mark style="color:green;">В одном каталоге информация по одному бизнес-объекту</mark></p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/1 (25).png" alt="" width="495"><figcaption><p><mark style="color:red;">В одном каталоге информация по двум бизнес-объектам</mark></p></figcaption></figure> <figure><img src="../../.gitbook/assets/2 (25).png" alt="" width="495"><figcaption><p><mark style="color:green;">В одном каталоге информация по одному бизнес-объекту</mark></p></figcaption></figure></div>
 
 Выделение бизнес-объектов в отдельный каталог позволяет повторно использовать их во многих записях системы. При этом каждый экземпляр бизнес-объекта (запись) содержит уникальную для него информацию.
 
@@ -36,7 +28,7 @@
 
 В системе настроен каталог “Клиенты”:
 
-<figure><img src="../../.gitbook/assets/3 (12).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (21).png" alt="" width="563"><figcaption></figcaption></figure>
 
 В настроенном каталоге фиксируется информация по двум бизнес-объектам:
 
@@ -84,18 +76,18 @@
 
 Запись каталога “Клиенты”:
 
-<figure><img src="../../.gitbook/assets/4 (10).png" alt="" width="563"><figcaption><p>В поле "Контакты" каталога "Клиенты" выведены расширенные поля с <br>ФИО, телефоном и почтой контактного лица для большей наглядности</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (22).png" alt="" width="563"><figcaption><p>В поле "Контакты" каталога "Клиенты" выведены расширенные поля с <br>ФИО, телефоном и почтой контактного лица для большей наглядности</p></figcaption></figure>
 
 Запись каталога “Контактные лица”:
 
-<figure><img src="../../.gitbook/assets/5 (11).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (19).png" alt="" width="563"><figcaption></figcaption></figure>
 
 В такой реализации к одному клиенту можно добавить неограниченное число контактных лиц, при этом вся информация по контактному лицу находится в отдельной записи.
 
 Если это же контактное лицо нужно указать у другого клиента, то достаточно выбрать уже существующую запись из выпадающего списка:
 
-<figure><img src="../../.gitbook/assets/6 (11).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (20).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Изменить данные контактного лица можно в его записи. При этом, так как контактное лицо в “Клиентах” фигурирует в качестве связанной записи, то из каждой записи “Клиента” можно увидеть актуальные данные.
 
-<figure><img src="../../.gitbook/assets/7 (13).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7 (20).png" alt="" width="563"><figcaption></figcaption></figure>

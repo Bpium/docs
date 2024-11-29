@@ -17,11 +17,11 @@
 
 Создадим в компоненте «Назначение переменных» переменную data с значением 'admin'
 
-![](../../../.gitbook/assets/0.png)
+![](<../../../.gitbook/assets/0 (1).png>)
 
 Далее передадим в компоненте «Найти записи» в фильтр следующие значения:
 
-![](<../../../.gitbook/assets/1 (4).png>)
+![](<../../../.gitbook/assets/1 (10).png>)
 
 Результатом выполнения данного сценария выглядит следующим образом:
 
@@ -54,11 +54,11 @@
 
 Создадим в компоненте «Назначение переменных» переменную identifier с значением 1
 
-![](https://lh4.googleusercontent.com/2s4gTW3jL2Dclo0YzBdmlU\_sP-5PC5KZFCGxQ0Psv0fxjK0bGMsycq7lLIIg0Gx8-l3yIfxEqZPfs8WKzA0xwAjfJosKE1hhnKyIb6vYYK8I6EAB\_L-U0-rBY0GWyi1eB1LqWSFx)
+![](https://lh4.googleusercontent.com/2s4gTW3jL2Dclo0YzBdmlU_sP-5PC5KZFCGxQ0Psv0fxjK0bGMsycq7lLIIg0Gx8-l3yIfxEqZPfs8WKzA0xwAjfJosKE1hhnKyIb6vYYK8I6EAB_L-U0-rBY0GWyi1eB1LqWSFx)
 
 Далее передадим в компоненте «Найти записи» в фильтр следующие значения:
 
-![](<../../../.gitbook/assets/3 (2) (2).png>)
+![](<../../../.gitbook/assets/3 (3).png>)
 
 Результатом выполнения данного сценария выглядит следующим образом:
 
@@ -94,15 +94,15 @@
 
 В компоненте «Назначение переменных» создается объект «data» с ключом «temp» с подключами «сценарии», «события», «сотрудники» у каждого из которых есть свой подключи «values». В том же компоненте создается переменная «requiredData» с ключами и свойствами: employees = сотрудники, events = события, script = сценарии.
 
-![](<../../../.gitbook/assets/4 (3) (1).png>)
+![](<../../../.gitbook/assets/4 (5).png>)
 
 Далее создаем 3 компонента «Найти записи» и в секции «Результат» в поле «Сохранить в» указываем следующие значения:
 
-![](<../../../.gitbook/assets/5 (6).png>)
+![](<../../../.gitbook/assets/5 (15).png>)
 
-![](<../../../.gitbook/assets/6 (7).png>)
+![](<../../../.gitbook/assets/6 (12).png>)
 
-![](<../../../.gitbook/assets/7 (1) (1) (1).png>)
+![](<../../../.gitbook/assets/7 (6).png>)
 
 ### **Результат**
 

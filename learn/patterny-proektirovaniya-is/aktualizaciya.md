@@ -8,15 +8,7 @@
 
 Паттерн актуализации рекомендует обновлять значения полей уже созданных записей в случаях, когда в каталог было добавлено новое поле или изменена логика заполнения существующих.
 
-<div>
-
-<figure><img src="../../.gitbook/assets/1 (16).png" alt="" width="375"><figcaption><p><mark style="color:red;">Здесь данные неактуальны</mark></p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/2 (16).png" alt="" width="375"><figcaption><p><mark style="color:green;">А здесь актуальны</mark></p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/1 (26).png" alt="" width="375"><figcaption><p><mark style="color:red;">Здесь данные неактуальны</mark></p></figcaption></figure> <figure><img src="../../.gitbook/assets/2 (26).png" alt="" width="375"><figcaption><p><mark style="color:green;">А здесь актуальны</mark></p></figcaption></figure></div>
 
 ## Проблематика
 
@@ -28,25 +20,21 @@
 
 Так выглядит карточка запроса:
 
-<figure><img src="../../.gitbook/assets/3 (13).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (22).png" alt="" width="563"><figcaption></figcaption></figure>
 
 При наступлении дедлайна система изменяет поле “Просрочен” на значение “Да” и отправляет уведомление ответственному за задачу сотруднику.
 
 Также на значение “Да” поля “Просрочен” настроен вид, который позволяет быстро увидеть список просроченных запросов:
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/4 (11).png" alt="" width="295"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/4 (23).png" alt="" width="295"><figcaption></figcaption></figure></div>
 
 В записи рассмотренного запроса видим, что его дедлайн уже наступил, но он не был помечен просроченным:
 
-<figure><img src="../../.gitbook/assets/5 (12).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (20).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Этот запрос не попал под вид просроченных запросов и по нему не было отправлено уведомление:
 
-<figure><img src="../../.gitbook/assets/6 (12).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (21).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Следствием несоблюдения _паттерна актуальности_ могут быть следующие проблемы:
 

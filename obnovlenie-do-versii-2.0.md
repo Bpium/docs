@@ -2513,7 +2513,7 @@ WHERE dbId = 1;
 
 Откройте созданный сценарий и в компоненте «credentions» в переменных _login_ и _password_ укажите ваш логин и пароль для входа в систему:
 
-<figure><img src=".gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 
 Перейдите в каталог «Внешние запросы» и создайте новую запись:
 

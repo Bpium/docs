@@ -27,7 +27,7 @@
 
 Так выглядит карточка запроса, при проектировании которого паттерн унификации не соблюдался:
 
-<figure><img src="../../.gitbook/assets/1 (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (22).png" alt=""><figcaption></figcaption></figure>
 
 Следствием несоблюдения _паттерна унификации_ могут быть следующие проблемы:
 
@@ -42,17 +42,17 @@
 
 При настройке фильтров в каталоге “Задачи” проблем нет — находим поле “Статус” и проставляем в него значение “Новая”:
 
-<figure><img src="../../.gitbook/assets/2 (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (21).png" alt=""><figcaption></figcaption></figure>
 
 При настройке аналогичных фильтров в каталоге “Запросы” сталкиваемся с проблемой: в каталоге нет поля “Статус”.
 
 Путем проведения аналогии понимаем, что за определение статуса запроса отвечает поле “Этап”.
 
-<figure><img src="../../.gitbook/assets/3 (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (20).png" alt=""><figcaption></figcaption></figure>
 
 Открываем набор значений этого поля и видим, что они тоже названы по другому:
 
-<figure><img src="../../.gitbook/assets/4 (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (21).png" alt=""><figcaption></figcaption></figure>
 
 Через сопоставление полей с “Задачами” понимаем, что значению “Новая” из каталога “Задачи” соответствует значение “Создан” из каталога “Запросы”. При этом на сам процесс сопоставления наименований между каталогами затрачено некоторое время.
 
@@ -74,17 +74,17 @@
 
 Рассмотрим эту же систему спроектированную с использованием паттерна унификации. Теперь карточка “Запроса” выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/5 (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (18).png" alt=""><figcaption></figcaption></figure>
 
 Решить ту же задачу с поиском записей, которые ещё не были взяты в работу, теперь можно гораздо проще.
 
 Так выглядит фильтрация в каталоге “Задачи”:
 
-<figure><img src="../../.gitbook/assets/6 (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (19).png" alt=""><figcaption></figcaption></figure>
 
 И практически идентично выглядит фильтрация в каталоге “Запросы”:
 
-<figure><img src="../../.gitbook/assets/7 (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7 (19).png" alt=""><figcaption></figcaption></figure>
 
 Процесс сопоставления наименований не занимает времени, так как он больше не нужен. По мере роста количества каталогов и полей в системе время на фильтрацию данных значительно сократится в сравнении с первым вариантом реализации.
 

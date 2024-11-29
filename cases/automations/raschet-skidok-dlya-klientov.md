@@ -12,7 +12,7 @@ description: >-
 
 ## **2. Принцип работы**
 
-<figure><img src="../../.gitbook/assets/1 (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (5).png" alt=""><figcaption></figcaption></figure>
 
 Принцип работы основан на каталоге с правилами скидок для каждого клиента. При сохранении записи в каталоге «Покупки» («Заказы») сценарий рассчитывает итоговую сумму заказа с учетом и без учета персональной скидки. Если в каталоге с правилами скидок есть персональная скидка для выбранного клиента, то итоговая сумма снижается на величину скидки.
 
@@ -28,7 +28,7 @@ description: >-
 \
 Структура каталога «Правила скидок»:
 
-<figure><img src="../../.gitbook/assets/2 (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (15).png" alt=""><figcaption></figcaption></figure>
 
 * **Клиент** (связанный каталог)\
   Описание: Клиент, для которого будет указана скидка.\
@@ -41,7 +41,7 @@ description: >-
 
 Создайте каталог «Товары». В этом каталоге фиксируются наименование товара и его стоимость. При необходимости можете добавить в него другие произвольные поля.
 
-<figure><img src="../../.gitbook/assets/3 (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (5).png" alt=""><figcaption></figcaption></figure>
 
 * **Наименование** (текст)\
   Описание: Наименование товара.\
@@ -54,7 +54,7 @@ description: >-
 
 Создайте каталог «Товары и количество». В этом каталоге указывается товар и его количество. Каталог является связующим между каталогами «Товары» и «Заказы» (описан ниже). Заполните каталог следующими полями:
 
-<figure><img src="../../.gitbook/assets/8 (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8 (14).png" alt=""><figcaption></figcaption></figure>
 
 * **Товар** (связанный каталог)\
   Описание: Поле для выбора товара.\
@@ -67,7 +67,7 @@ description: >-
 
 Создайте каталог «Заказы». В этом каталоге будет собрана информация о всех заказах клиентов. Заполните каталог следующими полями:
 
-<figure><img src="../../.gitbook/assets/4 (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (15).png" alt=""><figcaption></figcaption></figure>
 
 * **Клиент** (связанный каталог)\
   Описание: Клиент, оформляющий заказ.\
@@ -88,15 +88,15 @@ description: >-
 
 Пример события:
 
-<figure><img src="../../.gitbook/assets/5 (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (5).png" alt=""><figcaption></figcaption></figure>
 
-При изменении полей «Клиент» или «Товары» в записи «Заказа» событие запускает сценарий расчета сумм для клиента. Прикрепите [файл сценария](https://drive.google.com/file/d/1MB4JkNxEhDpafK\_umFXUtE5Jf6Or-HDA/view?usp=sharing) в поле «Выполнить» созданного события.
+При изменении полей «Клиент» или «Товары» в записи «Заказа» событие запускает сценарий расчета сумм для клиента. Прикрепите [файл сценария](https://drive.google.com/file/d/1MB4JkNxEhDpafK_umFXUtE5Jf6Or-HDA/view?usp=sharing) в поле «Выполнить» созданного события.
 
 ### **3.3. Сценарий расчета сумм для клиента**
 
 Сценарий расчета сумм для клиента выглядит следующим образом:
 
-<figure><img src="../../.gitbook/assets/6 (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (7).png" alt=""><figcaption></figcaption></figure>
 
 Сценарий выполняет:
 
@@ -116,4 +116,4 @@ description: >-
 
 В каталоге «Заказы» выберите клиента (с правилом скидки), добавьте товары и укажите их количество. Если все сделано верно, то при сохранении записи поля «Сумма» и «Сумма (со скидкой)» автоматически заполнятся.
 
-<figure><img src="../../.gitbook/assets/7 (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7 (10).png" alt=""><figcaption></figcaption></figure>
