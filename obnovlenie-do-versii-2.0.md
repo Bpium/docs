@@ -2509,7 +2509,7 @@ WHERE dbId = 1;
 
 > **Название**: Название сценария
 >
-> **Сценарий**: [Сценарий для поиска опасных сценариев](https://drive.google.com/file/d/1CMM4L3zdvi2zPiEuhHKs72ko8PuvAycA/view?usp=drive_link)
+> **Сценарий**: [Сценарий для поиска опасных сценариев](https://drive.google.com/file/d/1BO5Zy2sn1nq2gg7LFxqJrgahVXGpcljq/view?usp=drive_link)
 
 Откройте созданный сценарий и в компоненте «credentions» в переменных _login_ и _password_ укажите ваш логин и пароль для входа в систему:
 
