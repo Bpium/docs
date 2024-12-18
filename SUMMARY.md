@@ -12,7 +12,7 @@
   * [Формируем отчёты](manual/s-chego-nachat/formiruem-otchyoty.md)
   * [Настраиваем правовую политику](manual/s-chego-nachat/nastraivaem-pravovuyu-politiku.md)
   * [Применяем автоматизации](manual/s-chego-nachat/primenyaem-avtomatizacii.md)
-* [🏗️ Конструктор данных](manual/structure/README.md)
+* [⚙️ Конструктор данных](manual/structure/README.md)
   * [Отделы](manual/structure/sections.md)
   * [Каталоги](manual/structure/catalogs/README.md)
     * [Редактирование структуры](manual/structure/catalogs/edit.md)
