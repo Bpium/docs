@@ -21,4 +21,4 @@
 * [Вынос параметров](vynos-parametrov.md)
 * Вынос логики
 * [Выделение позиций](vydelenie-pozicii.md)
-* Информирование
+* [Информирование](informirovanie.md)
