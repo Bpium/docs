@@ -1,8 +1,8 @@
 # 🎂 Версии и обновления
 
-## v1.13.17 от 18 июля 2024
+## v1.13.18 от 18 июля 2024
 
-Версия API: 1.13.17\
+Версия API: 1.13.18\
 Версия веб-приложения: 1.16.7\
 Версия сервера процессов: 1.9.41\
 \
@@ -40,9 +40,9 @@
 * Новый для использования в сценариях модуль “crypto”. В сценариях можно обращаться к этой библиотеке при написании кода.
 
 {% hint style="info" %}
-**Скачать дистрибутив** архивом для [Windows ](https://storage.yandexcloud.net/download.bpium.ru/builds/1.13.17/bpium-win-v1.13.17.zip)или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/1.13.17/bpium-linux-v1.13.17.zip)
+**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/1.13.18/bpium-win-v1.13.18.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/1.13.18/bpium-linux-v1.13.18.zip)
 
-**Докер-образы** bpiumdocker/bpium:v1.13.17, bpiumdocker/bpm:v1.13.17, bpiumdocker/s3:v1.13.17
+**Докер-образы** bpiumdocker/bpium:v1.13.18, bpiumdocker/bpm:v1.13.18, bpiumdocker/s3:v1.13.18
 {% endhint %}
 
 ## v1.12.7 от 2 апреля 2024
