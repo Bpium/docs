@@ -288,6 +288,20 @@ http://company.bpium.ru/api/v1/catalogs/21/records?filters=
 ```
 {% endhint %}
 
+### Параметр id - фильтр записей по id записи
+
+Параметр `id` позволяет получить записи с определенными id. `id` необходимо передавать в GET-запросе.
+
+Пример:
+
+```
+http://company.bpium.ru/api/v1/catalogs/21/records
+    ?id=1
+    &id=2
+```
+
+Данный пример получает записи с id 1 и 2.
+
 ## Получить запись
 
 {% tabs %}
@@ -373,6 +387,8 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}
 ```
 {% endtab %}
 {% endtabs %}
+
+
 
 ## Создать запись
 
