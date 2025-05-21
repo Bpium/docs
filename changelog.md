@@ -24,7 +24,7 @@
 * 3 технические миграции — оптимизация структуры и производительности.
 
 {% hint style="info" %}
-**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/2.0.5/bpium-win-v2.0.5.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/2.1.2/bpium-linux-v2.1.2.zip)
+**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/2.1.2/bpium-win-v2.1.2.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/2.1.2/bpium-linux-v2.1.2.zip)
 
 **Докер-образы** bpiumdocker/bpium:v2.1.2, bpiumdocker/bpm:v2.1.2, bpiumdocker/s3:v2.1.2
 {% endhint %}
