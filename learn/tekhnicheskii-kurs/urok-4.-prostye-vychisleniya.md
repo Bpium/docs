@@ -1,22 +1,8 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 4. Простые вычисления
 
 Самой простой функцией в системе является автоматический подсчет каких-либо сумм. Расскажем как настроить несложные вычисления.
 
-{% embed url="https://vimeo.com/1024366991" %}
+{% embed url="https://vimeo.com/1024367109" %}
 
 ## Кейс
 
