@@ -177,7 +177,7 @@
     * [Для Bpium S3](deployment/extra/parametry-config.env/bpium-s3.md)
     * [Для Bpium BPM](deployment/extra/parametry-config.env/bpium-bpm.md)
   * [Запуск](deployment/extra/zapusk.md)
-  * [Обсуживание](deployment/extra/obsuzhivanie/README.md)
+  * [Обслуживание](deployment/extra/obsuzhivanie/README.md)
     * [Активация](deployment/extra/obsuzhivanie/aktivaciya.md)
     * [Обновление](deployment/extra/obsuzhivanie/obnovlenie.md)
     * [Бэкап и восстановление базы](deployment/extra/obsuzhivanie/bekap-i-vosstanovlenie-bazy.md)
