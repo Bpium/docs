@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 2. Каталоги с данными
 
 На предыдущем уроке мы создали Отделы. Сегодня внутри этих отделов мы начнем создавать инфраструктуру, которая состоит из каталогов, карточек записей и связей между ними.

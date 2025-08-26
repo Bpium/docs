@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 5. Расчет суммы заказа
 
 Переходим на новый уровень: тот же самый расчет, но уже сложнее. Разберем как настроить вычисление общей суммы для всей корзины.

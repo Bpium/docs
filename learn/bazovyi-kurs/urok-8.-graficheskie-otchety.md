@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 8. Графические отчеты
 
 На предыдущем уроке мы настроили для сотрудников доступ к данным. Сегодня мы настроим аналитику, создав графики на основе данных хранящихся в каталогах.

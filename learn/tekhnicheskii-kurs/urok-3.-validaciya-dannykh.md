@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 3. Валидация данных
 
 Вести учет, хранить и не потерять контактные данные — важно для каждого предприятия. Покажем как можно настроить валидацию данных при создании анкеты клиента.

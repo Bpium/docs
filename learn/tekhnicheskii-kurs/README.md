@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Технический курс
 
 На уроках показаны: разбор и настройка событий, сценариев, автоматизаций, простых и сложных вычислений, валидации данных, генерации документов, рассылки сообщений, приема и отправки данных во внешние системы и наоборот.

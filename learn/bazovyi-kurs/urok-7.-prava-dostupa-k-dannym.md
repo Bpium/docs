@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 7. Права доступа к данным
 
 На предыдущем уроке мы пригласили сотрудников в компанию. Сегодня мы настроим права доступа к информации.

@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Слияние
 
 ## Описание
@@ -46,15 +32,7 @@ _Паттерн слияния_ не противоречит [_паттерну
 
 Заявки:
 
-<div>
-
-<figure><img src="../../.gitbook/assets/fizRequest (2).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/urRequest (2).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/fizRequest (2).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/urRequest (2).png" alt=""><figcaption></figcaption></figure></div>
 
 В этом примере мы можем наблюдать, что как юридические так и физические лица участвуют в одном процессе ведения заявок.
 
@@ -83,15 +61,7 @@ _Паттерн слияния_ не противоречит [_паттерну
 
 Для того чтобы мы могли отличать заявителей, мы можем использовать [_паттерн типизации_](tipizaciya.md)_,_ добавив новое поле типа статус, под названием "Тип".
 
-<div>
-
-<figure><img src="../../.gitbook/assets/fizFaceExmpl.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/urFaceExmpl.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/fizFaceExmpl.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/urFaceExmpl.png" alt=""><figcaption></figcaption></figure></div>
 
 Для удобства заполнения формы мы используем динамическое управление полями. В зависимости от того, является ли заявителем физическое лицо или юридическое, система автоматически скрывает или открывает соответствующие секции:
 

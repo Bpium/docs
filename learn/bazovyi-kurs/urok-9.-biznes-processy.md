@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 9. Бизнес-процессы
 
 На предыдущем уроке мы настроили графики Отчетов по данным. Сегодня мы разберем, что такое модуль BPM-процессов.

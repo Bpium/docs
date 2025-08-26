@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 9. Отправка данных на сторонние сервисы
 
 Bpium может не только получать данные, но и отправлять их в другие системы. Разберем на примере как это можно реализовать.

@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 2. Первая автоматизация изнутри
 
 Если рутинные процессы компании отнимают много времени и ресурсов, их можно автоматизировать. Разберем события, сценарии и настроим первую автоматизацию.

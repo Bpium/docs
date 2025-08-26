@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 8. Прием внешних данных
 
 Bpium для общения с внешними системами использует внешние запросы. Разберем на примере как можно получить данные и сразу же их обработать.

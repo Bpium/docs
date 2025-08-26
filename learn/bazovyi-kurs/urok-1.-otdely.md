@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 1. Отделы
 
 Настройка Бипиума начинается с создания Отделов. Они объединяют подразделений в одной системе. Мы разберем, что переносить в Бипиум и что такое Отдел.

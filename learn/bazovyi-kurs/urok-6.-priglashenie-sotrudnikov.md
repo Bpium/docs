@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 6. Приглашение сотрудников
 
 На предыдущем уроке мы учились настраивать фильтры по данным. Сегодня мы пригласим сотрудников, которые начнут работать с данными, где они ответственные.

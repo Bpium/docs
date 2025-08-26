@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 7. Рассылка почтовых сообщений
 
 Нередко предприятиям нужно уведомить сотрудников о дедлайне, либо отправить счет на оплату заказчику. Разберем как настроить уведомления любых типов и их отправку.

@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 6. Генерация счетов/документов
 
 Можно сэкономить время сотрудников на рутинном заполнении документов. Разберем как настроить автоматическую генерацию документов.

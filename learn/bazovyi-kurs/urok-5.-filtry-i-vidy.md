@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 5. Фильтры и виды
 
 На предыдущем уроке мы создали каталоги и связи между ними. Сегодня мы разберем, как искать данные и что такое вид.

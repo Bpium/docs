@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Базовый курс
 
 Базовое обучение созданию систем на low-code платформе. Уроки расскажут как создать систему самостоятельно. Для прохождения уроков не требуются технические знания.

@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 10. Интеграции
 
 На предыдущем уроке мы настраивали BPM-сценарий. Сегодня мы расскажем, как в Бипиуме происходит интеграция со сторонними сервисами и какую роль в этом занимают BPM-сценарии.

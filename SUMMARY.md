@@ -110,6 +110,7 @@
   * [Импорт банковских выписок](cases/automations/import-bank-reports.md)
   * [Производственный календарь](cases/automations/proizvodstvennyi-kalendar.md)
   * [Складской учет](cases/automations/skladskoi-uchet.md)
+  * [Email приглашения с файлом календаря](cases/automations/email-priglasheniya-s-failom-kalendarya.md)
 
 ## Интеграции <a href="#integrations" id="integrations"></a>
 

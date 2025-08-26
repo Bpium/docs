@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Урок 1. Принцип работы автоматизаций
 
 Для того, чтобы завести машину, мы должны знать как она работает «под капотом». Аналогично и в этом уроке, мы расскажем, как автоматизация работает изнутри и разберем основные понятия.
