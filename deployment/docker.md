@@ -88,7 +88,7 @@ services:
   
   postgres:
     container_name: postgres
-    image: "postgres:alpine"
+    image: "postgres:14-alpine"
     environment:
       POSTGRES_USER: "postgres"
       POSTGRES_PASSWORD: "password"
