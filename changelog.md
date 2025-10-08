@@ -34,7 +34,7 @@
 {% hint style="info" %}
 **Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/2.1.9/2.1.9%20fix/bpium-win-v2.1.9.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/2.1.9/2.1.9%20fix/bpium-linux-v2.1.9.zip)
 
-**Докер-образы** bpiumdocker/bpium:v2.1.3, bpiumdocker/bpm:v2.1.3, bpiumdocker/s3:v2.1.3
+**Докер-образы** bpiumdocker/bpium:v2.1.9, bpiumdocker/bpm:v2.1.9, bpiumdocker/s3:v2.1.9
 {% endhint %}
 
 ## v2.1.3 от 26 мая 2025
