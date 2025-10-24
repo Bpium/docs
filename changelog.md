@@ -33,7 +33,7 @@
 * Исправлена ошибка с обновлением временных ссылок на сервере исполнения процессов.
 
 {% hint style="info" %}
-**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/2.1.10/bpium-win-v2.1.10.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/2.1.10/bpium-linux-v2.1.10.zip)
+**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/2.1.10/bpium-win-v2.1.10-1.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/2.1.10/bpium-linux-v2.1.10-1.zip)
 
 **Докер-образы** bpiumdocker/bpium:v2.1.10, bpiumdocker/bpm:v2.1.10, bpiumdocker/s3:v2.1.10
 {% endhint %}
