@@ -19,7 +19,7 @@
 
 ### Оглавление
 
-* [**Урок 1.** Отделы](urok-1.-razdely.md)
+* [**Урок 1.** Отделы](urok-1.-otdely.md)
 * [**Урок 2.** Каталоги с данными](urok-2.-katalogi-s-dannymi.md)
 * [**Урок 3.** Карточки записей](urok-3.-kartochki-zapisei.md)
 * [**Урок 4.** Связи между данными](urok-4.-svyazi-mezhdu-dannymi.md)
