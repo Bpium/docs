@@ -234,8 +234,5 @@
   * [Дублирование](learn/patterny-proektirovaniya-is/dublirovanie.md)
   * [Типизация](learn/patterny-proektirovaniya-is/tipizaciya.md)
   * [Информирование](learn/patterny-proektirovaniya-is/informirovanie.md)
-* [Корзина?](learn/korzina.md)
 * [🔑 Права доступа к данным](learn/rights.md)
-* [🆘 Материалы](learn/extra/README.md)
-  * [Обслуживание](learn/extra/obsuzhivanie.md)
 * [🌐 Тип лицензирования](learn/tip-licenzirovaniya.md)
