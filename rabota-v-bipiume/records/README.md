@@ -12,11 +12,11 @@
 
 Анкета — это форма, созданная на основе структуры каталога.
 
-<figure><img src="../.gitbook/assets/8. Анкета.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8. Анкета.jpg" alt=""><figcaption></figcaption></figure>
 
 Обязательные для заполнения поля помечены звездочкой (
 
-![](../.gitbook/assets/required_mark.jpg)
+![](../../.gitbook/assets/required_mark.jpg)
 
 ). Другие поля могут быть пустыми.
 
@@ -28,13 +28,13 @@
 
 Связанные данные показаны в виде номера, названия и даты создания. Отсортированы по дате создания. Клик по записи откроет её карточку в всплывающем окне. Также можно сразу создать новую связанную запись.
 
-<figure><img src="../.gitbook/assets/8. Связи.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8. Связи.jpg" alt=""><figcaption></figcaption></figure>
 
 ## История изменений
 
 Все изменения полей в записи сохраняются.
 
-<figure><img src="../.gitbook/assets/8. История.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8. История.jpg" alt=""><figcaption></figcaption></figure>
 
 Список изменений показан в виде ленты событий в вкладке «История». Изменения отсортированы по дате: недавние — снизу, старые — сверху. События показывают, какие поля были изменены, прежние и новые значения. Прежние значения зачёркнуты или показаны в виде изменения: Было → Стало. В правой колонке показан автор изменений и дата.
 
@@ -64,41 +64,41 @@
 
 ### Пошаговая инструкция
 
-<figure><img src="../.gitbook/assets/массовое редактирование 1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/массовое редактирование 1 (1).png" alt=""><figcaption></figcaption></figure>
 
 Находясь в каталоге вы можете определить записи, которые нужно массово изменить.
 
-<figure><img src="../.gitbook/assets/массовое редактирование 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/массовое редактирование 2.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/массовое редактирование 3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/массовое редактирование 3.png" alt=""><figcaption></figcaption></figure>
 
 Затем, переходя к окну массового редактирования, вы можете определить фильтры по записям. Индикатор количества записей находится число в верхнем левом углу.
 
-<figure><img src="../.gitbook/assets/массовое редактирование 4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/массовое редактирование 4.png" alt=""><figcaption></figcaption></figure>
 
 Следующим шагом является выбор полей, необходимых к редактированию. Индикатор количества выбранных полей находится в верхнем правом углу.
 
-<figure><img src="../.gitbook/assets/массовое редактирование 5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/массовое редактирование 5.png" alt=""><figcaption></figcaption></figure>
 
 После выбора полей, вам предоставляется выбор значений данных полей. Есть правило, если пользователь не выбрал значения для поля, то для всех записей будет установлено пустое значение (т.е. происходит перезапись).
 
-<figure><img src="../.gitbook/assets/массовое редактирование 6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/массовое редактирование 6.png" alt=""><figcaption></figcaption></figure>
 
 После установки всех значений пользователю нужно будет нажать на кнопку начала массового редактирования.
 
-<figure><img src="../.gitbook/assets/массовое редактирование 7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/массовое редактирование 7.png" alt=""><figcaption></figcaption></figure>
 
 Массовое редактирование сопровождается индикатором. Он отражает текущее количество измененных записей.
 
-<figure><img src="../.gitbook/assets/массовое редактирование 8.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/массовое редактирование 8.png" alt=""><figcaption></figcaption></figure>
 
 Массовое редактирование всегда можно приостановить, но при этом, после начала массового редактирования нельзя изменить его параметры.
 
-<figure><img src="../.gitbook/assets/массовое редактирование 9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/массовое редактирование 9.png" alt=""><figcaption></figcaption></figure>
 
 Знаком окончания массового редактирования будет полностью заполненный индикатор.
 
-<figure><img src="../.gitbook/assets/массовое редактирование 10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/массовое редактирование 10.png" alt=""><figcaption></figcaption></figure>
 
 Ошибки, возникшие при массовом редактировании можно отследить, при помощи таблицы, которая отображается при возникновения ошибок.
 
