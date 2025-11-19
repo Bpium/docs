@@ -2513,7 +2513,7 @@ WHERE dbId = 1;
 
 Откройте созданный сценарий и в компоненте «credentions» в переменных _login_ и _password_ укажите ваш логин и пароль для входа в систему:
 
-<figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95) (1).png" alt=""><figcaption></figcaption></figure>
 
 Перейдите в каталог «Внешние запросы» и создайте новую запись:
 
@@ -2535,7 +2535,7 @@ WHERE dbId = 1;
 
 Как только произойдет переход по указанному адресу, система определит внешний запрос и запустит соответствующий сценарий. Результат будет сохранен в Excel-документ. Для его получения перейдите в каталог «Внешние запросы» и откройте созданную ранее запись. В поле «Описание» будет находиться ссылка на скачивание документа.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Результат представлен на двух листах:
 

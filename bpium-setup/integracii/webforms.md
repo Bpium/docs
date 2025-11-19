@@ -10,14 +10,14 @@
 
 ### Веб-форма добавления/изменения записей
 
-<figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (101) (1).png" alt=""><figcaption></figcaption></figure>
 
 Можно настроить отображение на весь экран, передав параметр `&screen=full` в конце адреса.
 
 Пример:\
 `http://test.bpium.ru/?action=record-new&catalog=7&screen=full`
 
-<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (102) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -25,7 +25,7 @@
 
 Веб-форма отображающая определенный каталог
 
-<figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (103) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Создание веб-форм
 
@@ -35,7 +35,7 @@
 
 Далее, внутри каталога нужно задать название каталога добавить поля, которые будут отображаться для заполняющего.
 
-<figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (105) (1).png" alt=""><figcaption></figcaption></figure>
 
 После сохранения ссылку на веб-форму можно получить перейдя в "Доступ к каталогу" в левом верхнем углу, и в открывшемся окне нажав на один из двух видов.
 
@@ -52,7 +52,7 @@
 
 Для создания аккаунта через который будет осуществляться пользователями доступ к форме, необходимо перейти в каталог "Сотрудники" и там создать нового сотрудника введя любое имя для него и почту, к которой вы имеете доступ. На данную почту придет приглашение, после перехода по которому нужно будет придумать пароль для общего аккаунта.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Автоматическая авторизация
 
@@ -126,11 +126,11 @@
 Далее нужно сохранить выбранный вид, выбрав тип "Правовой" и задать название для администратора.\
 
 
-<figure><img src="../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (106) (1).png" alt=""><figcaption></figcaption></figure>
 
 В открывшемся окне "Общий доступ к виду" выбираем наш общий аккаунт и задаем привилегию "Видеть записи" и  сохраняем.
 
-<figure><img src="../../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (109) (1).png" alt=""><figcaption></figcaption></figure>
 
 Таким образом, при передаче ссылки на веб-форму для просмотра записи или каталога человек увидит ее, если она попадает под выбранный нами фильтр.\
 Если же вам нужно, чтобы человек мог еще и изменять записи, то нужно выставить в  "Общий доступ к виду" вместо "Видеть записи" "Изменять записи".&#x20;
@@ -152,9 +152,9 @@
 Теперь перешедший по ссылке сможет вносить данные и сохранять данные, однако при переходе в каталог он не увидит никакой информации. \
 
 
-<figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (110) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (111) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Интеграция веб-формы на сайт
 

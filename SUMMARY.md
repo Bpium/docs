@@ -13,9 +13,12 @@
 ## Работа в Бипиуме
 
 * [Интерфейс системы](rabota-v-bipiume/sections.md)
-* [Просмотр записей](rabota-v-bipiume/list.md)
-* [📊 Отчеты](rabota-v-bipiume/reports/README.md)
-  * [Графики](rabota-v-bipiume/reports/widgets.md)
+* [Просмотр записей](rabota-v-bipiume/list/README.md)
+  * [Виды отображения записей](rabota-v-bipiume/list/vidy-otobrazheniya-zapisei.md)
+  * [Инструменты анализа](rabota-v-bipiume/list/instrumenty-analiza/README.md)
+    * [📊 Отчеты и графики](rabota-v-bipiume/list/instrumenty-analiza/reports.md)
+  * [Инструкция](rabota-v-bipiume/list/instrukciya.md)
+  * [Активность](rabota-v-bipiume/list/aktivnost.md)
 * [Работа с большими данными](rabota-v-bipiume/filter/README.md)
   * [Фильтры и поиск](rabota-v-bipiume/filter/filtry-i-poisk.md)
   * [Сохранение выбранных фильтров](rabota-v-bipiume/filter/sokhranenie-vybrannykh-filtrov.md)
@@ -28,10 +31,11 @@
   * [Связи](rabota-v-bipiume/records/svyazi.md)
   * [Чат](rabota-v-bipiume/records/chat.md)
   * [История](rabota-v-bipiume/records/activity.md)
-  * [Инструкция](rabota-v-bipiume/records/instrukciya.md)
+  * [Мультимодальное окно](rabota-v-bipiume/records/multimodalnoe-okno.md)
 * [Работа с записью](rabota-v-bipiume/rabota-s-zapisyu/README.md)
   * [Клонирование](rabota-v-bipiume/rabota-s-zapisyu/klonirovanie.md)
   * [Редактирование](rabota-v-bipiume/rabota-s-zapisyu/redaktirovanie.md)
+  * [Удаление](rabota-v-bipiume/rabota-s-zapisyu/udalenie.md)
 
 ## Настройка Бипиума <a href="#bpium-setup" id="bpium-setup"></a>
 
