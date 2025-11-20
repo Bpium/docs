@@ -32,10 +32,5 @@
 
 <figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
-### Поиск записей
 
-Поле быстрого поиска позволяет находить записи по данным в текстовых полях: названиях, именах контактов, телефонах и адресах электронной почты. Для расширенного поиска используйте фильтры.
 
-<figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
