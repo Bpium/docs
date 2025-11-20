@@ -174,14 +174,13 @@
     * [Очередь сценариев](cases/automations/upravlenie-zadachami-i-taim-menedzhment/ochered-scenariev.md)
     * [Отправка на больничный](cases/automations/upravlenie-zadachami-i-taim-menedzhment/otpravka-na-bolnichnyi.md)
 * [Интеграции](cases/cases/README.md)
-  * [Тильда](cases/cases/tilda/README.md)
-    * [Прием данных с формы Tilda](cases/cases/tilda/priem-dannykh-s-formy-tilda.md)
-    * [Интеграция веб-интерфейса в Tilda](cases/cases/tilda/integraciya-s-tilda.md)
-    * [Как получать формы](cases/cases/tilda/kak-poluchat-formy.md)
-  * [Интеграция c «Единой информационной системой в сфере закупок»](cases/cases/integraciya-c-edinoi-informacionnoi-sistemoi-v-sfere-zakupok.md)
   * [Мессенджеры](cases/cases/messengers/README.md)
     * [Интеграция с Telegram-ботом](cases/cases/messengers/integraciya-s-telegram-botom.md)
   * [Сервисы](cases/cases/servisy/README.md)
+    * [Тильда](cases/cases/servisy/tilda/README.md)
+      * [Прием данных с формы Tilda](cases/cases/servisy/tilda/priem-dannykh-s-formy-tilda.md)
+      * [Интеграция веб-интерфейса в Tilda](cases/cases/servisy/tilda/integraciya-s-tilda.md)
+      * [Как получать формы](cases/cases/servisy/tilda/kak-poluchat-formy.md)
     * [DaData](cases/cases/servisy/integraciya-s-servisom-dadata.md)
     * [UniSender](cases/cases/servisy/unisender.md)
     * [MailChimp](cases/cases/servisy/mailchimp.md)
@@ -193,8 +192,8 @@
     * [Диадок](cases/cases/servisy/diadok.md)
     * [AmoCRM](cases/cases/servisy/amocrm.md)
     * [Битрикс24](cases/cases/servisy/bitriks24.md)
+    * [Интеграция c «Единой информационной системой в сфере закупок»](cases/cases/servisy/integraciya-c-edinoi-informacionnoi-sistemoi-v-sfere-zakupok.md)
 * [Права](cases/prava.md)
-* [Лицензии](cases/licenzii.md)
 
 ## Установка на сервер <a href="#deployment" id="deployment"></a>
 
