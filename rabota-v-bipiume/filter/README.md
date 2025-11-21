@@ -1,4 +1,4 @@
-# Работа с большими данными
+# Управление
 
 <details>
 
@@ -10,7 +10,7 @@
 
 <details>
 
-<summary><a href="sokhranenie-vybrannykh-filtrov.md">Сохранение выбранных фильтров</a></summary>
+<summary><a href="vidy.md">Виды</a></summary>
 
 
 
@@ -18,7 +18,7 @@
 
 <details>
 
-<summary><a href="https://app.gitbook.com/o/-LACZmFVinTpBa6Goi4-/s/-LACZmmM2xUWbZxyRr4s/~/changes/566/rabota-v-bipiume/filter/massovoe-redaktirovanie+">Массовое редактирование записей</a></summary>
+<summary><a href="klonirovanie.md">Клонирование</a></summary>
 
 
 
@@ -26,7 +26,7 @@
 
 <details>
 
-<summary><a href="https://app.gitbook.com/o/-LACZmFVinTpBa6Goi4-/s/-LACZmmM2xUWbZxyRr4s/~/changes/566/rabota-v-bipiume/filter/massovoe-udalenie+">Массовое удаление записей</a></summary>
+<summary><a href="https://app.gitbook.com/o/-LACZmFVinTpBa6Goi4-/s/-LACZmmM2xUWbZxyRr4s/~/changes/569/rabota-v-bipiume/filter/redaktirovanie">Редактирование</a></summary>
 
 
 
@@ -34,7 +34,7 @@
 
 <details>
 
-<summary><a href="export.md">Экспорт записей</a></summary>
+<summary><a href="export.md">Экспорт</a></summary>
 
 
 
@@ -42,8 +42,17 @@
 
 <details>
 
-<summary><a href="import-zapisei.md">Импорт записей</a></summary>
+<summary><a href="import.md">Импорт</a></summary>
 
 
 
 </details>
+
+<details>
+
+<summary><a href="https://app.gitbook.com/o/-LACZmFVinTpBa6Goi4-/s/-LACZmmM2xUWbZxyRr4s/~/changes/569/rabota-v-bipiume/filter/udalenie">Удаление</a></summary>
+
+
+
+</details>
+

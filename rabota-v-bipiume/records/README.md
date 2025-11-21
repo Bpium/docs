@@ -1,4 +1,4 @@
-# Элементы записи
+# Структура
 
 Разделы содержат каталоги, каталоги состоят из записей.  Записи — это данные. Если кликнуть на строку в таблице каталога, откроется анкета записи.&#x20;
 
@@ -19,7 +19,7 @@
 <figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
 * Поля для заполнения
-* [Мультимодальное окно](https://app.gitbook.com/o/-LACZmFVinTpBa6Goi4-/s/-LACZmmM2xUWbZxyRr4s/~/changes/562/rabota-v-bipiume/records/multimodalnoe-okno) — отдельный элемент структуры записи, помогающий при заполнении связанных полей
+* [Дерево записей](https://app.gitbook.com/o/-LACZmFVinTpBa6Goi4-/s/-LACZmmM2xUWbZxyRr4s/~/changes/562/rabota-v-bipiume/records/multimodalnoe-okno)— отдельный элемент структуры записи, помогающий при заполнении связанных полей
 
 <figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
