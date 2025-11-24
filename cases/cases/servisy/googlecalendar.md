@@ -1,3 +1,7 @@
+---
+description: Интеграция платформы Bpium c Google Calendar
+---
+
 # Google Calendar
 
 Сервис для планирования личных и групповых встреч. Интегрирован с почтой и календарями мобильных устройств. Сайт: [calendar.google.com](https://calendar.google.com)

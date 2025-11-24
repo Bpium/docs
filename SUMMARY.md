@@ -170,9 +170,9 @@
     * [Создание наименований записей](cases/automations/instrumenty/sozdanie-naimenovanii-zapisei.md)
 * [Интеграции](cases/cases/README.md)
   * [Мессенджеры](cases/cases/messengers/README.md)
-    * [Интеграция с Telegram-ботом](cases/cases/messengers/integraciya-s-telegram-botom.md)
+    * [Telegram](cases/cases/messengers/integraciya-s-telegram-botom.md)
   * [Сервисы](cases/cases/servisy/README.md)
-    * [Тильда](cases/cases/servisy/tilda/README.md)
+    * [Tilda](cases/cases/servisy/tilda/README.md)
       * [Прием данных с формы Tilda](cases/cases/servisy/tilda/priem-dannykh-s-formy-tilda.md)
       * [Интеграция веб-интерфейса в Tilda](cases/cases/servisy/tilda/integraciya-s-tilda.md)
       * [Как получать формы](cases/cases/servisy/tilda/kak-poluchat-formy.md)
@@ -187,7 +187,7 @@
     * [Диадок](cases/cases/servisy/diadok.md)
     * [AmoCRM](cases/cases/servisy/amocrm.md)
     * [Битрикс24](cases/cases/servisy/bitriks24.md)
-    * [Интеграция c «Единой информационной системой в сфере закупок»](cases/cases/servisy/integraciya-c-edinoi-informacionnoi-sistemoi-v-sfere-zakupok.md)
+    * [ЕИС в сфере закупок](cases/cases/servisy/integraciya-c-edinoi-informacionnoi-sistemoi-v-sfere-zakupok.md)
 
 ## Установка на сервер <a href="#deployment" id="deployment"></a>
 

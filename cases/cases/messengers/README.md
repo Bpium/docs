@@ -1,10 +1,9 @@
----
-description: В разработке...
----
-
 # Мессенджеры
 
-## Сервисы
+<details>
 
-* [Telegram ](broken-reference)— бесплатный кроссплатформенный мессенджер
+<summary><a href="integraciya-s-telegram-botom.md">Telegram-бот</a></summary>
 
+
+
+</details>

@@ -1,12 +1,14 @@
 # Структура
 
+## Разделы и каталоги
+
 Разделы содержат каталоги, каталоги состоят из записей.  Записи — это данные. Если кликнуть на строку в таблице каталога, откроется анкета записи.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
-#### Структура Записи
+## Структура Записи
 
 Запись в себе содержит следующую структуру элементов:&#x20;
 
@@ -23,14 +25,41 @@
 
 <figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
-#### Вкладки Записи
+### Вкладки Записи
 
 В каждой записи есть базовые вкладки:&#x20;
 
-1. [Анкета](anketa.md)
-2. [Связи](svyazi.md)
-3. [Чат](chat.md)
-4. [История изменений](activity.md)
+<details>
+
+<summary><a href="anketa.md">Анкета</a></summary>
+
+
+
+</details>
+
+<details>
+
+<summary><a href="svyazi.md">Связи</a></summary>
+
+
+
+</details>
+
+<details>
+
+<summary><a href="chat.md">Чат</a></summary>
+
+
+
+</details>
+
+<details>
+
+<summary><a href="activity.md">История изменений</a></summary>
+
+
+
+</details>
 
 
 

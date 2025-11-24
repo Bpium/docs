@@ -2,7 +2,7 @@
 
 <details>
 
-<summary>Сотрудники</summary>
+<summary><a href="sotrudniki/">Сотрудники</a></summary>
 
 
 
@@ -10,7 +10,7 @@
 
 <details>
 
-<summary>Клиенты</summary>
+<summary><a href="klienty/">Клиенты</a></summary>
 
 
 
@@ -18,7 +18,7 @@
 
 <details>
 
-<summary>Рассылки</summary>
+<summary><a href="rassylki/">Рассылки</a></summary>
 
 
 

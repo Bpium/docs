@@ -1,3 +1,7 @@
+---
+description: Интеграция платформы Bpium c Oktell
+---
+
 # Oktell
 
 ![](../../../../.gitbook/assets/Oktell_logo_new.png)

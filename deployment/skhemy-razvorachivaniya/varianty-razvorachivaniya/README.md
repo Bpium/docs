@@ -22,8 +22,20 @@ Bpium Enterprise состоит из 3 независимых приложени
 
 Серверные приложения, база данных и файловое хранилище могут быть установлены на одном или разных серверах, работать на защищенном канале связи HTTPS или незащищенном HTTP.
 
-## Подробнее о требованиях для запуска
+## Варианты запуска и требования
 
-[Минимальный набор для тестового запуска](https://docs.bpium.ru/~/revisions/PCOuurHnldwBOuxvsJ9t/deployment/skhemy-razvorachivaniya/varianty-razvorachivaniya/minimalnyi-nabor-dlya-testovogo-zapuska)
+<details>
 
-[Рекомендуемый набор для рабочего (production) запуска Бипиум](https://docs.bpium.ru/~/revisions/7xZbuF5sSwWydmpdgEBU/deployment/skhemy-razvorachivaniya/varianty-razvorachivaniya/rekomenduemyi-nabor-dlya-rabochego-production-zapuska-bipium)
+<summary><a href="https://docs.bpium.ru/~/revisions/PCOuurHnldwBOuxvsJ9t/deployment/skhemy-razvorachivaniya/varianty-razvorachivaniya/minimalnyi-nabor-dlya-testovogo-zapuska">Минимальный набор для тестового запуска</a></summary>
+
+
+
+</details>
+
+<details>
+
+<summary><a href="https://docs.bpium.ru/~/revisions/7xZbuF5sSwWydmpdgEBU/deployment/skhemy-razvorachivaniya/varianty-razvorachivaniya/rekomenduemyi-nabor-dlya-rabochego-production-zapuska-bipium">Рекомендуемый набор для рабочего (production) запуска Бипиум</a></summary>
+
+
+
+</details>
