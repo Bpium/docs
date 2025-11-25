@@ -4,11 +4,11 @@
 
 Данные каталогов можно отобразить в виде графиков. Рассмотрим работу с отчетами на нашем примере: откроем каталог «Заказы» и перейдем в отчеты.
 
-<figure><img src="../.gitbook/assets/01. Дашборды.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (172).png" alt=""><figcaption><p>Вкладка «Отчеты»</p></figcaption></figure>
 
 Откроется следующая вкладка каталога:
 
-<figure><img src="../.gitbook/assets/01.1. Создать отчет.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (173).png" alt=""><figcaption><p>Вкладка «Отчеты». Инструменты отчета.</p></figcaption></figure>
 
 Дашборд — это набор графиков.
 
@@ -20,9 +20,9 @@
 
 Создадим график, который будет отображать сумму заказов каждого из клиентов.
 
-<figure><img src="../.gitbook/assets/02. Добавление отчета.png" alt=""><figcaption></figcaption></figure>
-
 В открывшемся конструкторе заполним поля:
+
+<figure><img src="../.gitbook/assets/image (174).png" alt=""><figcaption><p>Создание графика. Структура.</p></figcaption></figure>
 
 1\. **Посчитать.** Здесь нужно указать, какие данные нужно посчитать. В нашем случае — «Сумма заказа».
 
@@ -40,8 +40,8 @@
 
 Сохраним график.
 
-<figure><img src="../.gitbook/assets/04. Сохранить отчет.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (175).png" alt=""><figcaption><p>Сохранение графика</p></figcaption></figure>
 
 ### Пример настроенного дашборда <a href="#cnvt71j7hkz2" id="cnvt71j7hkz2"></a>
 
-<figure><img src="../.gitbook/assets/05. Пример дашборда.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (176).png" alt=""><figcaption><p>Пример настроенного дашборда</p></figcaption></figure>
