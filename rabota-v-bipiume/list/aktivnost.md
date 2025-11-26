@@ -6,7 +6,7 @@
 
 Внутри каждого каталога есть вкладка Активность, которая позволяет просмотреть всю историю изменений, внесенных в текущий каталог. Изменения по всем записям попадают в общую ленту изменений, которая позволяет оценить работу сотрудников.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 Действия в ленте отсортированы по дате изменений: недавние — сверху, старые — снизу.
 
@@ -27,15 +27,15 @@
 
 * Типу активности: все действия, создание записей, изменение записей, удаление записей
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Сотрудникам: все сотрудники, конкретный сотрудник
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Отображаемым полям (видимость): можно выбрать отображение всех полей или конкретных
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Права
 

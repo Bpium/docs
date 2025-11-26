@@ -4,7 +4,7 @@
 
 ## Список разделов
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Разделы и каталоги</p></figcaption></figure>
 
 Разделы отображены в верхней части экрана. По умолчанию в Бипиуме создан один раздел — «Управление».
 
@@ -12,9 +12,11 @@
 
 В конце списка разделов находится кнопка добавления новых разделов. разделы могут создавать сотрудники имеющие право администрировать раздел «Управление».
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
-
 Созданные разделы видны всем сотрудникам компании, пока на них не ограничили права.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Создание раздела</p></figcaption></figure>
+
+
 
 ## Изменение раздела
 
@@ -24,7 +26,7 @@
 * Переименовать — изменение названия
 * Удалить раздел — удаление раздела со всеми каталогами и данными
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Свойства раздела</p></figcaption></figure>
 
 В зависимости от назначенных прав набор действий может быть ограничен.
 
@@ -32,7 +34,7 @@
 
 При удалении раздела также удаляются и все каталоги этого раздела. При этом, если другие записи ссылаются на записи удаленных каталогов, то эти связи останутся. Но открыть удаленные связанные записи будет нельзя.
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Удаление раздела</p></figcaption></figure>
 
 ### Восстановление удаленных данных
 
@@ -57,7 +59,7 @@
 
 При создании нового каталога вы переходите в режим [редактирования его структуры](/broken/pages/-LACZqPaRG9Botf4XgxZ).
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Создание нового каталога</p></figcaption></figure>
 
 ## Изменение каталога
 
@@ -70,33 +72,33 @@
 
 В зависимости от назначенных прав набор действий может быть ограничен.
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Редактирование каталога. Свойства каталога</p></figcaption></figure>
 
 ### Удаление всех записей каталога
 
 При удалении всех записей каталога также происходит удаление всех связей и историй каждой из удаляемых записей. Для подтверждения удаления всех записей система попросит повторно ввести название каталога во избежание случайной очистки. Механизм удаления всех записей в каталоге оказывается полезен, когда необходимо быстро очистить все содержимое каталога, не прибегая к сценариям автоматизаций. Такое, например, возникает при разработке каталога и наполнения его тестовыми записями, которые в последствие не будут использоваться.
 
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Удаление всех записей каталога</p></figcaption></figure>
+
 ### Сортировка каталогов
 
 Каталоги можно разместить в нужном порядке, перетащив их мышкой за иконку каталога. Сортировать каталоги может сотрудник с правом администрировать раздел.
 
-
-
 ### Перенос каталога между разделами <a href="#perenos-kataloga-mezhdu-otdelami" id="perenos-kataloga-mezhdu-otdelami"></a>
 
-В настройках структуры каталога можно перенести каталог между разделами. В верхней части левой панели необходимо выбрать нужный раздел из списка всех разделов и перетащить под нужный раздел. Перемещение каталога происходит без потери данных.
-
-<figure><img src="https://docs.bpium.ru/~gitbook/image?url=https%3A%2F%2F1283378397-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LACZmmM2xUWbZxyRr4s%252F-M28GbnLoddrTSSCyErs%252F-M28wAnx5mUeUjTBXksv%252F1.png%3Falt%3Dmedia%26token%3D391c1f13-981d-483b-9033-cfe0e5aba8d1&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=83b1ee8a&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+Каталог можно перемещать из раздела в раздел, аналогично сортировке, просто перетаскивая каталог в нужный раздел. Перемещение каталога происходит без потери данных.
 
 ### Название каталога и иконка <a href="#nazvanie-kataloga-i-ikonka" id="nazvanie-kataloga-i-ikonka"></a>
 
 Каталог имеет иконку и название. Чтобы изменить иконку, нажмите на кнопку около названия каталога. Бипиум предлагает на выбор более 1000 иконок. Иконки разделены по категориям для удобства навигации.
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Выбор иконки каталога</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Выбор иконки каталога</p></figcaption></figure>
 
 ### Настройка полей <a href="#nastroika-polei" id="nastroika-polei"></a>
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Структура каталога. Конструктор каталога. Настройка полей.</p></figcaption></figure>
 
 Структура каталога состоит из полей разного типа. В левой части расположен список возможных элементов (типов полей). В правой — карточка каталога. Поля в карточке разбиты на секции. Секции объединяют близкие по смыслу поля для большего порядка.
 
@@ -112,7 +114,15 @@
 * Подсказку, которая отображается сотрудникам при заполнении поля
 * Свойство, которое разрешает редактирование только через API
 
-![](https://docs.bpium.ru/~gitbook/image?url=https%3A%2F%2F1283378397-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LACZmmM2xUWbZxyRr4s%252F-LtOkWfXCK1D6MTwgiK7%252F-LtOvY2y1ib9YnqvuHSZ%252F3-screenshot.png%3Falt%3Dmedia%26token%3D02aaa6a6-0dc2-462a-884b-36b2134d4da0\&width=768\&dpr=4\&quality=100\&sign=d76f03ba\&sv=2)![](https://docs.bpium.ru/~gitbook/image?url=https%3A%2F%2F1283378397-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LACZmmM2xUWbZxyRr4s%252F-M4nLNelr7LdUFvriuJT%252F-M4nRUTn1869njDzM4T-%252Fimage.png%3Falt%3Dmedia%26token%3D102943f2-64f1-42ce-8f11-b2f5cc76532e\&width=768\&dpr=4\&quality=100\&sign=cdf113be\&sv=2)
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+
+
+![](https://docs.bpium.ru/~gitbook/image?url=https%3A%2F%2F1283378397-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LACZmmM2xUWbZxyRr4s%252F-LtOkWfXCK1D6MTwgiK7%252F-LtOvY2y1ib9YnqvuHSZ%252F3-screenshot.png%3Falt%3Dmedia%26token%3D02aaa6a6-0dc2-462a-884b-36b2134d4da0\&width=768\&dpr=4\&quality=100\&sign=d76f03ba\&sv=2)
+
+![](https://docs.bpium.ru/~gitbook/image?url=https%3A%2F%2F1283378397-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LACZmmM2xUWbZxyRr4s%252F-M4nLNelr7LdUFvriuJT%252F-M4nRUTn1869njDzM4T-%252Fimage.png%3Falt%3Dmedia%26token%3D102943f2-64f1-42ce-8f11-b2f5cc76532e\&width=768\&dpr=4\&quality=100\&sign=cdf113be\&sv=2)
 
 ### Условия видимости поля <a href="#usloviya-vidimosti-polya" id="usloviya-vidimosti-polya"></a>
 
