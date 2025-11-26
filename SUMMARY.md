@@ -103,7 +103,7 @@
       * [Отправка почты](bpium-setup/processes/components/kommunikacii/email.md)
       * [Соединяющая линия](bpium-setup/processes/components/kommunikacii/line.md)
       * [Отправить сообщение](bpium-setup/processes/components/kommunikacii/otpravit-soobshenie.md)
-      * [Компонент Telegram](bpium-setup/processes/components/kommunikacii/komponent-telegram/README.md)
+      * [Компонент Telegram](bpium-setup/processes/components/kommunikacii/telegram.md)
         * [Сервис получения токенов](bpium-setup/processes/components/kommunikacii/komponent-telegram/servis-polucheniya-tokenov.md)
       * [WhatsApp](bpium-setup/processes/components/kommunikacii/whatsapp.md)
   * [Ограничения](bpium-setup/processes/limits.md)
