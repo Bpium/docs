@@ -108,21 +108,13 @@
 
 Каждое поле имеет:
 
-* Заголовок
-* Признак обязательного поля (![](https://docs.bpium.ru/~gitbook/image?url=https%3A%2F%2F1283378397-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LACZmmM2xUWbZxyRr4s%252F-LACZnWTX_UP3XcilXPc%252F-LACZvFsUnNloj9qLjcj%252Frequired_mark.jpg%3Fgeneration%3D1523867434483430%26alt%3Dmedia\&width=300\&dpr=4\&quality=100\&sign=3b878dce\&sv=2))
-* Свойства в зависимости от типа поля
-* Подсказку, которая отображается сотрудникам при заполнении поля
-* Свойство, которое разрешает редактирование только через API
+1. Заголовок
+2. Признак обязательного поля (![](https://docs.bpium.ru/~gitbook/image?url=https%3A%2F%2F1283378397-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LACZmmM2xUWbZxyRr4s%252F-LACZnWTX_UP3XcilXPc%252F-LACZvFsUnNloj9qLjcj%252Frequired_mark.jpg%3Fgeneration%3D1523867434483430%26alt%3Dmedia\&width=300\&dpr=4\&quality=100\&sign=3b878dce\&sv=2))
+3. Свойства в зависимости от типа поля
+4. Подсказку, которая отображается сотрудникам при заполнении поля
+5. Параметр настройки вида отображения поля и настройки возможности редактирования только через API&#x20;
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
-
-
-
-![](https://docs.bpium.ru/~gitbook/image?url=https%3A%2F%2F1283378397-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LACZmmM2xUWbZxyRr4s%252F-LtOkWfXCK1D6MTwgiK7%252F-LtOvY2y1ib9YnqvuHSZ%252F3-screenshot.png%3Falt%3Dmedia%26token%3D02aaa6a6-0dc2-462a-884b-36b2134d4da0\&width=768\&dpr=4\&quality=100\&sign=d76f03ba\&sv=2)
-
-![](https://docs.bpium.ru/~gitbook/image?url=https%3A%2F%2F1283378397-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LACZmmM2xUWbZxyRr4s%252F-M4nLNelr7LdUFvriuJT%252F-M4nRUTn1869njDzM4T-%252Fimage.png%3Falt%3Dmedia%26token%3D102943f2-64f1-42ce-8f11-b2f5cc76532e\&width=768\&dpr=4\&quality=100\&sign=cdf113be\&sv=2)
+<figure><img src="../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure>
 
 ### Условия видимости поля <a href="#usloviya-vidimosti-polya" id="usloviya-vidimosti-polya"></a>
 
@@ -136,6 +128,8 @@
 
 <figure><img src="https://docs.bpium.ru/~gitbook/image?url=https%3A%2F%2F1283378397-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LACZmmM2xUWbZxyRr4s%252F-M4rsh7xxduqwOuMOXMy%252F-M4ruOFq2fGDJLXzFORW%252F%25D0%25B8%25D0%25B7%25D0%25BE%25D0%25B1%25D1%2580%25D0%25B0%25D0%25B6%25D0%25B5%25D0%25BD%25D0%25B8%25D0%25B5.png%3Falt%3Dmedia%26token%3D13756da1-414b-4e0f-b6ab-7bb1aec45f05&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=18588877&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
-Далее в панели свойств поля откройте секцию "Видимость" и выберите значения других полей, при которых открытое на редактирование поле должно быть видимым:
+Далее в панели свойств поля откройте секцию "Видимость" и выберите значения других полей, при которых открытое на редактирование поле должно быть видимым.&#x20;
 
-<figure><img src="https://docs.bpium.ru/~gitbook/image?url=https%3A%2F%2F1283378397-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LACZmmM2xUWbZxyRr4s%252F-M4rsh7xxduqwOuMOXMy%252F-M4ruI38sSJ0fpdD3m1w%252F%25D0%25B8%25D0%25B7%25D0%25BE%25D0%25B1%25D1%2580%25D0%25B0%25D0%25B6%25D0%25B5%25D0%25BD%25D0%25B8%25D0%25B5.png%3Falt%3Dmedia%26token%3D7c887de7-5638-484f-9e82-dd0c4d7bfbcf&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=22c52d7c&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+Настроим поле Сумма заказа таким образом, чтобы оно отображалось в карточке только тогда, когда в поле Клиент выбран ООО «Бипиум»:&#x20;
+
+<figure><img src="../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure>
