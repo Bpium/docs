@@ -15,11 +15,11 @@
 * Авторизационный токен (обязательное) — Это ключ доступа вашего аккаунта/бота. Чтобы получить токен ознакомьтесь с правилами работы сервиса токенов bpium. Подробнее про [Сервис получения токенов](https://docs.bpium.ru/~/revisions/RvJyhyxrmfCKm4AXIS42/bpium-setup/processes/components/kommunikacii/komponent-telegram/sozdanie-tokena).
 * Тип подключения (обязательное) — Определяет контекст, от имени которого будет отправлено сообщение. Доступные варианты: Пользователь, бот.
 
-<figure><img src="../../../../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (230).png" alt=""><figcaption><p>Автоматизации: Компонент Telegram</p></figcaption></figure>
 
 ## Заполнение параметров
 
-<figure><img src="../../../../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (232).png" alt=""><figcaption><p>Автоматизации: Компонент Telegram</p></figcaption></figure>
 
 * **Действие**  — Выберите действие, которое должен выполнить компонент. На данный момент доступны следующие действия ”Отправить сообщение, Отправить геолокацию, Отправить контакт, Переслать сообщение, Изменить сообщение, Удалить сообщение, Получить диалоги, Получить профиль, Получить сообщения”.
 * **Диалог** — Уникальный идентификатор чата, куда будет отправлено/получено сообщение. Это может быть @username пользователя или публичного канала, либо числовой chat\_id группового чата или личного диалога.
@@ -30,7 +30,7 @@
 * ID сообщения — Дополнительное поле, заполняется при выборе опции Ответить на сообщение.
 * Отправить без уведомления — Если эта опция активна, сообщение будет отправлено «бесшумно». Пользователи в чате не получат звукового уведомления или push-пуш.
 
-<figure><img src="../../../../.gitbook/assets/image (235).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (235).png" alt=""><figcaption><p>Автоматизации: Компонент Telegram</p></figcaption></figure>
 
 #### Поля для заполнения при типе подключения Бот:
 
@@ -47,7 +47,7 @@ Inline-клавиатура: { "inline_keyboard": [[{ "text":
  Удалить клавиатуру: { "remove_keyboard": true}.
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (236).png" alt=""><figcaption><p>Автоматизации: Компонент Telegram</p></figcaption></figure>
 
 #### Поля для подключения при типе подключения Пользователь:
 
@@ -55,7 +55,7 @@ Inline-клавиатура: { "inline_keyboard": [[{ "text":
 * Отправить позже —  Если эта опция активна, сообщение будет отправлено в заданную Дату.
 * Дата отправки — Дополнительное поле, заполняется при выборе опции Отправить позже.
 
-<figure><img src="../../../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (234).png" alt=""><figcaption><p>Автоматизации: Компонент Telegram</p></figcaption></figure>
 
 ## Результат
 
@@ -65,7 +65,7 @@ Inline-клавиатура: { "inline_keyboard": [[{ "text":
 
 В эту переменную сохранится объект с данными отправленного сообщения (например, его уникальный message\_id). Это полезно, если вы планируете later редактировать это сообщение или отвечать на него в рамках этого же процесса.
 
-<figure><img src="../../../../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (233).png" alt=""><figcaption><p>Автоматизации: Компонент Telegram</p></figcaption></figure>
 
 ## Вариант использования
 

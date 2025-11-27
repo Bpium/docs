@@ -40,7 +40,7 @@
 
 <figure><img src="../../../../.gitbook/assets/image (242).png" alt=""><figcaption><p>Автоматизации: компонент WhatsApp</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (243).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (243).png" alt=""><figcaption><p>Автоматизации: компонент WhatsApp</p></figcaption></figure>
 
 ## &#x20;         Результат
 
@@ -50,7 +50,7 @@
 
 
 
-<figure><img src="../../../../.gitbook/assets/image (244).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (244).png" alt=""><figcaption><p>Автоматизации: компонент WhatsApp</p></figcaption></figure>
 
 ## Пример использования
 
