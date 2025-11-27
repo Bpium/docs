@@ -105,7 +105,7 @@
       * [Отправить сообщение](bpium-setup/processes/components/kommunikacii/otpravit-soobshenie.md)
       * [Компонент Telegram](bpium-setup/processes/components/kommunikacii/telegram.md)
         * [Сервис получения токенов](bpium-setup/processes/components/kommunikacii/komponent-telegram/servis-polucheniya-tokenov.md)
-      * [WhatsApp](bpium-setup/processes/components/kommunikacii/whatsapp.md)
+      * [Компонент WhatsApp](bpium-setup/processes/components/kommunikacii/komponent-whatsapp.md)
   * [Ограничения](bpium-setup/processes/limits.md)
 * [Интеграции](bpium-setup/integracii/README.md)
   * [🥂 Методы интеграции](bpium-setup/integracii/integration/README.md)

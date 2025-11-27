@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Сервис получения токенов
 
 Для того, чтобы получить токен, откройте tokens.bpium.ru и следуйте инструкции. <br>
@@ -26,11 +22,9 @@ hidden: true
 
 Заполните поля конфигурации API
 
-<figure><img src="../../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (237).png" alt=""><figcaption></figcaption></figure>
 
-
-
-<figure><img src="../../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure>
 
 Скопируйте API ID и API hash  и вставьте в поля на странице tokens.bpium.ru&#x20;
 
@@ -38,5 +32,5 @@ hidden: true
 
 После подтверждения авторизации вы получите ключ.
 
-<figure><img src="../../../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (239).png" alt=""><figcaption></figcaption></figure>
 
