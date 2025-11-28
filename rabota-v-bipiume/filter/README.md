@@ -10,7 +10,7 @@
 
 <details>
 
-<summary><a href="../../bpium-setup/views/lichnye-vidy.md">Виды</a></summary>
+<summary><a href="../../bpium-setup/views/lichnye.md">Виды</a></summary>
 
 
 
