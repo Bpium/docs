@@ -4,7 +4,7 @@
 
 ## Список разделов
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Разделы и каталоги</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Разделы и каталоги</p></figcaption></figure>
 
 Разделы отображены в верхней части экрана. По умолчанию в Бипиуме создан один раздел — «Управление».
 
@@ -14,7 +14,7 @@
 
 Созданные разделы видны всем сотрудникам компании, пока на них не ограничили права.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Создание раздела</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Создание раздела</p></figcaption></figure>
 
 
 
@@ -26,7 +26,7 @@
 * Переименовать — изменение названия
 * Удалить раздел — удаление раздела со всеми каталогами и данными
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Свойства раздела</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Свойства раздела</p></figcaption></figure>
 
 В зависимости от назначенных прав набор действий может быть ограничен.
 
