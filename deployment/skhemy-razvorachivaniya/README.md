@@ -1,3 +1,7 @@
+---
+icon: bezier-curve
+---
+
 # Схемы разворачивания
 
 <details>

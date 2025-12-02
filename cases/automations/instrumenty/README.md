@@ -2,7 +2,7 @@
 
 <details>
 
-<summary><a href="vygruzka-failov-na-yandeks-disk.md">Выгрузка файлов на Яндекс Диск</a></summary>
+<summary><a href="../../cases/messengers/yandeks-disk.md">Выгрузка файлов на Яндекс Диск</a></summary>
 
 
 
@@ -26,7 +26,7 @@
 
 <details>
 
-<summary><a href="import-bank-reports.md">Импорт банковских выписок</a></summary>
+<summary><a href="../biznes-keisy/klienty/import-bank-reports.md">Импорт банковских выписок</a></summary>
 
 
 

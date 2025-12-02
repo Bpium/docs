@@ -1,3 +1,7 @@
+---
+icon: sparkle
+---
+
 # Автоматизации
 
 <details>

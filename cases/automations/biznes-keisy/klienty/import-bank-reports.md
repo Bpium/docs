@@ -88,7 +88,7 @@
 * **Название**: укажите название сценария&#x20;
 * **Сценарий**: [скачайте файл](https://drive.google.com/file/d/14R38nBBMiLawKvepPB57X9KS3i-U1s6j/view?usp=sharing) сценария и загрузите его в поле
 
-<figure><img src="../../../.gitbook/assets/importBankStatements.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/importBankStatements.png" alt=""><figcaption></figcaption></figure>
 
 * **Настройка сценария**: в сценарии вам необходимо поменять id полей соответственно с вашими id полями в каталогах. Далее детальнее по каждому изменению: В компоненте "NEED TO CHANGE" есть 5 объектов, в которых вам необходимо произвести изменения:
 

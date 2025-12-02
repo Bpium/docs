@@ -1,3 +1,7 @@
+---
+icon: rotate
+---
+
 # Интеграции
 
 <details>
