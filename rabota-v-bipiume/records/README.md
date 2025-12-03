@@ -1,8 +1,10 @@
 ---
-icon: mountain
+icon: pen-to-square
 ---
 
-# Структура
+# Запись
+
+##
 
 ## Разделы и каталоги
 
@@ -43,7 +45,7 @@ icon: mountain
 
 <details>
 
-<summary><a href="svyazi.md">Связи</a></summary>
+<summary><a href="operacii/svyazi.md">Связи</a></summary>
 
 
 
@@ -51,7 +53,7 @@ icon: mountain
 
 <details>
 
-<summary><a href="chat.md">Чат</a></summary>
+<summary><a href="operacii/chat.md">Чат</a></summary>
 
 
 
@@ -59,11 +61,24 @@ icon: mountain
 
 <details>
 
-<summary><a href="activity.md">История изменений</a></summary>
+<summary><a href="operacii/activity.md">История</a></summary>
 
 
 
 </details>
 
+<details>
+
+<summary><a href="../katalog/list/instrukciya.md">Инструкция</a></summary>
 
 
+
+</details>
+
+<details>
+
+<summary><a href="./#derevo-zapise">Дерево записей</a></summary>
+
+
+
+</details>

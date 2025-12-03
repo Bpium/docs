@@ -12,7 +12,7 @@
 
 <details>
 
-<summary><a href="../../../rabota-v-bipiume/list/plitka.md">Плитка</a></summary>
+<summary><a href="../../../rabota-v-bipiume/katalog/list/plitka.md">Плитка</a></summary>
 
 
 
@@ -20,7 +20,7 @@
 
 <details>
 
-<summary><a href="../../../rabota-v-bipiume/list/kalendar.md">Календарь</a></summary>
+<summary><a href="../../../rabota-v-bipiume/katalog/list/kalendar.md">Календарь</a></summary>
 
 
 
@@ -28,7 +28,7 @@
 
 <details>
 
-<summary><a href="../../../rabota-v-bipiume/list/reports.md">Отчеты и графики</a></summary>
+<summary><a href="../../../rabota-v-bipiume/katalog/list/reports.md">Отчеты и графики</a></summary>
 
 
 
@@ -36,7 +36,7 @@
 
 <details>
 
-<summary><a href="../../../rabota-v-bipiume/list/svodka.md">Сводка</a></summary>
+<summary><a href="../../../rabota-v-bipiume/katalog/list/svodka.md">Сводка</a></summary>
 
 
 
@@ -44,7 +44,7 @@
 
 <details>
 
-<summary><a href="../../../rabota-v-bipiume/list/podschet.md">Подсчет</a></summary>
+<summary><a href="../../../rabota-v-bipiume/katalog/list/podschet.md">Подсчет</a></summary>
 
 
 
