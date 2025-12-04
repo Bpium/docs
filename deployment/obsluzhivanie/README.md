@@ -22,7 +22,7 @@ icon: hammer
 
 <details>
 
-<summary><a href="../bekap-i-vosstanovlenie-bazy.md">Бэкап и восстановление базы</a></summary>
+<summary><a href="bekap-i-vosstanovlenie-bazy.md">Бэкап и восстановление базы</a></summary>
 
 
 

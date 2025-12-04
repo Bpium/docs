@@ -1,5 +1,5 @@
 ---
-icon: object-intersect
+icon: atom-simple
 ---
 
 # Интеграции

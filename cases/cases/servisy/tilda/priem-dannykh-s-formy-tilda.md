@@ -127,7 +127,7 @@ _https://tilda-demo.bpium.ru/api/webrequest/getRequest_
 
 <figure><img src="../../../../.gitbook/assets/image (88) (1).png" alt="" width="487"><figcaption></figcaption></figure>
 
-После создания Webhook'а в Tilda, будет отправлен тестовый запрос на указанный адрес. Проверить, что все действия выше проделаны правильно можно в каталоге [_**Процессы**_](../../../../bpium-setup/systemcatalogs/upravlenie/scripts/processes.md)_**.**_ В данном каталоге должна быть одна запись со статусом _**Завершен**_:
+После создания Webhook'а в Tilda, будет отправлен тестовый запрос на указанный адрес. Проверить, что все действия выше проделаны правильно можно в каталоге [_**Процессы**_](../../../../bpium-setup/systemcatalogs/upravlenie/processes.md)_**.**_ В данном каталоге должна быть одна запись со статусом _**Завершен**_:
 
 <figure><img src="../../../../.gitbook/assets/image (89) (1).png" alt=""><figcaption></figcaption></figure>
 
