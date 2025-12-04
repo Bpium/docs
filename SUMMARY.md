@@ -15,7 +15,6 @@
 * [Интерфейс системы](rabota-v-bipiume/sections/README.md)
   * [Меню разделов](rabota-v-bipiume/sections/menyu-razdelov.md)
   * [Меню каталогов](rabota-v-bipiume/sections/menyu-katalogov.md)
-  * [Меню настроек](rabota-v-bipiume/sections/menyu-nastroek.md)
   * [Панель чатов](rabota-v-bipiume/sections/panel-chatov.md)
   * [Рабочая область](rabota-v-bipiume/sections/rabochaya-oblast.md)
   * [Расширенное меню](rabota-v-bipiume/sections/rasshirennoe-menyu.md)
@@ -53,6 +52,7 @@
 ## Настройка Бипиума <a href="#bpium-setup" id="bpium-setup"></a>
 
 * [Каталоги](bpium-setup/catalogs-setup/README.md)
+  * [Конструктор](bpium-setup/catalogs-setup/konstruktor.md)
   * [Типы полей](bpium-setup/catalogs-setup/edit/README.md)
     * [Основные](bpium-setup/catalogs-setup/edit/osnovnye/README.md)
       * [Число](bpium-setup/catalogs-setup/edit/osnovnye/chislo.md)
@@ -78,6 +78,7 @@
       * [Связанный каталог](bpium-setup/catalogs-setup/edit/variantivnye/svyazannyi-katalog.md)
     * [Действия](bpium-setup/catalogs-setup/edit/deistviya/README.md)
       * [Кнопка](bpium-setup/catalogs-setup/edit/deistviya/knopka.md)
+  * [Видимость полей](bpium-setup/catalogs-setup/vidimost-polei.md)
   * [Формулы](bpium-setup/catalogs-setup/formuly/README.md)
     * [Синтаксис формул](bpium-setup/catalogs-setup/formuly/sintaksis-formul.md)
 * [Cлужебные каталоги](bpium-setup/systemcatalogs/README.md)
