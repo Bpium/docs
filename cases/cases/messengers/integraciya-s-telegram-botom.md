@@ -2,7 +2,9 @@
 description: Процесс отправки сообщения от имени Telegram-бота из Бипиума.
 ---
 
-# Интеграция с Telegram-ботом
+# Telegram
+
+> Обратите внимание: данная статья устарела, поэтому рекомендуем ознакомиться с работой [компонента Telegram](../../../bpium-setup/processes/components/kommunikacii/telegram/)
 
 ## 1. Введение
 

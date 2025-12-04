@@ -1,8 +1,17 @@
 # Отчеты
 
-## Ресурсы
+<details>
 
-Отчеты:
+<summary><a href="boards.md">Дашборды (Boards)</a> — список экранов с графиками с описанием параметров графиков</summary>
 
-* [Дашборды (Boards)](boards.md) — список экранов с графиками с описанием параметров графиков
-* [График (Widgets) ](https://docs.bpium.ru/reports/widgets)— значения графика
+
+
+</details>
+
+<details>
+
+<summary><a href="https://docs.bpium.ru/reports/widgets">График (Widgets) </a>— значения графика</summary>
+
+
+
+</details>
