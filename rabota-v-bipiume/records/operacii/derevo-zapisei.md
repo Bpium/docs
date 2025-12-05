@@ -6,7 +6,7 @@
 
 * Открытии карточки записи в полноэкранном режиме
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Открытии записи для просмотра в связанном поле&#x20;
 * Добавлении новой записи в связанном поле карточки записи

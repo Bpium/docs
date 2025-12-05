@@ -15,7 +15,7 @@
 
 При создании нового каталога вы переходите в режим [редактирования его структуры](/broken/pages/-LACZqPaRG9Botf4XgxZ).
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Создание нового каталога</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Создание нового каталога</p></figcaption></figure>
 
 ## Изменение каталога
 
@@ -28,13 +28,13 @@
 
 В зависимости от назначенных прав набор действий может быть ограничен.
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Редактирование каталога. Свойства каталога</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>Редактирование каталога. Свойства каталога</p></figcaption></figure>
 
 ### Удаление всех записей каталога
 
 При удалении всех записей каталога также происходит удаление всех связей и историй каждой из удаляемых записей. Для подтверждения удаления всех записей система попросит повторно ввести название каталога во избежание случайной очистки. Механизм удаления всех записей в каталоге оказывается полезен, когда необходимо быстро очистить все содержимое каталога, не прибегая к сценариям автоматизаций. Такое, например, возникает при разработке каталога и наполнения его тестовыми записями, которые в последствие не будут использоваться.
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Удаление всех записей каталога</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>Удаление всех записей каталога</p></figcaption></figure>
 
 ### Сортировка каталогов
 
@@ -48,6 +48,6 @@
 
 Каталог имеет иконку и название. Чтобы изменить иконку, нажмите на кнопку около названия каталога. Бипиум предлагает на выбор более 1000 иконок. Иконки разделены по категориям для удобства навигации.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Выбор иконки каталога</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Выбор иконки каталога</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Выбор иконки каталога</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Выбор иконки каталога</p></figcaption></figure>

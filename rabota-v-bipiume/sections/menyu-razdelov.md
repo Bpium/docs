@@ -2,7 +2,7 @@
 
 Разделы отображены в верхней части экрана. По умолчанию в Бипиуме создан один раздел — «Управление».
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Разделы и каталоги</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Разделы и каталоги</p></figcaption></figure>
 
 ## Создание нового раздела
 
@@ -10,7 +10,7 @@
 
 Созданные разделы видны всем сотрудникам компании, пока на них не ограничили права.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Создание раздела</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Создание раздела</p></figcaption></figure>
 
 ## Изменение раздела
 
@@ -22,13 +22,13 @@
 
 В зависимости от назначенных прав набор действий может быть ограничен.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Свойства раздела</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Свойства раздела</p></figcaption></figure>
 
 ## Удаление раздела
 
 При удалении раздела также удаляются и все каталоги этого раздела. При этом, если другие записи ссылаются на записи удаленных каталогов, то эти связи останутся. Но открыть удаленные связанные записи будет нельзя.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Удаление раздела</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Удаление раздела</p></figcaption></figure>
 
 ### Восстановление удаленных данных
 

@@ -6,7 +6,7 @@ description: >-
 
 # Формулы
 
-> ![](<../../../.gitbook/assets/image (7).png>)
+> ![](<../../../.gitbook/assets/image (7) (1).png>)
 >
 > Обратите внимание: функционал по применению формул на заключительном этапе реализации, поэтому пока не доступен в системе.&#x20;
 
@@ -55,7 +55,7 @@ description: >-
 
 <figure><img src="../../../.gitbook/assets/unknown (2).png" alt=""><figcaption><p>Редактор формул</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Редактор формул. Элементы.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Редактор формул. Элементы.</p></figcaption></figure>
 
 #### Панель вставки элементов
 
