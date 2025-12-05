@@ -1,6 +1,6 @@
 # Конструктор
 
-### Настройка полей в конструкторе <a href="#nastroika-polei" id="nastroika-polei"></a>
+## Настройка полей в конструкторе <a href="#nastroika-polei" id="nastroika-polei"></a>
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Структура каталога. Конструктор каталога. Настройка полей.</p></figcaption></figure>
 
@@ -10,13 +10,17 @@
 
 Поля в карточке можно менять местами перетаскиванием, схватив за иконку поля.
 
-Каждое поле имеет:
+### Структура поля
 
-1. Заголовок
-2. Признак обязательного поля (![](https://docs.bpium.ru/~gitbook/image?url=https%3A%2F%2F1283378397-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LACZmmM2xUWbZxyRr4s%252F-LACZnWTX_UP3XcilXPc%252F-LACZvFsUnNloj9qLjcj%252Frequired_mark.jpg%3Fgeneration%3D1523867434483430%26alt%3Dmedia\&width=300\&dpr=4\&quality=100\&sign=3b878dce\&sv=2))
-3. Свойства в зависимости от типа поля
-4. Подсказку, которая отображается сотрудникам при заполнении поля
-5. Параметр настройки вида отображения поля и настройки возможности редактирования только через API&#x20;
+**Заголовок.**
+
+**Признак обязательного поля** (![](https://docs.bpium.ru/~gitbook/image?url=https%3A%2F%2F1283378397-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LACZmmM2xUWbZxyRr4s%252F-LACZnWTX_UP3XcilXPc%252F-LACZvFsUnNloj9qLjcj%252Frequired_mark.jpg%3Fgeneration%3D1523867434483430%26alt%3Dmedia\&width=300\&dpr=4\&quality=100\&sign=3b878dce\&sv=2)).
+
+**Свойства.** Разные в зависимости от типа поля.
+
+**Подсказка.** Отображается сотрудникам при заполнении поля.
+
+**Настройка вида отображения.** Позволяет настроить видимость и возможность редактирования только через API.
 
 <figure><img src="../../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure>
 
