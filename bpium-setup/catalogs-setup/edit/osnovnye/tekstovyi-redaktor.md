@@ -11,7 +11,7 @@ description: >-
 
 Текстовый редактор обладает инструментарием для настройки заголовков, фона и цвета текста, нумерации, отступов, цитирования и выделения кода. Также в текстовом редакторе можно прикреплять изображения и видео.
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ## Отображение в анкете
 
@@ -19,12 +19,12 @@ description: >-
 
 * В стандартном формате, когда поле занимает небольшое пространство
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 * В полнооконном формате, когда поле Текстовый редактор занимает всю область секции. Для этого при настройке полей добавьте поле Текстовый редактор в отдельную секцию.
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>

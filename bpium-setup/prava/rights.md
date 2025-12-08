@@ -64,7 +64,7 @@
 
 **Решение:** В каталоге проектов необходимо создать вид, фильтрующий записи, например по статусу. В каталоге задач поле «Проект» нужно связать не с каталогом Проекты, а с созданным видом.
 
-**Инструменты:** [редактирование поля связанный объект](https://docs.bpium.ru/manual/structure/catalogs/edit#svyazannyi-katalog), [виды](../../rabota-v-bipiume/katalog/views/)
+**Инструменты:** [редактирование поля связанный объект](https://docs.bpium.ru/manual/structure/catalogs/edit#svyazannyi-katalog), [виды](../../rabota-v-bipiume/katalogi/views.md)
 
 
 
