@@ -94,14 +94,14 @@ icon: pen-to-square
 
 * Открытии карточки записи в полноэкранном режиме
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Открытии записи для просмотра в связанном поле&#x20;
 * Добавлении новой записи в связанном поле карточки записи
 
 Например в записи Сделки вам нужно добавить новое контактное лицо.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Когда вы откроете окно для создания нового Контактного лица вы увидите, что вы все еще находитесь в карточке Сделке, внутри которой открыли окно для создания Контактного лица.&#x20;
 
