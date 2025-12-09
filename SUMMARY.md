@@ -32,11 +32,11 @@
     * [Экспорт записей](rabota-v-bipiume/katalogi/operacii/export.md)
 * [Запись](rabota-v-bipiume/records/README.md)
   * [Анкета](rabota-v-bipiume/records/anketa.md)
-  * [Операции](rabota-v-bipiume/records/operacii/README.md)
-    * [Инструкция](rabota-v-bipiume/records/operacii/instrukciya.md)
-    * [История](rabota-v-bipiume/records/operacii/activity.md)
-    * [Связи](rabota-v-bipiume/records/operacii/svyazi.md)
-    * [Чат](rabota-v-bipiume/records/operacii/chat.md)
+  * [История](rabota-v-bipiume/records/activity.md)
+  * [Связи](rabota-v-bipiume/records/svyazi.md)
+  * [Чат](rabota-v-bipiume/records/chat.md)
+  * [Инструкция](rabota-v-bipiume/records/instrukciya.md)
+  * [Операции](rabota-v-bipiume/records/operacii.md)
 
 ## Настройка Бипиума <a href="#bpium-setup" id="bpium-setup"></a>
 

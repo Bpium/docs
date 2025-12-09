@@ -17,7 +17,7 @@ URL: {domain}/api/v1/histories?catalogId={catalogId}&recordId={recordId}
 Параметры:
 
 * `catalogId` (number) — идентификатор каталога
-* `recordId` (number, опционально) — если не указать - вернет историю по каталогу - [Активность](../../../../rabota-v-bipiume/records/operacii/activity.md)
+* `recordId` (number, опционально) — если не указать - вернет историю по каталогу - [Активность](../../../../rabota-v-bipiume/records/activity.md)
 
 Параметры для коллекции записей:
 

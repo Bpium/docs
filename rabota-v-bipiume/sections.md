@@ -23,7 +23,7 @@ icon: table-layout
 
 Меню разделов представляет собой область расположения всех разделов системы и находится в самой верхней части интерфейса системы.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Разделы
 
@@ -37,7 +37,7 @@ icon: table-layout
 
 Созданные разделы видны всем сотрудникам компании, пока на них не ограничили права.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Создание раздела</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Создание раздела</p></figcaption></figure>
 
 ### Изменение раздела
 
@@ -49,13 +49,13 @@ icon: table-layout
 
 В зависимости от назначенных прав набор действий может быть ограничен.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Свойства раздела</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Свойства раздела</p></figcaption></figure>
 
 ### Удаление раздела
 
 При удалении раздела также удаляются и все каталоги этого раздела. При этом, если другие записи ссылаются на записи удаленных каталогов, то эти связи останутся. Но открыть удаленные связанные записи будет нельзя.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p>Удаление раздела</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Удаление раздела</p></figcaption></figure>
 
 ### Восстановление удаленного раздела
 
@@ -111,9 +111,9 @@ icon: table-layout
 
 Нажмите на иконку чата и в открывшейся панели выберите интересующий вас чат. Система откроет анкету записи и чат по ней.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Иконка панели чатов.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Иконка панели чатов.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Панель чатов. Открытие чата.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Панель чатов. Открытие чата.</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Чат записи, открытый через панель чатов.</p></figcaption></figure>
 

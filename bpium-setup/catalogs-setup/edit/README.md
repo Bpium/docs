@@ -4,15 +4,15 @@
 
 **Заголовок.** Наименование поля.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>Заголовок. Наименование поля.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Заголовок. Наименование поля.</p></figcaption></figure>
 
 **Признак обязательного поля**. После активации иконки звездочки у поля в структуре каталога, поле становится обязательным для заполнения при создании записи.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Обязательное для заполнение поля.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Обязательное для заполнение поля.</p></figcaption></figure>
 
 **Корзина.** Кнопка для удаления поля из структуры каталога.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Удаление поля из структуры каталога.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Удаление поля из структуры каталога.</p></figcaption></figure>
 
 **Иконка поля.** При необходимости поменять порядок полей в записи нажмите на иконку поля и потяните поле вверх или вниз.
 
@@ -20,7 +20,7 @@
 
 **Свойства.** Панель с настройками, которая позволяет настроить поле под свои нужды. Свойства бывают общие для всех полей (подробнее в [Свойства](../svoistva.md)) и индивидуальные для каждого поля (подробнее в [Поля](./)).
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Общие свойства полей.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Общие свойства полей.</p></figcaption></figure>
 
 ## Поля
 

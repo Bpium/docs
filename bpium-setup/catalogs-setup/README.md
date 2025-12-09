@@ -36,7 +36,7 @@ icon: rectangle-vertical-history
 
 При создании нового каталога вы переходите в режим [редактирования его структуры](/broken/pages/-LACZqPaRG9Botf4XgxZ).
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption><p>Создание нового каталога</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Создание нового каталога</p></figcaption></figure>
 
 ### Изменение каталога
 
