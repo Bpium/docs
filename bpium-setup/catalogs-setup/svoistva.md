@@ -8,20 +8,20 @@
 
 **Признак обязательного поля**. После активации данного свойства поле становится обязательным для заполнения при создании записи.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Признак обязательного поля.</p></figcaption></figure>
 
 **Показывать на панели фильтров.** При активированном свойстве поля можно будет фильтровать записи по значению поля.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Настройка отображения поля в фильтрах.</p></figcaption></figure>
 
 **Сохранить изменения в истории.** При активированном свойстве поля изменения данного поля можно будет просмотреть в истории изменений.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Сохранение изменений поля в истории.</p></figcaption></figure>
 
-**Настройка вида отображения.** Позволяет настроить видимость и возможность редактирования только через API.&#x20;
+**Настройка вида отображения.** У каждого поля могут быть следующие виды:&#x20;
 
 * Вид «Редактируемое» позволяет редактировать значение поля.
 * Вид «Просмотр» позволяет только видеть значение поля.
 * Вид «Скрыто» скрывает поле со значением.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Настройка вида отображения поля</p></figcaption></figure>
