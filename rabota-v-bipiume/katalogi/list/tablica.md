@@ -8,7 +8,7 @@
 
 Когда отображено много колонок, таблицу можно смещать горизонтально. Для этого захватите мышкой за свободной место и потяните в соответствующую сторону. Если вы кликните над текстом, то вместо сдвига таблицы начнет выделяться текст.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

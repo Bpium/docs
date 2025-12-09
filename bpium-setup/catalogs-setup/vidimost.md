@@ -10,7 +10,7 @@ description: >-
 
 Для настройки параметров видимости необходимо нажать на поле, после чего справа откроется панель свойств.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 В панели свойств откройте вкладку Видимость и выберите значения других полей, при которых открытое на редактирование поле должно быть видимым.&#x20;
 
