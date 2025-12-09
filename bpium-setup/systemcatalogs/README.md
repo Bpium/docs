@@ -1,5 +1,5 @@
 ---
-icon: square-minus
+icon: file-shield
 ---
 
 # Cлужебные каталоги

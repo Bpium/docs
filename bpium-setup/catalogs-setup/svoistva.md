@@ -4,11 +4,11 @@
 
 **Подсказка.** При заполнении данного поля в Свойствах подсказка будет отображаться сотрудникам при заполнении поля.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Подсказка для заполнения.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Подсказка для заполнения.</p></figcaption></figure>
 
 **Признак обязательного поля**. После активации данного свойства поле становится обязательным для заполнения при создании записи.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Показывать на панели фильтров.** При активированном свойстве поля можно будет фильтровать записи по значению поля.
 

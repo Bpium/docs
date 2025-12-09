@@ -25,7 +25,7 @@
 
 Чтобы получить API ID и API Hash перейдите по адресу [https://my.telegram.org/auth](https://my.telegram.org/auth) и войдите с помощью номера телефона, который хотите привязать в качестве отправителя.
 
-<figure><img src="../../../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Перейдите в API development tools и создайте новое приложение, заполнив поля:
 
@@ -37,7 +37,7 @@
 
 Нажмите `Create application`  чтобы получить поля конфигурации API (App api\_id, App api\_hash).    &#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -47,7 +47,7 @@
 
 Откройте [tokens.bpium.ru](https://tokens.bpium.ru/) и выберите сервис, для которого хотите получить токен.&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 В открывшемся окне введите ранее полученные  `API ID` и `API Hash`, а также Номер телефона, который был использован при получении  `API ID` и `API Hash`.
 
