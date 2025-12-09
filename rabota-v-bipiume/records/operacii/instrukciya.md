@@ -12,7 +12,7 @@ description: >-
 
 * Через вкладку Инструкция в каталоге. Во вкладке Инструкция можно также вносить изменения в написанную инструкцию при наличии прав доступа.
 
-<figure><img src="../../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure>
 
 * Через вкладку Инструкция в записи. В записи инструкцию можно просмотреть только если инструкция уже есть в каталоге.
 
@@ -20,13 +20,13 @@ description: >-
 
 Создать инструкцию можно открыв вкладку Инструкция и нажав кнопку «Создать».
 
-<figure><img src="../../.gitbook/assets/image (262).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (262).png" alt=""><figcaption></figcaption></figure>
 
 В открывшемся редакторе текста введите инструкцию и откорректируйте по стилю и др. параметрам, после чего сохраните.
 
 В редакторе текста можно настроить заголовки, отступы, цвет и выделение текста, а также прикрепить изображение или видео при необходимости.
 
-<figure><img src="../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
 
 ## Редактирование инструкции
 

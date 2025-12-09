@@ -43,7 +43,7 @@ icon: pen-to-square
 
 <details>
 
-<summary><a href="svyazi.md">Связи</a></summary>
+<summary><a href="operacii/svyazi.md">Связи</a></summary>
 
 
 
@@ -51,7 +51,7 @@ icon: pen-to-square
 
 <details>
 
-<summary><a href="chat.md">Чат</a></summary>
+<summary><a href="operacii/chat.md">Чат</a></summary>
 
 
 
@@ -59,7 +59,7 @@ icon: pen-to-square
 
 <details>
 
-<summary><a href="activity.md">История</a></summary>
+<summary><a href="operacii/activity.md">История</a></summary>
 
 
 
