@@ -13,7 +13,7 @@ icon: rectangle-vertical-history
 
 Каталог — набор однотипных записей. Например, список клиентов, заказов, обращений, городов. Все каталоги в Бипиуме находятся внутри Разделов и показаны списком под разделами.
 
-##
+
 
 ## Структура данных каталога
 
@@ -22,4 +22,28 @@ icon: rectangle-vertical-history
 <figure><img src="../../.gitbook/assets/image (1).jpg" alt=""><figcaption></figcaption></figure>
 
 
+
+* Режимы отображения
+
+<figure><img src="../../.gitbook/assets/image (273).png" alt=""><figcaption><p>Режимы отображения.</p></figcaption></figure>
+
+
+
+* Кнопка создания новой записи
+
+<figure><img src="../../.gitbook/assets/image (274).png" alt=""><figcaption><p>Кнопка создания новой записи.</p></figcaption></figure>
+
+
+
+* Кнопка поиска записей
+
+<figure><img src="../../.gitbook/assets/image (276).png" alt=""><figcaption><p>Кнопка поиска записей.</p></figcaption></figure>
+
+* Панель группировки отображаемых полей
+
+<figure><img src="../../.gitbook/assets/image (278).png" alt=""><figcaption><p>Панель группировки отображаемых полей.</p></figcaption></figure>
+
+* Меню настроек вида
+
+<figure><img src="../../.gitbook/assets/image (275).png" alt=""><figcaption><p>Меню настроек вида.</p></figcaption></figure>
 
