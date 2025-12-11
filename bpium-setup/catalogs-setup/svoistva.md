@@ -18,7 +18,7 @@ description: >-
 
 При заполнении данного поля подсказка будет отображаться сотрудникам в момент заполнении поля в анкете.
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Подсказка для заполнения.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>Подсказка для заполнения.</p></figcaption></figure>
 
 
 
