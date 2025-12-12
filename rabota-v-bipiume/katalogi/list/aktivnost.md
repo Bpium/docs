@@ -1,12 +1,20 @@
 # Активность
 
+Режим просмотра истории активности можно найти в каждом каталоге, нажав на вкладку Активность.
+
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Режим отображения Активность.</p></figcaption></figure>
+
+## Структура интерфейса
+
+
+
 ## История изменений каталога
 
 Бипиум сохраняет изменения данных в записях, которые делают сотрудники.&#x20;
 
 Внутри каждого каталога есть вкладка Активность, которая позволяет просмотреть всю историю изменений, внесенных в текущий каталог. Изменения по всем записям попадают в общую ленту изменений, которая позволяет оценить работу сотрудников.
 
-<figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Действия в ленте отсортированы по дате изменений: недавние — сверху, старые — снизу.
 
@@ -15,7 +23,7 @@
 1. Прежние и новые значения показаны в виде изменения: Было → Стало
 2. Показаны только новые значения
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 В левой колонке указывается название записи. Сотрудники указаны справа от записи или отдельной строкой в записи как Исполнители. Каждая новая дата выделяется линией для удобной ориентации в ленте.
 
@@ -27,15 +35,15 @@
 
 * Типу активности: все действия, создание записей, изменение записей, удаление записей
 
-<figure><img src="../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Сотрудникам: все сотрудники, конкретный сотрудник
 
-<figure><img src="../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Отображаемым полям (видимость): можно выбрать отображение всех полей или конкретных
 
-<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Права
 

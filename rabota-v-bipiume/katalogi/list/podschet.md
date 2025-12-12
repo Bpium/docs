@@ -1,6 +1,17 @@
+---
+description: >-
+  Для быстрого анализа показателей в режиме реального времени можно также
+  воспользоваться инструментом Подсчет, в котором можно составить график,
+  таблицу, просто посчитать показатели и др.
+---
+
 # Подсчет
 
-Для быстрого анализа показателей в режиме реального времени можно также воспользоваться инструментом Подсчет, в котором можно составить график, таблицу, просто посчитать показатели и др.
+Режим подсчета можно найти в каждом каталоге, нажав на вкладку Подсчет.
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Режим отображения Подсчет.</p></figcaption></figure>
+
+## Структура интерфейса
 
 <figure><img src="../../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
@@ -10,7 +21,7 @@
 
 ## Структура
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 

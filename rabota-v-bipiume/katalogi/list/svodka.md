@@ -7,13 +7,13 @@ description: >-
 
 # Сводка
 
-Сводку можно открыть в любом каталоге, выбрав в режимах отображения.
+Режим сводки можно найти в каждом каталоге, нажав на вкладку Сводка.
 
-<figure><img src="../../../.gitbook/assets/image (286).png" alt=""><figcaption><p>Режимы отображения. Сводка.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Режим отображения Сводка.</p></figcaption></figure>
 
-## Структура
+## Структура интерфейса
 
-**Панель доступных для выбора полей.**&#x20;
+**Панель полей.** Панель доступных для выбора полей.
 
 <figure><img src="../../../.gitbook/assets/image (291).png" alt=""><figcaption></figcaption></figure>
 
