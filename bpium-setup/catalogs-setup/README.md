@@ -16,7 +16,7 @@ icon: rectangle-vertical-history
 
 Созданные разделы видны всем сотрудникам компании, пока на них не ограничили права.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Создание раздела</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Создание раздела</p></figcaption></figure>
 
 ### Изменение раздела
 

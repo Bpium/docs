@@ -70,7 +70,7 @@
 
 Откройте [tokens.bpium.ru](https://tokens.bpium.ru/) и выберите сервис telegram.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 В открывшемся окне введите ранее полученные  `API ID` и `API Hash`, а также Номер телефона, который был использован при получении  `API ID` и `API Hash`.
 

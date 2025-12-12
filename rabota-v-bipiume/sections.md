@@ -21,7 +21,7 @@ icon: table-layout
 
 Меню разделов представляет собой область расположения всех разделов системы и находится в самой верхней части интерфейса системы.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Разделы
 

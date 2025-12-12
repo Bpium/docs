@@ -14,8 +14,6 @@
 
 * [Интерфейс системы](rabota-v-bipiume/sections.md)
 * [Каталоги](rabota-v-bipiume/katalogi/README.md)
-  * [Фильтры и поиск](rabota-v-bipiume/katalogi/filtry-i-poisk.md)
-  * [Виды](rabota-v-bipiume/katalogi/views.md)
   * [Режимы отображения](rabota-v-bipiume/katalogi/list/README.md)
     * [Таблица](rabota-v-bipiume/katalogi/list/tablica.md)
     * [Плитка](rabota-v-bipiume/katalogi/list/plitka.md)
@@ -25,6 +23,8 @@
     * [Подсчет](rabota-v-bipiume/katalogi/list/podschet.md)
     * [Активность](rabota-v-bipiume/katalogi/list/aktivnost.md)
     * [Инструкция](rabota-v-bipiume/katalogi/list/instrukciya.md)
+  * [Фильтры и поиск](rabota-v-bipiume/katalogi/filtry-i-poisk.md)
+  * [Виды](rabota-v-bipiume/katalogi/views.md)
   * [Операции](rabota-v-bipiume/katalogi/operacii/README.md)
     * [Массовое редактирование](rabota-v-bipiume/katalogi/operacii/massovoe-redaktirovanie.md)
     * [Массовое удаление](rabota-v-bipiume/katalogi/operacii/massovoe-udalenie.md)

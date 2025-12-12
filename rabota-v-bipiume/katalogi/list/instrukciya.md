@@ -21,7 +21,7 @@ description: >-
 5. Инструменты для прикрепления файлов, изображений и видео
 6. Область для написания инструкции
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Структура текстового редактора во вкладке Инструкция.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Структура текстового редактора во вкладке Инструкция.</p></figcaption></figure>
 
 ## Создание новой инструкции
 
