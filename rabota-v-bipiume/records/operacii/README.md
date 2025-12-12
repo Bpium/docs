@@ -26,7 +26,7 @@
 
 * Открыть запись, нажать на галочку и выбрать «Удалить запись»
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Удаление записи.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Удаление записи.</p></figcaption></figure>
 
 * Открыть каталог и нажать на иконку корзины в строке записи
 

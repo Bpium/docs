@@ -21,7 +21,7 @@ icon: table-layout
 
 Меню разделов представляет собой область расположения всех разделов системы и находится в самой верхней части интерфейса системы.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Разделы
 
@@ -33,7 +33,7 @@ icon: table-layout
 
 Меню каталогов представляет собой область расположения всех каталогов открытого раздела и находится под меню с разделами.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Меню каталогов. Каталоги раздела Проекты.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>Меню каталогов. Каталоги раздела Проекты.</p></figcaption></figure>
 
 ### Каталоги
 
@@ -67,11 +67,11 @@ icon: table-layout
 
 Нажмите на иконку чата и в открывшейся панели выберите интересующий вас чат. Система откроет анкету записи и чат по ней.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Иконка панели чатов.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Иконка панели чатов.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Панель чатов. Открытие чата.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Панель чатов. Открытие чата.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption><p>Чат записи, открытый через панель чатов.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption><p>Чат записи, открытый через панель чатов.</p></figcaption></figure>
 
 
 

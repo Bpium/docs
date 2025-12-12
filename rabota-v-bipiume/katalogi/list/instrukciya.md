@@ -12,7 +12,7 @@ description: >-
 
 Откройте каталог и выберите вкладку Инструкции.
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Инструкция к каталогу.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>Инструкция к каталогу.</p></figcaption></figure>
 
 ## Структура текстового редактора инструкции
 
@@ -23,13 +23,13 @@ description: >-
 5. Инструменты для прикрепления файлов, изображений и видео
 6. Область для написания инструкции
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Структура текстового редактора во вкладке Инструкция.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>Структура текстового редактора во вкладке Инструкция.</p></figcaption></figure>
 
 ## Создание новой инструкции
 
 Откройте вкладку Инструкции в нужном каталоге и нажмите «Создать». Откроется окно со следующими инструментами для редактирования текста.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Создание новой инструкции.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Создание новой инструкции.</p></figcaption></figure>
 
 Напишите инструкцию, структурируя текст и выделяя важные части заголовками.&#x20;
 
@@ -37,17 +37,17 @@ description: >-
 * Чтобы  прикрепить Изображение, нажмите на иконку картины в инструментах редактирования и в открывшемся окне выберите файл с изображением, который хотите прикрепить. Задайте размер изображения, потянув один из углов изображения.
 * Чтобы  прикрепить Видеозапись, нажмите на иконку киноленты в инструментах редактирования и в открывшемся окне введите ссылку на видеозапись.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Прикрепление ссылки на видео в инструкции.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption><p>Прикрепление ссылки на видео в инструкции.</p></figcaption></figure>
 
 * Чтобы  прикрепить Ссылку, выделите текст и нажмите на иконку ссылки в инструментах редактирования. В открывшемся поле введите ссылку и нажмите «Сохранить». Система прикрепит ссылку к  выделенному тексту.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Прикрепление ссылки в инструкции.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>Прикрепление ссылки в инструкции.</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Прикрепление ссылки в инструкции.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>Прикрепление ссылки в инструкции.</p></figcaption></figure>
 
 * Сохраните инструкцию, нажав «Сохранить»
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Сохранение созданной инструкции.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Сохранение созданной инструкции.</p></figcaption></figure>
 
 ## Редактирование инструкции
 

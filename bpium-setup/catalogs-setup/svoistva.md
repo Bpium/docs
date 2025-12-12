@@ -18,7 +18,7 @@ description: >-
 
 При заполнении данного поля подсказка будет отображаться сотрудникам в момент заполнении поля в анкете.
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>Подсказка для заполнения.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption><p>Подсказка для заполнения.</p></figcaption></figure>
 
 
 
@@ -26,7 +26,7 @@ description: >-
 
 После активации данного свойства поле становится обязательным для заполнения при создании записи.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Признак обязательного поля.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p>Признак обязательного поля.</p></figcaption></figure>
 
 
 
@@ -34,7 +34,7 @@ description: >-
 
 При активированном свойстве поля можно будет фильтровать записи по значению поля.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Настройка отображения поля в фильтрах.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Настройка отображения поля в фильтрах.</p></figcaption></figure>
 
 
 
@@ -42,7 +42,7 @@ description: >-
 
 При активированном свойстве поля изменения данного поля можно будет просмотреть в истории изменений.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Сохранение изменений поля в истории.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Сохранение изменений поля в истории.</p></figcaption></figure>
 
 
 
@@ -60,7 +60,7 @@ description: >-
 
 
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Настройка вида отображения поля</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Настройка вида отображения поля</p></figcaption></figure>
 
 ## Параметры
 
