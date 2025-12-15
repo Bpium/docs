@@ -64,7 +64,7 @@ Excel-файл для импорта в каталог «Лица»:
 
 ### Импорт из Excel с использованием сценария&#x20;
 
-{% embed url="https://rutube.ru/video/private/0e8131502e2df8dd389fb904a9266e6c/?r=wd&p=ZuwuE9G63-Euq8YUgfsynQ" %}
+{% file src="../../../.gitbook/assets/Импорт из excel (статья).mp4" %}
 
 ## Выбор каталога и файла для импорта
 
