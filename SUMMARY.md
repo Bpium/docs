@@ -47,6 +47,7 @@
       * [Число](bpium-setup/catalogs-setup/edit/osnovnye/chislo.md)
       * [Текст](bpium-setup/catalogs-setup/edit/osnovnye/tekst.md)
       * [Текстовый редактор](bpium-setup/catalogs-setup/edit/osnovnye/tekstovyi-redaktor.md)
+      * [ИИ-поле](bpium-setup/catalogs-setup/edit/osnovnye/ii-pole.md)
       * [Дата](bpium-setup/catalogs-setup/edit/osnovnye/data.md)
       * [Сотрудник](bpium-setup/catalogs-setup/edit/osnovnye/sotrudnik.md)
       * [Файл](bpium-setup/catalogs-setup/edit/osnovnye/fail.md)
