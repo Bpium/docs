@@ -7,11 +7,3 @@
 
 
 </details>
-
-<details>
-
-<summary><a href="./#yandeks-disk">Яндекс Диск</a></summary>
-
-
-
-</details>
