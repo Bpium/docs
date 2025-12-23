@@ -239,6 +239,7 @@
   * [Через Kubernetes](deployment/skhemy-razvorachivaniya/cherez-kubernetes.md)
 * [Настройка и запуск](deployment/nastroika-i-zapusk/README.md)
   * [Активация](deployment/nastroika-i-zapusk/aktivaciya.md)
+  * [Настройка SSO (Single Sign-On)](deployment/nastroika-i-zapusk/nastroika-sso-single-sign-on.md)
   * [Брендирование (Whitelabel)](deployment/nastroika-i-zapusk/whitelabel.md)
   * [Возможные проблемы в ходе установки и работы](deployment/nastroika-i-zapusk/vozmozhnye-problemy-v-khode-ustanovki-i-raboty.md)
   * [🎛️ Мультидоменная среда](deployment/nastroika-i-zapusk/multidomennaya-sreda.md)
