@@ -14,6 +14,14 @@ icon: plane
 
 <details>
 
+<summary><a href="https://docs.bpium.ru/deployment/nastroika-i-zapusk/nastroika-sso-single-sign-on">Настройка SSO</a></summary>
+
+
+
+</details>
+
+<details>
+
 <summary><a href="whitelabel.md">Брендирование (Whitelabel)</a></summary>
 
 

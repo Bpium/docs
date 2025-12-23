@@ -242,7 +242,7 @@
   * [Настройка SSO (Single Sign-On)](deployment/nastroika-i-zapusk/nastroika-sso-single-sign-on.md)
   * [Брендирование (Whitelabel)](deployment/nastroika-i-zapusk/whitelabel.md)
   * [Возможные проблемы в ходе установки и работы](deployment/nastroika-i-zapusk/vozmozhnye-problemy-v-khode-ustanovki-i-raboty.md)
-  * [🎛️ Мультидоменная среда](deployment/nastroika-i-zapusk/multidomennaya-sreda.md)
+  * [Мультидоменная среда](deployment/nastroika-i-zapusk/multidomennaya-sreda.md)
   * [HTTPS](deployment/nastroika-i-zapusk/tls-ssl-sertifikat.md)
   * [Параметры config.env](deployment/nastroika-i-zapusk/parametry-config.env/README.md)
     * [Для Bpium](deployment/nastroika-i-zapusk/parametry-config.env/bpium.md)
