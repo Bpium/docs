@@ -197,3 +197,4 @@ Email пользователя можно изменить через редак
 ## Дополнительные ресурсы
 
 * [Документация по каталогу Компании](https://docs.bpium.ru/bpium-setup/systemcatalogs/sistema/kompanii)
+* [Документация по каталогу Сотрудники](https://docs.bpium.ru/bpium-setup/systemcatalogs/upravlenie/users)
