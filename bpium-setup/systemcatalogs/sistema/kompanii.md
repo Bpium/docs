@@ -142,5 +142,5 @@
 
 * [Документация по настройке доменов](https://docs.bpium.ru/deployment/nastroika-i-zapusk/multidomennaya-sreda)
 * [Документация по брендированию](https://docs.bpium.ru/deployment/nastroika-i-zapusk/whitelabel)
-* Документация по каталогу Аккаунты
-* Документация по каталогу Группы компаний
+* [Документация по каталогу Аккаунты](akkaunty.md)
+* [Документация по каталогу Группы компаний](gruppy-kompanii.md)
