@@ -28,7 +28,7 @@
 
 <details>
 
-<summary>Версии веб-клиента</summary>
+<summary><a href="./#versii-veb-klienta">Версии веб-клиента</a></summary>
 
 
 
@@ -36,7 +36,7 @@
 
 <details>
 
-<summary>Версии сервера</summary>
+<summary><a href="./#versii-servera">Версии сервера</a></summary>
 
 
 
@@ -44,7 +44,7 @@
 
 <details>
 
-<summary>Группы компаний</summary>
+<summary><a href="gruppy-kompanii.md">Группы компаний</a></summary>
 
 
 
@@ -52,7 +52,7 @@
 
 <details>
 
-<summary>Расширения</summary>
+<summary><a href="rasshireniya.md">Расширения</a></summary>
 
 
 
@@ -60,7 +60,7 @@
 
 <details>
 
-<summary>Приглашения</summary>
+<summary><a href="./#priglasheniya">Приглашения</a></summary>
 
 
 
@@ -68,7 +68,15 @@
 
 <details>
 
-<summary>Шаблоны писем</summary>
+<summary><a href="./#shablony-pisem">Шаблоны писем</a></summary>
+
+
+
+</details>
+
+<details>
+
+<summary>OAuth провайдеры</summary>
 
 
 

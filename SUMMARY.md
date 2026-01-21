@@ -90,6 +90,7 @@
     * [Группы компаний](bpium-setup/systemcatalogs/sistema/gruppy-kompanii.md)
     * [Расширения](bpium-setup/systemcatalogs/sistema/rasshireniya.md)
     * [Приглашения](bpium-setup/systemcatalogs/sistema/priglasheniya.md)
+    * [OAuth провайдеры](bpium-setup/systemcatalogs/sistema/oauth-provaidery.md)
     * [Шаблоны писем](bpium-setup/systemcatalogs/sistema/shablony-pisem.md)
 * [Права](bpium-setup/prava/README.md)
   * [Права на поля](bpium-setup/prava/fields.md)
