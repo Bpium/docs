@@ -66,6 +66,6 @@
 ## Дополнительные ресурсы
 
 * [Документация по каталогу Компании](https://docs.bpium.ru/bpium-setup/systemcatalogs/sistema/kompanii)
-* Документация по каталогу Группы компаний
+* [Документация по каталогу Группы компаний](gruppy-kompanii.md)
 * [Документация по каталогу Версии веб-клиента](https://docs.bpium.ru/bpium-setup/systemcatalogs/sistema/versii-veb-klienta)
 * [Документация по обновлению Бипиум](https://docs.bpium.ru/deployment/obsluzhivanie/obnovlenie)
