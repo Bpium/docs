@@ -76,7 +76,7 @@
 
 <details>
 
-<summary>OAuth провайдеры</summary>
+<summary><a href="oauth-provaidery.md">OAuth провайдеры</a></summary>
 
 
 
