@@ -19,7 +19,7 @@ icon: rectangle-vertical-history
 
 Каждый каталог имеет свою структуру, которую вы определяете самостоятельно. Структура каталога собирается из полей. Поля бывают простые — текстовые данные, или сложные — набор нескольких значений.  Для визуального удобства, предусмотрены разные типы полей: текстовые поля, категории, вопросы, наборы галочек, прогрессы. Подробнее в [Каталоги](../../bpium-setup/catalogs-setup/) и [Поля.](../../bpium-setup/catalogs-setup/edit/)
 
-<figure><img src="../../.gitbook/assets/image (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 
 
