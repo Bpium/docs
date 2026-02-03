@@ -4,11 +4,11 @@ icon: cake-candles
 
 # Версии и обновления
 
-## v3.0.0 от 30 января 2026
+## v3.0.1 от 3 февраля 2026
 
-Версия API: 3.0.0\
+Версия API: 3.0.1\
 Версия веб-приложения: 3.0.1\
-Версия сервера процессов: 3.0.9<br>
+Версия сервера процессов: 3.0.11<br>
 
 **Ключевые изменения:**
 
@@ -53,9 +53,9 @@ icon: cake-candles
 * Исправлено зависание в компоненте генерации Excel, возникающее если в данных забыть передать значения, используемые в Excel-шаблоне. Теперь вместо забытых данных подставляются пустые строки.
 
 {% hint style="info" %}
-**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.0/bpium-win-v3.0.0.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.0/bpium-linux-v3.0.0.zip)
+**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.1/bpium-win-v3.0.1.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.1/bpium-linux-v3.0.1.zip)
 
-**Докер-образы** bpiumdocker/bpium:v3.0.0, bpiumdocker/bpm:v3.0.0, bpiumdocker/s3:v3.0.0
+**Докер-образы** bpiumdocker/bpium:v3.0.1, bpiumdocker/bpm:v3.0.1, bpiumdocker/s3:v3.0.1
 {% endhint %}
 
 ## v2.1.10 от 16 октября 2025
