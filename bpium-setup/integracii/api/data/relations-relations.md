@@ -152,9 +152,8 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/relations?catalogId
 
 5. `sortType` - тип сортировки (работает только совместно с фильтром sortField).
 
-`sortType=1` - по возрастанию
-
-`sortType=-1` - по убыванию
+* `sortType=1` - по возрастанию
+* `sortType=-1` - по убыванию
 
 Метод: **GET**
 
