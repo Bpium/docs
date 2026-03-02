@@ -8,7 +8,7 @@ icon: cake-candles
 
 Версия API: 3.0.1\
 Версия веб-приложения: 3.0.1\
-Версия сервера процессов: 3.0.11<br>
+Версия сервера процессов: 3.0.22<br>
 
 **Ключевые изменения:**
 
@@ -53,7 +53,7 @@ icon: cake-candles
 * Исправлено зависание в компоненте генерации Excel, возникающее если в данных забыть передать значения, используемые в Excel-шаблоне. Теперь вместо забытых данных подставляются пустые строки.
 
 {% hint style="info" %}
-**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.1/bpium-win-v3.0.1.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.1/bpium-linux-v3.0.1.zip)
+**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/3.0.1/bpium-win-v3.0.1.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/3.0.1/bpium-linux-v3.0.1.zip)
 
 **Докер-образы** bpiumdocker/bpium:v3.0.1, bpiumdocker/bpm:v3.0.1, bpiumdocker/s3:v3.0.1
 {% endhint %}
