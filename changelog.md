@@ -22,7 +22,7 @@ icon: cake-candles
 {% hint style="info" %}
 **Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.3-boxed01/bpium-win-v3.0.3-boxed01.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.3-boxed01/bpium-linux-v3.0.3-boxed01.zip)
 
-**Докер-образы** bpiumdocker/bpium:v3.0.3, bpiumdocker/bpm:v3.0.11, bpiumdocker/s3:v3.0.3
+**Докер-образы** bpiumdocker/bpium:v3.0.3, bpiumdocker/bpm:v3.0.3, bpiumdocker/s3:v3.0.3
 {% endhint %}
 
 ## v2.1.10 от 16 октября 2025
