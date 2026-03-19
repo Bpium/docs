@@ -256,6 +256,7 @@
   * [❗ Обновление до версии 2.0](deployment/obsluzhivanie/obnovlenie-do-versii-2.0.md)
   * [Бэкап и восстановление базы](deployment/obsluzhivanie/bekap-i-vosstanovlenie-bazy.md)
   * [Удаление](deployment/obsluzhivanie/udalenie.md)
+* [Уязвимости и меры безопасности](deployment/uyazvimosti-i-mery-bezopasnosti.md)
 
 ## Обучение <a href="#learn" id="learn"></a>
 

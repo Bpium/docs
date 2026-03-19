@@ -25,8 +25,6 @@ icon: cake-candles
 **Докер-образы** bpiumdocker/bpium:v3.0.3, bpiumdocker/bpm:v3.0.3, bpiumdocker/s3:v3.0.3
 {% endhint %}
 
-## v2.1.10 от 16 октября 2025
-
 ## v3.0.1 от 3 февраля 2026
 
 Версия API: 3.0.1\
