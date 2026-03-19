@@ -34,7 +34,7 @@ icon: shield-exclamation
 
 #### Directory Traversal (выход за пределы каталога) <a href="#bpm-2025-002" id="bpm-2025-002"></a>
 
-<mark style="color:orange;background-color:yellow;">Средний</mark> <mark style="color:$success;background-color:green;">✓Устранена</mark>  ·  Дата публикации: 2026.03.18  ·  Исправлено в версии: 3.0.10
+<mark style="color:orange;background-color:yellow;">Средний</mark> <mark style="background-color:$success;">✓Устранена</mark>  ·  Дата публикации: 2026.03.18  ·  Исправлено в версии: 3.0.10
 
 **Описание**\
 В одной из функций обработки пользовательских данных была выявлена проблема, связанная с некорректной валидацией путей к файлам. В отдельных сценариях это может позволить обойти предусмотренные ограничения доступа к файловой системе.
