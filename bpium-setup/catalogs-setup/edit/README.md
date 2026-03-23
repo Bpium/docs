@@ -56,7 +56,7 @@
 * [Выбор значения](variantivnye/vybor-znacheniya.md)
 * [Выпадающий список](variantivnye/vypadayushii-spisok.md)
 * [Связанный каталог](variantivnye/svyazannyi-katalog.md)
-* [Сотрудник](osnovnye/sotrudnik.md)
+* [Сотрудник](variantivnye/sotrudnik.md)
 
 </details>
 
