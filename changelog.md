@@ -4,7 +4,7 @@ icon: cake-candles
 
 # Версии и обновления
 
-## v3.0.3 от 6 марта 2026
+## v3.0.3 от 25 марта 2026
 
 Версия API: 3.0.3\
 Версия веб-приложения: 3.0.11\
@@ -20,7 +20,7 @@ icon: cake-candles
 * Исправлена ошибка отображения записей в модальных окнах при закрытии.
 
 {% hint style="info" %}
-**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.3-boxed01/bpium-win-v3.0.3-boxed01.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.3-boxed01/bpium-linux-v3.0.3-boxed01.zip)
+**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.3-boxed02/bpium-win-v3.0.3-boxed02.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.3-boxed02/bpium-linux-v3.0.3-boxed02.zip)
 
 **Докер-образы** bpiumdocker/bpium:v3.0.3, bpiumdocker/bpm:v3.0.3, bpiumdocker/s3:v3.0.3
 {% endhint %}
