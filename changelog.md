@@ -19,6 +19,11 @@ icon: cake-candles
 * Исправлен поиск в выпадающем списке.
 * Исправлена ошибка отображения записей в модальных окнах при закрытии.
 
+**Ключевые изменения в сервере API:**
+
+* Исключена возможность неограниченно проверять существование учётных записей.
+* Исправлена проблема, связанная с некорректной валидацией путей к файлам.
+
 {% hint style="info" %}
 **Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.3-boxed02/bpium-win-v3.0.3-boxed02.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.3-boxed02/bpium-linux-v3.0.3-boxed02.zip)
 
