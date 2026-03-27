@@ -2,7 +2,7 @@
 
 При открытии каталога записи по умолчанию отображаются в режиме отображения Таблица, в которой записи подгружаются по мере пролистывания вниз.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Режим отображения Таблица.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption><p>Режим отображения Таблица.</p></figcaption></figure>
 
 ## Структура интерфейса
 
