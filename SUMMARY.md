@@ -76,7 +76,7 @@
   * [Управление](bpium-setup/systemcatalogs/upravlenie/README.md)
     * [Вебхуки](bpium-setup/systemcatalogs/upravlenie/webhooks.md)
     * [Внешние запросы](bpium-setup/systemcatalogs/upravlenie/weblisteners.md)
-    * [Доступ к сервисам](bpium-setup/systemcatalogs/upravlenie/oauthservices.md)
+    * [Доступы к сервисам](bpium-setup/systemcatalogs/upravlenie/oauthservices.md)
     * [Процессы](bpium-setup/systemcatalogs/upravlenie/processes.md)
     * [События](bpium-setup/systemcatalogs/upravlenie/events.md)
     * [Сотрудники](bpium-setup/systemcatalogs/upravlenie/users.md)

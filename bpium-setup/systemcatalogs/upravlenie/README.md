@@ -1,10 +1,17 @@
+---
+description: >-
+  Раздел «Управление» создается автоматически при первом запуске Бипиума. Он
+  содержит служебные каталоги для настройки автоматизаций, управления
+  сотрудниками и подключения к внешним сервисам.
+---
+
 # Управление
 
-В разработке...
+
 
 <details>
 
-<summary>С</summary>
+<summary><a href="webhooks.md">Вебхуки</a></summary>
 
 
 
@@ -12,7 +19,7 @@
 
 <details>
 
-<summary><a href="../../../rabota-v-bipiume/katalogi/list/plitka.md">Плитка</a></summary>
+<summary><a href="weblisteners.md">Внешние запросы</a></summary>
 
 
 
@@ -20,7 +27,7 @@
 
 <details>
 
-<summary><a href="../../../rabota-v-bipiume/katalogi/list/kalendar.md">Календарь</a></summary>
+<summary><a href="oauthservices.md">Доступы к сервисам</a></summary>
 
 
 
@@ -28,7 +35,7 @@
 
 <details>
 
-<summary><a href="../../../rabota-v-bipiume/katalogi/list/reports.md">Отчеты и графики</a></summary>
+<summary><a href="processes.md">Процессы</a></summary>
 
 
 
@@ -36,7 +43,7 @@
 
 <details>
 
-<summary><a href="../../../rabota-v-bipiume/katalogi/list/svodka.md">Сводка</a></summary>
+<summary><a href="events.md">События</a></summary>
 
 
 
@@ -44,7 +51,7 @@
 
 <details>
 
-<summary><a href="../../../rabota-v-bipiume/katalogi/list/podschet.md">Подсчет</a></summary>
+<summary><a href="users.md">Сотрудники</a></summary>
 
 
 
@@ -52,19 +59,8 @@
 
 <details>
 
-<summary><a href="https://app.gitbook.com/o/-LACZmFVinTpBa6Goi4-/s/-LACZmmM2xUWbZxyRr4s/~/changes/562/rabota-v-bipiume/list/aktivnost+++">Активность</a></summary>
+<summary><a href="scripts.md">Сценарии</a></summary>
 
 
 
 </details>
-
-<details>
-
-<summary><a href="https://app.gitbook.com/o/-LACZmFVinTpBa6Goi4-/s/-LACZmmM2xUWbZxyRr4s/~/changes/562/rabota-v-bipiume/list/instrukciya+">Инструкция</a></summary>
-
-
-
-</details>
-
-
-
