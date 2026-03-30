@@ -15,7 +15,7 @@ icon: shield-exclamation
 
 ### Реестр уязвимостей
 
-<table><thead><tr><th width="96">Id</th><th width="170">Описание</th><th width="112">Уровень</th><th width="133">Затронутые версии</th><th width="127">Статус</th><th>Дата публикации</th></tr></thead><tbody><tr><td><a href="uyazvimosti-i-mery-bezopasnosti.md#bpm-2025-002">S3-2026-01</a></td><td>Directory Traversal (выход за пределы каталога)</td><td><mark style="color:orange;background-color:yellow;">Средний</mark></td><td>до 3.0.10</td><td><mark style="background-color:$success;">✓Устранена</mark></td><td>2026.03.18</td></tr><tr><td><a href="uyazvimosti-i-mery-bezopasnosti.md#bpm-2025-001">App-2026-01</a></td><td>Перебор учётных записей</td><td><mark style="color:green;background-color:green;">Низкий</mark></td><td>до 3.0.10</td><td><mark style="background-color:$success;">✓Устранена</mark></td><td>2026.03.18</td></tr></tbody></table>
+<table><thead><tr><th width="96">Id</th><th width="170">Описание</th><th width="112">Уровень</th><th width="133">Затронутые версии</th><th width="127">Статус</th><th>Дата публикации</th></tr></thead><tbody><tr><td><a href="uyazvimosti-i-mery-bezopasnosti.md#bpm-2025-002">S3-2026-01</a></td><td>Directory Traversal (выход за пределы каталога)</td><td><mark style="color:orange;background-color:yellow;">Средний</mark></td><td>до 3.0.10</td><td><mark style="background-color:$success;">✓Устранена</mark></td><td>18.03.2026</td></tr><tr><td><a href="uyazvimosti-i-mery-bezopasnosti.md#bpm-2025-001">App-2026-01</a></td><td>Перебор учётных записей</td><td><mark style="color:green;background-color:green;">Низкий</mark></td><td>до 3.0.10</td><td><mark style="background-color:$success;">✓Устранена</mark></td><td>18.03.2026</td></tr></tbody></table>
 
 ### Уровни опасности
 
@@ -34,7 +34,7 @@ icon: shield-exclamation
 
 #### Directory Traversal (выход за пределы каталога) <a href="#bpm-2025-002" id="bpm-2025-002"></a>
 
-<mark style="color:orange;background-color:yellow;">Средний</mark> <mark style="background-color:$success;">✓Устранена</mark>  ·  Дата публикации: 2026.03.18  ·  Исправлено в версии: 3.0.10
+<mark style="color:orange;background-color:yellow;">Средний</mark> <mark style="background-color:$success;">✓Устранена</mark>  ·  Дата публикации: 18.03.2026  ·  Исправлено в версии: 3.0.10
 
 **Описание**\
 В одной из функций обработки пользовательских данных была выявлена проблема, связанная с некорректной валидацией путей к файлам. В отдельных сценариях это может позволить обойти предусмотренные ограничения доступа к файловой системе.
@@ -54,7 +54,7 @@ icon: shield-exclamation
 
 #### Перебор учётных записей <a href="#bpm-2025-001" id="bpm-2025-001"></a>
 
-<mark style="color:green;background-color:green;">Низкий</mark> <mark style="background-color:$success;">✓Устранена</mark>  ·  Дата публикации: 2026.03.18  ·  Исправлено в версии: 3.0.10
+<mark style="color:green;background-color:green;">Низкий</mark> <mark style="background-color:$success;">✓Устранена</mark>  ·  Дата публикации: 18.03.2026  ·  Исправлено в версии: 3.0.10
 
 **Описание**\
 В системе обнаружена функциональность, позволяющая неограниченно проверять существование учётных записей. При регистрации или смене логина сервер сообщает, что указанный логин уже занят. Это позволяет злоумышленнику определить, какие пользователи зарегистрированы в системе.
