@@ -9,7 +9,7 @@ description: >-
 
 Режим сводки можно найти в каждом каталоге, нажав на вкладку Сводка.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Режим отображения Сводка.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>Режим отображения Сводка.</p></figcaption></figure>
 
 ## Структура интерфейса
 

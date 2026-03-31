@@ -2,7 +2,7 @@
 
 Календарный режим можно найти в каждом каталоге, нажав на вкладку Календарь.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Режим отображения Календарь.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Режим отображения Календарь.</p></figcaption></figure>
 
 ## Структура интерфейса
 

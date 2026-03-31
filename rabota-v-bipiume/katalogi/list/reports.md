@@ -2,7 +2,7 @@
 
 Режим отчетов можно найти в каждом каталоге, нажав на вкладку Отчеты.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Режим отображения Отчеты.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Режим отображения Отчеты.</p></figcaption></figure>
 
 ## Структура интерфейса
 
