@@ -22,7 +22,7 @@ description: >-
 
 ### Общие свойства
 
-<table data-header-hidden><thead><tr><th width="207"></th><th></th></tr></thead><tbody><tr><td>Поле</td><td>Описание</td></tr><tr><td><strong>Название</strong></td><td>По умолчанию «Код (javascript)». Можно изменить на своё — например, «Рассчитать итоговую сумму» или «Преобразовать массив клиентов»</td></tr><tr><td><strong>Описание</strong></td><td>Необязательное поле. Можно добавить комментарий для себя или коллег</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="145"></th><th></th></tr></thead><tbody><tr><td>Поле</td><td>Описание</td></tr><tr><td><strong>Название</strong></td><td>По умолчанию «Код (javascript)». Можно изменить на своё — например, «Рассчитать итоговую сумму» или «Преобразовать массив клиентов»</td></tr><tr><td><strong>Описание</strong></td><td>Необязательное поле. Можно добавить комментарий для себя или коллег</td></tr></tbody></table>
 
 ### Код
 
@@ -32,7 +32,7 @@ description: >-
 
 Формат: список пар «локальная переменная = значение / выражение»
 
-<table data-header-hidden><thead><tr><th width="237"></th><th></th></tr></thead><tbody><tr><td>Колонка</td><td>Что указывать</td></tr><tr><td><strong>Имя переменной</strong></td><td>Имя переменной, под которым данные будут доступны внутри кода</td></tr><tr><td><strong>Значение</strong></td><td>Текст (в кавычках: <code>"Иванов"</code>), число (<code>42</code>) или выражение (<code>{Сумма}</code>)</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="187"></th><th></th></tr></thead><tbody><tr><td>Колонка</td><td>Что указывать</td></tr><tr><td><strong>Имя переменной</strong></td><td>Имя переменной, под которым данные будут доступны внутри кода</td></tr><tr><td><strong>Значение</strong></td><td>Текст (в кавычках: <code>"Иванов"</code>), число (<code>42</code>) или выражение (<code>{Сумма}</code>)</td></tr></tbody></table>
 
 Каждая новая пара добавляется кнопкой **«Добавить...»**.
 
