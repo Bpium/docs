@@ -48,7 +48,7 @@
 
 Чтобы получить API ID и API Hash перейдите по адресу [https://my.telegram.org/auth](https://my.telegram.org/auth) и войдите с помощью номера телефона, который хотите привязать в качестве отправителя.
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Перейдите в API development tools и создайте новое приложение, заполнив поля:
 
@@ -60,7 +60,7 @@
 
 Нажмите `Create application`  чтобы получить поля конфигурации API (App api\_id, App api\_hash).    &#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

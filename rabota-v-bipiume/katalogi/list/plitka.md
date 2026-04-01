@@ -2,7 +2,7 @@
 
 Плиточный режим можно найти в каждом каталоге, нажав на вкладку Плитка.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption><p>Открытие режима отображеня Плитка</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (2) (1).png" alt=""><figcaption><p>Открытие режима отображеня Плитка</p></figcaption></figure>
 
 ## Структура интерфейса
 
@@ -22,7 +22,7 @@
 
 Область записей (8). Область разложенных в плитке записей.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Структура интерфейса Плитки.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption><p>Структура интерфейса Плитки.</p></figcaption></figure>
 
 ## Плиточный режим
 

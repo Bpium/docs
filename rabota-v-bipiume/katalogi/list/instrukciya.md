@@ -27,7 +27,7 @@ description: >-
 
 Откройте вкладку Инструкции в нужном каталоге и нажмите «Создать». Откроется окно со следующими инструментами для редактирования текста.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Создание новой инструкции.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>Создание новой инструкции.</p></figcaption></figure>
 
 Напишите инструкцию, структурируя текст и выделяя важные части заголовками.&#x20;
 
@@ -39,13 +39,13 @@ description: >-
 
 * Чтобы  прикрепить Ссылку, выделите текст и нажмите на иконку ссылки в инструментах редактирования. В открывшемся поле введите ссылку и нажмите «Сохранить». Система прикрепит ссылку к  выделенному тексту.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption><p>Прикрепление ссылки в инструкции.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption><p>Прикрепление ссылки в инструкции.</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p>Прикрепление ссылки в инструкции.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption><p>Прикрепление ссылки в инструкции.</p></figcaption></figure>
 
 * Сохраните инструкцию, нажав «Сохранить»
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>Сохранение созданной инструкции.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption><p>Сохранение созданной инструкции.</p></figcaption></figure>
 
 ## Редактирование инструкции
 
