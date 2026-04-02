@@ -1,8 +1,27 @@
+---
+description: >-
+  Компонент для получения описания структуры каталога: список полей, их типы,
+  настройки, а также метаданные самого каталога.
+---
+
 # Структура каталога
 
-Используется для получения структуры нужного каталога.
+<figure><img src="../../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-## Свойства
+## Когда использовать
+
+Используйте **Структура каталога**, когда сценарию нужно узнать устройство каталога программно. Типичные примеры:
+
+* Получить список всех полей каталога и их ID
+* Узнать, какие значения доступны в поле типа «Статус»
+* Определить, является ли поле обязательным
+* В универсальном сценарии, который работает с разными каталогами
+
+## Настройка компонента
+
+### Секция «Общие свойства»
+
+<table data-header-hidden><thead><tr><th width="140.36370849609375"></th><th></th></tr></thead><tbody><tr><td>Поле</td><td>Описание</td></tr><tr><td><strong>Название</strong></td><td>По умолчанию «Структура каталога». Можно изменить на своё — например, «Получить поля заявок»</td></tr><tr><td><strong>Описание</strong></td><td>Необязательное поле. Можно добавить комментарий для себя или коллег</td></tr></tbody></table>
 
 ### Секция «Получить структуру каталога»
 
@@ -17,164 +36,84 @@
 
 ### Секция «Результат»
 
-**Сохранить в**\
-Выходной параметр. Сохранит результат в указанную переменную. Формат: имя переменной.
+<table data-header-hidden><thead><tr><th width="150.3636474609375"></th><th></th></tr></thead><tbody><tr><td>Поле</td><td>Описание</td></tr><tr><td><strong>Сохранить в</strong></td><td>Имя переменной, в которую сохраняется структура каталога. Вместо имени переменной можно указать ключ объекта — тогда данные сохранятся как значение этого ключа</td></tr></tbody></table>
 
-```javascript
+**Пример сохранения в ключ объекта:** если указать `data.temp`, то результат будет сохранён как `data.temp`.
+
+#### Формат возвращаемых данных
+
+Компонент возвращает объект со следующей структурой:
+
+```json
 {
-    fields: {
-        "2": {
-            orderIndex: 1,
-            id: "2",
-            name: "Название",
-            type: "text",
-            config: {...},
-            hint: "",
-            required: true,
-            apiOnly: false,
-            ...
-        },
-        "3": {
-            orderIndex: 2,
-            id: "3",
-            name: "Статус",
-            type: "dropdown",
-            config: {
-                items: {
-                    "1": {
-                        orderIndex: 1,
-                        id: "1",
-                        name: "новая",
-                        color: "F9C2C2"
-                    },
-                    "2": {
-                        orderIndex: 3,
-                        id: "2",
-                        name: "отказ",
-                        color: "F9C2C2"
-                    },
-                    "3" {
-                        orderIndex: 2,
-                        id: "3",
-                        name: "оказано",
-                        color: "F9C2C2"
-                    },
-                ],
-                defaultEmptyValue: ["1"],
-                defaultValue: true
-            },
-            hint: "",
-            required: true,
-            apiOnly: false,
-            ...
-        },
-        "4": {
-            orderIndex: 3,
-            id: "4",
-            name: "Файл",
-            type: "file",
-            config: {...},
-            hint: "",
-            required: true,
-            apiOnly: false,
-            ...
-        },
-        ...
+  "fields": {
+    "2": {
+      "orderIndex": 1,
+      "id": "2",
+      "name": "Название",
+      "type": "text",
+      "config": {},
+      "hint": "",
+      "required": true,
+      "apiOnly": false
     },
-    fieldPrivilegeCodes: {...}
-    icon: "content-34",
-    id: "100",
-    name: "Заявки",
-    privilegeCode: "admin",
-    sectionId: "1"
-}
-```
-
-{% hint style="info" %}
-В поле «**Сохранить в**» можно указать ключ объекта и данные сохранятся как значения этого ключа.
-
-**Пример**
-
-Если указать в поле «**Сохранить в**» переменную`data.temp, то результат будет выглядеть следующим образом:`&#x20;
-
-```javascript
-data: {
-    fields: {
-        "2": {
-            orderIndex: 1,
-            id: "2",
-            name: "Название",
-            type: "text",
-            config: {...},
-            hint: "",
-            required: true,
-            apiOnly: false,
-            ...
+    "3": {
+      "orderIndex": 2,
+      "id": "3",
+      "name": "Статус",
+      "type": "dropdown",
+      "config": {
+        "items": {
+          "1": { 
+            "orderIndex": 1, 
+            "id": "1", 
+            "name": "новая", 
+            "color": "F9C2C2" 
+          },
+          "2": { 
+            "orderIndex": 3, 
+            "id": "2", 
+            "name": "отказ", 
+            "color": "F9C2C2" 
+          },
+          "3": { 
+            "orderIndex": 2, 
+            "id": "3", 
+            "name": "оказано", 
+            "color": "F9C2C2" 
+          }
         },
-        "3": {
-            orderIndex: 2,
-            id: "3",
-            name: "Статус",
-            type: "dropdown",
-            config: {
-                items: {
-                    "1": {
-                        orderIndex: 1,
-                        id: "1",
-                        name: "новая",
-                        color: "F9C2C2"
-                    },
-                    "2": {
-                        orderIndex: 3,
-                        id: "2",
-                        name: "отказ",
-                        color: "F9C2C2"
-                    },
-                    "3" {
-                        orderIndex: 2,
-                        id: "3",
-                        name: "оказано",
-                        color: "F9C2C2"
-                    },
-                ],
-                defaultEmptyValue: ["1"],
-                defaultValue: true
-            },
-            hint: "",
-            required: true,
-            apiOnly: false,
-            ...
-        },
-        "4": {
-            orderIndex: 3,
-            id: "4",
-            name: "Файл",
-            type: "file",
-            config: {...},
-            hint: "",
-            required: true,
-            apiOnly: false,
-            ...
-        },
-        ...
+        "defaultEmptyValue": ["1"],
+        "defaultValue": true
+      },
+      "hint": "",
+      "required": true,
+      "apiOnly": false
     },
-        fieldPrivilegeCodes: {...}
-        icon: "content-34",
-        id: "100",
-        name: "Заявки",
-        privilegeCode: "admin",
-        sectionId: "1"
+    "4": {
+      "orderIndex": 3,
+      "id": "4",
+      "name": "Файл",
+      "type": "file",
+      "config": {},
+      "hint": "",
+      "required": true,
+      "apiOnly": false
     }
+  },
+  "fieldPrivilegeCodes": {},
+  "icon": "content-34",
+  "id": "100",
+  "name": "Заявки",
+  "privilegeCode": "admin",
+  "sectionId": "1"
 }
 ```
-{% endhint %}
-
-Подробнее о формате данных в описании [ресурса Каталог](../../../integracii/api/data/catalogs.md#poluchit-katalog-get) в API.
 
 {% hint style="warning" %}
-#### Разница форматов с API
+### Разница форматов с API
 
-Компонент возвращает результат в отличном от API формате. Разница заключается в том, что компонент возвращает поля (`fields`) в формате объекта с ключами ID полей, а не массива, как API.&#x20;
+Компонент возвращает результат в отличном от API формате. Разница заключается в том, что компонент возвращает поля (`fields`) в формате объекта с ключами ID полей, а не массива, как API.
 
 Для восстановления очередности полей (порядка их следования в каталоге) в поля добавлено свойство `orderIndex`(начинается с 1).
 

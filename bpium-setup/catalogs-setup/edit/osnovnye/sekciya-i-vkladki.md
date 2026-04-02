@@ -11,13 +11,13 @@ description: >-
 
 Секция — это заголовок, под которым объединяются несколько полей.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Поле типа Секция в конструкторе каталога.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>Поле типа Секция в конструкторе каталога.</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Поле типа Секция в каталоге в записи.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>Поле типа Секция в каталоге в записи.</p></figcaption></figure>
 
 Все поля, расположенные ниже секции в конструкторе, автоматически входят в её область — вплоть до следующей секции.
 
-<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Поля, входящие в секцию Проект.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Поля, входящие в секцию Проект.</p></figcaption></figure>
 
 ### Когда использовать
 
@@ -27,19 +27,19 @@ description: >-
 
 Скрытие и отображение полей секции. При нажатии на иконку квадрата с минусом, Секция скроет поля, входящие в секцию.
 
-<figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Кнопка скрытия полей секции.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p>Кнопка скрытия полей секции.</p></figcaption></figure>
 
 При нажатии на иконку квадрата с плюсом, Секция отобразит скрытые поля, входящие в секцию.
 
-<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Кнопка отображения скрытых полей секции.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p>Кнопка отображения скрытых полей секции.</p></figcaption></figure>
 
 ## Вкладка
 
 Вкладка — это особый вид секции. Она тоже объединяет поля в именованную группу, но выносит их на отдельную подстраницу записи. В анкете вкладки отображаются как горизонтальные переключатели в верхней части — сотрудник переходит между ними как между разделами.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Все вкладки записи в каталоге Проекты.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption><p>Все вкладки записи в каталоге Проекты.</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Поля вкладки Сроки.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Поля вкладки Сроки.</p></figcaption></figure>
 
 ### Когда использовать
 
@@ -51,8 +51,8 @@ description: >-
 
 Первая вкладка создается автоматически — она содержит все поля, которые были в анкете до добавления вкладок. Каждая новая вкладка добавляется кнопкой «+» рядом с существующими вкладками в конструкторе. Внутри вкладки поля можно дополнительно разбить на секции.
 
-<figure><img src="../../../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Создание новой вкладки.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption><p>Создание новой вкладки.</p></figcaption></figure>
 
 После добавления вкладки ей присваивается имя "Секция". Переименуйте ее в соответствии с назначением
 
-<figure><img src="../../../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Создание новой вкладки.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption><p>Создание новой вкладки.</p></figcaption></figure>

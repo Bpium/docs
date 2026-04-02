@@ -24,7 +24,7 @@ description: >-
 
 ### Секция «Найти»
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 <table data-header-hidden><thead><tr><th width="244.90911865234375"></th><th></th></tr></thead><tbody><tr><td>Поле</td><td>Описание</td></tr><tr><td><strong>Данные</strong></td><td>Строка с текстовыми данными, в которой требуется найти нужный фрагмент. Данные могут быть любого формата (JSON, XML, HTML, текст). Формат: текст в кавычках или выражение</td></tr><tr><td><strong>Метод поиска</strong></td><td>Способ поиска вхождений в исходной строке. Доступны четыре метода: <code>JSONPath</code>, <code>XPath</code>, <code>jQuery-селектор</code>, <code>Regex</code></td></tr><tr><td><strong>Поисковая строка</strong></td><td>Выражение, описывающее что искать. Формат зависит от выбранного метода. Формат: текст в кавычках или выражение</td></tr><tr><td><strong>Возвращаемое значение</strong></td><td>Поле появляется для некоторых методов поиска. Указывает, что именно вернуть из найденного элемента</td></tr><tr><td><strong>Вернуть</strong></td><td>Какое из найденных значений вернуть: «Первый элемент», «Последний элемент» или «Все»</td></tr></tbody></table>
 
@@ -36,7 +36,7 @@ description: >-
 
 Поле доступно при выборе метода **jQuery-селектор**. Указывает, что именно вернуть у найденного элемента:
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 | Вариант                     | Что возвращает                      |
 | --------------------------- | ----------------------------------- |
@@ -48,7 +48,7 @@ description: >-
 
 Поле также доступно для метода **Regex** — указывает индекс поисковой подстроки (по умолчанию 0), если регулярное выражение содержит несколько групп (заключенных в круглые скобки).
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Секция «Результат»
 

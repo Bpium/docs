@@ -22,13 +22,4 @@ description: >-
 
 ### Список компонентов
 
-| Компонент                                                  | Назначение                                                         |
-| ---------------------------------------------------------- | ------------------------------------------------------------------ |
-| [**Получить запись**](getrecord.md)                        | Получить значения полей одной записи по её ID                      |
-| [**Найти записи**](findrecords.md)                         | Найти записи по фильтру или виду                                   |
-| [**Создать запись**](createrecord.md)                      | Создать новую запись в каталоге                                    |
-| [**Изменить запись**](editrecord.md)                       | Изменить поля существующей записи                                  |
-| [**Удалить запись**](deleterecord.md)                      | Удалить запись                                                     |
-| [**Структура каталога**](poluchenie-struktury-kataloga.md) | Получить структуру полей каталога                                  |
-| [**Загрузить файл**](zagruzit-fail.md)                     | Загрузить файл из интернета или сгенерировать и сохранить в запись |
-| [**Сгенерировать документ**](generaciya-dokumenta.md)      | Создать документ из шаблона (.docx или .xlsx)                      |
+<table data-header-hidden><thead><tr><th width="255.81817626953125"></th><th></th></tr></thead><tbody><tr><td>Компонент</td><td>Назначение</td></tr><tr><td><a href="getrecord.md"><strong>Получить запись</strong></a></td><td>Получить значения полей одной записи по её ID</td></tr><tr><td><a href="findrecords.md"><strong>Найти записи</strong></a></td><td>Найти записи по фильтру или виду</td></tr><tr><td><a href="createrecord.md"><strong>Создать запись</strong></a></td><td>Создать новую запись в каталоге</td></tr><tr><td><a href="editrecord.md"><strong>Изменить запись</strong></a></td><td>Изменить поля существующей записи</td></tr><tr><td><a href="deleterecord.md"><strong>Удалить запись</strong></a></td><td>Удалить запись</td></tr><tr><td><a href="poluchenie-struktury-kataloga.md"><strong>Структура каталога</strong></a></td><td>Получить структуру полей каталога</td></tr><tr><td><a href="zagruzit-fail.md"><strong>Загрузить файл</strong></a></td><td>Загрузить файл из интернета или сгенерировать и сохранить в запись</td></tr><tr><td><a href="generaciya-dokumenta.md"><strong>Сгенерировать документ</strong></a></td><td>Создать документ из шаблона (.docx или .xlsx)</td></tr></tbody></table>
