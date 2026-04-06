@@ -6,7 +6,7 @@ description: >-
 
 # Получить запись
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 ## Когда использовать
 
@@ -26,13 +26,13 @@ description: >-
 
 ### Секция «Получить запись»
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <table data-header-hidden><thead><tr><th width="207.6363525390625"></th><th></th></tr></thead><tbody><tr><td>Поле</td><td>Описание</td></tr><tr><td><strong>Указать каталог</strong></td><td>Способ выбора каталога:<br>• <strong>Из списка</strong> — выбрать каталог из выпадающего списка<br>• <strong>Через переменную</strong> — указать ID каталога через переменную (полезно, если каталог зависит от логики)</td></tr><tr><td><strong>Каталог</strong></td><td>Доступно при выборе «Из списка». Выбор каталога, из которого нужно получить запись</td></tr><tr><td><strong>ID каталога</strong></td><td>Доступно при выборе «Через переменную». Идентификатор каталога. Формат: значение или выражение</td></tr><tr><td><strong>ID записи</strong></td><td>Идентификатор записи, которую нужно получить. Формат: значение или выражение</td></tr></tbody></table>
 
 ### Секция **«Получить»**
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <table data-header-hidden><thead><tr><th width="121.27276611328125"></th><th></th></tr></thead><tbody><tr><td>Поле</td><td>Описание</td></tr><tr><td><strong>Поля</strong></td><td>Какие поля записи вернуть:<br>• <strong>Все поля</strong> — возвращает все поля каталога, включая расширенные поля связанных записей (заданные в настройках каталога)<br>• <strong>Заданные</strong> — позволяет указать конкретные поля. Это уменьшает объём данных и ускоряет работу</td></tr><tr><td><strong>ID полей</strong></td><td>Доступно при выборе «Заданные». Список идентификаторов (API ID) полей через запятую. Формат: значение или выражение</td></tr></tbody></table>
 
@@ -69,7 +69,7 @@ description: >-
 
 ### **Секция «Результат»**
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Сохранить в**
 

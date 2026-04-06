@@ -27,9 +27,9 @@ description: >-
 
 **Многострочный текст.** Несколько строк без форматирования. Для заметок, описаний, условий — когда текст длинный, но разметка не нужна.
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Три формата поля «Текст» в настройках</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Три формата поля «Текст» в настройках</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption><p>Три формата поля «Текст» в карточке записи</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption><p>Три формата поля «Текст» в карточке записи</p></figcaption></figure>
 
 ## Применение формата «Текст по маске»
 

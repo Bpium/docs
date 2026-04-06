@@ -23,7 +23,7 @@ description: >-
 
 ### Секция «Запустить»
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <table data-header-hidden><thead><tr><th width="196.727294921875"></th><th></th></tr></thead><tbody><tr><td>Поле</td><td>Описание</td></tr><tr><td><strong>Указать сценарий</strong></td><td>Способ выбора вызываемого сценария:<br>• <strong>Из списка</strong> — выбрать из существующих сценариев<br>• <strong>Через переменную</strong> — указать переменную, в которой хранится идентификатор сценария</td></tr><tr><td><strong>Сценарий</strong></td><td>Выбранный сценарий (появляется при выборе «Из списка»)</td></tr><tr><td><strong>Формат значений</strong></td><td>Способ передачи входных параметров:<br>• <strong>Поле = Значение</strong> — параметры передаются в виде пар «имя = значение»<br>• <strong>JSON</strong> — параметры передаются в виде JSON-объекта</td></tr><tr><td><strong>Входные параметры</strong></td><td>Набор переменных, которые будут переданы в дочерний сценарий. Слева — имя переменной, которую ожидает дочерний сценарий, справа — значение из родительского. Каждая новая пара добавляется кнопкой <strong>«Добавить...»</strong></td></tr><tr><td><strong>Тип запуска</strong></td><td>Режим выполнения:<br>• <strong>Синхронно</strong> — родительский сценарий ждёт завершения дочернего и получает результат<br>• <strong>Асинхронно</strong> — дочерний сценарий запускается без ожидания, родительский продолжает выполнение</td></tr></tbody></table>
 
@@ -45,7 +45,7 @@ description: >-
 
 ## Секция «Результат»&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <table data-header-hidden><thead><tr><th width="230.3636474609375"></th><th></th></tr></thead><tbody><tr><td>Поле</td><td>Описание</td></tr><tr><td><strong>Сохранить ответ в</strong></td><td>Имя переменной, в которую сохраняется результат выполнения дочернего сценария. Доступно только при <strong>синхронном</strong> запуске</td></tr><tr><td><strong>Сохранить ID процесса в</strong></td><td>Имя переменной, в которую сохраняется идентификатор (PID) запущенного дочернего процесса. Доступно для обоих типов запуска</td></tr></tbody></table>
 

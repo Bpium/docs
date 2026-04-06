@@ -11,13 +11,13 @@ description: >-
 
 Секция — это заголовок, под которым объединяются несколько полей.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>Поле типа Секция в конструкторе каталога.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption><p>Поле типа Секция в конструкторе каталога.</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption><p>Поле типа Секция в каталоге в записи.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption><p>Поле типа Секция в каталоге в записи.</p></figcaption></figure>
 
 Все поля, расположенные ниже секции в конструкторе, автоматически входят в её область — вплоть до следующей секции.
 
-<figure><img src="../../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Поля, входящие в секцию Проект.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption><p>Поля, входящие в секцию Проект.</p></figcaption></figure>
 
 ### Когда использовать
 
@@ -31,7 +31,7 @@ description: >-
 
 При нажатии на иконку квадрата с плюсом, Секция отобразит скрытые поля, входящие в секцию.
 
-<figure><img src="../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption><p>Кнопка отображения скрытых полей секции.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption><p>Кнопка отображения скрытых полей секции.</p></figcaption></figure>
 
 ## Вкладка
 

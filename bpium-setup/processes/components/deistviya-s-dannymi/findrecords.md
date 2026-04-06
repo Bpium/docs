@@ -6,7 +6,7 @@ description: >-
 
 # Найти записи
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Когда использовать
 
@@ -28,7 +28,7 @@ description: >-
 
 ### Секция «Найти записи»
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Найти записи
 
@@ -45,7 +45,7 @@ description: >-
 
 ### Секция «Получить»
 
-<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 <table data-header-hidden><thead><tr><th width="210.3636474609375"></th><th></th></tr></thead><tbody><tr><td>Поле</td><td>Описание</td></tr><tr><td><strong>Поля</strong></td><td>Какие поля записей вернуть:<br>• <strong>Все поля</strong> — возвращает все поля каталога, включая расширенные поля связанных записей<br>• <strong>Заданные</strong> — позволяет указать конкретные поля (уменьшает объём данных, ускоряет работу)</td></tr><tr><td><strong>ID полей</strong></td><td>Доступно при выборе «Заданные». Список идентификаторов (API ID) полей через запятую</td></tr><tr><td><strong>Количество записей</strong></td><td>Максимальное количество возвращаемых записей. Максимум — 1000, по умолчанию — 100</td></tr><tr><td><strong>Начиная с</strong></td><td>Используется вместе с «Количество записей» для постраничной навигации. Указывает порядковый номер записи (не ID), с которого начинать выборку. По умолчанию 0. Пример: если указано 200, а количество записей = 100, будут возвращены записи с 201 по 300</td></tr></tbody></table>
 
@@ -81,7 +81,7 @@ description: >-
 
 ### Результат
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 <table data-header-hidden><thead><tr><th width="271.27276611328125"></th><th></th></tr></thead><tbody><tr><td>Поле</td><td>Описание</td></tr><tr><td><strong>Сохранить в</strong></td><td>Имя переменной, в которую сохраняется результат. Компонент возвращает <strong>массив записей</strong> в формате: <code>[ { id, catalogId, values: { ... } }, ... ]</code></td></tr><tr><td><strong>Всего подходящих записей в каталоге</strong></td><td>Имя переменной, в которую сохраняется общее количество записей, удовлетворяющих фильтру (без учёта ограничения «Количество записей»)</td></tr></tbody></table>
 

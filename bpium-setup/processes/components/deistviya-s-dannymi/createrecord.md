@@ -4,7 +4,7 @@ description: Компонент для создания новой записи 
 
 # Создать запись
 
-<figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Когда использовать
 
@@ -27,7 +27,7 @@ description: Компонент для создания новой записи 
 
 ### Секция «Создать запись»
 
-<figure><img src="../../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 | Поле                | Описание                                                                                                                                                                             |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -66,7 +66,7 @@ description: Компонент для создания новой записи 
 
 ### Секция «Результат»
 
-<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Сохранить в**  \
 Выходной параметр. В случае успеха, запишет идентификатор новой записи в указанную переменную. Формат значения: имя переменной.

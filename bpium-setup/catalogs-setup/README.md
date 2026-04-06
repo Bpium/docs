@@ -18,7 +18,7 @@ icon: rectangle-vertical-history
 
 Созданные разделы видны всем сотрудникам компании, пока на них не ограничили права.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Создание раздела</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Создание раздела</p></figcaption></figure>
 
 ### Настройки раздела
 
@@ -31,13 +31,13 @@ icon: rectangle-vertical-history
 
 Набор доступных действий зависит от назначенных прав.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Свойства раздела</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Свойства раздела</p></figcaption></figure>
 
 ### Удаление раздела
 
 При удалении раздела также удаляются и все каталоги этого раздела. При этом, если другие записи ссылаются на записи удаленных каталогов, то эти связи останутся. Но открыть удаленные связанные записи будет нельзя.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Удаление раздела</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Удаление раздела</p></figcaption></figure>
 
 ### Восстановление удаленного раздела
 
@@ -56,7 +56,7 @@ icon: rectangle-vertical-history
 
 Набор доступных действий зависит от назначенных прав.
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Редактирование каталога. Свойства каталога</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Редактирование каталога. Свойства каталога</p></figcaption></figure>
 
 ### Сортировка каталогов
 
@@ -82,9 +82,9 @@ icon: rectangle-vertical-history
 
 **Название каталога и иконка.** В верхней части конструктора указано название каталога. Рядом — кнопка выбора иконки: Бипиум предлагает более 1000 иконок, разбитых по категориям.
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption><p>Выбор иконки каталога</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Выбор иконки каталога</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption><p>Выбор иконки каталога</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Выбор иконки каталога</p></figcaption></figure>
 
 ## Действия с каталогом
 
@@ -94,7 +94,7 @@ icon: rectangle-vertical-history
 
 При создании нового каталога вы переходите в режим редактирования его структуры.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Создание нового каталога</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Создание нового каталога</p></figcaption></figure>
 
 
 
@@ -102,7 +102,7 @@ icon: rectangle-vertical-history
 
 При удалении всех записей каталога также происходит удаление всех связей и историй каждой из удаляемых записей. Для подтверждения удаления всех записей система попросит повторно ввести название каталога во избежание случайной очистки. Механизм удаления всех записей в каталоге оказывается полезен, когда необходимо быстро очистить все содержимое каталога, не прибегая к сценариям автоматизаций. Такое, например, возникает при разработке каталога и наполнения его тестовыми записями, которые в последствие не будут использоваться.
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Удаление всех записей каталога</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Удаление всех записей каталога</p></figcaption></figure>
 
 В зависимости от назначенных прав набор действий может быть ограничен.
 

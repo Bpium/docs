@@ -25,7 +25,7 @@ description: >-
 
 Например, для поля «ИНН» можно написать подсказку: «Введите 10 цифр для организации или 12 цифр для ИП».
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption><p>Подсказка для заполнения.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption><p>Подсказка для заполнения.</p></figcaption></figure>
 
 #### Обязательное поле
 
@@ -33,7 +33,7 @@ description: >-
 
 Используйте для ключевых полей, без которых запись теряет смысл: название, статус, ответственный сотрудник.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption><p>Признак обязательного поля.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption><p>Признак обязательного поля.</p></figcaption></figure>
 
 #### **Показывать на панели фильтров**
 
@@ -41,7 +41,7 @@ description: >-
 
 Включайте только для полей, по которым реально фильтруют: статус, ответственный, дата, тип клиента. Слишком длинная панель фильтров неудобна — выводите только нужное.
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption><p>Настройка отображения поля в фильтрах.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption><p>Настройка отображения поля в фильтрах.</p></figcaption></figure>
 
 #### **Сохранить изменения в истории**
 
@@ -49,7 +49,7 @@ description: >-
 
 Включайте для значимых полей, изменения которых важно отслеживать: статус сделки, ответственный, сумма. Не стоит включать для вспомогательных полей — история захламится незначительными правками
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>Сохранение изменений поля в истории.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption><p>Сохранение изменений поля в истории.</p></figcaption></figure>
 
 #### **Виды отображения**
 
@@ -59,7 +59,7 @@ description: >-
 
 
 
-<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption><p>Настройка вида отображения поля</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption><p>Настройка вида отображения поля</p></figcaption></figure>
 
 ## Параметры
 
