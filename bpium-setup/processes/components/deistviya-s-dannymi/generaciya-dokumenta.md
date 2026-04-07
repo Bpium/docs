@@ -2,7 +2,7 @@
 
 Используется для создания документа из заранее загруженного шаблона. Поддерживаются форматы .xslx и .docx. Для его использования необходимо создать файл шаблона размеченного тегами, загрузить файл в Bpium и подготовить JSON с тегами. &#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Когда использовать
 

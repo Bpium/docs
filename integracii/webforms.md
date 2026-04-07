@@ -10,14 +10,14 @@
 
 ### Веб-форма добавления/изменения записей
 
-<figure><img src="../../.gitbook/assets/image (101) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (101) (1).png" alt=""><figcaption></figcaption></figure>
 
 Можно настроить отображение на весь экран, передав параметр `&screen=full` в конце адреса.
 
 Пример:\
 `http://test.bpium.ru/?action=record-new&catalog=7&screen=full`
 
-<figure><img src="../../.gitbook/assets/image (102) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (102) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -25,23 +25,23 @@
 
 Веб-форма отображающая определенный каталог
 
-<figure><img src="../../.gitbook/assets/image (103) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (103) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Создание веб-форм
 
 Для создания веб-формы, в первую очередь необходимо создать каталог.
 
-<figure><img src="../../.gitbook/assets/catalog_create.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/catalog_create.png" alt=""><figcaption></figcaption></figure>
 
 Далее, внутри каталога нужно задать название каталога добавить поля, которые будут отображаться для заполняющего.
 
-<figure><img src="../../.gitbook/assets/image (105) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (105) (1).png" alt=""><figcaption></figcaption></figure>
 
 После сохранения ссылку на веб-форму можно получить перейдя в "Доступ к каталогу" в левом верхнем углу, и в открывшемся окне нажав на один из двух видов.
 
-<figure><img src="../../.gitbook/assets/доступкаталог.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/доступкаталог.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/видыформ.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/видыформ.png" alt=""><figcaption></figcaption></figure>
 
 ## Настройка аккаунта
 
@@ -52,7 +52,7 @@
 
 Для создания аккаунта через который будет осуществляться пользователями доступ к форме, необходимо перейти в каталог "Сотрудники" и там создать нового сотрудника введя любое имя для него и почту, к которой вы имеете доступ. На данную почту придет приглашение, после перехода по которому нужно будет придумать пароль для общего аккаунта.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Автоматическая авторизация
 
@@ -80,24 +80,24 @@
 
 Если вы не хотите показывать логин и пароль от аккаунта, то можно авторизоваться через передачу cookie. Необходимо создать сценарий следующего вида:
 
-<figure><img src="../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
 Через компонент Веб-запрос нужно сделать любой валидный запрос в вашу систему включив базовую авторизацию и передав в логин и пароль данные от созданного аккаунта.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
 
 Далее в компоненте "Назначение переменных" нужно в переменную $headers передать ссылку на работу с записью или каталогом и cookie, а в переменную $status - 302.
 
-<figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
-После необходимо создать [внешний запрос ](../systemcatalogs/upravlenie/weblisteners.md)задав ему URL-идентификатор и прикрепив созданный нами сценарий.\
+После необходимо создать [внешний запрос ](../bpium-setup/systemcatalogs/upravlenie/weblisteners.md)задав ему URL-идентификатор и прикрепив созданный нами сценарий.\
 После этого при переходе по ссылке созданного нами внешнего запроса будет открываться нужная форма.&#x20;
 
 ## Доступ к веб-формам&#x20;
 
 Для настройки отображения только нужных данных необходимо настроить правовой вид. Для этого нужно. чтобы в вашем каталоге было поле, по которому будут фильтроваться записи. Его нужно сделать неизменяемым вручную и заполненными какими-то данными  В нашем примере таким полем будет поле "Дата заявки" со значением "По умолчанию: текущая дата" и сделаем его редактируемым только через API.
 
-<figure><img src="../../.gitbook/assets/датасозданиянастрйока.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/датасозданиянастрйока.png" alt=""><figcaption></figcaption></figure>
 
 В первую очередь необходимо настроить привилегии доступа к разделу. Для этого нужно открыть "Доступ к разделу" и явно указать привилегию "Доступ к разрешенным".&#x20;
 
@@ -105,7 +105,7 @@
 
 Далее необходимо выставить в "Доступ к каталогу" привилегию для общего аккаунта "Доступ к разрешенным". Если в каталоге есть поля, которые не должны быть видимыми для общего аккаунта,  скрываем его в "Право редактировать поле", в нашем случае скрываем поле "Дата заявки".
 
-<figure><img src="../../.gitbook/assets/каталогпросмотрредактирование.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/каталогпросмотрредактирование.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 **Важно: у вас должны быть настроены права доступа для сотрудников. Если в привилегиях будет стоять "Все сотрудники - "Администрировать", то эта привилегия перебьет выставленную привилегию для нашего общего аккаунта.**&#x20;
@@ -121,15 +121,15 @@
 
 Для настройки доступа к просмотру определенных записей нужно задать в фильтрах вида значение по которому будет видно записи.&#x20;
 
-<figure><img src="../../.gitbook/assets/задаем вид.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/задаем вид.png" alt=""><figcaption></figcaption></figure>
 
 Далее нужно сохранить выбранный вид, выбрав тип "Правовой" и задать название для администратора.<br>
 
-<figure><img src="../../.gitbook/assets/image (106) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (106) (1).png" alt=""><figcaption></figcaption></figure>
 
 В открывшемся окне "Общий доступ к виду" выбираем наш общий аккаунт и задаем привилегию "Видеть записи" и  сохраняем.
 
-<figure><img src="../../.gitbook/assets/image (109) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (109) (1).png" alt=""><figcaption></figcaption></figure>
 
 Таким образом, при передаче ссылки на веб-форму для просмотра записи или каталога человек увидит ее, если она попадает под выбранный нами фильтр.\
 Если же вам нужно, чтобы человек мог еще и изменять записи, то нужно выставить в  "Общий доступ к виду" вместо "Видеть записи" "Изменять записи".&#x20;
@@ -144,14 +144,14 @@
 
 Для того, чтобы дать возможность создавать записи, но ограничить видимость до этого созданных записей, нужно задать фильтр, по которому не будет попадать ни одна запись. В нашем случае это будет фильтр по полю "Дата заявки", выставим "Не задана". Из-за автоматического формирования даты создания при создании записи, ни одна запись не будет отображаться по такому фильтру.&#x20;
 
-<figure><img src="../../.gitbook/assets/создание вид.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/создание вид.png" alt=""><figcaption></figcaption></figure>
 
 Сохраняем все как в предыдущих пунктах,  в "Общий доступ к виду" выбираем наш общий аккаунт и задаем привилегию "Создавать записи" и  сохраняем.\
 Теперь перешедший по ссылке сможет вносить данные и сохранять данные, однако при переходе в каталог он не увидит никакой информации. <br>
 
-<figure><img src="../../.gitbook/assets/image (110) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (110) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (111) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (111) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Интеграция веб-формы на сайт
 

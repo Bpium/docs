@@ -141,17 +141,17 @@ attachments: [
 1. Войдите на сервис [https://gmail.com](https://gmail.com) и авторизуйтесь своей учетной записью.
 2.  Кликните на иконку своего аккаунта и перейдите по ссылке «Управление аккаунтом Google»:<br>
 
-    <figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 3.  Перейдите на вкладку «Безопасность»:<br>
 
-    <figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 4.  В отделе «Вход в аккаунт Google» нажмите на пункт «Двухэтапная аутентификация». Завершите процесс настройки двухэтапной аутентификации, следуя подсказкам
 
-    <figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 5. После завершения процесса настройки двухэтапной аутентификации вновь перейдите на вкладку «Безопасность» (п. 3 выше).
 6.  В отделе «Вход в аккаунт Google» нажмите на появившийся пункт «Пароли приложений»:
 
-    <figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 7.  В окне создания пароля укажите приложение «Бипиум» и нажмите «Создать»:
 
 
