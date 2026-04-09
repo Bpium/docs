@@ -119,13 +119,13 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views
     "forRights": true, // true — правовой вид, false — личный вид
     "filters": [
         {
-            "id": "101",
-            "attr": "12",
+            "fieldId": "13",
+            "attr": "13",
             "value": ["1", "2", "5"]
         },
         {
-            "id": "102",
-            "attr": "13",
+            "fieldId": "12",
+            "attr": "12",
             "value": {
                   "at": "2015-10-27T00:00:00+03:00",
                   "to" : "2015-11-19T23:59:59+03:00"
@@ -168,15 +168,13 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views/{viewId}
 {
     "name": "View public name",
     "originName": "View name for admins",
-    "forRights": true,
+    "forRights": false,
     "filters": [
         {
-            "id": "101",
             "attr": "12",
             "value": ["1", "2", "5"]
         },
         {
-            "id": "102",
             "attr": "13",
             "value": {
                   "at": "2015-10-27T00:00:00+03:00",

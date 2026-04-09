@@ -26,7 +26,7 @@ Bpium Enterprise состоит из 3 независимых приложени
 
 <details>
 
-<summary><a href="https://docs.bpium.ru/~/revisions/PCOuurHnldwBOuxvsJ9t/deployment/skhemy-razvorachivaniya/varianty-razvorachivaniya/minimalnyi-nabor-dlya-testovogo-zapuska">Минимальный набор для тестового запуска</a></summary>
+<summary><a href="minimalnyi-nabor-dlya-testovogo-zapuska.md">Минимальный набор для тестового запуска</a></summary>
 
 
 
@@ -34,7 +34,7 @@ Bpium Enterprise состоит из 3 независимых приложени
 
 <details>
 
-<summary><a href="https://docs.bpium.ru/~/revisions/7xZbuF5sSwWydmpdgEBU/deployment/skhemy-razvorachivaniya/varianty-razvorachivaniya/rekomenduemyi-nabor-dlya-rabochego-production-zapuska-bipium">Рекомендуемый набор для рабочего (production) запуска Бипиум</a></summary>
+<summary><a href="rekomenduemyi-nabor-dlya-rabochego-production-zapuska-bipium.md">Рекомендуемый набор для рабочего (production) запуска Бипиум</a></summary>
 
 
 

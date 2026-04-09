@@ -32,8 +32,6 @@ URL: /{api url}/catalogs/{catalogId}/totals
 
 * _Параметры аналогичны параметрам получения значений разложения_ [_Values_](values.md)_._\
   _Игнорируются параметры: sort, sortType, limit, offset._
-
-Естественным языком о смысле параметров описано в статье про [интерфейс графика](/broken/pages/-LACZqPzVzhgj9-maVff).
 {% endtab %}
 
 {% tab title="Ответ" %}

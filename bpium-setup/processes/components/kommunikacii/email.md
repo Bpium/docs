@@ -23,7 +23,7 @@ description: >-
 
 ### Секция «Подключение»
 
-Протокол — определяет протокол отправки почты. Доступные варианты: **SMTP** или **Exchange**.
+Протокол — определяет протокол отправки почты. Доступные варианты: [**SMTP**](https://ru.ruwiki.ru/wiki/SMTP?ysclid=mnrfvlm4fc407645813) или [**Exchange**](https://ru.ruwiki.ru/wiki/Microsoft_Exchange_Server?ysclid=mnrfw5d9dg679713385).
 
 **Протокол: SMTP**
 

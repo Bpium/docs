@@ -26,7 +26,7 @@ description: >-
 
 ### Секция «Подключение»
 
-<table data-header-hidden><thead><tr><th width="199.45458984375"></th><th></th></tr></thead><tbody><tr><td>Поле</td><td>Описание</td></tr><tr><td><strong>Протокол</strong></td><td>Протокол подключения. Доступен: <code>IMAP</code></td></tr><tr><td>Способ подключения</td><td>Определяет как задаются параметры подключения к почтовому серверу. Доступные варианты: <strong>Параметры</strong> (каждый параметр отдельно) или <strong>Строка подключения</strong> (все параметры единой строкой).</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="199.45458984375"></th><th></th></tr></thead><tbody><tr><td>Поле</td><td>Описание</td></tr><tr><td><strong>Протокол</strong></td><td>Протокол подключения. Доступен: <a href="https://ru.ruwiki.ru/wiki/IMAP?ysclid=mnrfm5bqgs696031688">IMAP</a></td></tr><tr><td>Способ подключения</td><td>Определяет как задаются параметры подключения к почтовому серверу. Доступные варианты: <strong>Параметры</strong> (каждый параметр отдельно) или <strong>Строка подключения</strong> (все параметры единой строкой).</td></tr></tbody></table>
 
 **Способ подключения: Параметры**
 

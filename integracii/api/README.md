@@ -1,6 +1,6 @@
 # API
 
-API Bpium построено на идеологии [REST](https://www.wikiwand.com/ru/REST), формат передачи данных — JSON.
+API Bpium построено на идеологии [REST](https://ru.ruwiki.ru/wiki/REST?ysclid=mnpyfdya5a85709849), формат передачи данных — JSON.
 
 ## Ресурсы
 
@@ -8,8 +8,8 @@ API состоит из ресурсов.
 
 Работа с пользовательскими и системными данными:
 
-* [**Каталоги (Catalog)**](data/catalogs.md) — список каталогов с описанием структуры полей
-* [**Записи (Records)**](data/records.md) — список записей каталога с значением полей
+* [Каталоги (Catalog)](data/catalogs.md) — список каталогов с описанием структуры полей
+* [Записи (Records)](data/records.md) — список записей каталога с значением полей
 * [Связи (Relations)](data/relations-relations.md) — список записей, которые ссылаются на указанную запись
 * [История (Histories)](data/istoriya-history.md) — список операций по изменению записи
 * [Файл (Files)](data/files.md) — информация о файле в файловом хранилище
@@ -92,7 +92,7 @@ https://{вашдомен}.bpium.ru/api/v1/{ресурс}/{?ID-обьекта}
 Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
 ```
 
-Подробнее о стандарте: [Basic authentication](https://www.wikiwand.com/en/Basic_access_authentication).
+Подробнее о стандарте: [Basic authentication](https://bewave.ru/blog/nastroyka-http-basic-auth-v-trekh-slovakh/?ysclid=mnpzn6jnt8283763641).
 
 Некоторые веб-клиенты позволяют автоматически формировать заголовок базовой авторизации, если логин и пароль передан через URL (пример: `https://login:pass@xxx.bpium.ru/...`). Браузер Chrome, например, будет так делать, только если сервер пошлет специальный заголовок. Однако, сервер Bpium не отправляет такой заголовок, так как придерживается методологии REST.
 

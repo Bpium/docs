@@ -13,10 +13,14 @@
 3. Откройте для редактирования каталог «Сотрудники»
 4.  Создайте поле типа связанный объект и привяжите его к каталогу «Отделы»
 
-    ![](../../.gitbook/assets/roleStructure.png)
+
+
+    <figure><img src="../../.gitbook/assets/roleStructure.png" alt=""><figcaption></figcaption></figure>
 5.  Внесите информацию об отделах в карточки сотрудников
 
-    ![](../../.gitbook/assets/roleRecord.png)
+
+
+    <figure><img src="../../.gitbook/assets/roleRecord.png" alt=""><figcaption></figcaption></figure>
 
 После этого Бипиум посчитает отделы правовыми группами и даст возможность назначать на них права в окне назначения прав:
 

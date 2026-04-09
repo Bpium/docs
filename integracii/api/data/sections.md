@@ -80,8 +80,6 @@ URL: {domain}/api/v1/sections
     "icon": "new-icon"
 }
 ```
-
-Возможные значения для icon описаны в [документации](http://okcss.dev.oktell.ru/#/elements/icons).
 {% endtab %}
 
 {% tab title="Ответ" %}

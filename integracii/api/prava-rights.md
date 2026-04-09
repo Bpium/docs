@@ -16,7 +16,7 @@ URL: {domain}/api/v1/rights{?sectionId}{?catalogId}{?recordId}{?withSearch}
 
 Параметры:
 
-* sectionId: (number, опционально) — идентификатор отдела
+* sectionId: (number, опционально) — идентификатор раздела
 * catalogId: (number, опционально) — идентификатор каталога
 * recordId: (number, опционально) — идентификатор записи
 * withSearch: true (boolean, опционально) — показывать ли автоматически создаваемые правила search — видеть объект в списке (по умолчанию false)
@@ -96,7 +96,7 @@ URL: {domain}/api/v1/rights{?sectionId}{?catalogId}{?recordId}{?withSearch}
 URL: {domain}/api/v1/rights
 ```
 
-В примере, создаются (или перезатираются) права на отдел 1 (sectionId: 1). \
+В примере, создаются (или перезатираются) права на раздел 1 (sectionId: 1). \
 Операция удаляет все ранее существующие правила на объект.
 
 Метод: **POST**
