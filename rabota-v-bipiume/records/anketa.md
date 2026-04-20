@@ -28,7 +28,7 @@
 
 <figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 
-* Внести необходимые изменения изменения
+* Внести необходимые изменения&#x20;
 
 <figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 
@@ -39,5 +39,3 @@
 Внесенные изменения в записи отобразятся в Истории изменений
 
 <figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
-
-##

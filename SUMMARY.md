@@ -4,6 +4,7 @@
 * [Версии и обновления](changelog.md)
 * [С чего начать](s-chego-nachat/README.md)
   * [Регистрация и вход](s-chego-nachat/registraciya-i-vkhod.md)
+  * [Интерфейс системы](s-chego-nachat/sections.md)
   * [Управление сотрудниками](s-chego-nachat/upravlenie-sotrudnikami.md)
   * [Создаем каталоги и записи](s-chego-nachat/sozdaem-katalogi-i-zapisi.md)
   * [Формируем отчёты](s-chego-nachat/formiruem-otchyoty.md)
@@ -40,11 +41,9 @@
 
 ## Настройка Бипиума <a href="#bpium-setup" id="bpium-setup"></a>
 
-* [Copy of С чего начать](bpium-setup/copy-of-s-chego-nachat/README.md)
-  * [Создаем каталоги и записи](bpium-setup/copy-of-s-chego-nachat/sozdaem-katalogi-i-zapisi.md)
-  * [Формируем отчёты](bpium-setup/copy-of-s-chego-nachat/formiruem-otchyoty.md)
-  * [Настраиваем правовую политику](bpium-setup/copy-of-s-chego-nachat/nastraivaem-pravovuyu-politiku.md)
-  * [Применяем автоматизации](bpium-setup/copy-of-s-chego-nachat/primenyaem-avtomatizacii.md)
+* [Быстрый старт](bpium-setup/bystryi-start/README.md)
+  * [Создаем каталоги и записи](bpium-setup/bystryi-start/sozdaem-katalogi-i-zapisi.md)
+  * [Настраиваем дашборд](bpium-setup/bystryi-start/nastraivaem-dashbord.md)
 * [Каталоги](bpium-setup/catalogs-setup/README.md)
   * [Поля](bpium-setup/catalogs-setup/edit/README.md)
     * [Основные](bpium-setup/catalogs-setup/edit/osnovnye/README.md)
@@ -98,9 +97,9 @@
     * [OAuth провайдеры](bpium-setup/systemcatalogs/sistema/oauth-provaidery.md)
     * [Шаблоны писем](bpium-setup/systemcatalogs/sistema/shablony-pisem.md)
 * [Права](bpium-setup/prava/README.md)
-  * [Права на поля](bpium-setup/prava/fields.md)
   * [Правила и привилегии](bpium-setup/prava/rules.md)
   * [Правовые группы](bpium-setup/prava/groups.md)
+  * [Права на поля](bpium-setup/prava/fields.md)
   * [Правовые виды](bpium-setup/prava/views.md)
   * [Комбинация прав](bpium-setup/prava/policy.md)
   * [Примеры кейсов](bpium-setup/prava/rights.md)
@@ -151,6 +150,9 @@
 
 ## Интеграции
 
+* [Методы интеграции](integracii/integration/README.md)
+  * [Интеграция данных](integracii/integration/data.md)
+  * [Интеграция интерфейса](integracii/integration/client.md)
 * [API](integracii/api/README.md)
   * [Агрегация](integracii/api/agregate/README.md)
     * [Разложения (Values)](integracii/api/agregate/values.md)
@@ -177,9 +179,6 @@
 * [Веб-расширения](integracii/plugins.md)
 * [Веб-формы](integracii/webforms.md)
 * [Вебхуки (webhooks)](integracii/webhooks.md)
-* [Методы интеграции](integracii/integration/README.md)
-  * [Интеграция данных](integracii/integration/data.md)
-  * [Интеграция интерфейса](integracii/integration/client.md)
 
 ***
 
