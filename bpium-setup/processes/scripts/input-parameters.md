@@ -23,11 +23,11 @@ description: >-
 
 Создадим в «Назначении переменных» переменную `data` со значением `'admin'` и передадим её в фильтр компонента «Найти записи»:
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Далее передадим в компоненте «Найти записи» в фильтр следующие значения:
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Результат выполнения данного сценария выглядит следующим образом:
 
@@ -60,7 +60,7 @@ description: >-
 
 Создадим переменную `identifier` со значением `1` и используем её как идентификатор поля в фильтре
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Далее передадим в компоненте «Найти записи» в фильтр следующие значения:
 
@@ -91,7 +91,7 @@ description: >-
 
 JSON позволяет задать фильтр в виде структурированной строки с указанием поля, условия и значения.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Результат выполнения данного сценария выглядит следующим образом:
 

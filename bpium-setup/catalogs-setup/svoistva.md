@@ -25,7 +25,7 @@ description: >-
 
 Например, для поля «ИНН» можно написать подсказку: «Введите 10 цифр для организации или 12 цифр для ИП».
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption><p>Подсказка для заполнения.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Подсказка для заполнения.</p></figcaption></figure>
 
 #### Обязательное поле
 

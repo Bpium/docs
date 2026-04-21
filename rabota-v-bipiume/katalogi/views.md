@@ -10,8 +10,8 @@ description: >-
 
 Виды бывают:&#x20;
 
-* [Личные ](https://app.gitbook.com/o/-LACZmFVinTpBa6Goi4-/s/-LACZmmM2xUWbZxyRr4s/~/changes/570/bpium-setup/structure/views/lichnye-vidy)(фильтруют записи)&#x20;
-* [Правовые ](https://app.gitbook.com/o/-LACZmFVinTpBa6Goi4-/s/-LACZmmM2xUWbZxyRr4s/~/changes/570/bpium-setup/structure/views/views)(предоставляют доступ к записям)
+* Личные (фильтруют записи)&#x20;
+* [Правовые](../../bpium-setup/prava/views.md) (предоставляют доступ к записям)
 
 ## Личные виды
 
@@ -21,7 +21,9 @@ description: >-
 
 Форма создания и редактирования личного вида:
 
-<figure><img src="../../../.gitbook/assets/7. Личный вид.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Здесь же вы можете выбрать режим отображения для создаваемого вида, на этот режим отображения система по умолчанию будет переходить при открытии Вида.
 
 ## Правовые виды
 
@@ -33,29 +35,29 @@ description: >-
 
 Давайте сохраним набор фильтров для конкретного сотрудника (вас). Выберите необходимые фильтры и нажмите «Сохранить» рядом с полем нового вида.
 
-<figure><img src="../../../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
 
 В открывшемся окне создания нового вида введите название Вида и выберите Тип вида «Личный»  для того чтобы только вы видели ваш набор фильтров.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
 
 После сохранения Вид применится и отобразится под названием Каталога.
 
-<figure><img src="../../../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
 
 ## Просмотр доступных видов
 
 Для просмотра всего списка доступных вам Видов нажмите на иконку галочки. Вы сможете просмотреть только те Виды, которые создали сами или к которым вам предоставили доступ.
 
-<figure><img src="../../../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
 
 ## Редактирование личного вида
 
 Для того, чтобы внести изменения в созданный вами личный вид, нажмите на иконку карандаша рядом с названием вида. Созданный вид можно переименовать, удалить или задать новый ID вида. Для редактирования созданного вами правового вида ознакомьтесь со статьей «[Правовые виды](https://docs.bpium.ru/rights/views)».
 
-<figure><img src="../../../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
 
 Для правовых видов можно настроить доступ. Изменять и удалять правовые виды могут только сотрудники с правом «Администрировать» каталог.
 

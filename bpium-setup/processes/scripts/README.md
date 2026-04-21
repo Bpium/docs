@@ -13,7 +13,7 @@ description: >-
 2. Укажите название сценария и нажмите «Создать» в поле «Сценарий» — откроется графический редактор.
 3. Из панели компонентов выберите нужные, расположите их в правильной последовательности и задайте свойства каждого.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## Компоненты
 
