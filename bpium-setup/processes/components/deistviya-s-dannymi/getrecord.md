@@ -26,7 +26,7 @@ description: >-
 
 ### Секция «Получить запись»
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <table data-header-hidden><thead><tr><th width="207.6363525390625"></th><th></th></tr></thead><tbody><tr><td>Поле</td><td>Описание</td></tr><tr><td><strong>Указать каталог</strong></td><td>Способ выбора каталога:<br>• <strong>Из списка</strong> — выбрать каталог из выпадающего списка<br>• <strong>Через переменную</strong> — указать ID каталога через переменную (полезно, если каталог зависит от логики)</td></tr><tr><td><strong>Каталог</strong></td><td>Доступно при выборе «Из списка». Выбор каталога, из которого нужно получить запись</td></tr><tr><td><strong>ID каталога</strong></td><td>Доступно при выборе «Через переменную». Идентификатор каталога. Формат: значение или выражение</td></tr><tr><td><strong>ID записи</strong></td><td>Идентификатор записи, которую нужно получить. Формат: значение или выражение</td></tr></tbody></table>
 

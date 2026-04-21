@@ -23,7 +23,7 @@ description: >-
 
 Создадим в «Назначении переменных» переменную `data` со значением `'admin'` и передадим её в фильтр компонента «Найти записи»:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Далее передадим в компоненте «Найти записи» в фильтр следующие значения:
 

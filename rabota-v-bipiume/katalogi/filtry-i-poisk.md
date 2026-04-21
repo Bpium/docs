@@ -37,7 +37,7 @@ description: >-
 
 Поиск по вхождению — Бипиум найдёт все записи, в которых поле содержит введённый текст. Регистр не учитывается.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Число
 
