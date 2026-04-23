@@ -9,6 +9,14 @@ icon: file-lines
 
 <details>
 
+<summary><a href="mekhanizmy-registracii-i-perechen-zhurnaliruemykh-sobytii.md">Механизмы регистрации и перечень журналируемых событий</a></summary>
+
+
+
+</details>
+
+<details>
+
 <summary><a href="./#integraciya-logov-v-siem-sistemy">Интеграция логов в SIEM системы</a></summary>
 
 
