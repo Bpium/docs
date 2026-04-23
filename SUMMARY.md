@@ -27,6 +27,7 @@
   * [Фильтры и поиск](rabota-v-bipiume/katalogi/filtry-i-poisk.md)
   * [Виды](rabota-v-bipiume/katalogi/views.md)
   * [Операции](rabota-v-bipiume/katalogi/operacii/README.md)
+    * [Автообновление](rabota-v-bipiume/katalogi/operacii/avtoobnovlenie.md)
     * [Массовое редактирование](rabota-v-bipiume/katalogi/operacii/massovoe-redaktirovanie.md)
     * [Массовое удаление](rabota-v-bipiume/katalogi/operacii/massovoe-udalenie.md)
     * [Импорт записей](rabota-v-bipiume/katalogi/operacii/import-zapisei.md)
