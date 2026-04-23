@@ -271,6 +271,10 @@
   * [Бэкап и восстановление базы](deployment/obsluzhivanie/bekap-i-vosstanovlenie-bazy.md)
   * [Удаление](deployment/obsluzhivanie/udalenie.md)
 * [Уязвимости и меры безопасности](deployment/uyazvimosti-i-mery-bezopasnosti.md)
+* [Логирование](deployment/logs/README.md)
+  * [Механизмы регистрации и перечень журналируемых событий](deployment/logs/mekhanizmy-registracii-i-perechen-zhurnaliruemykh-sobytii.md)
+  * [Интеграция логов в SIEM системы](deployment/logs/logs-integration.md)
+  * [Типовые инциденты информационной безопасности и процедуры реагирования](deployment/logs/tipovye-incidenty-informacionnoi-bezopasnosti-i-procedury-reagirovaniya.md)
 
 ## Обучение <a href="#learn" id="learn"></a>
 
