@@ -1,3 +1,7 @@
+---
+icon: gear-complex-api
+---
+
 # API
 
 API Bpium построено на идеологии [REST](https://ru.ruwiki.ru/wiki/REST?ysclid=mnpyfdya5a85709849), формат передачи данных — JSON.
