@@ -15,7 +15,7 @@ icon: shield-exclamation
 
 ### Реестр уязвимостей
 
-<table><thead><tr><th width="96">Id</th><th width="170">Описание</th><th width="112">Уровень</th><th width="133">Затронутые версии</th><th width="127">Статус</th><th>Дата публикации</th></tr></thead><tbody><tr><td>BPM-2026-01</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><a href="uyazvimosti-i-mery-bezopasnosti.md#bpm-2025-002">S3-2026-01</a></td><td>Directory Traversal (выход за пределы каталога)</td><td><mark style="color:orange;background-color:yellow;">Средний</mark></td><td>до 3.0.10</td><td><mark style="background-color:$success;">✓Устранена</mark></td><td>18.03.2026</td></tr><tr><td><a href="uyazvimosti-i-mery-bezopasnosti.md#bpm-2025-001">App-2026-01</a></td><td>Перебор учётных записей</td><td><mark style="color:green;background-color:green;">Низкий</mark></td><td>до 3.0.10</td><td><mark style="background-color:$success;">✓Устранена</mark></td><td>18.03.2026</td></tr></tbody></table>
+<table><thead><tr><th width="96">Id</th><th width="170">Описание</th><th width="112">Уровень</th><th width="133">Затронутые версии</th><th width="127">Статус</th><th>Дата публикации</th></tr></thead><tbody><tr><td><a href="uyazvimosti-i-mery-bezopasnosti.md#bpm-2026-01">BPM-2026№01</a></td><td>Разрыв авторизации внешних запросов в BPM</td><td><mark style="color:red;background-color:orange;">Высокий</mark></td><td>Все версии продукта</td><td><mark style="background-color:$warning;">🔨В работе</mark></td><td>27.04.2026</td></tr><tr><td><a href="uyazvimosti-i-mery-bezopasnosti.md#bpm-2025-002">S3-2026№01</a></td><td>Directory Traversal (выход за пределы каталога)</td><td><mark style="color:orange;background-color:yellow;">Средний</mark></td><td>до 3.0.10</td><td><mark style="background-color:$success;">✓Устранена</mark></td><td>18.03.2026</td></tr><tr><td><a href="uyazvimosti-i-mery-bezopasnosti.md#bpm-2025-001">App-2026№01</a></td><td>Перебор учётных записей</td><td><mark style="color:green;background-color:green;">Низкий</mark></td><td>до 3.0.10</td><td><mark style="background-color:$success;">✓Устранена</mark></td><td>18.03.2026</td></tr></tbody></table>
 
 ### Уровни опасности
 
@@ -30,7 +30,7 @@ icon: shield-exclamation
 
 ## Детали уязвимостей
 
-### BPM-2026-01
+### BPM-2026№01
 
 #### Разрыв авторизации внешних запросов в BPM
 
@@ -50,7 +50,7 @@ icon: shield-exclamation
 
 ***
 
-### S3-2026-01  <a href="#bpm-2025-002" id="bpm-2025-002"></a>
+### S3-2026№01  <a href="#bpm-2025-002" id="bpm-2025-002"></a>
 
 #### Directory Traversal (выход за пределы каталога) <a href="#bpm-2025-002" id="bpm-2025-002"></a>
 
@@ -70,7 +70,7 @@ icon: shield-exclamation
 
 ***
 
-### App-2026-01  <a href="#bpm-2025-001" id="bpm-2025-001"></a>
+### App-2026№01  <a href="#bpm-2025-001" id="bpm-2025-001"></a>
 
 #### Перебор учётных записей <a href="#bpm-2025-001" id="bpm-2025-001"></a>
 
