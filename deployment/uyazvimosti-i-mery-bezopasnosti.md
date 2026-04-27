@@ -15,7 +15,7 @@ icon: shield-exclamation
 
 ### Реестр уязвимостей
 
-<table><thead><tr><th width="96">Id</th><th width="170">Описание</th><th width="112">Уровень</th><th width="133">Затронутые версии</th><th width="127">Статус</th><th>Дата публикации</th></tr></thead><tbody><tr><td><a href="uyazvimosti-i-mery-bezopasnosti.md#bpm-2025-002">S3-2026-01</a></td><td>Directory Traversal (выход за пределы каталога)</td><td><mark style="color:orange;background-color:yellow;">Средний</mark></td><td>до 3.0.10</td><td><mark style="background-color:$success;">✓Устранена</mark></td><td>18.03.2026</td></tr><tr><td><a href="uyazvimosti-i-mery-bezopasnosti.md#bpm-2025-001">App-2026-01</a></td><td>Перебор учётных записей</td><td><mark style="color:green;background-color:green;">Низкий</mark></td><td>до 3.0.10</td><td><mark style="background-color:$success;">✓Устранена</mark></td><td>18.03.2026</td></tr></tbody></table>
+<table><thead><tr><th width="96">Id</th><th width="170">Описание</th><th width="112">Уровень</th><th width="133">Затронутые версии</th><th width="127">Статус</th><th>Дата публикации</th></tr></thead><tbody><tr><td>BPM-2026-01</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td><a href="uyazvimosti-i-mery-bezopasnosti.md#bpm-2025-002">S3-2026-01</a></td><td>Directory Traversal (выход за пределы каталога)</td><td><mark style="color:orange;background-color:yellow;">Средний</mark></td><td>до 3.0.10</td><td><mark style="background-color:$success;">✓Устранена</mark></td><td>18.03.2026</td></tr><tr><td><a href="uyazvimosti-i-mery-bezopasnosti.md#bpm-2025-001">App-2026-01</a></td><td>Перебор учётных записей</td><td><mark style="color:green;background-color:green;">Низкий</mark></td><td>до 3.0.10</td><td><mark style="background-color:$success;">✓Устранена</mark></td><td>18.03.2026</td></tr></tbody></table>
 
 ### Уровни опасности
 
@@ -29,6 +29,26 @@ icon: shield-exclamation
 | <mark style="color:green;background-color:green;">Низкий</mark>      | Минимальный риск. Уязвимость затрагивает незначительные компоненты или требует физического доступа. Устраняется в рамках плановых обновлений.   |
 
 ## Детали уязвимостей
+
+### BPM-2026-01
+
+#### Разрыв авторизации внешних запросов в BPM
+
+<mark style="color:red;background-color:orange;">Высокий</mark> <mark style="background-color:$warning;">🔨В работе</mark>   ·  Дата публикации: 27.04.2026  · &#x20;
+
+**Описание**\
+Обнаружена особенность в работе системы проверки входящих данных. В определенных условиях механизм верификации может пропускать запросы, не требуя подтверждения их легитимности. Это потенциально позволяет системе обрабатывать неавторизованные команды, поступающие извне.
+
+**Затронутые версии**\
+Все версии продукта.
+
+**Уровень опасности**\
+Существует риск того, что система примет и выполнит действия по запросу от анонимного или недоверенного источника.
+
+**Рекомендации**\
+В качестве временной меры рекомендуется изолировать сетевой интерфейс сервиса, ограничив возможность взаимодействия с ним только списком доверенных внутренних систем.
+
+***
 
 ### S3-2026-01  <a href="#bpm-2025-002" id="bpm-2025-002"></a>
 
