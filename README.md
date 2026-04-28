@@ -20,11 +20,11 @@ icon: comment-question
 
 На любой странице сайта есть виджет чата, в который можно написать вопрос. Нажмите на кнопку, показанную на скрине:
 
-<figure><img src=".gitbook/assets/Чатра.png" alt=""><figcaption><p>Виджет чата на сайте</p></figcaption></figure>
+<figure><img src=".gitbook/assets/виджет на сайте.png" alt=""><figcaption><p>Виджет чата на  сайте</p></figcaption></figure>
 
 Перед вами откроется чат с нашим менеджером поддержки. Опишите суть вашей проблемы и вам ответят в течение 4 рабочих часов. Время работы: по будням с 10:00 до 18:00 по московскому времени.
 
-<figure><img src=".gitbook/assets/image (195).png" alt=""><figcaption><p>Окно чата поддержки на сайте</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Чат поддержки на сайте.png" alt=""><figcaption><p>Окно чата поддержки на сайте</p></figcaption></figure>
 
 ### Внутри Бипиума
 
@@ -32,13 +32,13 @@ icon: comment-question
 
 Где находится кнопка показано на скриншоте:
 
-<figure><img src=".gitbook/assets/image (196).png" alt=""><figcaption><p>Кнопка для обращения в поддержку в Бипиум</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Меню пользователястрелка (1).png" alt=""><figcaption><p>Кнопка для обращенияв поддержку в Бипиум</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (197).png" alt=""><figcaption><p>Кнопка для обращенияв поддержку в Бипиум</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Кнопка для обращенияв поддержку в Бипиум (1).png" alt=""><figcaption></figcaption></figure>
 
 В открывшемся окне введите контактные данные для того, чтобы с вами связались по вашему вопросу.
 
-<figure><img src=".gitbook/assets/image (198).png" alt=""><figcaption><p>Окно для обращения в поддержку</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ЗВС 3.png" alt=""><figcaption></figcaption></figure>
 
 ### Почта техподдержки
 

@@ -124,7 +124,7 @@ hidden: true
 
 <table data-header-hidden><thead><tr><th width="202">Элемент</th><th>Назначение</th></tr></thead><tbody><tr><td><strong>Имя и почта</strong></td><td>Отображение данных авторизованного пользователя</td></tr><tr><td><strong>«Фон для вас»</strong></td><td>Настройка цветовой темы интерфейса</td></tr><tr><td><strong>Лицензия</strong></td><td>Информация по лицензии</td></tr><tr><td><strong>«Документация»</strong></td><td>Переход к официальной документации</td></tr><tr><td><strong>«Задать вопрос»</strong></td><td>Отправка запроса в техподдержку</td></tr><tr><td><strong>«Выйти»</strong></td><td>Завершение сессии</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/Меню пользователястрелка.png" alt=""><figcaption><p>Меню пользователя </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Меню пользователястрелка (2).png" alt=""><figcaption><p>Меню пользователя </p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Меню пользователя открытое.png" alt=""><figcaption><p>Меню пользователя развернутое</p></figcaption></figure>
 
