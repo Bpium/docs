@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Графики и дашборды
 
 <figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>

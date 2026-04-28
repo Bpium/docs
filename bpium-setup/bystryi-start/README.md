@@ -1,25 +1,8 @@
 ---
-hidden: true
 icon: right-long
 ---
 
-# Copy of С чего начать
-
-<details>
-
-<summary><a href="../../s-chego-nachat/registraciya-i-vkhod.md">Регистрация и вход</a></summary>
-
-
-
-</details>
-
-<details>
-
-<summary><a href="../../s-chego-nachat/upravlenie-sotrudnikami.md">Управление сотрудниками</a></summary>
-
-
-
-</details>
+# Быстрый старт
 
 <details>
 
@@ -31,7 +14,7 @@ icon: right-long
 
 <details>
 
-<summary><a href="../../s-chego-nachat/formiruem-otchyoty.md">Формируем отчёты</a></summary>
+<summary><a href="nastraivaem-dashbord.md">Настраиваем дашборды</a></summary>
 
 
 
@@ -47,7 +30,7 @@ icon: right-long
 
 <details>
 
-<summary><a href="../../s-chego-nachat/primenyaem-avtomatizacii.md">Применяем автоматизации</a></summary>
+<summary><a href="pishem-instrukcii.md">Пишем инструкции</a></summary>
 
 
 

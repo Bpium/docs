@@ -45,7 +45,7 @@
 
 * [Быстрый старт](bpium-setup/bystryi-start/README.md)
   * [Создаем каталоги и записи](bpium-setup/bystryi-start/sozdaem-katalogi-i-zapisi.md)
-  * [Настраиваем дашборды](bpium-setup/bystryi-start/nastraivaem-dashbordy.md)
+  * [Настраиваем дашборды](bpium-setup/bystryi-start/nastraivaem-dashbord.md)
   * [Графики и дашборды](bpium-setup/bystryi-start/grafiki-i-dashbordy.md)
   * [Пишем инструкции](bpium-setup/bystryi-start/pishem-instrukcii.md)
 * [Каталоги](bpium-setup/catalogs-setup/README.md)
