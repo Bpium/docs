@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Создаем каталоги и записи
 
 ### Как создать каталог <a href="#g3ietjkwqk6b" id="g3ietjkwqk6b"></a>

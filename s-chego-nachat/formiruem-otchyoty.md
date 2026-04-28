@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Формируем отчёты
 
 ### Как настроить [дашборд](https://docs.bpium.ru/manual/reports#tipy-dashbordov) <a href="#a2mbrsj8jv1c" id="a2mbrsj8jv1c"></a>

@@ -5,6 +5,7 @@
 * [С чего начать](s-chego-nachat/README.md)
   * [Регистрация и вход](s-chego-nachat/registraciya-i-vkhod.md)
   * [Интерфейс системы](s-chego-nachat/sections.md)
+  * [Что дальше: работать или настраивать?](s-chego-nachat/chto-dalshe-rabotat-ili-nastraivat.md)
   * [Управление сотрудниками](s-chego-nachat/upravlenie-sotrudnikami.md)
   * [Создаем каталоги и записи](s-chego-nachat/sozdaem-katalogi-i-zapisi.md)
   * [Формируем отчёты](s-chego-nachat/formiruem-otchyoty.md)
@@ -44,7 +45,7 @@
 
 * [Быстрый старт](bpium-setup/bystryi-start/README.md)
   * [Создаем каталоги и записи](bpium-setup/bystryi-start/sozdaem-katalogi-i-zapisi.md)
-  * [Настраиваем дашборд](bpium-setup/bystryi-start/nastraivaem-dashbord.md)
+  * [Настраиваем дашборды](bpium-setup/bystryi-start/nastraivaem-dashbordy.md)
   * [Графики и дашборды](bpium-setup/bystryi-start/grafiki-i-dashbordy.md)
   * [Пишем инструкции](bpium-setup/bystryi-start/pishem-instrukcii.md)
 * [Каталоги](bpium-setup/catalogs-setup/README.md)
