@@ -1,5 +1,6 @@
 ---
 description: Инструментарий интерфейса системы в Бипиум.
+hidden: true
 icon: table-layout
 ---
 

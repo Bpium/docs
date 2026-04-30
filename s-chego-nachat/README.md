@@ -14,7 +14,7 @@ icon: right-long
 
 <details>
 
-<summary><a href="upravlenie-sotrudnikami.md">Управление сотрудниками</a></summary>
+<summary><a href="sections.md">Интерфейс системы</a></summary>
 
 
 
@@ -22,31 +22,7 @@ icon: right-long
 
 <details>
 
-<summary><a href="sozdaem-katalogi-i-zapisi.md">Создаем каталоги и записи</a></summary>
-
-
-
-</details>
-
-<details>
-
-<summary><a href="formiruem-otchyoty.md">Формируем отчёты</a></summary>
-
-
-
-</details>
-
-<details>
-
-<summary><a href="nastraivaem-pravovuyu-politiku.md">Настраиваем правовую политику</a></summary>
-
-
-
-</details>
-
-<details>
-
-<summary><a href="primenyaem-avtomatizacii.md">Применяем автоматизации</a></summary>
+<summary><a href="chto-dalshe-rabotat-ili-nastraivat.md">Что дальше: работать или настраивать?</a></summary>
 
 
 
