@@ -6,7 +6,7 @@ description: >-
 
 # Оценка звёздами
 
-![](../../../../.gitbook/assets/18-screenshot.png)
+<figure><img src="../../../../.gitbook/assets/Поле типа Оценка звездами.png" alt=""><figcaption><p>Поле типа Оценка звездами</p></figcaption></figure>
 
 ### Когда использовать
 

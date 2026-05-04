@@ -10,5 +10,5 @@ description: >-
 
 **Галочка «Можно загрузить несколько файлов»** включает возможность одновременно прикрепить несколько файлов.
 
-<figure><img src="../../../../.gitbook/assets/image (248).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Поле типа файл.png" alt=""><figcaption><p>Поле типа Файл</p></figcaption></figure>
 

@@ -21,31 +21,31 @@ description: >-
 
 В параметрах отображаются элементы поля, которые необходимо настроить.
 
-<figure><img src="../../../../.gitbook/assets/Parameters.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Секция Параметры в настройке поля.png" alt=""><figcaption><p>Секция Параметры в настройке поля</p></figcaption></figure>
 
 **Способ ввода.** В настройках поля выберите «ИИ-запрос». Именно этот режим активирует все параметры ниже.
 
-<figure><img src="../../../../.gitbook/assets/Input_variants.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Способ ввода ИИ-запрос.png" alt=""><figcaption><p>Способ ввода ИИ-запрос</p></figcaption></figure>
 
 **Сервис.** Выберите языковую модель для обращения. Доступные сервисы: `YandexGpt(Бесплатно от Бипиум), YandexGpt, GigaChat, Deepseek, Grok, Sonar(Perplexity)`.
 
-<figure><img src="../../../../.gitbook/assets/Services.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Выбор языковой модели ИИ.png" alt=""><figcaption><p>Выбор языковой модели ИИ</p></figcaption></figure>
 
 **Модель.** Укажите конкретную модель выбранного сервиса из списка. Недоступно для «YandexGPT (бесплатно от Бипиум)» — там модель фиксирована.
 
-<figure><img src="../../../../.gitbook/assets/Models.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Выбор модели сервиса из списка.png" alt=""><figcaption><p>Выбор модели сервиса из списка</p></figcaption></figure>
 
-**Авторизационный токен.** Укажите токен для доступа к API сервиса — через переменную или выберите из каталога «Доступы к сервисам». Не требуется для YandexGPT (бесплатно от Бипиум).
+**Авторизационный токен.** Каждый сервис использует API ключ (токен) для аутентификации, необходимо его получить на официальном сайте сервис&#x430;**.** Укажите API ключ токен для доступа к API сервиса —  выберите из каталога «Доступы к сервисам». Не требуется для YandexGPT (бесплатно от Бипиум).
 
-<figure><img src="../../../../.gitbook/assets/Auth_token.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Выбор авторизационного токена из выпадающего списка.png" alt=""><figcaption><p>Выбор авторизационного токена из выпадающего списка</p></figcaption></figure>
 
 **Идентификатор каталога Yandex Cloud (для Сервиса YandexGPT).** Позволяет указать идентификатор каталога Yandex Cloud через переменную или выбрать из списка уже добавленных в каталог Доступы к сервисам.
 
-<figure><img src="../../../../.gitbook/assets/yandex_dir_id.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Выбор идентификатора каталога Yandex Cloud.png" alt=""><figcaption><p>Выбор идентификатора каталога Yandex Cloud</p></figcaption></figure>
 
 **Промпт.** Напишите инструкцию для модели — что именно нужно сделать с данными записи. Чем точнее промпт, тем предсказуемее результат.
 
-<figure><img src="../../../../.gitbook/assets/Prompt.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Промпт..png" alt=""><figcaption><p>Промпт.</p></figcaption></figure>
 
 ## Доступные сервисы
 
@@ -65,8 +65,8 @@ description: >-
 
 Результат можно отредактировать вручную после генерации — поле остаётся обычным текстовым.
 
-<figure><img src="../../../../.gitbook/assets/work_button.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Кнопка сгенерировать для запуска работы ИИ-поля.png" alt=""><figcaption><p>Кнопка сгенерировать для запуска работы ИИ-поля</p></figcaption></figure>
 
 При нажатии произойдёт генерация ФИО в дательном падеже.
 
-<figure><img src="../../../../.gitbook/assets/work_result.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Сгенерированный ответ.png" alt=""><figcaption><p>Сгенерированный ответ</p></figcaption></figure>

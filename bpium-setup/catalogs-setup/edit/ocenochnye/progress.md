@@ -6,7 +6,7 @@ description: >-
 
 # Прогресс
 
-![](../../../../.gitbook/assets/17-screenshot.png)
+<figure><img src="../../../../.gitbook/assets/Поле типа Прогресс.png" alt=""><figcaption><p>Поле типа Прогресс</p></figcaption></figure>
 
 ### Когда использовать
 

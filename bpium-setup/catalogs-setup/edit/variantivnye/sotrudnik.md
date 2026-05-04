@@ -14,4 +14,6 @@ description: >-
 
 **Галочка «Подписать на»** включает сотруднику уведомления о сообщениях в чате записи.
 
-<figure><img src="../../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Поле типа Сотрудник.png" alt=""><figcaption><p>Поле типа Сотрудник</p></figcaption></figure>
+
+<figure><img src="../../../../.gitbook/assets/Поле типа Сотрудник в кариочке записи.png" alt=""><figcaption><p>Поле типа Сотрудник в кариочке записи</p></figcaption></figure>

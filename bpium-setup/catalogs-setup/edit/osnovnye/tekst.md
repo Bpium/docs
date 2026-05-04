@@ -27,9 +27,9 @@ description: >-
 
 **Многострочный текст.** Несколько строк без форматирования. Для заметок, описаний, условий — когда текст длинный, но разметка не нужна.
 
-<figure><img src="../../../../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Три формата поля «Текст» в настройках</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Три формата поля типа Текст в настройках.png" alt=""><figcaption><p>Три формата поля типа Текст в настройках</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption><p>Три формата поля «Текст» в карточке записи</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Три формата поля «Текст» в карточке записи.png" alt=""><figcaption><p>Три формата поля «Текст» в карточке записи</p></figcaption></figure>
 
 ## Применение формата «Текст по маске»
 
@@ -39,7 +39,7 @@ description: >-
 
 ### Служебные символы маски
 
-<table data-header-hidden><thead><tr><th width="199"></th><th></th></tr></thead><tbody><tr><td><strong>Символ</strong></td><td><strong>Разрешает ввод</strong></td></tr><tr><td>1</td><td>Любая цифра</td></tr><tr><td>A (Англ.)</td><td>Любая заглавная буква</td></tr><tr><td>а (Англ.)</td><td>Любая строчная буква</td></tr><tr><td>*</td><td>Любая буква или цифра</td></tr><tr><td>#</td><td>Заглавная буква или цифра</td></tr><tr><td>\</td><td>Следующий символ воспринимается как постоянный, даже если он служебный. Например, <mark style="color:$primary;">\А</mark> выведет букву А, <mark style="color:$primary;">\\</mark> — символ \, <br><mark style="color:$primary;">\1</mark> — цифру 1.</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="171"></th><th></th></tr></thead><tbody><tr><td><strong>Символ</strong></td><td><strong>Разрешает ввод</strong></td></tr><tr><td>1</td><td>Любая цифра</td></tr><tr><td>A (Англ.)</td><td>Любая заглавная буква</td></tr><tr><td>а (Англ.)</td><td>Любая строчная буква</td></tr><tr><td>*</td><td>Любая буква или цифра</td></tr><tr><td>#</td><td>Заглавная буква или цифра</td></tr><tr><td>\</td><td>Следующий символ воспринимается как постоянный, даже если он служебный. Например, <mark style="color:$primary;">\А</mark> выведет букву А, <mark style="color:$primary;">\\</mark> — символ \, <br><mark style="color:$primary;">\1</mark> — цифру 1.</td></tr></tbody></table>
 
 Все остальные символы в маске считаются постоянными — они отображаются в поле как есть и не требуют ввода.
 

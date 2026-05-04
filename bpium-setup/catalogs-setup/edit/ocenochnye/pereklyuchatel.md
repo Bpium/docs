@@ -6,7 +6,7 @@ description: >-
 
 # Переключатель
 
-<figure><img src="../../../../.gitbook/assets/Demo-Туры-03-23-2026_04_44_PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Поле типа Переключатель.png" alt=""><figcaption><p>Поле типа Переключатель</p></figcaption></figure>
 
 ### Когда использовать
 

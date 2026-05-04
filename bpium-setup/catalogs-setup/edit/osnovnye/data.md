@@ -6,7 +6,7 @@ description: >-
 
 # Дата
 
-<figure><img src="../../../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Поле типа Дата.png" alt=""><figcaption><p>Поле типа Дата</p></figcaption></figure>
 
 ## Когда использовать
 
@@ -34,9 +34,9 @@ description: >-
 Дата с временем учитывает часовой пояс сотрудника. Если команда работает в разных городах, время совещания каждый увидит в своём часовом поясе.&#x20;
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Виды полей типа Дата (1).png" alt=""><figcaption><p>Форматы дат при настройке полей каталога</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Форматы дат в карточке записи.png" alt=""><figcaption><p>Форматы дат в карточке записи</p></figcaption></figure>
 
 ## Использование в формулах
 

@@ -7,7 +7,7 @@ description: >-
 
 # Связанный каталог
 
-<figure><img src="../../../../.gitbook/assets/Demo-Заявки-на-туры-03-27-2026_11_08_AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Поле типа Связанный каталог.png" alt=""><figcaption><p>Поле типа Связанный каталог</p></figcaption></figure>
 
 ### Когда использовать
 
