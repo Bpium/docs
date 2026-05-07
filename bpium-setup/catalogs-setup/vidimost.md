@@ -22,9 +22,9 @@ description: >-
 
 В панели свойств откройте вкладку Видимость и выберите значения других полей, при которых открытое на редактирование поле должно быть видимым.&#x20;
 
-Настроим поле Сумма заказа таким образом, чтобы при выборе пользователем в поле Клиент значения ООО «Бипиум», будет отображаться дополнительное поле для Сумма заказа.
+Настроим поле «Телефон» таким образом, чтобы при выборе пользователем в поле «Тип связи» статусов Телефон, Макс или Телеграм, будет отображаться дополнительное поле для ввода номера телефона.
 
-<figure><img src="../../.gitbook/assets/image (228).png" alt=""><figcaption><p>Настройки видимости поля.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Настройки видимости поля.png" alt=""><figcaption><p>Настройки видимости поля</p></figcaption></figure>
 
 {% hint style="info" %}
 Задать правило видимости также можно на целую секцию (или даже вкладку). При этом все поля, которые содержатся в секции скроются, но введенные в них значения сохранятся.
@@ -34,7 +34,5 @@ description: >-
 
 ### Пример настроенного поля
 
-<figure><img src="https://docs.bpium.ru/~gitbook/image?url=https%3A%2F%2F1283378397-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-LACZmmM2xUWbZxyRr4s%252F-M4nLNelr7LdUFvriuJT%252F-M4nVm71i10hnLU002Tt%252FTEIFrvXn5Z.gif%3Falt%3Dmedia%26token%3Dcedadbb4-28ae-4877-b357-52e3881abbdf&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=c3597f48&#x26;sv=2" alt=""><figcaption><p>Пример отображения поля Текст при выбранном статусе «Статус1».</p></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/2026-05-05-14-07-21.gif" alt="" width="563"><figcaption></figcaption></figure>
 
