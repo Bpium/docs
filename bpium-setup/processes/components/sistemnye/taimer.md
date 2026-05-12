@@ -4,7 +4,7 @@ description: Приостанавливает исполнение процес�
 
 # Таймер
 
-<figure><img src="../../../../.gitbook/assets/image (324).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Компонент Таймер.png" alt=""><figcaption><p>Компонент Таймер</p></figcaption></figure>
 
 ## Свойства
 

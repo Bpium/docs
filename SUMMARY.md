@@ -147,7 +147,7 @@
     * [Входные и выходные параметры компонентов](bpium-setup/processes/scripts/input-parameters.md)
     * [Выражения](bpium-setup/processes/scripts/expression.md)
     * [Переменные](bpium-setup/processes/scripts/variables.md)
-    * [Примеры настройки](bpium-setup/processes/scripts/cases/README.md)
+    * [Использование Шлюза «ИЛИ»](bpium-setup/processes/scripts/cases/README.md)
       * [Условие](bpium-setup/processes/scripts/cases/if.md)
       * [Цикл](bpium-setup/processes/scripts/cases/for.md)
   * [Ограничения](bpium-setup/processes/limits.md)

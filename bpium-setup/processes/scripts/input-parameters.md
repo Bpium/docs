@@ -23,11 +23,11 @@ description: >-
 
 Создадим в «Назначении переменных» переменную `data` со значением `'admin'` и передадим её в фильтр компонента «Найти записи»:
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Создание переменной «data».png" alt=""><figcaption><p>Создание переменной «data»</p></figcaption></figure>
 
 Далее передадим в компоненте «Найти записи» в фильтр следующие значения:
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Настройка компонента Найти запись.png" alt=""><figcaption><p>Настройка компонента Найти запись</p></figcaption></figure>
 
 Результат выполнения данного сценария выглядит следующим образом:
 
@@ -52,46 +52,11 @@ description: >-
 
 Таким образом мы передали в фильтр значение ‘admin’ и получили все записи подходящие по критериям.
 
-### Передача значений через идентификатор поля
-
-Идентификатор поля можно задать числом (ID поля из конструктора каталога) или через вложенный шаблон.
-
-#### **Пример**
-
-Создадим переменную `identifier` со значением `1` и используем её как идентификатор поля в фильтре
-
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
-
-Далее передадим в компоненте «Найти записи» в фильтр следующие значения:
-
-![](<../../../.gitbook/assets/3 (3).png>)
-
-Результат выполнения данного сценария выглядит следующим образом:
-
-```javascript
-"identifier": 1,
-"result": [
- {
-  "id": "1",
-  "title": "admin",
-  "values": {
-   "1": "admin",
-   "2": "admin",
-   "3": "",
-   "4": [
-   "$user"
-   ],
-   "5": []
-   }
- }
- ]
-```
-
 ### **Передача переменных через JSON**
 
 JSON позволяет задать фильтр в виде структурированной строки с указанием поля, условия и значения.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Передача переменных через JSON.png" alt=""><figcaption><p>Передача переменных через JSON</p></figcaption></figure>
 
 Результат выполнения данного сценария выглядит следующим образом:
 
@@ -121,15 +86,15 @@ JSON позволяет задать фильтр в виде структури
 
 Создадим объект `data.temp` с ключами «сценарии», «события», «сотрудники». Затем запустим три компонента «Найти записи» и каждый результат сохраним в соответствующий ключ объекта:
 
-![](<../../../.gitbook/assets/4 (5).png>)
+<figure><img src="../../../.gitbook/assets/Назначение переменных 3 з0аписи.png" alt=""><figcaption></figcaption></figure>
 
 Далее создаем 3 компонента «Найти записи» и в секции «Результат» в поле «Сохранить в» указываем следующие значения:
 
-![](<../../../.gitbook/assets/5 (15).png>)
+<figure><img src="../../../.gitbook/assets/Найти записи 1.png" alt=""><figcaption></figcaption></figure>
 
-![](<../../../.gitbook/assets/6 (12).png>)
+<figure><img src="../../../.gitbook/assets/Найти записи 2.png" alt=""><figcaption></figcaption></figure>
 
-![](<../../../.gitbook/assets/7 (6).png>)
+<figure><img src="../../../.gitbook/assets/Найти записи 3.png" alt=""><figcaption></figcaption></figure>
 
 ### **Результат**
 

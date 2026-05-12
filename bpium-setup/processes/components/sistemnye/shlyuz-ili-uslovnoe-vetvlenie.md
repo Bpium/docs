@@ -6,7 +6,7 @@ description: >-
 
 # Шлюз «ИЛИ» (условное ветвление)
 
-<figure><img src="../../../../.gitbook/assets/image (325).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Компонент Шлюз «Или».png" alt=""><figcaption><p>Компонент Шлюз «Или»</p></figcaption></figure>
 
 ## **Ветвление**
 
