@@ -91,15 +91,15 @@ JSON позволяет задать фильтр в виде структури
 
 Создадим объект `data.temp` с ключами «сценарии», «события», «сотрудники». Затем запустим три компонента «Найти записи» и каждый результат сохраним в соответствующий ключ объекта:
 
-![](./input-parameters-3.png){width=1200px height=680px}
+![](./input-parameters-3.png "Создание переменной data.temp"){width=1200px height=680px}
 
 Далее создаем 3 компонента «Найти записи» и в секции «Результат» в поле «Сохранить в» указываем следующие значения:
 
-![](./input-parameters-4.png){width=1200px height=680px}
+![](./input-parameters-4.png "Создание компонента «Найти записи»"){width=1200px height=680px}
 
-![](./input-parameters-5.png){width=1200px height=680px}
+![](./input-parameters-5.png "Создание компонента  «Найти записи»"){width=1200px height=680px}
 
-![](./input-parameters-6.png){width=1200px height=680px}
+![](./input-parameters-6.png "Создание компонента «Найти записи»"){width=1200px height=680px}
 
 ### **Результат**
 
