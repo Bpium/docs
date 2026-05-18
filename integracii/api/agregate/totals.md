@@ -1,18 +1,24 @@
 ---
 description: "Свока —\_суммарное подсчитанное значение по записям каталога"
+title: Сводка (Totals)
+order: 1
 ---
 
-# Сводка (Totals)
+Сводка -- суммарное подсчитанное значение по записям каталога
 
-{% hint style="info" %}
+:::info 
+
 Ресурс Totals доступен начиная с версии Бипиума 1.7.1.\
-В предыдущих версиях Бипиума значения разложения можно получить через ресурс [Widget/Totals](../reports/widgets.md#obshie-dannye-grafika-totals).
-{% endhint %}
+В предыдущих версиях Бипиума значения разложения можно получить через ресурс [Widget/Totals](./../reports/widgets).
+
+:::
 
 ## Получить сводку
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: /{api url}/catalogs/{catalogId}/totals
             ?value[type]=recordsCount
@@ -26,15 +32,17 @@ URL: /{api url}/catalogs/{catalogId}/totals
 
 Параметры:
 
-* `catalogId` (string) — идентификатор каталога
+-  `catalogId` (string) -- идентификатор каталога
 
 Параметры фильтра (определяют выборку):
 
-* _Параметры аналогичны параметрам получения значений разложения_ [_Values_](values.md)_._\
-  _Игнорируются параметры: sort, sortType, limit, offset._
-{% endtab %}
+-  *Параметры аналогичны параметрам получения значений разложения* [*Values*](./values)*.*\
+   *Игнорируются параметры: sort, sortType, limit, offset.*
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -51,5 +59,7 @@ URL: /{api url}/catalogs/{catalogId}/totals
         "value": 1
 }]
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]

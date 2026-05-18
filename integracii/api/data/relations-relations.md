@@ -1,13 +1,17 @@
 ---
 description: Ресурс Relations - хранит связи между записями.
+title: Связи (Relations)
+order: 1.8
 ---
 
-# Связи (Relations)
+Ресурс Relations - хранит связи между записями.
 
 ## Получить связи
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/relations
 ```
@@ -18,11 +22,14 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/relations
 
 **Параметры пути:**
 
-* `catalogId` (number) — идентификатор каталога
-* `recordId` (number) — идентификатор записи
-{% endtab %}
+-  `catalogId` (number) -- идентификатор каталога
 
-{% tab title="Ответ" %}
+-  `recordId` (number) -- идентификатор записи
+
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -42,8 +49,10 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/relations
     "recordsTotal": 1
 }]
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Параметры запроса
 
@@ -51,7 +60,7 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/relations
 
 ### Фильтрация
 
-**`catalogId` — фильтр по каталогам**
+`**catalogId**` **-- фильтр по каталогам**
 
 Фильтрует связи, возвращая только записи из указанных каталогов.
 
@@ -67,9 +76,9 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/relations?catalogId
 URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/relations?catalogId={catalogId1}&catalogId={catalogId2}&catalogId={catalogId3}
 ```
 
-Где `catalogId` в query-параметрах — это ID каталога, по которому формируется фильтрация (возвращаемый каталог). При указании нескольких каталогов они перечисляются через знак `&`.
+Где `catalogId` в query-параметрах -- это ID каталога, по которому формируется фильтрация (возвращаемый каталог). При указании нескольких каталогов они перечисляются через знак `&`.
 
-**`fieldId` — фильтр по полю связи**
+`**fieldId**` **-- фильтр по полю связи**
 
 Фильтрует записи по конкретному полю типа "связанный каталог" в указанном каталоге.
 
@@ -79,7 +88,7 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/relations?catalogId
 URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/relations?catalogId={catalogId}&fieldId=2
 ```
 
-Где `2` — это ID поля типа "связанный каталог" в каталоге, указанном в query-параметре `catalogId`.
+Где `2` -- это ID поля типа "связанный каталог" в каталоге, указанном в query-параметре `catalogId`.
 
 **Пример с несколькими каталогами:**
 
@@ -89,12 +98,13 @@ URL: {domain}/api/v1/catalogs/27/records/1/relations?catalogId=29&catalogId=28&f
 
 В этом случае будут отфильтрованы записи:
 
-* в каталоге 29 — по полю с id = 6 этого каталога
-* в каталоге 28 — по полю с id = 6 этого каталога
+-  в каталоге 29 -- по полю с id = 6 этого каталога
+
+-  в каталоге 28 -- по полю с id = 6 этого каталога
 
 Фильтрация выполняется отдельно внутри каждого указанного каталога по полю с соответствующим id.
 
-**`hiddenFields` — отображение скрытых полей**
+`**hiddenFields**` **-- отображение скрытых полей**
 
 Отображает скрытые поля каталога, указанного в query-параметре `catalogId`. Если в query-параметре не указаны каталоги фильтрации, то отображение сработает по всем связанным каталогам.
 
@@ -106,7 +116,7 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/relations?catalogId
 
 ### Пагинация
 
-**`limit` — лимит записей**
+`**limit**` **-- лимит записей**
 
 Ограничивает количество возвращаемых записей.
 
@@ -124,10 +134,11 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/relations?catalogId
 
 В таком случае отобразится:
 
-* 50 записей из каталога 29
-* 50 записей из каталога 28
+-  50 записей из каталога 29
 
-**`offset` — смещение для пагинации**
+-  50 записей из каталога 28
+
+`**offset**` **-- смещение для пагинации**
 
 Количество записей, которое необходимо пропустить для смещения (отсчёт начинается с 0).
 
@@ -139,7 +150,7 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/relations?catalogId
 
 ### Сортировка
 
-**`sortField` — поле для сортировки**
+`**sortField**` **-- поле для сортировки**
 
 ID поля в каталоге, по которому выполняется сортировка возвращаемых записей.
 
@@ -157,17 +168,19 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/relations?catalogId
 
 В таком случае сортировка выполнится по следующему принципу:
 
-* сортировка значений каталога 29 по его полю с id=7
-* сортировка значений каталога 28 по его полю с id=7
+-  сортировка значений каталога 29 по его полю с id=7
+
+-  сортировка значений каталога 28 по его полю с id=7
 
 В случае, если в одном из каталогов отсутствует поле с указанным id для сортировки, значения берутся в том порядке, как они указаны в каталоге.
 
-**`sortType` — тип сортировки**
+`**sortType**` **-- тип сортировки**
 
 Тип сортировки (работает только совместно с фильтром `sortField`).
 
-* `sortType=1` — по возрастанию
-* `sortType=-1` — по убыванию
+-  `sortType=1` -- по возрастанию
+
+-  `sortType=-1` -- по убыванию
 
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/relations?catalogId={catalogId}&sortField=7&sortType=-1

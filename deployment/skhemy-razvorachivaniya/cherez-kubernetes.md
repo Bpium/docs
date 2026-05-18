@@ -1,7 +1,7 @@
 ---
 icon: life-ring
+title: Через Kubernetes
+order: 1
 ---
-
-# Через Kubernetes
 
 В разработке...

@@ -1,21 +1,27 @@
 ---
 description: Ресурс Users - хранит данные о пользователях системы.
+title: Сотрудники (Users)
+order: 4
 ---
 
-# Сотрудники (Users)
+Ресурс Users - хранит данные о пользователях системы.
 
 ## Получить пользователей
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/users
 ```
 
 Метод: **GET**
-{% endtab %}
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -34,5 +40,7 @@ URL: {domain}/api/v1/users
     }
 ]
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]

@@ -1,13 +1,17 @@
 ---
 description: Ресурс Histories - хранит историю изменений записей в каталоге.
+title: Истории (Histories)
+order: 0.9
 ---
 
-# Истории (Histories)
+Ресурс Histories - хранит историю изменений записей в каталоге.
 
 ## Получить историю
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/histories?catalogId={catalogId}&recordId={recordId}
 ```
@@ -16,20 +20,26 @@ URL: {domain}/api/v1/histories?catalogId={catalogId}&recordId={recordId}
 
 Параметры:
 
-* `catalogId` (number) — идентификатор каталога
-* `recordId` (number, опционально) — если не указать - вернет историю по каталогу - [Активность](../../../../rabota-v-bipiume/records/operacii/activity.md)
+-  `catalogId` (number) -- идентификатор каталога
+
+-  `recordId` (number, опционально) -- если не указать - вернет историю по каталогу - [Активность](../../../../rabota-v-bipiume/records/operacii/activity)
 
 Параметры для коллекции записей:
 
-* `limit` (number, опционально) - количество историй для получения
-* `from` (number, опционально) - аналогично `offset`
-* `sortType` (string, опционально) - порядок по: возрастанию(`asc`), убыванию(`desc`, по-умолчанию)
-* `userId` (number, опционально) - фильтр по пользователю
+-  `limit` (number, опционально) - количество историй для получения
 
-Если не указан `recordId` - можно применить фильтры из ["Получить записи"](records.md#poluchit-zapisi).
-{% endtab %}
+-  `from` (number, опционально) - аналогично `offset`
 
-{% tab title="Ответ" %}
+-  `sortType` (string, опционально) - порядок по: возрастанию(`asc`), убыванию(`desc`, по-умолчанию)
+
+-  `userId` (number, опционально) - фильтр по пользователю
+
+Если не указан `recordId` - можно применить фильтры из ["Получить записи"](./records#poluchit-zapisi).
+
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -52,6 +62,7 @@ URL: {domain}/api/v1/histories?catalogId={catalogId}&recordId={recordId}
     }
 }]
 ```
-{% endtab %}
-{% endtabs %}
 
+[/tab]
+
+[/tabs]

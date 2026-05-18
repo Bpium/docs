@@ -1,21 +1,27 @@
 ---
 description: Ресурс Section — отдел с каталогами.
+title: Разделы (Sections)
+order: 1.5
 ---
 
-# Разделы (Sections)
+Ресурс Section -- отдел с каталогами.
 
 ## Получить разделы
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/sections
 ```
 
 Метод: **GET**
-{% endtab %}
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -30,13 +36,17 @@ URL: {domain}/api/v1/sections
     "name": "Another section"
 }]
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Получить раздел
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```javascript
 URL: {domain}/api/v1/sections/{sectionId}
 ```
@@ -45,10 +55,12 @@ URL: {domain}/api/v1/sections/{sectionId}
 
 Параметры:
 
-* `sectionId` (number) — идентификатор отдела
-{% endtab %}
+-  `sectionId` (number) -- идентификатор отдела
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -59,13 +71,17 @@ URL: {domain}/api/v1/sections/{sectionId}
     "privilegeCode": "admin" // право на отдел
 }]
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Создать раздел
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/sections
 ```
@@ -80,9 +96,11 @@ URL: {domain}/api/v1/sections
     "icon": "new-icon"
 }
 ```
-{% endtab %}
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -90,13 +108,17 @@ URL: {domain}/api/v1/sections
     "id": "2" // идентификатор созданного отдела
 }
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Изменить раздел
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```javascript
 URL: {domain}/api/v1/sections/{sectionId}
 ```
@@ -105,10 +127,12 @@ URL: {domain}/api/v1/sections/{sectionId}
 
 Параметры:
 
-* `sectionId` (number) — идентификатор отдела
-{% endtab %}
+-  `sectionId` (number) -- идентификатор отдела
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -117,13 +141,17 @@ URL: {domain}/api/v1/sections/{sectionId}
     "catalogsPriorities": ["5", "3", "7"] // очередность каталогов в отделе
 }
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Удалить раздел
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```javascript
 URL: {domain}/api/v1/sections/{sectionId}
 ```
@@ -132,10 +160,14 @@ URL: {domain}/api/v1/sections/{sectionId}
 
 Параметры:
 
-* `sectionId` (number) — идентификатор отдела
-{% endtab %}
+-  `sectionId` (number) -- идентификатор отдела
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]

@@ -2,6 +2,7 @@
 description: Инструментарий интерфейса системы в Бипиум.
 hidden: true
 icon: table-layout
+order: 1
 ---
 
 # Интерфейс системы
@@ -95,4 +96,3 @@ icon: table-layout
 * Меню внутренних настроек каталога
 
 <figure><img src="../.gitbook/assets/image (279).png" alt=""><figcaption><p>Меню внутренних настроек каталога.</p></figcaption></figure>
-

@@ -1,13 +1,17 @@
 ---
 description: Ресурс Catalog — каталог с записями.
+title: Каталоги (Catalogs)
+order: 1
 ---
 
-# Каталоги (Catalogs)
+Ресурс Catalog -- каталог с записями.
 
 ## Список каталогов
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs?sectionId={sectionId}
 ```
@@ -16,10 +20,12 @@ URL: {domain}/api/v1/catalogs?sectionId={sectionId}
 
 Параметры:
 
-* `sectionId` (строка) — фильтр по отделу
-{% endtab %}
+-  `sectionId` (строка) -- фильтр по отделу
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -41,13 +47,17 @@ URL: {domain}/api/v1/catalogs?sectionId={sectionId}
     "fieldPrivilegeCodes": {}
 }]
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Получить каталог
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}
     {?fields}
@@ -57,11 +67,14 @@ URL: {domain}/api/v1/catalogs/{catalogId}
 
 Параметры:
 
-* `catalogId` (строка) — идентификатор каталога
-* `fields` (json array, опционально) — набор возвращаемых полей записей, формат: \["2", "3"]. Доступно с версии API 1.9.1.
-{% endtab %}
+-  `catalogId` (строка) -- идентификатор каталога
 
-{% tab title="Ответ" %}
+-  `fields` (json array, опционально) -- набор возвращаемых полей записей, формат: \["2", "3"\]. Доступно с версии API 1.9.1.
+
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -163,13 +176,17 @@ URL: {domain}/api/v1/catalogs/{catalogId}
     ]
 }
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Создать каталог
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/
 ```
@@ -250,9 +267,11 @@ URL: {domain}/api/v1/catalogs/
 ```
 
 Возможные значения для icon описаны в [документации](http://okcss.dev.oktell.ru/#/elements/icons).
-{% endtab %}
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -263,13 +282,17 @@ URL: {domain}/api/v1/catalogs/
     }
 }
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Изменить каталог
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}
 ```
@@ -278,7 +301,7 @@ URL: {domain}/api/v1/catalogs/{catalogId}
 
 Параметры:
 
-* `catalogId` (строка) — идентификатор каталога
+-  `catalogId` (строка) -- идентификатор каталога
 
 Запрос: (application/json)
 
@@ -311,17 +334,23 @@ URL: {domain}/api/v1/catalogs/{catalogId}
     ]
 }
 ```
-{% endtab %}
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Удалить каталог
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}
 ```
@@ -330,10 +359,14 @@ URL: {domain}/api/v1/catalogs/{catalogId}
 
 Параметры:
 
-* `catalogId` (строка) — идентификатор каталога
-{% endtab %}
+-  `catalogId` (строка) -- идентификатор каталога
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]

@@ -1,13 +1,16 @@
 ---
 description: Ресурс Boards — дашборд с графиками.
+title: Дашборды (Boards)
 ---
 
-# Дашборды (Boards)
+Ресурс Boards -- дашборд с графиками.
 
 ## Получить дашборды
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/boards{?catalogId}{?viewId}
 ```
@@ -16,11 +19,14 @@ URL: {domain}/api/v1/boards{?catalogId}{?viewId}
 
 Параметры:
 
-* `catalogId` (number, опционально) — идентификатор каталога
-* `viewId` (number, опционально) — идентификатор вида
-{% endtab %}
+-  `catalogId` (number, опционально) -- идентификатор каталога
 
-{% tab title="Ответ" %}
+-  `viewId` (number, опционально) -- идентификатор вида
+
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -51,13 +57,17 @@ URL: {domain}/api/v1/boards{?catalogId}{?viewId}
     "viewId": "140"
 }]
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Получить дашборд
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/boards/{boardsId}
 ```
@@ -66,10 +76,12 @@ URL: {domain}/api/v1/boards/{boardsId}
 
 Параметры:
 
-* `boardsId` (number) — идентификатор дашборда
-{% endtab %}
+-  `boardsId` (number) -- идентификатор дашборда
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -98,13 +110,17 @@ URL: {domain}/api/v1/boards/{boardsId}
     }
 }]
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Создать дашборд
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/boards
 ```
@@ -118,9 +134,11 @@ URL: {domain}/api/v1/boards
         "catalogId": "64"
     }
 ```
-{% endtab %}
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -128,13 +146,17 @@ URL: {domain}/api/v1/boards
     "id": "6" // идентификатор созданного дашборда
 }
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Удалить дашборд
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/boards/{boardsId}
 ```
@@ -143,10 +165,14 @@ URL: {domain}/api/v1/boards/{boardsId}
 
 Параметры:
 
-* `boardsId` (number) — идентификатор дашборда
-{% endtab %}
+-  `boardsId` (number) -- идентификатор дашборда
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]

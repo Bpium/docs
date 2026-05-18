@@ -4,6 +4,7 @@ description: >-
   расширения функциональности платформы.
 hidden: true
 icon: atom-simple
+order: 21
 ---
 
 # Интеграции

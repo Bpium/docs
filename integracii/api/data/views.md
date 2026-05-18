@@ -1,13 +1,17 @@
 ---
 description: Ресурс View — вид (сохраненный фильтр) каталога.
+title: Виды (Views)
+order: 0.5
 ---
 
-# Виды (Views)
+Ресурс View -- вид (сохраненный фильтр) каталога.
 
 ## Получить виды
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}/views
 ```
@@ -16,10 +20,12 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views
 
 Параметры:
 
-* `catalogId` (number) — идентификатор каталога
-{% endtab %}
+-  `catalogId` (number) -- идентификатор каталога
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -37,13 +43,17 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views
     }
 ]
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Получить вид
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}/views/{viewId}
 ```
@@ -52,11 +62,14 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views/{viewId}
 
 Параметры:
 
-* `catalogId` (number) — идентификатор каталога
-* `viewId` (number) — идентификатор вида
-{% endtab %}
+-  `catalogId` (number) -- идентификатор каталога
 
-{% tab title="Ответ" %}
+-  `viewId` (number) -- идентификатор вида
+
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -84,22 +97,30 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views/{viewId}
 }
 ```
 
-Filters — массив фильтров. Каждый фильтр это объект, состоящий из параметра attr (указывает на ID поля для фильтрации данных) и объекта value (параметры поискового запроса). Value для разных типов полей имеет разную структуру.
+Filters -- массив фильтров. Каждый фильтр это объект, состоящий из параметра attr (указывает на ID поля для фильтрации данных) и объекта value (параметры поискового запроса). Value для разных типов полей имеет разную структуру.
 
 Формат параметра value для разных типов полей:
 
-* Для текстовых полей — поиск по вхождению: value = ""
-* Для дат, чисел, прогресса — поиск по диапазону: value = { at : '...', to : '...' }
-* Для категории, набора галочек, вопроса, звёзд — поиск по вхождению: value = \[1,2,3,5]
-* Для связанных объектов: value = \[ { catalogId:18, recordId:9 }, { catalogId:18, recordId:10 } ]
-* Для сотрудников: value = \[21, 22, 'CURRENT\_USER']
-{% endtab %}
-{% endtabs %}
+-  Для текстовых полей -- поиск по вхождению: value = ""
+
+-  Для дат, чисел, прогресса -- поиск по диапазону: value = \{ at : '...', to : '...' }
+
+-  Для категории, набора галочек, вопроса, звёзд -- поиск по вхождению: value = \[1,2,3,5\]
+
+-  Для связанных объектов: value = \[ \{ catalogId:18, recordId:9 }, \{ catalogId:18, recordId:10 } \]
+
+-  Для сотрудников: value = \[21, 22, 'CURRENT_USER'\]
+
+[/tab]
+
+[/tabs]
 
 ## Создать вид
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}/views
 ```
@@ -108,7 +129,7 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views
 
 Параметры:
 
-* `catalogId` (number) — идентификатор каталога
+-  `catalogId` (number) -- идентификатор каталога
 
 Запрос: (application/json)
 
@@ -134,9 +155,11 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views
     ]
 }
 ```
-{% endtab %}
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -144,13 +167,17 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views
     "id": "7" // идентификатор созданного вида
 }
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Изменить вид
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}/views/{viewId}
 ```
@@ -159,8 +186,9 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views/{viewId}
 
 Параметры:
 
-* `catalogId` (number) — идентификатор каталога
-* `viewId` (number) — идентификатор вида
+-  `catalogId` (number) -- идентификатор каталога
+
+-  `viewId` (number) -- идентификатор вида
 
 Запрос: (application/json)
 
@@ -183,17 +211,23 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views/{viewId}
         }
 }
 ```
-{% endtab %}
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 ОК
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Удалить вид
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}/views/{viewId}
 ```
@@ -202,11 +236,16 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views/{viewId}
 
 Параметры:
 
-* `catalogId` (number) — идентификатор каталога
-* `viewId` (number) — идентификатор вида
-{% endtab %}
+-  `catalogId` (number) -- идентификатор каталога
 
-{% tab title="Ответ" %}
+-  `viewId` (number) -- идентификатор вида
+
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 ОК
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]

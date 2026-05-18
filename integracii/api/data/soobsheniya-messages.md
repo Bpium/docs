@@ -2,14 +2,18 @@
 description: >-
   Сообщения - ресурс платформы, манипулирующий с сообщениями в каждой записи в
   Бипиуме.
+title: Сообщения (Messages)
+order: 1.9
 ---
 
-# Сообщения (Messages)
+Сообщения - ресурс платформы, манипулирующий с сообщениями в каждой записи в Бипиуме.
 
 ## Получить сообщение с записи
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/messages
 ```
@@ -18,11 +22,14 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/messages
 
 Параметры:
 
-* `catalogId` (number) — идентификатор каталога
-* `recordId` (number) — идентификатор записи
-{% endtab %}
+-  `catalogId` (number) -- идентификатор каталога
 
-{% tab title="Ответ" %}
+-  `recordId` (number) -- идентификатор записи
+
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -54,14 +61,16 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/messages
 ]
 ```
 
+[/tab]
 
-{% endtab %}
-{% endtabs %}
+[/tabs]
 
 ## Создать сообщение
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/messages
 ```
@@ -70,8 +79,9 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/messages
 
 Параметры:
 
-* `catalogId` (number) — идентификатор каталога
-* `recordId` (number) - идентификатор записи
+-  `catalogId` (number) -- идентификатор каталога
+
+-  `recordId` (number) - идентификатор записи
 
 Запрос: (application/json)
 
@@ -83,9 +93,11 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/messages
   "replyMessageId": null
 }
 ```
-{% endtab %}
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -93,13 +105,17 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/messages
     "id": "7" // идентификатор созданного вида
 }
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Изменить сообщение
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/messages/{messageId}
 ```
@@ -108,9 +124,11 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/messages/{messageId
 
 Параметры:
 
-* `catalogId` (number) — идентификатор каталога
-* `recordId` (number) - идентификатор записи
-* `messageId` (number) - идентификатор сообщения
+-  `catalogId` (number) -- идентификатор каталога
+
+-  `recordId` (number) - идентификатор записи
+
+-  `messageId` (number) - идентификатор сообщения
 
 Запрос: (application/json)
 
@@ -122,17 +140,23 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/messages/{messageId
   "replyMessageId": null
 }
 ```
-{% endtab %}
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 ОК
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
 
 ## Удалить сообщение
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/messages/{messageId}
 ```
@@ -141,16 +165,22 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/messages/{messageId
 
 Параметры:
 
-* `catalogId` (number) — идентификатор каталога
-* `recordId` (number) - идентификатор записи
-* `messageId` (number) - идентификатор сообщения
-{% endtab %}
-{% endtabs %}
+-  `catalogId` (number) -- идентификатор каталога
+
+-  `recordId` (number) - идентификатор записи
+
+-  `messageId` (number) - идентификатор сообщения
+
+[/tab]
+
+[/tabs]
 
 ## Подписаться на сообщения в записи
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/chatOptions/{recordId}
 ```
@@ -159,8 +189,9 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/chatOptions/{record
 
 Параметры:
 
-* `catalogId` (number) — идентификатор каталога
-* `recordId` (number) - идентификатор записи
+-  `catalogId` (number) -- идентификатор каталога
+
+-  `recordId` (number) - идентификатор записи
 
 Запрос: (application/json)
 
@@ -169,13 +200,17 @@ URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId}/chatOptions/{record
   "subscribe": true
 }
 ```
-{% endtab %}
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```
 {subscribe: true}
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]

@@ -1,10 +1,12 @@
 ---
 description: Приостанавливает исполнение процесса до определенного времени.
+title: Таймер
+order: 1
 ---
 
 # Таймер
 
-<figure><img src="../../../../.gitbook/assets/Компонент Таймер.png" alt=""><figcaption><p>Компонент Таймер</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (324).png" alt=""><figcaption></figcaption></figure>
 
 ## Свойства
 

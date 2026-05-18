@@ -1,9 +1,14 @@
-# Доступные условия фильтра (AvailableFilterRecords)
+---
+title: Доступные условия фильтра (AvailableFilterRecords)
+order: 1
+---
 
 ## Получить доступные связи
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/catalogs/{catalogId}/fields/{fieldId}/availableFilterRecords
     {?title}
@@ -13,15 +18,18 @@ URL: {domain}/api/v1/catalogs/{catalogId}/fields/{fieldId}/availableFilterRecord
 
 Параметры:
 
-* `catalogId` (string) — текущий каталог
-* `fieldId` (string) — поле каталога с выпадающим списком
+-  `catalogId` (string) -- текущий каталог
+
+-  `fieldId` (string) -- поле каталога с выпадающим списком
 
 Фильтры поиска:
 
-* `title` (string) — поисковая строка для фильтрации связанных записей по введенному значению
-{% endtab %}
+-  `title` (string) -- поисковая строка для фильтрации связанных записей по введенному значению
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```
@@ -44,5 +52,7 @@ URL: {domain}/api/v1/catalogs/{catalogId}/fields/{fieldId}/availableFilterRecord
     }
 ]
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]

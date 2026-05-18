@@ -1,23 +1,27 @@
 ---
 description: Ресурс Rights — показывает информацию о своём профиле.
+title: Профиль (Profile/me)
+order: 2
 ---
 
-# Профиль (Profile/me)
-
-
+Ресурс Rights -- показывает информацию о своём профиле.
 
 ## Получить пользователей
 
-{% tabs %}
-{% tab title="Запрос" %}
+[tabs]
+
+[tab:Запрос]
+
 ```
 URL: {domain}/api/v1/profile/me
 ```
 
 Метод: **GET**
-{% endtab %}
 
-{% tab title="Ответ" %}
+[/tab]
+
+[tab:Ответ]
+
 Ответ: 200 OK (application/json)
 
 ```javascript
@@ -36,5 +40,7 @@ URL: {domain}/api/v1/profile/me
     
 }
 ```
-{% endtab %}
-{% endtabs %}
+
+[/tab]
+
+[/tabs]
