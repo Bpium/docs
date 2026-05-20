@@ -156,7 +156,7 @@ http://company.bpium.ru/api/v1/catalogs/21/records
    Для связанных объектов также возможен фильтр по полям самих связанных записей, если эти поля выведены в карточке в виде расширенных: \
    `value[0][catalogId]=18, value[0][filters][0][fieldId]=5, value[0][filters][0][value]=5`
 
--  Для сотрудников: `[value][0]=21, [value][1]=22, [value][2]=CURRENT_USER` 
+-  Для сотрудников: `[value][0]=21, [value][1]=22, [value][2]=CURRENT_USER`
 
 #### Filters в формате JSON-объекта
 
@@ -336,7 +336,17 @@ http://company.bpium.ru/api/v1/catalogs/21/records
 
 [tab:Запрос]
 
+`URL: {domain}/api/v1/catalogs/{catalogId}/records/{recordId} {?fields}`
 
+Метод: **GET**
+
+Параметры:
+
+-  `catalogId` (number) -- идентификатор каталога
+
+-  `recordId` (number) -- идентификатор записи
+
+-  `fields` (json array, опционально) -- набор возвращаемых полей записей, формат: \["2", "3"\]
 
 [/tab]
 
