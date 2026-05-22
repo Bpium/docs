@@ -244,7 +244,8 @@
 ## Установка на сервер <a href="#deployment" id="deployment"></a>
 
 * [Архитектура и компоненты](deployment/architecture.md)
-* [Требования](deployment/requirments.md)
+* [Системные требования](deployment/sistemnye-trebovaniya.md)
+* [Требования (delete)](deployment/requirments.md)
 * [Схемы разворачивания](deployment/skhemy-razvorachivaniya/README.md)
   * [Варианты разворачивания](deployment/skhemy-razvorachivaniya/varianty-razvorachivaniya/README.md)
     * [Минимальный набор для тестового запуска](deployment/skhemy-razvorachivaniya/varianty-razvorachivaniya/minimalnyi-nabor-dlya-testovogo-zapuska.md)
