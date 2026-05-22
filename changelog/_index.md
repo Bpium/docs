@@ -370,9 +370,11 @@ title: Версии и обновления
 -  Запросы с сервера процессов уходят в повторные попытки при неудачном соединении
 
 :::info 
+
 **Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/1.12.7/bpium-win-v1.12.7.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/1.12.7/bpium-linux-v1.12.7.zip)
 
 **Докер-образы** bpiumdocker/bpium:v1.12.7, bpiumdocker/bpm:v1.12.7, bpiumdocker/s3:v1.12.7
+
 :::
 
 ## v1.11.10 от 9 января 2024
@@ -434,9 +436,11 @@ title: Версии и обновления
 -  Исправлена ошибка компонента “Загрузка файла”: в редких случаях не загружался файл
 
 :::info 
+
 **Скачать дистрибутив** архивом для [Windows ](https://download.bpium.ru/builds/1.11.10/bpium-win-v1.11.10.zip)или [Linux](https://download.bpium.ru/builds/1.11.10/bpium-linux-v1.11.10.zip)
 
 **Докер-образы** bpiumdocker/bpium:v1.11.10, bpiumdocker/bpm:v1.11.10, bpiumdocker/s3:v1.11.10
+
 :::
 
 ## v1.10.17 от 28 апреля 2023
@@ -494,9 +498,11 @@ title: Версии и обновления
 -  Исправлена ошибка с запуском компонента конвертации «HTML в PDF»
 
 :::info 
+
 **Скачать дистрибутив** архивом для [Windows](https://download.bpium.ru/builds/1.10.17/bpium-win-v1.10.17.zip) или [Linux](https://download.bpium.ru/builds/1.10.17/bpium-linux-v1.10.17.zip)
 
 **Докер-образы** bpiumdocker/bpium:v1.10.17, bpiumdocker/bpm:v1.10.17, bpiumdocker/s3:v1.10.17
+
 :::
 
 ## v1.9.14 от 31 августа 2022
@@ -550,9 +556,11 @@ title: Версии и обновления
 -  Добавлен компонент «Получение почты»
 
 :::info 
+
 **Скачать дистрибутив** архивом для [Windows](https://download.bpium.ru/builds/1.9.14/bpium-win-v1.9.14.zip) или [Linux](https://download.bpium.ru/builds/1.9.14/bpium-linux-v1.9.14.zip).
 
 **Докер-образы** bpiumdocker/bpium:v1.9.14, bpiumdocker/bpm:v1.9.14, bpiumdocker/s3:v1.9.14
+
 :::
 
 ## v1.8.42 от 11 апреля 2022
@@ -656,8 +664,10 @@ title: Версии и обновления
 -  Исправлено поведение в компоненте «Загрузить файл» при загрузке картинок, добавлена процедура сохранения миниатюр для отображения в веб-приложении
 
 :::info 
+
 **Скачать дистрибутив** архивом для [Windows](https://download.bpium.ru/builds/1.8.33/bpium-win-v1.8.33.zip) или [Linux](https://download.bpium.ru/builds/1.8.42/bpium-linux-v1.8.42.zip).\
 **Докер-образы** bpiumdocker/bpium:1.8.42, bpiumdocker/bpm:1.8.42, bpiumdocker/s3:1.8.42
+
 :::
 
 ## v1.7.4 от 12 апреля 2021
@@ -695,7 +705,7 @@ title: Версии и обновления
 
 -  Добавлена возможность использовать одноразовые ссылки для скачивания файлов
 
--  Добавлены API ресурсы [Values](./integracii/api/agregate/values) и [Totals](./integracii/api/agregate/totals) для получения разложений и сводных значений по записям каталога без создания графиков (дашбордов)
+-  Добавлены API ресурсы [Values](./../integracii/api/agregate/values) и [Totals](./../integracii/api/agregate/totals) для получения разложений и сводных значений по записям каталога без создания графиков (дашбордов)
 
 -  Исправлена ошибка сохранения записи, если сохранить в одно поле одну и туже связанную запись несколько раз
 
@@ -703,7 +713,7 @@ title: Версии и обновления
 
 **Ключевые изменения в сервере процессов:**
 
--  Добавлена возможность задавать в качестве [выходных параметров компонентов](./bpium-setup/processes/scripts-2/_index#vkhodnye-i-vykhodnye-peremennye) не только имя переменной, но и свойство другой переменной-объекта (например: data.rows\[i\].values)
+-  Добавлена возможность задавать в качестве [выходных параметров компонентов](./../bpium-setup/processes/scripts-2/_index#vkhodnye-i-vykhodnye-peremennye) не только имя переменной, но и свойство другой переменной-объекта (например: data.rows\[i\].values)
 
 -  Добавлена возможность в компонентах работы с данным Бипиума (например «Создать запись») указывать идентификаторы полей через переменные (формат: \$\{varableName})
 
@@ -718,8 +728,10 @@ title: Версии и обновления
 -  Исправлены ошибки искажения стилей в компоненте сценариев «генерация excel-документа»
 
 :::info 
+
 **Скачать дистрибутив** архивом для [Windows](https://download.bpium.ru/builds/1.7.4/bpium-win-v1.7.4.zip) или [Linux](https://download.bpium.ru/builds/1.8.42/bpium-linux-v1.7.4.zip).\
 **Докер-образы** bpiumdocker/bpium:1.7.4, bpiumdocker/bpm:1.7.4, bpiumdocker/s3:1.7.42
+
 :::
 
 ## v1.6.6 от 11 декабря 2020
@@ -731,13 +743,13 @@ title: Версии и обновления
 
 **Ключевые изменения:**
 
--  Добавлена возможность создания, редактирования и удаления графических [Отчётов](./rabota-v-bipiume/katalogi/list/reports)
+-  Добавлена возможность создания, редактирования и удаления графических [Отчётов](./../rabota-v-bipiume/katalogi/list/reports)
 
--  Добавлена возможность расширения [графика](/broken/pages/-LACZqPzVzhgj9-maVff) в отчётах на весь экран
+-  Добавлена возможность расширения [графика](./../broken/pages/-LACZqPzVzhgj9-maVff) в отчётах на весь экран
 
 -  Добавлен редактор кода в редакторе сценариев
 
--  Добавлена возможность фильтрации [истории записи](./rabota-v-bipiume/records/_index#istoriya-izmenenii) по типам полей
+-  Добавлена возможность фильтрации [истории записи](./../rabota-v-bipiume/records/_index#istoriya-izmenenii) по типам полей
 
 -  Добавлена раскраска графиков при разложении по сотрудникам и связанным записям
 
@@ -745,7 +757,7 @@ title: Версии и обновления
 
 **Ключевые исправления ошибок:**
 
--  Исправлена загрузка [активностей](./rabota-v-bipiume/records/activity) по прокрутки страницы
+-  Исправлена загрузка [активностей](./../rabota-v-bipiume/records/activity) по прокрутки страницы
 
 -  Исправлено подтверждение закрытия записи после её редактирования
 
@@ -756,7 +768,9 @@ title: Версии и обновления
 -  Оптимизирована скорость работы приложения
 
 :::info 
+
 Скачать сборку для [Windows](https://download.bpium.ru/builds/1.6.6/bpium-win-v1.6.6.zip) или [Linux](https://download.bpium.ru/builds/1.6.6/bpium-linux-v1.6.6.zip). Для MacOS по запросу.
+
 :::
 
 ## v1.5.7 от 30 мая 2020
@@ -796,7 +810,9 @@ title: Версии и обновления
 -  Оптимизирована скорость работы приложения
 
 :::info 
+
 Скачать сборку для [Windows](https://download.bpium.ru/builds/1.5.7/bpium-win-v1.5.7.zip) или [Linux](https://download.bpium.ru/builds/1.5.7/bpium-linux-v1.5.7.zip). Для MacOS по запросу.
+
 :::
 
 ## v1.4.1 от 24 декабря 2019
@@ -858,7 +874,9 @@ title: Версии и обновления
 -  Исправлена ошибка некорректного отображения корректно завершенных сценариев в некоторых случаях
 
 :::info 
+
 Скачать сборку для [Windows](https://download.bpium.ru/builds/1.4.1/bpium-win-v1.4.1.zip) или [Linux](https://download.bpium.ru/builds/1.4.1/bpium-linux-v1.4.1.zip). Для MacOS по запросу.
+
 :::
 
 ## v1.3.9 от 3 сентября 2019
@@ -884,7 +902,9 @@ title: Версии и обновления
 -  Исправлены ошибки прошлых версий 1.3.х при обновлении системы с ранних версий
 
 :::info 
+
 Скачать сборку для [Windows](https://download.bpium.ru/builds/1.3.9/bpium-win-v1.3.9.zip) или [Linux](https://download.bpium.ru/builds/1.3.9/bpium-linux-v1.3.9.zip). Для MacOS по запросу.
+
 :::
 
 ## v1.3.1 от 15 мая 2019
@@ -906,7 +926,9 @@ title: Версии и обновления
 -  Исправлена ошибка не отображения связей в некоторых случаях
 
 :::info 
+
 Скачать сборку для [Windows](http://download.bpium.ru/builds/1.3.1/bpium-win-v1.3.1.zip) или [Linux](http://download.bpium.ru/builds/1.3.1/bpium-linux-v1.3.1.zip). Для MacOS по запросу.
+
 :::
 
 ## v1.2.0 от 1 апреля 2019
@@ -942,7 +964,9 @@ title: Версии и обновления
 -  Исправлена ошибка построения отчетов с разложением по полю типа «категория» при использовании базы данных Postgres версии 10 и выше.
 
 :::info 
+
 Скачать сборку для [Windows](http://download.bpium.ru/builds/1.2.0/bpium-win-v1.2.0.zip) или [Linux](http://download.bpium.ru/builds/1.2.0/bpium-linux-v1.2.0.zip). Для MacOS по запросу.
+
 :::
 
 ## v1.1.3 от 26 декабря 2018
@@ -980,7 +1004,9 @@ title: Версии и обновления
 -  Исправлена ошибка обновления кеша служебных данных, приводящая в некоторых случаях к рассинхронизации данных при использовании нескольких серверов
 
 :::info 
+
 Скачать сборку для [Windows](http://download.bpium.ru/builds/1.1.3/bpium-win-v1.1.3.zip), [Linux](http://download.bpium.ru/builds/1.1.3/bpium-linux-v1.1.3.zip) и [MacOS](http://download.bpium.ru/builds/1.1.3/bpium-macos-v1.1.3.zip).
+
 :::
 
 ## v1.0.7 от 5 октября 2018
@@ -1006,7 +1032,9 @@ title: Версии и обновления
 -  Исправлена ошибка миграции на новую версию
 
 :::info 
+
 Скачать сборку для [Windows](http://download.bpium.ru/builds/1.0.7/bpium-win-v1.0.7.zip), [Linux](http://download.bpium.ru/builds/1.0.7/bpium-linux-v1.0.7.zip) и [MacOS](http://download.bpium.ru/builds/1.0.5/bpium-macos-v1.0.5.zip).
+
 :::
 
 ## v1.0.4 от 3 августа 2018
@@ -1024,7 +1052,9 @@ title: Версии и обновления
 -  Сервер бизнес-процессов по нотации BPMN 2.0
 
 :::info 
+
 Скачать сборку для [Windows](http://download.bpium.ru/builds/1.0.4/bpium-win-v1.0.4.zip), [Linux](http://download.bpium.ru/builds/1.0.4/bpium-linux-v1.0.4.zip) и [MacOS](http://download.bpium.ru/builds/1.0.4/bpium-macos-v1.0.4.zip).
+
 :::
 
 ## v0.15.0 от 23 марта 2017
@@ -1066,7 +1096,9 @@ title: Версии и обновления
 -  Исправлено множество мелких ошибок.
 
 :::info 
+
 Скачать сборку для [Windows ](https://old.bpium.ru/data/builds/bpium-win-0.15.0.zip)или [Linux](https://old.bpium.ru/data/builds/bpium-linux-0.15.0.zip).
+
 :::
 
 ## v0.13.1 от 30 декабря 2016
@@ -1111,6 +1143,8 @@ title: Версии и обновления
 
 -  Исправлена ошибка со связанными правовыми видами: при попытке связать правовой вид каталога Х с каталогом Y, в каталоге Х не отображался каталог Y.
 
-:::info
+:::info 
+
 Скачать сборку для [Windows ](https://old.bpium.ru/data/builds/bpium-win-0.13.1.zip)или [Linux](https://old.bpium.ru/data/builds/bpium-linux-0.13.1.zip).
+
 :::
