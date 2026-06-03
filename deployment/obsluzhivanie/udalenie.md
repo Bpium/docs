@@ -3,8 +3,6 @@ title: Удаление
 order: 4
 ---
 
-# Удаление
-
 ## Bpium
 
 [tabs]
