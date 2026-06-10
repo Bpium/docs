@@ -3,8 +3,6 @@ title: Для Bpium S3
 order: 0.8
 ---
 
-# Для Bpium S3
-
 ## Настройка конфигурационного файла (config.env)
 
 Сервер локального хранилища Bpium S3 также использует переменные окружения для хранения настроек. Если переменные окружения не заданы, то Bpium S3 считывает их из файла `config.env`, который находится в папке приложения Bpium S3.
@@ -43,7 +41,7 @@ BPIUM_PARAMETER_NAME_STRING=string_value
 
 ---
 
-*  `**S3_HOST**``(обязательный)`
+*  `S3_HOST(обязательный)`
 
 *  `string`
 
@@ -81,7 +79,7 @@ BPIUM_PARAMETER_NAME_STRING=string_value
 
 ---
 
-*  `**S3_KEY**``(обязательный)`
+*  `S3_KEY(обязательный)`
 
 *  `string`
 
@@ -93,7 +91,7 @@ BPIUM_PARAMETER_NAME_STRING=string_value
 
 ---
 
-*  `**S3_SECRET**``(обязательный)`
+*  `S3_SECRET(обязательный)`
 
 *  `string`
 
@@ -110,7 +108,7 @@ BPIUM_PARAMETER_NAME_STRING=string_value
 *  `bool`
 
 *  Использовать SSL-сертификаты и протокол HTTPS.\
-   Значения: true/false. По умолчанию: `false`. 
+   Значения: true/false. По умолчанию: `false`.
 
 {% /table %}
 
