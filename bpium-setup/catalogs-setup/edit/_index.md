@@ -27,91 +27,15 @@ searchPhrases:
 
 ## Группы полей
 
-<details>
+[Основные ](./osnovnye/_index)
 
-<summary>
+[Контактные данные ](./kontaktnye-dannye/_index)
 
-[Основные:](null)
+[Оценочные](./ocenochnye/_index)
 
-</summary>
+[Вариативные ](./variantivnye/_index)
 
-Универсальные поля для хранения базовых данных: чисел, текста, дат, файлов. Сюда же входят структурные элементы анкеты -- секции и вкладки.
-
--  [Секция и вкладки ](./osnovnye/sekciya-i-vkladki)
--  [Число](./osnovnye/chislo)
--  [Текст](./osnovnye/tekst)
--  [Текстовый редактор](./osnovnye/tekstovyi-redaktor)
--  [ИИ-поле](./osnovnye/ii-pole)
--  [Дата](./osnovnye/data)
--  [Файл](./osnovnye/fail)
-
-</details>
-
-<details>
-
-<summary>
-
-[Контактные данные:](null)
-
-</summary>
-
-Поля для хранения контактной информации.
-
--  [Телефон](./kontaktnye-dannye/telefon)
--  [Электронная почта](./kontaktnye-dannye/elektronnaya-pochta)
--  [Сайт / Ссылка](./kontaktnye-dannye/sait-ssylka)
--  [Адрес](./kontaktnye-dannye/adres)
-
-</details>
-
-<details>
-
-<summary>
-
-[Оценочные:](null)
-
-</summary>
-
-Поля для оценки состояния или степени чего-либо. Удобны для отслеживания этапов, прогресса и субъективных оценок.
-
--  [Статус](./ocenochnye/status)
--  [Набор галочек](./ocenochnye/nabor-galochek)
--  [Переключатель](./ocenochnye/pereklyuchatel)
--  [Прогресс](./ocenochnye/progress)
--  [Оценка звёздами](./ocenochnye/ocenka-zvyozdami)
-
-</details>
-
-<details>
-
-<summary>
-
-[Вариативные:](null)
-
-</summary>
-
-Поля для выбора значений из предопределённого набора или из данных другого каталога. Используются для фильтрации, связей между каталогами и сегментации данных.
-
--  [Выбор значения](./variantivnye/vybor-znacheniya)
--  [Выпадающий список](./variantivnye/vypadayushii-spisok)
--  [Связанный каталог](./variantivnye/svyazannyi-katalog)
--  [Сотрудник](./variantivnye/sotrudnik)
-
-</details>
-
-<details>
-
-<summary>
-
-[Действия:](null)
-
-</summary>
-
-Интерактивные элементы анкеты. Кнопка позволяет запускать сценарии автоматизации прямо из карточки записи.
-
--  [Кнопка](./deistviya/knopka)
-
-</details>
+[Действи](./deistviya/_index)
 
 ## **Как добавить поле**
 
