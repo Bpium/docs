@@ -1,6 +1,13 @@
 ---
 title: Начало процесса
 order: 0.5
+searchPhrases:
+  - стартовое событие
+  - входные переменные
+  - catalogId
+  - recordId
+  - values объект
+  - значения полей
 ---
 
 ![](<../../../../.gitbook/assets/image (322).png> "Компонент Начало процесса"){width=1880px height=850px}
