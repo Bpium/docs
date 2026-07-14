@@ -31,15 +31,15 @@ BPIUM_PARAMETER_NAME_STRING=string_value
 
 ---
 
-*  
+*  Параметр
 
-*  
+*  Тип значения
 
-*  
+*  Описание
 
 ---
 
-*  `**BPM_HOST**`
+*  `BPM_HOST`
 
    `(обязательный)`
 
@@ -59,7 +59,7 @@ BPIUM_PARAMETER_NAME_STRING=string_value
 
 ---
 
-*  `**BPM_SECRET**`
+*  `BPM_SECRET`
 
    `(обязательный)`
 
@@ -76,7 +76,7 @@ BPIUM_PARAMETER_NAME_STRING=string_value
 *  `bool`
 
 *  Использовать SSL-сертификаты и протокол HTTPS.\
-   Значения: true/false. По умолчанию: false. 
+   Значения: true/false. По умолчанию: false.
 
 {% /table %}
 
@@ -86,11 +86,11 @@ BPIUM_PARAMETER_NAME_STRING=string_value
 
 ---
 
-*  
+*  Параметр
 
-*  
+*  Тип значения
 
-*  
+*  Описание
 
 ---
 
