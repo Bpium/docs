@@ -3,7 +3,7 @@ order: 5
 title: Telegram webhook и Бипиум
 ---
 
-Коротко: если бот шлёт апдейты на внешний запрос в Бипиум, URL нужно брать **через шлюз**, иначе Telegram часто не достучится до облака.
+Коротко: если бот шлёт апдейты на внешний запрос в облачный Бипиум, URL нужно брать **через шлюз**, иначе Telegram часто не достучится до облака.
 
 ---
 
@@ -43,7 +43,7 @@ https://<ваш-поддомен>.tg.bpium.ru/api/webrequest/<urlId>?async=true
 
 Примеры:
 
--  было: `https://example.bpium.ru/api/webrequest/your_webrequest`  
+-  было: `https://example.bpium.ru/api/webrequest/your_webrequest`
 
 -  стало: `https://example.tg.bpium.ru/api/webrequest/your_webrequest?async=true`
 
