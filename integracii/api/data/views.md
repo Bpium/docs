@@ -13,7 +13,7 @@ searchPhrases:
   - удаление вида
 ---
 
-Ресурс View -- вид (сохраненный фильтр) каталога.
+Ресурс View представляет собой сохраненный вид каталога. Вид содержит настройки фильтрации записей и/или разметки каталога и может быть личным, общим или правовым.
 
 ## Получить виды
 
@@ -27,6 +27,8 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views
 
 Метод: **GET**
 
+Метод возвращает список всех доступных видов указанного каталога.
+
 Параметры:
 
 -  `catalogId` (number) -- идентификатор каталога
@@ -39,17 +41,43 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views
 
 ```javascript
 [
-    {
-        "id": "5",
-        "name": "View with Rights",
-        "originName": "View for juniors",
-        "forRights": true
+{
+    "id": "58",
+    "catalogId": "125",
+    "catalogTitle": "Наименование каталога",
+    "catalogIcon": "content-11",
+    "name": "Наименование вида",
+    "type": "shared",
+    "forRights": true,
+    "originName": "Наименование вида для администратора",
+    "viewMode": "table",
+    "privilegesApi": {
+        "value": [
+            "admin",
+            "access",
+            "delete",
+            "export",
+            "create",
+            "edit",
+            "view",
+            "search",
+            "available"
+        ]
     },
-    {
-        "id": "6",
-        "name": "My own view",
-        "forRights": false
-    }
+    "privilegeCode": "admin",
+    "filters": [
+        {
+            "id": 38,
+            "fieldId": "4",
+            "value": [
+                "3"
+            ]
+        }
+    ]
+},
+{
+//Второй вид
+}
 ]
 ```
 
@@ -69,6 +97,8 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views/{viewId}
 
 Метод: **GET**
 
+Метод возвращает информацию о выбранном виде, включая его настройки фильтрации.
+
 Параметры:
 
 -  `catalogId` (number) -- идентификатор каталога
@@ -83,24 +113,36 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views/{viewId}
 
 ```javascript
 {
-    "id": "4",
-    "name": "View public name",
-    "originName": "View name for admins",
-    "forRights": true, // true — правовой вид, false — личный вид
-    "privilegeCode": "access" // право на вид
+    "id": "58",
+    "catalogId": "125",
+    "catalogTitle": "Наименование каталога",
+    "catalogIcon": "content-11",
+    "name": "Наименование вида",
+    "type": "shared",
+    "forRights": true,
+    "originName": "Наименование вида для администратора",
+    "viewMode": "table",
+    "privilegesApi": {
+        "value": [
+            "admin",
+            "access",
+            "delete",
+            "export",
+            "create",
+            "edit",
+            "view",
+            "search",
+            "available"
+        ]
+    },
+    "privilegeCode": "admin",
     "filters": [
         {
-            "id": "101", // идентификатор условия
-            "attr": "12", // идентификатор поля каталога для фильтрации
-            "value": ["1", "2", "5"] // условия фильтрации
-        },
-        {
-            "id": "102",
-            "attr": "13",
-            "value": {
-                  "at": "2015-10-27T00:00:00+03:00",
-                  "to" : "2015-11-19T23:59:59+03:00"
-            }
+            "id": 38,
+            "fieldId": "4",
+            "value": [
+                "3"
+            ]
         }
     ]
 }
@@ -136,17 +178,38 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views
 
 Метод: **POST**
 
+Метод для создания новых видов. Поддерживается создание личных, общих и правовых видов.
+
 Параметры:
 
 -  `catalogId` (number) -- идентификатор каталога
+
+Обязательные параметры тела запроса:
+
+-  `name` - наименование вида;
+
+-  `type` - тип вида (обязателен, если не указан параметр `forRights`). Возможные значения:
+
+   -  shared - правовой;
+
+   -  personal - личный;
+
+   -  global - общий.
+
+-  `forRights` - признак правового вида (обязателен, если не указан параметр `type`). Возможные значения:
+
+   -  true - создание правового вида;
+
+   -  false - при отсутствии параметра type, по умолчанию создается личный вид.
 
 Запрос: (application/json)
 
 ```javascript
 {
     "name": "View public name",
-    "originName": "View name for admins",
-    "forRights": true, // true — правовой вид, false — личный вид
+    "originName": "View name for admins", //в случае отсутствия параметра, будет использовано значение name
+    "type": "shared", //правовой вид, global - общий, personal - личный
+	"forRights": true, // true — правовой вид, false — личный вид
     "filters": [
         {
             "fieldId": "13",
@@ -205,6 +268,7 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views/{viewId}
 {
     "name": "View public name",
     "originName": "View name for admins",
+	"type": "personal", //возможно изменение типа вида
     "forRights": false,
     "filters": [
         {
@@ -226,6 +290,12 @@ URL: {domain}/api/v1/catalogs/{catalogId}/views/{viewId}
 [tab:Ответ]
 
 Ответ: 200 ОК
+
+```javascript
+{
+    "id": "7" // идентификатор измененного вида
+}
+```
 
 [/tab]
 
