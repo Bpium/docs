@@ -31,7 +31,7 @@ order: 0.8
 
 :::info 
 
-**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.3-boxed03/bpium-win-v3.0.3-boxed03.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.3-boxed03/bpium-linux-v3.0.3-boxed03.zip)
+**Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.3/bpium-win-v3.0.3-boxed03.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/3.0.3/bpium-linux-v3.0.3-boxed03.zip)
 
 **Докер-образы** bpiumdocker/bpium:v3.0.3, bpiumdocker/bpm:v3.0.3, bpiumdocker/s3:v3.0.
 
