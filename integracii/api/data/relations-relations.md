@@ -1,7 +1,7 @@
 ---
 description: Ресурс Relations - хранит связи между записями.
 title: Связи (Relations)
-order: 1.8
+order: 0.7
 searchPhrases:
   - связи между записями
   - получение связей

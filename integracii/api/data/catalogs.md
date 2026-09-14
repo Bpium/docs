@@ -1,7 +1,7 @@
 ---
 description: Ресурс Catalog — каталог с записями.
 title: Каталоги (Catalogs)
-order: 1
+order: 0.4
 searchPhrases:
   - список каталогов
   - получение каталога

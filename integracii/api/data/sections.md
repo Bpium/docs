@@ -1,7 +1,7 @@
 ---
 description: Ресурс Section — отдел с каталогами.
 title: Разделы (Sections)
-order: 1.5
+order: 0.3
 searchPhrases:
   - получение разделов
   - получение раздела

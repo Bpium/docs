@@ -1,7 +1,7 @@
 ---
 description: Ресурс Record — запись с данными в каталоге.
 title: Записи (Records)
-order: 0.8
+order: 0.46
 searchPhrases:
   - запись с данными
   - получение записей
