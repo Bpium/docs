@@ -1,6 +1,6 @@
 ---
 icon: docker
-title: На одном сервере (Docker)
+title: Docker
 order: 0.8
 ---
 

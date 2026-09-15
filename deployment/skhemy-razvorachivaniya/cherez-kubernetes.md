@@ -1,7 +1,7 @@
 ---
 icon: life-ring
-title: Через Kubernetes
-order: 1
+title: Kubernetes
+order: 0.89
 ---
 
 Данная статья описывает способ разворачивания Бипиума через **Kubernetes**.
