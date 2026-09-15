@@ -128,11 +128,11 @@ order: 2
 
    Параметр
 
-*  {% colwidth=[493] %}
+*  {% colwidth=[395] %}
 
    Описание
 
-*  {% colwidth=[411] %}
+*  {% colwidth=[228] %}
 
    Значение для схемы
 
@@ -142,13 +142,13 @@ order: 2
 
    `DB_CONNECTION_STRING`
 
-*  {% colwidth=[493] %}
+*  {% colwidth=[395] %}
 
    строка подключения к базе данных Бипиума. Формат: postgres://логин:пароль@адрес:порт/бд
 
-*  {% colwidth=[411] %}
+*  {% colwidth=[228] %}
 
-   Пример: postgres://user:password@localhost:5432/bpium_db
+   Пример: `postgres://user:password@localhost:5432/bpium_db`
 
 ---
 
@@ -156,11 +156,11 @@ order: 2
 
    `HOST`
 
-*  {% colwidth=[493] %}
+*  {% colwidth=[395] %}
 
    домен сервера для доступа из внешних ресурсов
 
-*  {% colwidth=[411] %}
+*  {% colwidth=[228] %}
 
    Формат: domen.ru
 
@@ -170,11 +170,11 @@ order: 2
 
    `PORT_HTTP`
 
-*  {% colwidth=[493] %}
+*  {% colwidth=[395] %}
 
    порт веб-сервера Bpium для входящих HTTP запросов
 
-*  {% colwidth=[411] %}
+*  {% colwidth=[228] %}
 
    3000
 
@@ -184,11 +184,11 @@ order: 2
 
    `S3_HOST`
 
-*  {% colwidth=[493] %}
+*  {% colwidth=[395] %}
 
    домен сервера хранилища файлов для доступа из внешних ресурсов
 
-*  {% colwidth=[411] %}
+*  {% colwidth=[228] %}
 
    Формат: domen.ru
 
@@ -198,11 +198,11 @@ order: 2
 
    `S3_PORT`
 
-*  {% colwidth=[493] %}
+*  {% colwidth=[395] %}
 
    порт хранилища файлов S3 по которому обращается Bpium Server
 
-*  {% colwidth=[411] %}
+*  {% colwidth=[228] %}
 
    443
 
@@ -212,11 +212,11 @@ order: 2
 
    `S3_HTTPS`
 
-*  {% colwidth=[493] %}
+*  {% colwidth=[395] %}
 
    Использовать протокол HTTPS.
 
-*  {% colwidth=[411] %}
+*  {% colwidth=[228] %}
 
    true
 
@@ -226,11 +226,11 @@ order: 2
 
    `BPM_HOST`
 
-*  {% colwidth=[493] %}
+*  {% colwidth=[395] %}
 
    публичный/локальный IP-адрес или домен сервера исполнения процессов
 
-*  {% colwidth=[411] %}
+*  {% colwidth=[228] %}
 
    localhost
 
@@ -240,11 +240,11 @@ order: 2
 
    `BPM_PORT`
 
-*  {% colwidth=[493] %}
+*  {% colwidth=[395] %}
 
    порт сервера исполнения процессов BPM
 
-*  {% colwidth=[411] %}
+*  {% colwidth=[228] %}
 
    2030
 
