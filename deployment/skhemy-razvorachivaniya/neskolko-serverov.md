@@ -117,7 +117,7 @@ title: Несколько серверов
 
 Установить Bpium на серверы #1 и #2. Процесс идентичен для обоих серверов.
 
-Инструкция разворачивания службами: <https://docs.bpium.ru/docs/deployment/skhemy-razvorachivaniya/service#установка-bpium>
+Инструкция разворачивания службами: <https://docs.bpium.ru/docs/deployment/skhemy-razvorachivaniya/ustanovka-bipiuma-na-linux>
 
 ### Сервер #3
 
@@ -148,7 +148,7 @@ sudo nano /etc/redis/redis.conf
 
 #### BPM
 
-Установите BPM, используя инструкцию: <https://docs.bpium.ru/docs/deployment/skhemy-razvorachivaniya/service#установка-bpium-bpm>
+Установите BPM, используя инструкцию: <https://docs.bpium.ru/docs/deployment/skhemy-razvorachivaniya/ustanovka-bipiuma-na-linux>
 
 ### Настройка балансировки
 
