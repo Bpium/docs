@@ -11,13 +11,14 @@ title: Конвертация DOCX в PDF
 
 Установите LibreOffice и проверьте, что его видит тот же пользователь, от которого запущена служба `bpium-bpm`:
 
+```
 sudo apt install libreoffice-writer
-
-sudo -u bpium soffice --version
+sudo -u bpium soffice —version
+```
 
 Если команда показывает версию, в `config.env` службы BPM ничего добавлять не нужно. Если команда не находит `soffice`, укажите полный путь:
 
-LIBREOFFICE_BIN=/usr/bin/soffice
+`LIBREOFFICE_BIN=/usr/bin/soffice`
 
 После правки перезапустите службу `bpium-bpm`.
 
@@ -25,7 +26,7 @@ LIBREOFFICE_BIN=/usr/bin/soffice
 
 Установите LibreOffice. Служба Windows обычно не видит программы из PATH пользователя, поэтому в `config.env` службы BPM укажите путь к консольной программе [`soffice.com`](http://soffice.com):
 
-LIBREOFFICE_BIN=C:\\Program Files\\LibreOffice\\program\\[soffice.com](http://soffice.com)
+`LIBREOFFICE_BIN=C:\Program Files\LibreOffice\program\soffice.com`
 
 `soffice.exe` не используйте: он открывает окно. После правки перезапустите службу BPM.
 
@@ -33,31 +34,21 @@ LIBREOFFICE_BIN=C:\\Program Files\\LibreOffice\\program\\[soffice.com](http://so
 
 Контейнер `bpiumdocker/bpm` не видит LibreOffice, установленный на хосте. Рядом с ним запускается отдельный контейнер конвертации. Порт наружу не публикуется.
 
+```
 libreoffice:
-
 container_name: libreoffice
-
 image: gotenberg/gotenberg:8-libreoffice
-
 restart: unless-stopped
-
 bpm:
-
 image: bpiumdocker/bpm
-
 environment:
-
 BPM_SECRET: ""
-
 BPM_QUEUE_HOST: redis
-
-LIBREOFFICE_URL: <http://libreoffice:3000/forms/libreoffice/convert>
-
+LIBREOFFICE_URL: http://libreoffice:3000/forms/libreoffice/convert
 depends_on:
-
-\- redis
-
-\- libreoffice
+- redis
+- libreoffice
+```
 
 `LIBREOFFICE_BIN` в этом варианте не нужен. Если задан `LIBREOFFICE_URL`, BPM отправляет файл в этот адрес и локальный `soffice` не запускает.
 
