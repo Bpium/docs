@@ -265,6 +265,30 @@ BPIUM_PARAMETER_NAME_STRING=string_value
 
    server:*,bpmn-engine:*,listener,executor:worker,executor:worker:*,executor:service:bpium:*,bpm:web-request
 
+---
+
+*  `LIBREOFFICE_URL`
+
+*  пусто
+
+*  Адрес сервиса конвертации. Нужен в Docker. Пример: [`http://libreoffice:3000/forms/libreoffice/convert`](http://libreoffice:3000/forms/libreoffice/convert)
+
+---
+
+*  `LIBREOFFICE_BIN`
+
+*  пусто
+
+*  Полный путь к `soffice` или [`soffice.com`](http://soffice.com), если программа не видна службе BPM
+
+---
+
+*  `LIBREOFFICE_CONCURRENCY`
+
+*  2
+
+*  Сколько конвертаций docx выполнять одновременно
+
 {% /table %}
 
 Bpium и Bpium BPM могут использовать общий файл, если стартуют из одной папки. Сервер процессов Bpium BPM может быть запущен и в другой папке или на другом сервере. В этом случае ему необходим отдельный конфигурационный файл с необходимыми для запуска и работы переменными. Конфигурационный файл размещается в папке приложения Bpium BPM.
