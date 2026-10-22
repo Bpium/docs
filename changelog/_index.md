@@ -19,7 +19,7 @@ order: 0.8
 
 **Скачать дистрибутив** архивом для [Windows](https://storage.yandexcloud.net/download.bpium.ru/builds/3.5.4/bpium-win-v3.5.4.zip) или [Linux](https://storage.yandexcloud.net/download.bpium.ru/builds/3.5.4/bpium-linux-v3.5.4.zip)
 
-**Докер-образы** bpiumdocker/bpium:v3.5.4, bpiumdocker/bpm:v3.5.4, bpiumdocker/s3:v3.5.4.
+**Докер-образы** bpiumdocker/bpium:v3.5.4, bpiumdocker/bpm:v3.5.4, bpiumdocker/s3:v3.5.4
 
 :::
 
