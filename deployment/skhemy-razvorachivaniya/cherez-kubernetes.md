@@ -371,7 +371,7 @@ spec:
     spec:
       containers:
       - name: postgres
-        image: postgres:14-alpine
+        image: postgres:17
         env:
         - name: POSTGRES_USER
           value: "postgres"
