@@ -111,12 +111,12 @@ services:
   
   postgres:
     container_name: postgres
-    image: "postgres:14-alpine"
+    image: "postgres:17"
     environment:
       POSTGRES_USER: "postgres"
       POSTGRES_PASSWORD: "password"
       POSTGRES_DB: "bpium_database"
-      POSTGRES_INITDB_ARGS: "--locale=ru_RU"
+      POSTGRES_INITDB_ARGS: "--locale-provider=icu --icu-locale=ru-RU"
       PGDATA: "/postgresdb"
     command: ["postgres", "-c", "log_statement=all", "-c", "log_destination=stderr"]
     volumes:
